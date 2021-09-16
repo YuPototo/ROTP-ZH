@@ -374,8 +374,8 @@ LOAD_GAME_DATE                    | by Date
 LOAD_GAME_SIZE                    | by Size
 LOAD_GAME_LOADING                 | Loading...
 LOAD_GAME_BAD_VERSION             | Cannot load saved game file: %1. This file may be corrupt or outdated.
-LOAD_GAME_CANCEL                  | Cancel
-LOAD_GAME_OK                      | Load
+LOAD_GAME_CANCEL                  | 取消
+LOAD_GAME_OK                      | 载入
 LOAD_GAME_TOO_LONG                | ...
 
 // Save Game UI
@@ -384,11 +384,11 @@ SAVE_GAME_FILENAME                | Sort by Filename
 SAVE_GAME_DATE                    | by Date
 SAVE_GAME_SIZE                    | by Size
 SAVE_GAME_SAVING                  | Saving...
-SAVE_GAME_CANCEL                  | Cancel
+SAVE_GAME_CANCEL                  | 取消
 SAVE_GAME_OK                      | Save
 
 // Intro UI
-INTRO_BEGIN                       | Begin
+INTRO_BEGIN                       | 开始
 
 // MAIN UI - Bottom Navigation options
 MAIN_NAVIGATION_GAME              | Game
@@ -523,7 +523,7 @@ MAIN_FLEET_AUTO_RETREAT           | Automatically retreat upon arrival
 MAIN_FLEET_ETA_UNKNOWN            | Scanners cannot determine destination
 MAIN_FLEET_THROUGH_NEBULA         | Maximum speed limited to Warp 1 by nebula
 
-MAIN_FLEET_CANCEL                 | Cancel
+MAIN_FLEET_CANCEL                 | 取消
 MAIN_FLEET_OUT_OF_RANGE           | Out of Range
 MAIN_FLEET_DEPLOY_FLEET           | Deploy Fleet
 MAIN_FLEET_UNDEPLOY_FLEET         | Undeploy Fleet
@@ -540,14 +540,14 @@ MAIN_RALLY_INSTANT_TIME           | Travel time to %1: Instantaneous
 MAIN_RALLY_WILL_CANCEL            | Selecting this destination will clear any existing rally point.
 MAIN_RALLY_ERROR                  | You must select a system under your control.
 MAIN_RALLY_NO_SELECTION           | No Selection
-MAIN_RALLY_CANCEL                 | Cancel
+MAIN_RALLY_CANCEL                 | 取消
 MAIN_RALLY_START                  | Start Rally
 MAIN_RALLY_STOP                   | Stop Rally
 
 // Transport labels
 MAIN_TRANSPORTS_EMPIRE            | %1 Transports
 MAIN_TRANSPORTS_COUNT             | %1 Transports
-MAIN_TRANSPORTS_CANCEL            | Cancel
+MAIN_TRANSPORTS_CANCEL            | 取消
 MAIN_TRANSPORTS_SHOW_DEST         | ETA to %1: %2 years
 MAIN_TRANSPORT_TITLE              | Sending Transports
 MAIN_TRANSPORT_ABANDON_TITLE      | Abandoning System
@@ -566,7 +566,7 @@ MAIN_TRANSPORT_HOSTILE            | We do not have the technology to land in thi
 MAIN_TRANSPORT_NO_ROOM            | Warning - Target planet is at its maximum population!
 MAIN_TRANSPORT_SIZE_WARNING       | Warning - Target planet can only support %1 million!
 MAIN_TRANSPORT_NO_SELECTION       | No Selection
-MAIN_TRANSPORT_CANCEL             | Cancel
+MAIN_TRANSPORT_CANCEL             | 取消
 MAIN_TRANSPORT_SEND               | Send Transports
 MAIN_TRANSPORT_ABANDON            | Abandon
 MAIN_TRANSPORT_CLEAR              | Clear Transports
@@ -746,7 +746,7 @@ PLANETS_BUTTON_EXIT               | EXIT
 PLANETS_AMT_PCT                   | %1%
 PLANETS_AMT_BC                    | %1 BC
 PLANETS_TRANSFER_DESC             | Transfer Empire Funds to %1
-PLANETS_TRANSFER_CANCEL           | Cancel
+PLANETS_TRANSFER_CANCEL           | 取消
 PLANETS_TRANSFER_ACCEPT           | Transfer
 PLANETS_COLONY_TRANSFER_TITLE     | Transfer Funds
 PLANETS_COLONY_TRANSFER_DETAIL    | Transfer funds from the empire's treasury to increase this colony's production.
@@ -878,7 +878,7 @@ FLEETS_SPENDING_25                | 25% Ship Spending
 FLEETS_SPENDING_50                | 50% Ship Spending
 FLEETS_SPENDING_75                | 75% Ship Spending
 FLEETS_SPENDING_MAX               | Maximum Ship Spending
-FLEETS_SPENDING_CANCEL            | Cancel
+FLEETS_SPENDING_CANCEL            | 取消
 FLEETS_CANCEL_TRANSPORTS_DESC     | %1 selected systems have already scheduled transports
 FLEETS_CANCEL_TRANSPORTS          | Cancel Transports
 FLEETS_DEPLOYING_TRANSPORTS_DESC  | Select a system within range to send colony transports or military troops to.
@@ -900,7 +900,7 @@ FLEETS_TRANSPORT_TIME_RANGE       | Scheduled arrival: %1 to %2 years
 FLEETS_CANNOT_SEND_TRANSPORTS     | %1 is unable to send transports
 FLEETS_EXISTING_TRANSPORT         | Sending %1 transports to %2
 FLEETS_EXISTING_STOP              | Stop
-FLEETS_CANCEL                     | Cancel
+FLEETS_CANCEL                     | 取消
 FLEETS_HELP_ALL                   | OVERVIEW - This screen allows the management of fleets, transports and shipbuilding on a large scale. In general, you will select a group of fleets or systems to manage, filter them to a smaller set, and then choose the action to perform on them.
 FLEETS_HELP_1A                    | Select Systems - there are three ways to select systems: 1) by clicking systems on the map, 2) by right-click dragging over the map, and 3) by using the "Select All" and "Deselect All" buttons.
 FLEETS_HELP_1B                    | Filter By - select check boxes to narrow down the list of selected systems. Filters can also be clicked to cycle through related options.
@@ -1033,36 +1033,36 @@ ERROR_EMAIL                       | Email: rayfowler@fastmail.com
 ERROR_REDDIT                      | Reddit: www.Reddit.com/r/rotp
 
 // Setup UI
-SETUP_SELECT_RACE                 | Select Your Race
-SETUP_SELECT_OPPONENTS            | Select Opponents
-SETUP_SELECT_GALAXY               | Select Galaxy
+SETUP_SELECT_RACE                 | 选择你的种族
+SETUP_SELECT_OPPONENTS            | 选择对手
+SETUP_SELECT_GALAXY               | 选择 Galaxy
 SETUP_SELECT_GALAXY_OPTIONS       | Select Options
 SETUP_GALAXY_RULESET_LABEL        | Rule Set
 SETUP_INSUFFICIENT_MEMORY         | Insufficient Memory
-SETUP_CREATING_GALAXY             | Creating Galaxy...
+SETUP_CREATING_GALAXY             | 创建 Galaxy...
 SETUP_RULESET_ORION               | Orion
 SETUP_RULESET_ANTARES             | Antares
 SETUP_RULESET_SIRIUS              | Sirius
-SETUP_GALAXY_SIZE_LABEL           | Size
+SETUP_GALAXY_SIZE_LABEL           | 尺寸
 SETUP_RACE_MULTIPLIER             | x%1
-SETUP_GALAXY_SHAPE_LABEL          | Shape
-SETUP_GALAXY_SIZE_TINY            | Tiny
-SETUP_GALAXY_SIZE_SMALL           | Small
-SETUP_GALAXY_SIZE_SMALL2          | Small
-SETUP_GALAXY_SIZE_AVERAGE         | Average
-SETUP_GALAXY_SIZE_AVERAGE2        | Average
-SETUP_GALAXY_SIZE_LARGE           | Large
-SETUP_GALAXY_SIZE_LARGE2          | Large
-SETUP_GALAXY_SIZE_HUGE            | Huge
-SETUP_GALAXY_SIZE_HUGE2           | Huge
-SETUP_GALAXY_SIZE_MASSIVE         | Massive
-SETUP_GALAXY_SIZE_MASSIVE2        | Massive
-SETUP_GALAXY_SIZE_MASSIVE3        | Massive
-SETUP_GALAXY_SIZE_MASSIVE4        | Massive
-SETUP_GALAXY_SIZE_MASSIVE5        | Massive
-SETUP_GALAXY_SIZE_INSANE          | Insane
-SETUP_GALAXY_SIZE_LUDICROUS       | Ludicrous
-SETUP_GALAXY_SIZE_MAXIMUM         | Maximum
+SETUP_GALAXY_SHAPE_LABEL          | 形状
+SETUP_GALAXY_SIZE_TINY            | 很小
+SETUP_GALAXY_SIZE_SMALL           | 小
+SETUP_GALAXY_SIZE_SMALL2          | 小
+SETUP_GALAXY_SIZE_AVERAGE         | 普通
+SETUP_GALAXY_SIZE_AVERAGE2        | 普通
+SETUP_GALAXY_SIZE_LARGE           | 大
+SETUP_GALAXY_SIZE_LARGE2          | 大
+SETUP_GALAXY_SIZE_HUGE            | 很大
+SETUP_GALAXY_SIZE_HUGE2           | 很大
+SETUP_GALAXY_SIZE_MASSIVE         | 巨大
+SETUP_GALAXY_SIZE_MASSIVE2        | 巨大
+SETUP_GALAXY_SIZE_MASSIVE3        | 巨大
+SETUP_GALAXY_SIZE_MASSIVE4        | 巨大
+SETUP_GALAXY_SIZE_MASSIVE5        | 巨大
+SETUP_GALAXY_SIZE_INSANE          | 非常大
+SETUP_GALAXY_SIZE_LUDICROUS       | 超级大
+SETUP_GALAXY_SIZE_MAXIMUM         | 最大
 SETUP_GALAXY_SHAPE_RECTANGLE      | Star Field
 SETUP_GALAXY_SHAPE_CIRCULAR       | Circular
 SETUP_GALAXY_SHAPE_RING           | Ring
@@ -1094,28 +1094,28 @@ SETUP_RANDOM_EVENTS_ON            | On
 SETUP_RANDOM_EVENTS_OFF           | Off
 SETUP_RANDOM_EVENTS_NO_MONSTERS   | No Monsters
 SETUP_GALAXY_NUMBER_EMPIRES       | Total Empires: %1
-SETUP_GALAXY_NUMBER_SYSTEMS       | Total Systems: %1
-SETUP_GALAXY_MAX_OPPONENTS        | Maximum Opponents: %1
+SETUP_GALAXY_NUMBER_SYSTEMS       | systems 数量: %1
+SETUP_GALAXY_MAX_OPPONENTS        | 最大敌人数量: %1
 SETUP_OPPONENTS_HEADER_1          | %1 vs.
-SETUP_OPPONENTS_HEADER_2          | Rival Empires
+SETUP_OPPONENTS_HEADER_2          | 对手
 SETUP_OPPONENT_RANDOM             | ???
-SETUP_OPPONENT_AI                 | Play against:
-SETUP_OPPONENT_AI_BASE            | AI: Base
-SETUP_OPPONENT_AI_MODNAR          | AI: Modnar
-SETUP_OPPONENT_AI_XILMI           | AI: Xilmi
-SETUP_OPPONENT_AI_SELECT          | AI: Selectable
+SETUP_OPPONENT_AI                 | AI 设置:
+SETUP_OPPONENT_AI_BASE            | AI: 原版
+SETUP_OPPONENT_AI_MODNAR          | AI: Modnar版
+SETUP_OPPONENT_AI_XILMI           | AI: Xilmi版
+SETUP_OPPONENT_AI_SELECT          | AI: 可选
 SETUP_AUTOPLAY_OFF                | Off
 SETUP_AUTOPLAY_AI_BASE            | AI: Base
 SETUP_AUTOPLAY_AI_MODNAR          | AI: Modnar
 SETUP_AUTOPLAY_AI_XILMI           | AI: Xilmi
-SETUP_GAME_DIFFICULTY_LABEL       | Difficulty
-SETUP_DIFFICULTY_EASIEST          | Easiest
-SETUP_DIFFICULTY_EASIER           | Easier
-SETUP_DIFFICULTY_EASY             | Easy
-SETUP_DIFFICULTY_NORMAL           | Normal
-SETUP_DIFFICULTY_HARD             | Hard
-SETUP_DIFFICULTY_HARDER           | Harder
-SETUP_DIFFICULTY_HARDEST          | Hardest
+SETUP_GAME_DIFFICULTY_LABEL       | 难度
+SETUP_DIFFICULTY_EASIEST          | 最简单
+SETUP_DIFFICULTY_EASIER           | 很简单
+SETUP_DIFFICULTY_EASY             | 简单
+SETUP_DIFFICULTY_NORMAL           | 普通
+SETUP_DIFFICULTY_HARD             | 困难
+SETUP_DIFFICULTY_HARDER           | 很困难
+SETUP_DIFFICULTY_HARDEST          | 最困难
 SETUP_RESEARCH_RATE_NORMAL        | Normal
 SETUP_RESEARCH_RATE_SLOW          | Slow
 SETUP_RESEARCH_RATE_SLOWER        | Slower
@@ -1172,11 +1172,11 @@ SETUP_RACE_COLOR                  | Empire Color:
 SETUP_HOMEWORLD_NAME_LABEL        | Homeworld:
 SETUP_LEADER_NAME_LABEL           | Leader:
 SETUP_FLAG_LABEL                  | Banner
-SETUP_BUTTON_CANCEL               | Cancel
-SETUP_BUTTON_BACK                 | Back
-SETUP_BUTTON_NEXT                 | Next
-SETUP_BUTTON_START                | Start
-SETUP_BUTTON_SETTINGS             | Advanced Options
+SETUP_BUTTON_CANCEL               | 取消
+SETUP_BUTTON_BACK                 | 返回
+SETUP_BUTTON_NEXT                 | 下一步
+SETUP_BUTTON_START                | 开始
+SETUP_BUTTON_SETTINGS             | 高级设置
 
 SETUP_SPIRAL_2_ARMS               | Two Arms
 SETUP_SPIRAL_3_ARMS               | Three Arms
@@ -1363,11 +1363,11 @@ SHIP_DESIGN_SCRAP_BUTTON          | Scrap Design
 SHIP_DESIGN_SCRAP_CONFIRM1        | Are you sure you want to scrap the %1 design?
 SHIP_DESIGN_SCRAP_CONFIRM2        | This will destroy %1 ships in your fleet and place %2 BC into the planetary reserve.
 SHIP_DESIGN_SCRAP_CONFIRM3        | You currently have no constructed ships of this design.
-SHIP_DESIGN_SCRAP_CANCEL          | Cancel
+SHIP_DESIGN_SCRAP_CANCEL          | 取消
 SHIP_DESIGN_SCRAP_OK              | Scrap
 SHIP_DESIGN_RENAME_CONFIRM        | Rename your ship design
 SHIP_DESIGN_DEPLOY_CONFIRM        | Name your new ship design
-SHIP_DESIGN_DEPLOY_CANCEL         | Cancel
+SHIP_DESIGN_DEPLOY_CANCEL         | 取消
 SHIP_DESIGN_DEPLOY_OK             | Deploy
 SHIP_DESIGN_RENAME_OK             | Rename
 SHIP_DESIGN_UNNAMED_DESIGN        | Unnamed
