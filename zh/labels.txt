@@ -288,7 +288,7 @@ CLICK_EXIT                        | Click or Escape to Exit...
 BUTTON_EXIT                       | Exit
 
 // GAME/SETUP UI 
-GAME_TITLE_LINE_1                 | 银河霸主 ROTP
+GAME_TITLE_LINE_1                 | 文明的余烬
 GAME_TITLE_LINE_2                 | 
 GAME_TITLE_LINE_3                 | 
 GAME_DISCUSS_ONLINE               | 进入社区
@@ -1039,7 +1039,7 @@ SETUP_SELECT_GALAXY               | 选择 Galaxy
 SETUP_SELECT_GALAXY_OPTIONS       | Select Options
 SETUP_GALAXY_RULESET_LABEL        | Rule Set
 SETUP_INSUFFICIENT_MEMORY         | Insufficient Memory
-SETUP_CREATING_GALAXY             | 创建 Galaxy...
+SETUP_CREATING_GALAXY             | Creating Galaxy...
 SETUP_RULESET_ORION               | Orion
 SETUP_RULESET_ANTARES             | Antares
 SETUP_RULESET_SIRIUS              | Sirius
@@ -1094,13 +1094,13 @@ SETUP_RANDOM_EVENTS_ON            | On
 SETUP_RANDOM_EVENTS_OFF           | Off
 SETUP_RANDOM_EVENTS_NO_MONSTERS   | No Monsters
 SETUP_GALAXY_NUMBER_EMPIRES       | Total Empires: %1
-SETUP_GALAXY_NUMBER_SYSTEMS       | systems 数量: %1
-SETUP_GALAXY_MAX_OPPONENTS        | 最大敌人数量: %1
+SETUP_GALAXY_NUMBER_SYSTEMS       | Total Systems: %1
+SETUP_GALAXY_MAX_OPPONENTS        | Maximum Opponents: %1
 SETUP_OPPONENTS_HEADER_1          | %1 vs.
 SETUP_OPPONENTS_HEADER_2          | 对手
 SETUP_OPPONENT_RANDOM             | ???
 SETUP_OPPONENT_AI                 | AI 设置:
-SETUP_OPPONENT_AI_BASE            | AI: 原版
+SETUP_OPPONENT_AI_BASE            | AI: 原版
 SETUP_OPPONENT_AI_MODNAR          | AI: Modnar版
 SETUP_OPPONENT_AI_XILMI           | AI: Xilmi版
 SETUP_OPPONENT_AI_SELECT          | AI: 可选
