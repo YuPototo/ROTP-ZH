@@ -70,7 +70,7 @@ PLANET_FERTILE                    | Fertile
 PLANET_GAIA                       | Gaia
 
 // Planet Descriptors for Race
-PLANET_HOMEWORLD                  | [alien_race] Homeworld
+PLANET_HOMEWORLD                  | [alien_race] 母星
 PLANET_WORLD                      | [alien_race] World
 PLANET_COLONY                     | [alien_race] Colony
 PLANET_ORION                      | Orion
@@ -282,10 +282,10 @@ INC_TRESPASSING_TITLE             | Trespass
 INC_TRESPASSING_DESC              | [your_race] fleets are trespassing in the [system] system, part of the [my_empire].
 
 // generic click to skip or continue messages
-CLICK_SKIP                        | Escape or Click to Skip Animation
-CLICK_CONTINUE                    | Click or Escape to Continue...
-CLICK_EXIT                        | Click or Escape to Exit...
-BUTTON_EXIT                       | Exit
+CLICK_SKIP                        | 单击或点击ESC跳过动画
+CLICK_CONTINUE                    | 单击或点击ESC以继续...
+CLICK_EXIT                        | 单击或点击ESC以退出...
+BUTTON_EXIT                       | 返回
 
 // GAME/SETUP UI 
 GAME_TITLE_LINE_1                 | 文明的余烬
@@ -298,20 +298,20 @@ GAME_MENU_LOAD_GAME               | 加载游戏
 GAME_MENU_SAVE_GAME               | 保存游戏
 GAME_MENU_SETTINGS                | 设置
 GAME_MENU_EXIT                    | 退出
-GAME_MENU_RESTART                 | Restart
+GAME_MENU_RESTART                 | 重启游戏
 GAME_VERSION                      | 版本号: %1
 GAME_SHRINK                       | 缩小 -
 GAME_ENLARGE                      | 放大
 
 // Game Settings UI
-GAME_SETTINGS_TITLE               | Game Settings
-GAME_SETTINGS_DESCRIPTION         | Click to toggle each game setting. 
-GAME_SETTINGS_EXIT                | Exit
-GAME_SETTINGS_DEFAULT             | Set to Default
-GAME_SETTINGS_DISPLAY_MODE        | Display Mode: %1
-GAME_SETTINGS_WINDOWED            | Windowed
-GAME_SETTINGS_BORDERLESS          | Borderless
-GAME_SETTINGS_FULLSCREEN          | Full Screen
+GAME_SETTINGS_TITLE               | 游戏设置
+GAME_SETTINGS_DESCRIPTION         | 单击可修改各个设置
+GAME_SETTINGS_EXIT                | 返回
+GAME_SETTINGS_DEFAULT             | 设为默认
+GAME_SETTINGS_DISPLAY_MODE        | 显示模式: %1
+GAME_SETTINGS_WINDOWED            | 窗口
+GAME_SETTINGS_BORDERLESS          | 无边框
+GAME_SETTINGS_FULLSCREEN          | 全屏幕
 GAME_SETTINGS_DISPLAY_MODE_DESC   | Requires a restart. Windowed is fixed ratio and resizable. Borderless is a maximized window. Fullscreen is an exclusive maximized window.
 GAME_SETTINGS_GRAPHICS            | Graphics Level: %1
 GAME_SETTINGS_GRAPHICS_LOW        | Low
@@ -391,68 +391,68 @@ SAVE_GAME_OK                      | Save
 INTRO_BEGIN                       | 开始
 
 // MAIN UI - Bottom Navigation options
-MAIN_NAVIGATION_GAME              | Game
-MAIN_NAVIGATION_DESIGN            | Designs
-MAIN_NAVIGATION_FLEETS            | Fleets
+MAIN_NAVIGATION_GAME              | 游戏
+MAIN_NAVIGATION_DESIGN            | 设计
+MAIN_NAVIGATION_FLEETS            | 舰队
 MAIN_NAVIGATION_SYSTEMS           | Systems
-MAIN_NAVIGATION_RACES             | Races
-MAIN_NAVIGATION_COLONIES          | Colonies
-MAIN_NAVIGATION_TECH              | Tech
-MAIN_NAVIGATION_NEXT_TURN         | Next Turn
-MAIN_NAVIGATION_NEXT_YEAR         | Next Year
-MAIN_YEAR_DISPLAY                 | Year  %1
-MAIN_TURN_DISPLAY                 | Turn  %1
-MAIN_SPY_REPORT                   | Spy
-MAIN_TECH_NONE                    | No Research
-MAIN_TECH_COMPLETED               | Research Completed
-MAIN_TECH_RP_REMAINING            | %1 RP Remaining
+MAIN_NAVIGATION_RACES             | 种族
+MAIN_NAVIGATION_COLONIES          | 殖民地
+MAIN_NAVIGATION_TECH              | 科技
+MAIN_NAVIGATION_NEXT_TURN         | 下一回合
+MAIN_NAVIGATION_NEXT_YEAR         | 下一年
+MAIN_YEAR_DISPLAY                 | %1年
+MAIN_TURN_DISPLAY                 | 第%1回合
+MAIN_SPY_REPORT                   | 谍报
+MAIN_TECH_NONE                    | 没有研究
+MAIN_TECH_COMPLETED               | 研究完成
+MAIN_TECH_RP_REMAINING            | 还差 %1 RP
 MAIN_TECH_RP_DISCOVERY            | Discovery Imminent
 MAIN_TECH_RESERVE_BC              | %1 BC
-MAIN_TECH_RESERVE_TAX_ALL         | Taxing %1% of production on all colonies
-MAIN_TECH_RESERVE_TAX             | Taxing %1% of production on developed colonies
-MAIN_TECH_RESERVE_TAX_NONE        | No tax levied on colony production
-MAIN_HELP_ALL                     | Help - click to cycle through help information for a particular screen. Hit escape to cancel.
-MAIN_HELP_1A                      | Each star system divides its production into five areas. Grayed bars indicate that the production bar has been locked and will not change. Click on the name to lock/unlock.
-MAIN_HELP_1B                      | Shipyard - constructs the selected ship design. Large ships may take multiple turns.
-MAIN_HELP_1C                      | Defenses - builds and upgrades missile bases up to the specified limit and planetary shields when available.
-MAIN_HELP_1D                      | Industry - builds factories which increase overall colony production.
-MAIN_HELP_1E                      | Ecology  - cleans industrial waste, terraforms the planet, and can increase population growth.
-MAIN_HELP_1F                      | Technology - adds to the empire's overall research.
-MAIN_HELP_1G                      | Ratio bars show the breakdown of a planet's production.  The spending for each bar can be adjusted by mousewheel, clicking within the bar, or clicking on the left/right arrows for each bar.
-MAIN_HELP_1H                      | The expected result of spending for an area is displayed to the right of each bar. Overflow spending will be sent to the empire's treasury reserve.
-MAIN_HELP_2A                      | Planetary shield level for the colony. Shields cannot be constructed on planets within a nebula.
-MAIN_HELP_2B                      | Number of missile bases and the maximum desired for this planet. Click or use the mousewheel to change the maximum.
-MAIN_HELP_2C                      | Total planetary production from industry and population.
-MAIN_HELP_2D                      | Actual production adjusted for empire-wide trade income, spy and security costs, as well as missile base and ship maintenance.
-MAIN_HELP_2E                      | Change ship design to build in the planet's orbiting shipyard. Production accrued for unfinished ships will accelerate production of new ships by 50% until spent. Click or use the mousewheel to change the ship design.
-MAIN_HELP_2F                      | Set a rally point to automatically send newly constructed ships to another colony.
-MAIN_HELP_2G                      | Transport population to fortify another colony or send troops to invade an enemy planet. The colony incurs a one-time production cost for transporting.
-MAIN_HELP_2H                      | Completely abandon a planet by transferring all population from it to another colony.
-MAIN_HELP_2I                      | Current and maximum planet population. 100 represents a full home planet that has not been terraformed.
-MAIN_HELP_2J                      | Current and maximum factories allowed. Maximum factories based on population and robotic controls technology.
-MAIN_HELP_2K                      | Place a flag on the system to help it stand out on the galaxy map.
-MAIN_HELP_2L                      | The amount of reserve stored in the empire treasury.
-MAIN_HELP_2M                      | The current state of research for each of the six technology areas.
-MAIN_HELP_3A                      | Game - returns to the opening menu. Allows you to adjust settings or save, load, and start games.
-MAIN_HELP_3B                      | Systems - galaxy map showing the status of systems in the galaxy by different criteria.
-MAIN_HELP_3C                      | Fleets - allows large-scale control of your fleets and shipbuilding within your empire.
-MAIN_HELP_3D                      | Designs - create ship designs for your fleet using your latest technology. Unwanted designs can be scrapped.
-MAIN_HELP_3E                      | Races - detailed information and diplomatic options for any alien races you have encountered.
-MAIN_HELP_3F                      | Colonies - detailed and sortable listing of your colonies. Also provides empire income and costs.
-MAIN_HELP_3G                      | Tech - shows available technologies. Allows you to focus or balance research on up to six technologies.
-MAIN_HELP_3H                      | Next Year - advances the game to the next year.
-MAIN_HELP_3I                      | Current Turn - displays the game's current turn or your empire's current year. Click to toggle.
-MAIN_HELP_3J                      | Map controls - click to cycle through various display settings for the galaxy map.
+MAIN_TECH_RESERVE_TAX_ALL         | 对所有殖民地征收%1%的税
+MAIN_TECH_RESERVE_TAX             | 对发达殖民地征收%1%的税
+MAIN_TECH_RESERVE_TAX_NONE        | 没有征税
+MAIN_HELP_ALL                     | 帮助：点击按钮，切换帮助信息。按 ESC 键取消。
+MAIN_HELP_1A                      | 每个 star system 的生产分为5个部分。灰色表示该部分的资源分配被锁定，无法再修改。单机切换锁定/非锁定状态。
+MAIN_HELP_1B                      | 船坞：建造被选中的舰船，大型舰船可能需要若干回合建造。
+MAIN_HELP_1C                      | 防御：建造、升级导弹基地和护盾等级。
+MAIN_HELP_1D                      | 工业：建造工厂，提高殖民地的产出。
+MAIN_HELP_1E                      | 生态 ：清理污染，terraforms 行星，增加人口。
+MAIN_HELP_1F                      | 科技：将资源投入帝国的科研计划。
+MAIN_HELP_1G                      | Ratio bars 展示了个该行星的生产状况。每一个 bar 的投入可以用如下方式调整：鼠标滑轮、点击 bar 的内部、bar 两边的按钮。
+MAIN_HELP_1H                      | 预期生产结果展示在 bar 的右边。
+MAIN_HELP_2A                      | 殖民地的护盾等级。 在 nebula 内无法建造护盾。
+MAIN_HELP_2B                      | 导弹基地数量/预期建造数量。 单击或使用鼠标滑轮修改预期建造数量。
+MAIN_HELP_2C                      | 总产出。受到人口和工厂数量的影响。
+MAIN_HELP_2D                      | 净产出。在总产出的基础上扣除了贸易开支，间谍和安全开支，导弹基地和舰船维护费用。
+MAIN_HELP_2E                      | 改变船坞里的舰船型号。 未完成船只的累计投入将使新船只的生产速度加快50%, 直到该累计投入耗尽。单击或使用鼠标滑轮修改在建型号。
+MAIN_HELP_2F                      | 设置集合点，使新建船只开往另一个殖民星球。
+MAIN_HELP_2G                      | 派遣殖民者去支援另一个殖民地，或派遣军队去入侵敌对星球。 殖民地需要一次性支付交通成本。
+MAIN_HELP_2H                      | 彻底遗弃一个行星，把所有人口转移到另一个殖民地。
+MAIN_HELP_2I                      | 当前人口/最大人口。 100 represents a full home planet that has not been terraformed.
+MAIN_HELP_2J                      | 当前工厂数量/最大工厂数量。Maximum factories based on population and robotic controls technology.
+MAIN_HELP_2K                      | 给 system 插一面旗，让它在 galaxy map 里更突出
+MAIN_HELP_2L                      | 国库里的存款数量。
+MAIN_HELP_2M                      | 6个研究领域的研究进展。
+MAIN_HELP_3A                      | 游戏：返回游戏菜单。你可以调整设置、保存、载入或开始新游戏。
+MAIN_HELP_3B                      | Systems：按不同主题展示 systems 的现状
+MAIN_HELP_3C                      | 舰队：大规模地控制舰队和舰船建造
+MAIN_HELP_3D                      | 设计：设计新的舰船。你可以采用最新的科技，并移除老的设计方案。
+MAIN_HELP_3E                      | 种族：已遭遇种族的信息展示和外交选择。
+MAIN_HELP_3F                      | 殖民地：殖民地的详细信息，以及帝国的开支情况。
+MAIN_HELP_3G                      | 科技：展示科研成果。你可以在这里调整6大领域的资源分配。
+MAIN_HELP_3H                      | 下一年：让游戏进入下一年。
+MAIN_HELP_3I                      | 当前回合：展示游戏的当前回合或帝国纪元。单击可切换。
+MAIN_HELP_3J                      | 地图设置：单击可调整 galaxy map 的展示设置。
 
-MAIN_SYSTEM_DETAIL_PFB            | Pop %1  Fac %2  Base %3
-MAIN_SYSTEM_DETAIL_PF             | Pop %1  Fac %2
+MAIN_SYSTEM_DETAIL_PFB            | 人口 %1  工业 %2  导弹 %3
+MAIN_SYSTEM_DETAIL_PF             | 人口 %1  工业 %2
 MAIN_SYSTEM_DETAIL_NO_DATA        | No Data
-MAIN_UNEXPLORED_SYSTEM            | Unexplored
+MAIN_UNEXPLORED_SYSTEM            | 未探索
 MAIN_ALLIED_COLONY                | Allied Colony
-MAIN_SYSTEM_RANGE                 | %1 Light-Years
-MAIN_OUT_OF_RANGE_DESC            | Out of Range
-MAIN_SCOUT_RANGE_DESC             | Reserve Fuel Tanks Required
-MAIN_IN_RANGE_DESC                | In Range
+MAIN_SYSTEM_RANGE                 | %1 光年
+MAIN_OUT_OF_RANGE_DESC            | 航程外
+MAIN_SCOUT_RANGE_DESC             | 需要 Reserve Fuel Tanks
+MAIN_IN_RANGE_DESC                | 航程内
 MAIN_NO_PLANETS                   | No Colonizable Planets
 MAIN_NO_COLONIES                  | Uncolonized
 MAIN_UNSCOUTED                    | Unscouted
@@ -462,8 +462,8 @@ MAIN_UNKNOWN_COLONY               | Alien Colony
 MAIN_NEBULA_DESC                  | Ship travel speed through nebulae is limited to Warp 1
 MAIN_PLANET_SIZE                  | Size %1
 MAIN_PLANET_SIZE+                 | Size %1+
-MAIN_PLANET_POP                   | Pop %1
-MAIN_PLANET_POP_SIZE              | Pop %1/%2
+MAIN_PLANET_POP                   | 人口 %1
+MAIN_PLANET_POP_SIZE              | 人口 %1/%2
 MAIN_PLANET_REBELLION             | In Rebellion
 MAIN_PLANET_QUARANTINE            | In Quarantine
 MAIN_PLANET_EVENT_COMET           | Comet
@@ -472,10 +472,10 @@ MAIN_PLANET_EVENT_PLAGUE          | Plague
 MAIN_PLANET_EVENT_SUPERNOVA       | Supernova
 MAIN_PLANET_EVENT_AMOEBA          | Space Amoeba
 MAIN_PLANET_EVENT_CRYSTAL         | Space Crystal
-MAIN_ADVANCING_YEAR               | Advancing to Year  %1...
-MAIN_ADVANCING_TURN               | Advancing to Turn  %1...
-TURN_SAVING                       | Saving Game
-TURN_LAUNCHING_FLEETS             | Launching Fleets
+MAIN_ADVANCING_YEAR               | 进入%1年...
+MAIN_ADVANCING_TURN               | 进入%1回合...
+TURN_SAVING                       | 保存进度
+TURN_LAUNCHING_FLEETS             | 舰队行动
 TURN_SHIP_COMBAT                  | Ship Combat
 TURN_BOMBARDMENT                  | Planetary Bombardment
 TURN_TRANSPORTS                   | Transports
@@ -499,37 +499,37 @@ TURN_DESIGN_SHIPS                 | Designing Ships
 TURN_COLONY_SPENDING              | Colony Allocations
 
 // Fleet labels
-MAIN_FLEET_TITLE                  | [fleet_race] Fleet
-MAIN_FLEET_TITLE_UNKNOWN          | Unknown Fleet
-MAIN_FLEET_IN_ORBIT               | In orbit
-MAIN_FLEET_DEPLOYED               | Deployed
-MAIN_FLEET_IN_TRANSIT             | In transit
-MAIN_FLEET_RETREATING             | Retreating
-MAIN_FLEET_LOCATION               | by %1
-MAIN_FLEET_ORIGIN                 | from %1
-MAIN_FLEET_DESTINATION            | to %1
-MAIN_FLEET_DEST_UNSCOUTED         | to Unexplored
+MAIN_FLEET_TITLE                  | [fleet_race]舰队
+MAIN_FLEET_TITLE_UNKNOWN          | 未知舰队
+MAIN_FLEET_IN_ORBIT               | 轨道环绕
+MAIN_FLEET_DEPLOYED               | 派遣中
+MAIN_FLEET_IN_TRANSIT             | 航行中
+MAIN_FLEET_RETREATING             | 撤退中
+MAIN_FLEET_LOCATION               | 位置 %1
+MAIN_FLEET_ORIGIN                 | 起点 %1
+MAIN_FLEET_DESTINATION            | 终点 %1
+MAIN_FLEET_DEST_UNSCOUTED         | 探索未知星球
 MAIN_FLEET_ALLY                   | Ally
 MAIN_FLEET_ENEMY                  | Enemy
-MAIN_FLEET_DEPLOYMENT             | Fleet Deployment
-MAIN_FLEET_DISPLAY                | Fleet Display
+MAIN_FLEET_DEPLOYMENT             | 舰队派遣
+MAIN_FLEET_DISPLAY                | 查看舰队
 MAIN_FLEET_CHOOSE_DEST            | Choose destination and number of ships to send.
 MAIN_FLEET_OUT_OF_RANGE_DESC      | Destination is out of fleet range, %1 light-years from closest colony.
 MAIN_FLEET_INVALID_RETREAT        | Retreating fleets can only be sent to friendly colonies
-MAIN_FLEET_ETA_UNNAMED            | ETA to destination: %1 Year 
+MAIN_FLEET_ETA_UNNAMED            | 预计耗时: %1年 
 MAIN_FLEET_ETA_NAMED              | ETA to %1: %2 Years 
-MAIN_FLEET_SET_RALLY              | Rallying
-MAIN_FLEET_AUTO_RETREAT           | Automatically retreat upon arrival
+MAIN_FLEET_SET_RALLY              | 集结中
+MAIN_FLEET_AUTO_RETREAT           | 到达后直接返回
 MAIN_FLEET_ETA_UNKNOWN            | Scanners cannot determine destination
 MAIN_FLEET_THROUGH_NEBULA         | Maximum speed limited to Warp 1 by nebula
 
 MAIN_FLEET_CANCEL                 | 取消
-MAIN_FLEET_OUT_OF_RANGE           | Out of Range
-MAIN_FLEET_DEPLOY_FLEET           | Deploy Fleet
-MAIN_FLEET_UNDEPLOY_FLEET         | Undeploy Fleet
+MAIN_FLEET_OUT_OF_RANGE           | 无法到达
+MAIN_FLEET_DEPLOY_FLEET           | 派遣
+MAIN_FLEET_UNDEPLOY_FLEET         | 取消派遣
 MAIN_FLEET_INVALID_RETREAT        | Invalid Retreat
-MAIN_FLEET_INVALID_DESTINATION    | Cannot send fleet to %1
-MAIN_FLEET_INVALID_DESTINATION2   | Cannot send fleet to this system
+MAIN_FLEET_INVALID_DESTINATION    | 无法排遣到%1
+MAIN_FLEET_INVALID_DESTINATION2   | 无法排遣到这个 system
 
 // Rally Point labels
 MAIN_RALLY_TITLE                  | Setting Rally Point
@@ -573,49 +573,49 @@ MAIN_TRANSPORT_CLEAR              | Clear Transports
 MAIN_TRANSPORT_SURRENDER          | Automatically surrender upon arrival
 
 // Colony labels
-MAIN_COLONY_HOMEWORLD             | %1 Homeworld
-MAIN_COLONY_FOUNDED               | %1 Colony
-MAIN_COLONY_POPULATION            | Population
-MAIN_COLONY_FACTORIES             | Factories
+MAIN_COLONY_HOMEWORLD             | %1 母星
+MAIN_COLONY_FOUNDED               | %1 殖民地
+MAIN_COLONY_POPULATION            | 人口
+MAIN_COLONY_FACTORIES             | 工业
 MAIN_COLONY_VALUE+                | %1+
-MAIN_COLONY_SHIELD                | Shield Level
-MAIN_COLONY_BASES                 | Bases
-MAIN_COLONY_PRODUCTION            | Production - Net (Gross)
-MAIN_COLONY_SHIP                  | Ship
-MAIN_COLONY_DEFENSE               | Def
-MAIN_COLONY_INDUSTRY              | Ind
-MAIN_COLONY_ECOLOGY               | Eco
-MAIN_COLONY_TECHNOLOGY            | Tech
-MAIN_COLONY_ALLOCATE_SPENDING     | Allocate Spending
-MAIN_COLONY_SPENDING_NONE         | None
-MAIN_COLONY_SPENDING_RESERVE      | Reserve
-MAIN_COLONY_SPENDING_TECH         | Tech
+MAIN_COLONY_SHIELD                | 护盾等级
+MAIN_COLONY_BASES                 | 导弹基地
+MAIN_COLONY_PRODUCTION            | 产能 - 净值 (总值)
+MAIN_COLONY_SHIP                  | 船坞
+MAIN_COLONY_DEFENSE               | 防御
+MAIN_COLONY_INDUSTRY              | 工业
+MAIN_COLONY_ECOLOGY               | 生态
+MAIN_COLONY_TECHNOLOGY            | 科技
+MAIN_COLONY_ALLOCATE_SPENDING     | 分配资源
+MAIN_COLONY_SPENDING_NONE         | 无
+MAIN_COLONY_SPENDING_RESERVE      | 国库
+MAIN_COLONY_SPENDING_TECH         | 科技
 MAIN_COLONY_SPENDING_CONVERT      | Convert
 MAIN_COLONY_SPENDING_REFIT        | Refit
 MAIN_COLONY_SPENDING_MAX_FACT     | Max
-MAIN_COLONY_SPENDING_WASTE        | Waste
-MAIN_COLONY_SPENDING_ECO_GROWTH   | Growth %1
+MAIN_COLONY_SPENDING_WASTE        | 污染
+MAIN_COLONY_SPENDING_ECO_GROWTH   | 增长 %1
 MAIN_COLONY_SPENDING_ATMOSPHERE   | Atmo
 MAIN_COLONY_SPENDING_ENRICH_SOIL  | Soil
 MAIN_COLONY_SPENDING_TERRAFORM    | T-form
-MAIN_COLONY_SPENDING_CLEANUP      | Clean
-MAIN_COLONY_SPENDING_GROWTH       | Growth
+MAIN_COLONY_SPENDING_CLEANUP      | 干净
+MAIN_COLONY_SPENDING_GROWTH       | 增长
 MAIN_COLONY_SPENDING_SHIELD       | Shield
 MAIN_COLONY_SPENDING_UPG_BASES    | Upgrade
 MAIN_COLONY_SPENDING_PLAGUE       | Plague
 MAIN_COLONY_SPENDING_SUPERNOVA    | Supernova
 MAIN_COLONY_SPENDING_RP           | %1 RP
-MAIN_COLONY_COMPLETION_YEAR       | 1 Year
-MAIN_COLONY_COMPLETION_YEARS      | %1 Years
-MAIN_COLONY_COMPLETION_CENTURY    | %1 Yrs
-MAIN_COLONY_COMPLETION_PER_YEAR   | %1/Year
+MAIN_COLONY_COMPLETION_YEAR       | 1年
+MAIN_COLONY_COMPLETION_YEARS      | %1年
+MAIN_COLONY_COMPLETION_CENTURY    | %1年
+MAIN_COLONY_COMPLETION_PER_YEAR   | %1艘/年
 MAIN_COLONY_SHIPYARD_COMPLETED    | Completed: %1
-MAIN_COLONY_SHIPYARD_LIMIT        | Build Limit:
-MAIN_COLONY_SHIPYARD_LIMIT_NONE   | None
-MAIN_COLONY_SHIPYARD_CONSTRUCTION | Ship Build Queue
-MAIN_COLONY_RELOCATE_LABEL        | Set Rally Point
-MAIN_COLONY_TRANSPORTS_LABEL      | Send Transports
-MAIN_COLONY_ABANDON_LABEL         | Abandon
+MAIN_COLONY_SHIPYARD_LIMIT        | 制造上限:
+MAIN_COLONY_SHIPYARD_LIMIT_NONE   | 无
+MAIN_COLONY_SHIPYARD_CONSTRUCTION | 舰船生产队列
+MAIN_COLONY_RELOCATE_LABEL        | 设置集合点
+MAIN_COLONY_TRANSPORTS_LABEL      | 派遣殖民者
+MAIN_COLONY_ABANDON_LABEL         | 遗弃
 MAIN_COLONY_SHIP_SCRAPPED         | Scrapped
 MAIN_COLONY_NO_SHIELD             | Nebula
 
@@ -829,7 +829,7 @@ MAIN_BOMBARD_NAME_PROMPT         | Colony Name
 
 
 // Fleet listing UI
-FLEETS_TITLE                      | Fleets
+FLEETS_TITLE                      | 舰队
 FLEETS_SELECT_SYSTEMS             | Select Systems
 FLEETS_SELECT_FLEETS              | Select Fleets
 FLEETS_SELECT_ALL                 | Select All
@@ -1039,7 +1039,7 @@ SETUP_SELECT_GALAXY               | 选择 Galaxy
 SETUP_SELECT_GALAXY_OPTIONS       | Select Options
 SETUP_GALAXY_RULESET_LABEL        | Rule Set
 SETUP_INSUFFICIENT_MEMORY         | Insufficient Memory
-SETUP_CREATING_GALAXY             | Creating Galaxy...
+SETUP_CREATING_GALAXY             | 创建 Galaxy...
 SETUP_RULESET_ORION               | Orion
 SETUP_RULESET_ANTARES             | Antares
 SETUP_RULESET_SIRIUS              | Sirius
@@ -1087,27 +1087,27 @@ SETUP_GALAXY_MAP_OPTION_LABEL     | Option
 SETUP_GALAXY_MAP_OPTION_A         | Option A
 SETUP_GALAXY_MAP_OPTION_B         | Option B
 SETUP_GALAXY_MAP_OPTION_C         | Option C
-SETUP_GALAXY_AGE_NORMAL           | Normal
-SETUP_GALAXY_AGE_YOUNG            | Young
-SETUP_GALAXY_AGE_OLD              | Old
-SETUP_RANDOM_EVENTS_ON            | On
-SETUP_RANDOM_EVENTS_OFF           | Off
-SETUP_RANDOM_EVENTS_NO_MONSTERS   | No Monsters
+SETUP_GALAXY_AGE_NORMAL           | 普通
+SETUP_GALAXY_AGE_YOUNG            | 年轻
+SETUP_GALAXY_AGE_OLD              | 老
+SETUP_RANDOM_EVENTS_ON            | 开
+SETUP_RANDOM_EVENTS_OFF           | 关
+SETUP_RANDOM_EVENTS_NO_MONSTERS   | 无太空怪物
 SETUP_GALAXY_NUMBER_EMPIRES       | Total Empires: %1
-SETUP_GALAXY_NUMBER_SYSTEMS       | Total Systems: %1
-SETUP_GALAXY_MAX_OPPONENTS        | Maximum Opponents: %1
+SETUP_GALAXY_NUMBER_SYSTEMS       | systems 数量: %1
+SETUP_GALAXY_MAX_OPPONENTS        | 最大敌人数量: %1
 SETUP_OPPONENTS_HEADER_1          | %1 vs.
 SETUP_OPPONENTS_HEADER_2          | 对手
 SETUP_OPPONENT_RANDOM             | ???
 SETUP_OPPONENT_AI                 | AI 设置:
-SETUP_OPPONENT_AI_BASE            | AI: 原版
+SETUP_OPPONENT_AI_BASE            | AI: 原版
 SETUP_OPPONENT_AI_MODNAR          | AI: Modnar版
 SETUP_OPPONENT_AI_XILMI           | AI: Xilmi版
 SETUP_OPPONENT_AI_SELECT          | AI: 可选
-SETUP_AUTOPLAY_OFF                | Off
-SETUP_AUTOPLAY_AI_BASE            | AI: Base
-SETUP_AUTOPLAY_AI_MODNAR          | AI: Modnar
-SETUP_AUTOPLAY_AI_XILMI           | AI: Xilmi
+SETUP_AUTOPLAY_OFF                | 无
+SETUP_AUTOPLAY_AI_BASE            | AI: 原版
+SETUP_AUTOPLAY_AI_MODNAR          | AI: Modnar版
+SETUP_AUTOPLAY_AI_XILMI           | AI: Xilmi版
 SETUP_GAME_DIFFICULTY_LABEL       | 难度
 SETUP_DIFFICULTY_EASIEST          | 最简单
 SETUP_DIFFICULTY_EASIER           | 很简单
@@ -1116,61 +1116,61 @@ SETUP_DIFFICULTY_NORMAL           | 普通
 SETUP_DIFFICULTY_HARD             | 困难
 SETUP_DIFFICULTY_HARDER           | 很困难
 SETUP_DIFFICULTY_HARDEST          | 最困难
-SETUP_RESEARCH_RATE_NORMAL        | Normal
-SETUP_RESEARCH_RATE_SLOW          | Slow
-SETUP_RESEARCH_RATE_SLOWER        | Slower
-SETUP_RESEARCH_RATE_SLOWEST       | Slowest
-SETUP_TECH_TRADING_YES            | Yes
-SETUP_TECH_TRADING_ALLIES         | Allies Only
-SETUP_TECH_TRADING_NO             | No
-SETUP_WARP_SPEED_NORMAL           | Normal
-SETUP_WARP_SPEED_FAST             | Fast
-SETUP_NEBULA_NONE                 | None
-SETUP_NEBULA_RARE                 | Rare
-SETUP_NEBULA_UNCOMMON             | Uncommon
-SETUP_NEBULA_NORMAL               | Normal
-SETUP_NEBULA_COMMON               | Common
-SETUP_NEBULA_FREQUENT             | Frequent
-SETUP_COUNCIL_NONE                | No Council
-SETUP_COUNCIL_IMMEDIATE           | Immediate
-SETUP_COUNCIL_REBELS              | Allow Rebels
-SETUP_STAR_DENSITY_LOWEST         | Lowest
-SETUP_STAR_DENSITY_LOWER          | Lower
-SETUP_STAR_DENSITY_LOW            | Low
-SETUP_STAR_DENSITY_NORMAL         | Normal
-SETUP_STAR_DENSITY_HIGH           | High
-SETUP_STAR_DENSITY_HIGHER         | Higher
-SETUP_STAR_DENSITY_HIGHEST        | Highest
-SETUP_AI_HOSTILITY_LOWEST         | Nicest
-SETUP_AI_HOSTILITY_LOWER          | Nicer
-SETUP_AI_HOSTILITY_LOW            | Nice
-SETUP_AI_HOSTILITY_NORMAL         | Normal
-SETUP_AI_HOSTILITY_HIGH           | Angry
-SETUP_AI_HOSTILITY_HIGHER         | Angrier
-SETUP_AI_HOSTILITY_HIGHEST        | Angriest
+SETUP_RESEARCH_RATE_NORMAL        | 普通
+SETUP_RESEARCH_RATE_SLOW          | 慢
+SETUP_RESEARCH_RATE_SLOWER        | 很慢
+SETUP_RESEARCH_RATE_SLOWEST       | 最慢
+SETUP_TECH_TRADING_YES            | 允许
+SETUP_TECH_TRADING_ALLIES         | 仅限盟友
+SETUP_TECH_TRADING_NO             | 无
+SETUP_WARP_SPEED_NORMAL           | 普通
+SETUP_WARP_SPEED_FAST             | 快
+SETUP_NEBULA_NONE                 | 无
+SETUP_NEBULA_RARE                 | 很少
+SETUP_NEBULA_UNCOMMON             | 少
+SETUP_NEBULA_NORMAL               | 正常
+SETUP_NEBULA_COMMON               | 常见
+SETUP_NEBULA_FREQUENT             | 很多
+SETUP_COUNCIL_NONE                | 无
+SETUP_COUNCIL_IMMEDIATE           | 立即胜利
+SETUP_COUNCIL_REBELS              | 允许反叛
+SETUP_STAR_DENSITY_LOWEST         | 最低
+SETUP_STAR_DENSITY_LOWER          | 很低
+SETUP_STAR_DENSITY_LOW            | 低
+SETUP_STAR_DENSITY_NORMAL         | 普通
+SETUP_STAR_DENSITY_HIGH           | 高
+SETUP_STAR_DENSITY_HIGHER         | 很高
+SETUP_STAR_DENSITY_HIGHEST        | 最高
+SETUP_AI_HOSTILITY_LOWEST         | 最友好
+SETUP_AI_HOSTILITY_LOWER          | 很友好
+SETUP_AI_HOSTILITY_LOW            | 友好
+SETUP_AI_HOSTILITY_NORMAL         | 普通
+SETUP_AI_HOSTILITY_HIGH           | 高
+SETUP_AI_HOSTILITY_HIGHER         | 很高
+SETUP_AI_HOSTILITY_HIGHEST        | 最高
 SETUP_GAME_NUMBER_OPPONENTS       | Opponents
-SETUP_PLANET_QUALITY_POOR         | Poor
-SETUP_PLANET_QUALITY_MEDIOCRE     | Mediocre
-SETUP_PLANET_QUALITY_NORMAL       | Normal
-SETUP_PLANET_QUALITY_GOOD         | Good
-SETUP_PLANET_QUALITY_GREAT        | Great
-SETUP_TERRAFORMING_NORMAL         | Normal
-SETUP_TERRAFORMING_REDUCED        | Reduced
-SETUP_TERRAFORMING_NONE           | None
-SETUP_COLONIZING_NORMAL           | Normal
-SETUP_COLONIZING_RESTRICTED       | Restricted
-SETUP_FUEL_RANGE_NORMAL           | Normal
-SETUP_FUEL_RANGE_HIGH             | High
-SETUP_FUEL_RANGE_HIGHER           | Higher
-SETUP_FUEL_RANGE_HIGHEST          | Highest
-SETUP_RANDOMIZE_AI_NONE           | None
-SETUP_RANDOMIZE_AI_PERSONALITY    | Personality
-SETUP_RANDOMIZE_AI_ABILITY        | Ability
-SETUP_RANDOMIZE_AI_BOTH           | Both
-SETUP_RACE_LABEL                  | Available Races
-SETUP_RACE_COLOR                  | Empire Color:
-SETUP_HOMEWORLD_NAME_LABEL        | Homeworld:
-SETUP_LEADER_NAME_LABEL           | Leader:
+SETUP_PLANET_QUALITY_POOR         | 糟糕
+SETUP_PLANET_QUALITY_MEDIOCRE     | 平庸
+SETUP_PLANET_QUALITY_NORMAL       | 普通
+SETUP_PLANET_QUALITY_GOOD         | 好
+SETUP_PLANET_QUALITY_GREAT        | 优质
+SETUP_TERRAFORMING_NORMAL         | 正常
+SETUP_TERRAFORMING_REDUCED        | 少
+SETUP_TERRAFORMING_NONE           | 无
+SETUP_COLONIZING_NORMAL           | 正常
+SETUP_COLONIZING_RESTRICTED       | 受限
+SETUP_FUEL_RANGE_NORMAL           | 普通
+SETUP_FUEL_RANGE_HIGH             | 强
+SETUP_FUEL_RANGE_HIGHER           | 很强
+SETUP_FUEL_RANGE_HIGHEST          | 最强
+SETUP_RANDOMIZE_AI_NONE           | 无
+SETUP_RANDOMIZE_AI_PERSONALITY    | 天性
+SETUP_RANDOMIZE_AI_ABILITY        | 特长
+SETUP_RANDOMIZE_AI_BOTH           | 天性和特长
+SETUP_RACE_LABEL                  | 可选种族
+SETUP_RACE_COLOR                  | 帝国颜色:
+SETUP_HOMEWORLD_NAME_LABEL        | 母星:
+SETUP_LEADER_NAME_LABEL           | 领袖:
 SETUP_FLAG_LABEL                  | Banner
 SETUP_BUTTON_CANCEL               | 取消
 SETUP_BUTTON_BACK                 | 返回
@@ -1205,25 +1205,25 @@ SETUP_VOID_4                      | Void 4
 
 
 // Advanced Settings
-SETTINGS_TITLE                    | Advanced Game Options
-SETTINGS_DESCRIPTION              | Click to toggle each game setting.
-SETTINGS_EXIT                     | Exit
-SETTINGS_DEFAULT                  | Set to Default
-SETTINGS_STAR_DENSITY             | Star Density: %1
-SETTINGS_RANDOM_EVENTS            | Random Events: %1
-SETTINGS_RESEARCH_RATE            | Research Rate: %1
-SETTINGS_COUNCIL_WIN              | Council Win: %1
-SETTINGS_RANDOMIZE_AI             | Randomize AI: %1
-SETTINGS_AUTOPLAY                 | Autoplay: %1
-SETTINGS_TECH_TRADING             | Tech Trading: %1
-SETTINGS_GALAXY_AGE               | Galaxy Age: %1
-SETTINGS_WARP_SPEED               | Warp Speed: %1
+SETTINGS_TITLE                    | 高级游戏设置
+SETTINGS_DESCRIPTION              | 单机切换设置
+SETTINGS_EXIT                     | 返回
+SETTINGS_DEFAULT                  | 设为默认
+SETTINGS_STAR_DENSITY             | Star 密度: %1
+SETTINGS_RANDOM_EVENTS            | 随机事件: %1
+SETTINGS_RESEARCH_RATE            | 研究速度: %1
+SETTINGS_COUNCIL_WIN              | Council 胜利: %1
+SETTINGS_RANDOMIZE_AI             | 随机 AI: %1
+SETTINGS_AUTOPLAY                 | 自动游戏: %1
+SETTINGS_TECH_TRADING             | 技术交易: %1
+SETTINGS_GALAXY_AGE               | Galaxy 年龄: %1
+SETTINGS_WARP_SPEED               | Warp 速度: %1
 SETTINGS_NEBULAE                  | Nebulae: %1
-SETTINGS_PLANET_QUALITY           | Planet Quality: %1
-SETTINGS_TERRAFORMING             | Hostile Terraforming: %1
-SETTINGS_COLONIZING               | Colonizing: %1
-SETTINGS_FUEL_RANGE               | Fuel Range: %1
-SETTINGS_AI_HOSTILITY             | Hostility: %1
+SETTINGS_PLANET_QUALITY           | 行星质量: %1
+SETTINGS_TERRAFORMING             | 行星改造效果: %1
+SETTINGS_COLONIZING               | 殖民设置: %1
+SETTINGS_FUEL_RANGE               | 燃料效果: %1
+SETTINGS_AI_HOSTILITY             | 敌意: %1
 SETTINGS_RANDOM_EVENTS_DESC       | Space Monsters are random events and considerable mid-game threats. Turn off space monsters or all random events. 
 SETTINGS_WARP_SPEED_DESC          | Increase the speed of more advanced warp technologies. This can be desirable on very large maps.
 SETTINGS_GALAXY_AGE_DESC          | Compared to normal galaxies, young galaxies have more white and blue stars while old galaxies have more red and neutron stars.
@@ -1242,7 +1242,7 @@ SETTINGS_FUEL_RANGE_DESC          | Increase the range of fuel range technologie
 SETTINGS_AI_HOSTILITY_DESC        | Increase or decrease the general level of hostility between alien races.
 
 // Tech UI labels
-TECH_RESEARCH                     | Technology Research
+TECH_RESEARCH                     | 科技研究
 TECH_RESEARCH_POINTS              | Research Points
 TECH_EMPIRE_SPENDING              | Empire Tech Spending
 TECH_EMPIRE_SPENDING_DESC         | Sum of all colonies' tech spending. 
@@ -1303,7 +1303,7 @@ TECH_HELP_1I                      | Equalize the spending allocations for the un
 // =========================================================================
 
 // Ship Design UI
-SHIP_DESIGN_TITLE                 | Ship Design
+SHIP_DESIGN_TITLE                 | 舰船设计
 SHIP_DESIGN_SLOTS                 | Design Slots
 SHIP_DESIGN_AVAILABLE             | Available
 SHIP_DESIGN_AVAILABLE_DESC        | Select this design slot to begin work on a new ship design.
@@ -1571,12 +1571,12 @@ RELATIONS_FRIENDLY                | Friendly
 RELATIONS_UNITY                   | Unity
 RELATIONS_HARMONY                 | Harmony
 
-RACES_TITLE                       | Race Reports
-RACES_SELECTOR_TITLE              | Empire Selector
-RACES_TAB_DIPLOMACY               | Diplomacy
-RACES_TAB_INTELLIGENCE            | Intelligence
-RACES_TAB_MILITARY                | Military
-RACES_TAB_STATUS                  | Status
+RACES_TITLE                       | 种族报告
+RACES_SELECTOR_TITLE              | 选择帝国
+RACES_TAB_DIPLOMACY               | 外交
+RACES_TAB_INTELLIGENCE            | 情报
+RACES_TAB_MILITARY                | 军事
+RACES_TAB_STATUS                  | 现状
 RACES_KNOWN_EMPIRES               | %1 known empires
 RACES_RECALLED_DIPLOMATS          | %1 recalled diplomats
 RACES_NO_TREATY                   | No diplomatic treaty
@@ -1851,11 +1851,11 @@ CREDITS_TRANSLATOR                |
 
 // Systems UI
 SYSTEMS_TITLE                     | Systems
-SYSTEMS_TAB_EXPLORE               | Explore
-SYSTEMS_TAB_EXPAND                | Expand
-SYSTEMS_TAB_EXPLOIT               | Exploit
-SYSTEMS_TAB_EXTERMINATE           | Exterminate
-SYSTEMS_RANGE                     | %1 ly
+SYSTEMS_TAB_EXPLORE               | 探索
+SYSTEMS_TAB_EXPAND                | 扩张
+SYSTEMS_TAB_EXPLOIT               | 开发
+SYSTEMS_TAB_EXTERMINATE           | 征服
+SYSTEMS_RANGE                     | %1 光年
 SYSTEMS_ENVIRONMENT_SIZE          | %1 %2
 SYSTEMS_ENVIRONMENT_TYPE          | %1 %2
 SYSTEMS_SHIELD                    | Shield %1

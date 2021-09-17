@@ -22,7 +22,7 @@ _nameTitle                        | Grand Hierarch
 
 // Advisor text
 MAIN_ADVISOR_TITLE                | Bulrathi Advisor
-MAIN_ADVISOR_BUTTON_OK            | Dismiss
+MAIN_ADVISOR_BUTTON_OK            | 好的
 MAIN_ADVISOR_SCOUT                | Master, we've prepared both scouts and a colony ship for departure. We'll begin exploring and colonizing a nearby system at your command.
 MAIN_ADVISOR_TRANSPORT            | The world of %1, added to our empire! Give the order and we shall begin sending transports immediately!
 MAIN_ADVISOR_DIPLOMACY            | An alien race has made contact with our empire, Master. Whether we treat them as friend or foe is a decision solely left to your discretion.
