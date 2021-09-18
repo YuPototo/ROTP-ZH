@@ -36,9 +36,9 @@ PLANET_TOXIC                      | 有毒
 PLANET_TUNDRA                     | 冻土
 
 // Spy Missions
-SPY_HIDE                          | Hide
-SPY_ESPIONAGE                     | Espionage
-SPY_SABOTAGE                      | Sabotage
+SPY_HIDE                          | 隐藏
+SPY_ESPIONAGE                     | 刺探
+SPY_SABOTAGE                      | 破坏
 SPY_CAUGHT                        | [Your spies were caught.]
 SPY_FRAMED                        | [You were framed.]
 SPY_FORCED_CONFESSION             | [A false confession was forced.]
@@ -74,25 +74,25 @@ PLANET_HOMEWORLD                  | [alien_race] 母星
 PLANET_WORLD                      | [alien_race] 世界
 PLANET_COLONY                     | [alien_race] 殖民地
 PLANET_ORION                      | 猎户座
-PLANET_ORION_GUARDIAN             | Guardian
+PLANET_ORION_GUARDIAN             | 守卫
 
 // Nebula names  ("starName" Nebula)
-NEBULA_NAME                       | %1 Nebula
-NEBULA_ID                         | NCG %1
+NEBULA_NAME                       | %1 星云
+NEBULA_ID                         | %1号星云
 
 // %2 is the leader's actual name
 TITLE_LEADERNAME                  | [alien_nameTitle] %2
 
 // Extended Colony Name prefix when we run out of names
-COLONY_NAME_2                     | New %1
-COLONY_NAME_3                     | Outer %1
-COLONY_NAME_4                     | Far %1
-COLONY_NAME_5                     | Distant %1
+COLONY_NAME_2                     | 新%1
+COLONY_NAME_3                     | 边%1
+COLONY_NAME_4                     | 外%1
+COLONY_NAME_5                     | 远%1
 
 // Space Monster Names
-SPACE_AMOEBA                      | Space Amoeba
-SPACE_CRYSTAL                     | Space Crystal
-ORION_GUARDIAN                    | Orion Guardian
+SPACE_AMOEBA                      | 太空变形虫
+SPACE_CRYSTAL                     | 太空水晶
+ORION_GUARDIAN                    | 猎户座守卫
 
 // Personality types (adjective)
 LEADER_ERRATIC                    | Erratic
@@ -324,11 +324,11 @@ GAME_SETTINGS_TEXTURES_INTERFACE  | UI界面
 GAME_SETTINGS_TEXTURES_MAP        | 宇宙地图
 GAME_SETTINGS_TEXTURES_BOTH       | UI界面和地图
 GAME_SETTINGS_TEXTURES_DESC       | 切换纹理的使用场景。
-GAME_SETTINGS_SENSITIVITY         | Hover Sensitivity: %1
-GAME_SETTINGS_SENSITIVITY_HIGH    | High
-GAME_SETTINGS_SENSITIVITY_MEDIUM  | Medium
-GAME_SETTINGS_SENSITIVITY_LOW     | Low
-GAME_SETTINGS_SENSITIVITY_DESC    | Toggle how quickly the galaxy map responds to mouse movement when updating the display panel.
+GAME_SETTINGS_SENSITIVITY         | 光标悬浮敏感度: %1
+GAME_SETTINGS_SENSITIVITY_HIGH    | 高
+GAME_SETTINGS_SENSITIVITY_MEDIUM  | 中
+GAME_SETTINGS_SENSITIVITY_LOW     | 低
+GAME_SETTINGS_SENSITIVITY_DESC    | 鼠标悬浮在地图上的星系时，会展示该星系的信息面板。这里可以调整交互的敏感程度。
 GAME_SETTINGS_MEMORY              | 展示内存使用情况: %1
 GAME_SETTINGS_MEMORY_YES          | 是
 GAME_SETTINGS_MEMORY_NO           | 否
@@ -337,8 +337,8 @@ GAME_SETTINGS_SOUNDS              | 音效: %1
 GAME_SETTINGS_SOUNDS_OFF          | 静音
 GAME_SETTINGS_SOUNDS_ON           | %1/10
 GAME_SETTINGS_SOUNDS_DESC         | 单击以禁止或播放游戏音效。使用鼠标滑轮来提高或降低音量。
-GAME_SETTINGS_SOUNDS_DISABLED     | Disabled
-GAME_SETTINGS_SOUNDS_ERR_DESC     | Sounds disabled due to following error: %1
+GAME_SETTINGS_SOUNDS_DISABLED     | 无法使用
+GAME_SETTINGS_SOUNDS_ERR_DESC     | 因为以下原因音效无法使用: %1
 GAME_SETTINGS_MUSIC               | 音乐: %1
 GAME_SETTINGS_MUSIC_OFF           | 静音
 GAME_SETTINGS_MUSIC_ON            | %1/10
