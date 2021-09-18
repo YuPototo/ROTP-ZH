@@ -312,57 +312,57 @@ GAME_SETTINGS_DISPLAY_MODE        | 显示模式: %1
 GAME_SETTINGS_WINDOWED            | 窗口
 GAME_SETTINGS_BORDERLESS          | 无边框
 GAME_SETTINGS_FULLSCREEN          | 全屏幕
-GAME_SETTINGS_DISPLAY_MODE_DESC   | Requires a restart. Windowed is fixed ratio and resizable. Borderless is a maximized window. Fullscreen is an exclusive maximized window.
-GAME_SETTINGS_GRAPHICS            | Graphics Level: %1
-GAME_SETTINGS_GRAPHICS_LOW        | Low
-GAME_SETTINGS_GRAPHICS_MED        | Medium
-GAME_SETTINGS_GRAPHICS_HIGH       | High
-GAME_SETTINGS_GRAPHICS_DESC       | Adjusts the graphics quality of game. Medium: Anti-Aliasing of images is off. Low: Animations are turned off.
-GAME_SETTINGS_TEXTURES            | Textures: %1
-GAME_SETTINGS_TEXTURES_NO         | No
-GAME_SETTINGS_TEXTURES_INTERFACE  | User Interface
-GAME_SETTINGS_TEXTURES_MAP        | Galaxy Map
-GAME_SETTINGS_TEXTURES_BOTH       | Interface and Map
-GAME_SETTINGS_TEXTURES_DESC       | Toggle the use of textures on the galaxy map or the various screens throughout the game.
+GAME_SETTINGS_DISPLAY_MODE_DESC   | 需要重启。窗口模式使用固定比例、可调整尺寸。无边框模式是最大化的窗口。全屏是个独占窗口。
+GAME_SETTINGS_GRAPHICS            | 画面质量: %1
+GAME_SETTINGS_GRAPHICS_LOW        | 低
+GAME_SETTINGS_GRAPHICS_MED        | 中
+GAME_SETTINGS_GRAPHICS_HIGH       | 高
+GAME_SETTINGS_GRAPHICS_DESC       | 调整游戏的画面质量。 中: 关闭抗锯齿。 低：无动画。
+GAME_SETTINGS_TEXTURES            | 纹理: %1
+GAME_SETTINGS_TEXTURES_NO         | 无
+GAME_SETTINGS_TEXTURES_INTERFACE  | UI界面
+GAME_SETTINGS_TEXTURES_MAP        | 宇宙地图
+GAME_SETTINGS_TEXTURES_BOTH       | UI界面和地图
+GAME_SETTINGS_TEXTURES_DESC       | 切换纹理的使用场景。
 GAME_SETTINGS_SENSITIVITY         | Hover Sensitivity: %1
 GAME_SETTINGS_SENSITIVITY_HIGH    | High
 GAME_SETTINGS_SENSITIVITY_MEDIUM  | Medium
 GAME_SETTINGS_SENSITIVITY_LOW     | Low
 GAME_SETTINGS_SENSITIVITY_DESC    | Toggle how quickly the galaxy map responds to mouse movement when updating the display panel.
-GAME_SETTINGS_MEMORY              | Show Memory Usage: %1
-GAME_SETTINGS_MEMORY_YES          | Yes
-GAME_SETTINGS_MEMORY_NO           | No
-GAME_SETTINGS_MEMORY_DESC         | Toggles the display of memory usage statistics at the bottom right corner of the game. Useful for monitoring memory usage.
-GAME_SETTINGS_SOUNDS              | Sounds: %1
-GAME_SETTINGS_SOUNDS_OFF          | Muted
+GAME_SETTINGS_MEMORY              | 展示内存使用情况: %1
+GAME_SETTINGS_MEMORY_YES          | 是
+GAME_SETTINGS_MEMORY_NO           | 否
+GAME_SETTINGS_MEMORY_DESC         | 是否在游戏右下角显示内存的使用情况。对监控内存有帮助。
+GAME_SETTINGS_SOUNDS              | 音效: %1
+GAME_SETTINGS_SOUNDS_OFF          | 静音
 GAME_SETTINGS_SOUNDS_ON           | %1/10
-GAME_SETTINGS_SOUNDS_DESC         | Click to mute or unmute sound effects within the game. Use the mousewheel to raise or lower the volume.
+GAME_SETTINGS_SOUNDS_DESC         | 单击以禁止或播放游戏音效。使用鼠标滑轮来提高或降低音量。
 GAME_SETTINGS_SOUNDS_DISABLED     | Disabled
 GAME_SETTINGS_SOUNDS_ERR_DESC     | Sounds disabled due to following error: %1
-GAME_SETTINGS_MUSIC               | Music: %1
-GAME_SETTINGS_MUSIC_OFF           | Muted
+GAME_SETTINGS_MUSIC               | 音乐: %1
+GAME_SETTINGS_MUSIC_OFF           | 静音
 GAME_SETTINGS_MUSIC_ON            | %1/10
-GAME_SETTINGS_MUSIC_DESC          | Click to mute or unmute music within the game. Use the mousewheel to raise or lower the volume.
-GAME_SETTINGS_AUTOCOLONIZE        | Colonize: %1
-GAME_SETTINGS_AUTOCOLONIZE_YES    | Automatically
-GAME_SETTINGS_AUTOCOLONIZE_NO     | Always Prompt
-GAME_SETTINGS_AUTOCOLONIZE_DESC   | Toggle to auto-colonize and name planets immediately when colony ships arrive. This can be time-saving on very large maps.
-GAME_SETTINGS_AUTOBOMBARD         | Bombard: %1
-GAME_SETTINGS_AUTOBOMBARD_NO      | Always Prompt
-GAME_SETTINGS_AUTOBOMBARD_NEVER   | Never
-GAME_SETTINGS_AUTOBOMBARD_YES     | Always
-GAME_SETTINGS_AUTOBOMBARD_WAR     | Only War
-GAME_SETTINGS_AUTOBOMBARD_INVADE  | Only War and not Invading
-GAME_SETTINGS_AUTOBOMBARD_DESC    | Toggle to always prompt to bombard, never bombard, always bombard, only auto-bombard when at war, or only auto-bombard when at war with no invasion forces en route. 
-GAME_SETTINGS_BACKUP_OFF          | Off
-GAME_SETTINGS_BACKUP_ON           | Every %1 turns
-GAME_SETTINGS_BACKUP              | Backup: %1
-GAME_SETTINGS_BACKUP_DESC         | Enable to have your current game periodically saved in the backup folder with a unique name, allowing you to reload from previous turns.
-GAME_SETTINGS_SAVEDIR             | Save Directory: %1
-GAME_SETTINGS_SAVEDIR_DEFAULT     | Default
-GAME_SETTINGS_SAVEDIR_CUSTOM      | Custom
-GAME_SETTINGS_SAVEDIR_DESC1       | The save directory is currently set to the same directory as the game.
-GAME_SETTINGS_SAVEDIR_DESC2       | The save directory is currently set to: %1
+GAME_SETTINGS_MUSIC_DESC          | 单击以禁止或播放音乐。使用鼠标滑轮啊调整音量。
+GAME_SETTINGS_AUTOCOLONIZE        | 殖民: %1
+GAME_SETTINGS_AUTOCOLONIZE_YES    | 自动
+GAME_SETTINGS_AUTOCOLONIZE_NO     | 总是提示
+GAME_SETTINGS_AUTOCOLONIZE_DESC   | 当殖民飞船到达行星时，是否自动殖民该星球。在大地图使用自动殖民可以节约时间。
+GAME_SETTINGS_AUTOBOMBARD         | 轰炸: %1
+GAME_SETTINGS_AUTOBOMBARD_NO      | 总是提示
+GAME_SETTINGS_AUTOBOMBARD_NEVER   | 不轰炸
+GAME_SETTINGS_AUTOBOMBARD_YES     | 总是轰炸
+GAME_SETTINGS_AUTOBOMBARD_WAR     | 仅限战争
+GAME_SETTINGS_AUTOBOMBARD_INVADE  | 仅限战争，且无派遣军队
+GAME_SETTINGS_AUTOBOMBARD_DESC    | 切换自动轰炸设定。提示是否轰炸、自动轰炸、仅在战争状态自动轰炸、在战争状态且无派遣军队时轰炸。
+GAME_SETTINGS_BACKUP_OFF          | 关闭
+GAME_SETTINGS_BACKUP_ON           | 每%1回合
+GAME_SETTINGS_BACKUP              | 自动备份: %1
+GAME_SETTINGS_BACKUP_DESC         | 将你当前的游戏定期自动备份到 backup 文件夹，这能允许你载入之前的回合。
+GAME_SETTINGS_SAVEDIR             | 存档文件夹: %1
+GAME_SETTINGS_SAVEDIR_DEFAULT     | 默认
+GAME_SETTINGS_SAVEDIR_CUSTOM      | 自定义
+GAME_SETTINGS_SAVEDIR_DESC1       | 存档文件夹默认是游戏所在文件夹。
+GAME_SETTINGS_SAVEDIR_DESC2       | 当前的存档文件夹是: %1
 
 // Load Game UI
 LOAD_GAME_TITLE                   | Load Game
@@ -412,7 +412,7 @@ MAIN_TECH_RESERVE_TAX_ALL         | 对所有殖民地征收%1%的税
 MAIN_TECH_RESERVE_TAX             | 对发达殖民地征收%1%的税
 MAIN_TECH_RESERVE_TAX_NONE        | 没有征税
 MAIN_HELP_ALL                     | 帮助：点击按钮，切换帮助信息。按 ESC 键取消。
-MAIN_HELP_1A                      | 每个 star system 的生产分为5个部分。灰色表示该部分的资源分配被锁定，无法再修改。单机切换锁定/非锁定状态。
+MAIN_HELP_1A                      | 每个 star system 的生产分为5个部分。灰色表示该部分的资源分配被锁定，无法再修改。单击切换锁定/非锁定状态。
 MAIN_HELP_1B                      | 船坞：建造被选中的舰船，大型舰船可能需要若干回合建造。
 MAIN_HELP_1C                      | 防御：建造、升级导弹基地和护盾等级。
 MAIN_HELP_1D                      | 工业：建造工厂，提高殖民地的产出。
@@ -608,7 +608,7 @@ MAIN_COLONY_SPENDING_RP           | %1 RP
 MAIN_COLONY_COMPLETION_YEAR       | 1年
 MAIN_COLONY_COMPLETION_YEARS      | %1年
 MAIN_COLONY_COMPLETION_CENTURY    | %1年
-MAIN_COLONY_COMPLETION_PER_YEAR   | %1艘/年
+MAIN_COLONY_COMPLETION_PER_YEAR   | %1/年
 MAIN_COLONY_SHIPYARD_COMPLETED    | Completed: %1
 MAIN_COLONY_SHIPYARD_LIMIT        | 制造上限:
 MAIN_COLONY_SHIPYARD_LIMIT_NONE   | 无
@@ -1035,11 +1035,11 @@ ERROR_REDDIT                      | Reddit: www.Reddit.com/r/rotp
 // Setup UI
 SETUP_SELECT_RACE                 | 选择你的种族
 SETUP_SELECT_OPPONENTS            | 选择对手
-SETUP_SELECT_GALAXY               | 选择 Galaxy
+SETUP_SELECT_GALAXY               | 选择宇宙
 SETUP_SELECT_GALAXY_OPTIONS       | Select Options
 SETUP_GALAXY_RULESET_LABEL        | Rule Set
-SETUP_INSUFFICIENT_MEMORY         | Insufficient Memory
-SETUP_CREATING_GALAXY             | 创建 Galaxy...
+SETUP_INSUFFICIENT_MEMORY         | 内存不足
+SETUP_CREATING_GALAXY             | 创建宇宙...
 SETUP_RULESET_ORION               | Orion
 SETUP_RULESET_ANTARES             | Antares
 SETUP_RULESET_SIRIUS              | Sirius
@@ -1063,11 +1063,11 @@ SETUP_GALAXY_SIZE_MASSIVE5        | 巨大
 SETUP_GALAXY_SIZE_INSANE          | 非常大
 SETUP_GALAXY_SIZE_LUDICROUS       | 超级大
 SETUP_GALAXY_SIZE_MAXIMUM         | 最大
-SETUP_GALAXY_SHAPE_RECTANGLE      | Star Field
-SETUP_GALAXY_SHAPE_CIRCULAR       | Circular
-SETUP_GALAXY_SHAPE_RING           | Ring
-SETUP_GALAXY_SHAPE_ELLIPSE        | Ellipse
-SETUP_GALAXY_SHAPE_SPIRAL         | Spiral
+SETUP_GALAXY_SHAPE_RECTANGLE      | 分散
+SETUP_GALAXY_SHAPE_CIRCULAR       | 圆形
+SETUP_GALAXY_SHAPE_RING           | 环形
+SETUP_GALAXY_SHAPE_ELLIPSE        | 椭圆
+SETUP_GALAXY_SHAPE_SPIRAL         | 螺旋
 SETUP_GALAXY_SHAPE_STAR           | Star
 SETUP_GALAXY_SHAPE_BARSPIRAL      | Bar Spiral
 SETUP_GALAXY_SHAPE_TEXT           | Text
@@ -1093,8 +1093,8 @@ SETUP_GALAXY_AGE_OLD              | 老
 SETUP_RANDOM_EVENTS_ON            | 开
 SETUP_RANDOM_EVENTS_OFF           | 关
 SETUP_RANDOM_EVENTS_NO_MONSTERS   | 无太空怪物
-SETUP_GALAXY_NUMBER_EMPIRES       | Total Empires: %1
-SETUP_GALAXY_NUMBER_SYSTEMS       | systems 数量: %1
+SETUP_GALAXY_NUMBER_EMPIRES       | 帝国数量: %1
+SETUP_GALAXY_NUMBER_SYSTEMS       | 星系数量: %1
 SETUP_GALAXY_MAX_OPPONENTS        | 最大敌人数量: %1
 SETUP_OPPONENTS_HEADER_1          | %1 vs.
 SETUP_OPPONENTS_HEADER_2          | 对手
@@ -1148,7 +1148,7 @@ SETUP_AI_HOSTILITY_NORMAL         | 普通
 SETUP_AI_HOSTILITY_HIGH           | 高
 SETUP_AI_HOSTILITY_HIGHER         | 很高
 SETUP_AI_HOSTILITY_HIGHEST        | 最高
-SETUP_GAME_NUMBER_OPPONENTS       | Opponents
+SETUP_GAME_NUMBER_OPPONENTS       | 敌人数量
 SETUP_PLANET_QUALITY_POOR         | 糟糕
 SETUP_PLANET_QUALITY_MEDIOCRE     | 平庸
 SETUP_PLANET_QUALITY_NORMAL       | 普通
@@ -1171,75 +1171,75 @@ SETUP_RACE_LABEL                  | 可选种族
 SETUP_RACE_COLOR                  | 帝国颜色:
 SETUP_HOMEWORLD_NAME_LABEL        | 母星:
 SETUP_LEADER_NAME_LABEL           | 领袖:
-SETUP_FLAG_LABEL                  | Banner
+SETUP_FLAG_LABEL                  | 旗帜
 SETUP_BUTTON_CANCEL               | 取消
 SETUP_BUTTON_BACK                 | 返回
 SETUP_BUTTON_NEXT                 | 下一步
 SETUP_BUTTON_START                | 开始
 SETUP_BUTTON_SETTINGS             | 高级设置
 
-SETUP_SPIRAL_2_ARMS               | Two Arms
-SETUP_SPIRAL_3_ARMS               | Three Arms
-SETUP_SPIRAL_4_ARMS               | Four Arms
-SETUP_SPIRAL_5_ARMS               | Five Arms
-SETUP_SPIRAL_6_ARMS               | Six Arms
-SETUP_SPIRAL_7_ARMS               | Seven Arms
-SETUP_SPIRAL_8_ARMS               | Eight Arms
-SETUP_SPIRAL_ROTATION_0           | No Rotation
-SETUP_SPIRAL_ROTATION_1           | Rotation 1
-SETUP_SPIRAL_ROTATION_2           | Rotation 2
-SETUP_SPIRAL_ROTATION_3           | Rotation 3
-SETUP_SPIRAL_ROTATION_4           | Rotation 4
-SETUP_SPIRAL_ROTATION_5           | Rotation 5
-SETUP_SPIRAL_ROTATION_6           | Rotation 6
-SETUP_ELLIPSE_0                   | Circular
-SETUP_ELLIPSE_1                   | Ellipse 1
-SETUP_ELLIPSE_2                   | Ellipse 2
-SETUP_ELLIPSE_3                   | Ellipse 3
-SETUP_ELLIPSE_4                   | Ellipse 4
-SETUP_VOID_0                      | No Void
-SETUP_VOID_1                      | Void 1
-SETUP_VOID_2                      | Void 2
-SETUP_VOID_3                      | Void 3
-SETUP_VOID_4                      | Void 4
+SETUP_SPIRAL_2_ARMS               | 双臂
+SETUP_SPIRAL_3_ARMS               | 三臂
+SETUP_SPIRAL_4_ARMS               | 四臂
+SETUP_SPIRAL_5_ARMS               | 五臂
+SETUP_SPIRAL_6_ARMS               | 六臂
+SETUP_SPIRAL_7_ARMS               | 七臂
+SETUP_SPIRAL_8_ARMS               | 八臂
+SETUP_SPIRAL_ROTATION_0           | 无旋转
+SETUP_SPIRAL_ROTATION_1           | 旋转1
+SETUP_SPIRAL_ROTATION_2           | 旋转2
+SETUP_SPIRAL_ROTATION_3           | 旋转3
+SETUP_SPIRAL_ROTATION_4           | 旋转4
+SETUP_SPIRAL_ROTATION_5           | 旋转5
+SETUP_SPIRAL_ROTATION_6           | 旋转6
+SETUP_ELLIPSE_0                   | 圆形
+SETUP_ELLIPSE_1                   | 椭圆 1
+SETUP_ELLIPSE_2                   | 椭圆 2
+SETUP_ELLIPSE_3                   | 椭圆 3
+SETUP_ELLIPSE_4                   | 椭圆 4
+SETUP_VOID_0                      | 无虚空
+SETUP_VOID_1                      | 虚空 1
+SETUP_VOID_2                      | 虚空 2
+SETUP_VOID_3                      | 虚空 3
+SETUP_VOID_4                      | 虚空 4
 
 
 // Advanced Settings
 SETTINGS_TITLE                    | 高级游戏设置
-SETTINGS_DESCRIPTION              | 单机切换设置
+SETTINGS_DESCRIPTION              | 单击切换设置
 SETTINGS_EXIT                     | 返回
 SETTINGS_DEFAULT                  | 设为默认
-SETTINGS_STAR_DENSITY             | Star 密度: %1
+SETTINGS_STAR_DENSITY             | 星系密度: %1
 SETTINGS_RANDOM_EVENTS            | 随机事件: %1
 SETTINGS_RESEARCH_RATE            | 研究速度: %1
-SETTINGS_COUNCIL_WIN              | Council 胜利: %1
+SETTINGS_COUNCIL_WIN              | 议会胜利: %1
 SETTINGS_RANDOMIZE_AI             | 随机 AI: %1
 SETTINGS_AUTOPLAY                 | 自动游戏: %1
 SETTINGS_TECH_TRADING             | 技术交易: %1
-SETTINGS_GALAXY_AGE               | Galaxy 年龄: %1
-SETTINGS_WARP_SPEED               | Warp 速度: %1
-SETTINGS_NEBULAE                  | Nebulae: %1
+SETTINGS_GALAXY_AGE               | 宇宙年龄: %1
+SETTINGS_WARP_SPEED               | 曲速飞行速度: %1
+SETTINGS_NEBULAE                  | 星云: %1
 SETTINGS_PLANET_QUALITY           | 行星质量: %1
 SETTINGS_TERRAFORMING             | 行星改造效果: %1
 SETTINGS_COLONIZING               | 殖民设置: %1
 SETTINGS_FUEL_RANGE               | 燃料效果: %1
 SETTINGS_AI_HOSTILITY             | 敌意: %1
-SETTINGS_RANDOM_EVENTS_DESC       | Space Monsters are random events and considerable mid-game threats. Turn off space monsters or all random events. 
-SETTINGS_WARP_SPEED_DESC          | Increase the speed of more advanced warp technologies. This can be desirable on very large maps.
-SETTINGS_GALAXY_AGE_DESC          | Compared to normal galaxies, young galaxies have more white and blue stars while old galaxies have more red and neutron stars.
-SETTINGS_TECH_TRADING_DESC        | Turn off all technology trades or restrict these trades to allies.
-SETTINGS_STAR_DENSITY_DESC        | Set to high to reduce the chance of empires being stranded early in the game.
-SETTINGS_RESEARCH_RATE_DESC       | Slow the research rate of new technologies, lengthening the useful life of current technologies.
-SETTINGS_NEBULAE_DESC             | Nebulae slow down ship travel and render shields useless. Increase or decrease their frequency.
-SETTINGS_PLANET_QUALITY_DESC      | Increases or decreases the frequency of higher quality planets.
-SETTINGS_TERRAFORMING_DESC        | Reduce or eliminate the benefits of the Improved Terraforming technologies on hostile planets.
-SETTINGS_COLONIZING_DESC          | Restrict the colonization of systems to only those for which you have acquired the specific technology.
-SETTINGS_COUNCIL_DESC             | Disable the council victory condition or allow enemy empires to rebel against a player victory.
-SETTINGS_RANDOMIZE_AI_DESC        | Randomize the AI player personalities, racial abilities, or both.
-SETTINGS_AUTOPLAY_DESC            | Completely automate the game by having an AI play for the player. This is useful for a first-hand view of how the AI works.
+SETTINGS_RANDOM_EVENTS_DESC       | 太空怪物属于随机事件，是游戏中期值得注意的威胁。你可以关闭太空怪物或所有随机事件。 
+SETTINGS_WARP_SPEED_DESC          | 提高高级曲速飞行技术的速度。这对大地图很有帮助。
+SETTINGS_GALAXY_AGE_DESC          | 相比于普通宇宙，年轻宇宙有更多的白色和蓝色星球，老年宇宙有更多红色和中子星球。
+SETTINGS_TECH_TRADING_DESC        | 取消技术交易，或仅限盟友之间的技术交易。
+SETTINGS_STAR_DENSITY_DESC        | 把星系密度调高可以让各个文明离得更近。
+SETTINGS_RESEARCH_RATE_DESC       | 降低科技的研究速率，延长当前科技的使用寿民。
+SETTINGS_NEBULAE_DESC             | 星云会降低飞船移动速度，且让护盾无效。这个设置可以增加或减少星云的出现频率。
+SETTINGS_PLANET_QUALITY_DESC      | 增加或减少高质量行星的出现频率。
+SETTINGS_TERRAFORMING_DESC        | 减少或移除行星改造技术的效果。
+SETTINGS_COLONIZING_DESC          | 殖民星球技术只能殖民对应类型的星球。
+SETTINGS_COUNCIL_DESC             | 取消议会胜利条件，或者允许敌对帝国反抗议会胜利。
+SETTINGS_RANDOMIZE_AI_DESC        | 随机AI玩家的天性、种族特长。
+SETTINGS_AUTOPLAY_DESC            | 让AI代表玩家游戏。这能让你看到AI是如何游戏的。
 SETTINGS_AUTOPLAY_WARNING         | Warning! Autoplay is currently enabled which will prevent user gameplay. Use "Advanced Options" to disable.
-SETTINGS_FUEL_RANGE_DESC          | Increase the range of fuel range technologies and reserve fuel tanks.
-SETTINGS_AI_HOSTILITY_DESC        | Increase or decrease the general level of hostility between alien races.
+SETTINGS_FUEL_RANGE_DESC          | 提高燃料科技和备用油箱的航程效果。
+SETTINGS_AI_HOSTILITY_DESC        | 增加或降低不同种族间的敌对程度。
 
 // Tech UI labels
 TECH_RESEARCH                     | 科技研究
