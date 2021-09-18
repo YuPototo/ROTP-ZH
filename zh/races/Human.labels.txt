@@ -23,7 +23,7 @@ _nameTitle                        | Triumvir
 MAIN_ADVISOR_TITLE                | 人类顾问
 MAIN_ADVISOR_BUTTON_OK            | 好的
 MAIN_ADVISOR_SCOUT                | 后勤部门汇报说两个 scout 和一个 colony ship 已经可以服役。我建议我们尽快找到并殖民一个附近的行星。
-MAIN_ADVISOR_TRANSPORT            | The establishment of a colony at %1 was successful. The more transports we use, the faster %1 will develop into a cornerstone of our interstellar empire.
+MAIN_ADVISOR_TRANSPORT            | %1的殖民地创建已经完成。越多殖民者被派遣过去， %1就会越快成为我们星际帝国的基石。
 MAIN_ADVISOR_DIPLOMACY            | Triumvir, I am thrilled to confirm our first contact with an alien civilization! Please, review our intelligence so that we can begin manipulating these aliens to better serve our ends.
 MAIN_ADVISOR_SHIP_ENGINE          | Our propulsion research has yielded a more advanced ship design. Please integrate this breakthrough into all future ships. That's all for now.
 MAIN_ADVISOR_RALLY_POINTS         | Our military forces are gearing up for war, but we'll need to mobilize our forces quickly. I recommend using rally points to fold our newly created ships into the fleet as soon as possible.

@@ -12,28 +12,28 @@ NUM_FORMAT_MILLIONS               | %1M
 NUM_FORMAT_BILLIONS               | %1B
 
 // Star descriptions
-RED_STAR_DESCRIPTION              | Red stars are old and dull stars that commonly have poor planets.
-YELLOW_STAR_DESCRIPTION           | Yellow stars offer the best chance of discovering terran and sub-terran planets.
-ORANGE_STAR_DESCRIPTION           | Orange stars are moderately bright and have a wide range of planetary types.
-BLUE_STAR_DESCRIPTION             | Blue stars are relatively young stars with mineral rich lifeless planets.
-WHITE_STAR_DESCRIPTION            | White stars burn incredibly hot and generally have hostile planets.
-PURPLE_STAR_DESCRIPTION           | Neutron stars are rare and offer the greatest chance of finding rich planets.
+RED_STAR_DESCRIPTION              | 红色恒星是暮气沉沉的恒星，它的行星一般资源匮乏。
+YELLOW_STAR_DESCRIPTION           | 黄色恒星有最大的概率找到类地行星和近似类地行星。
+ORANGE_STAR_DESCRIPTION           | 橙色恒星的亮度中等，有大量的行星类型。
+BLUE_STAR_DESCRIPTION             | 蓝色恒星是相对年轻的恒星，有矿产丰富但没有生命的星球。
+WHITE_STAR_DESCRIPTION            | 白色恒星异常炙热，一般有不宜居行星。
+PURPLE_STAR_DESCRIPTION           | 中子星很少见，有最大的可能找到资源丰富的行星。
 
 // Planet Types
-PLANET_ARID                       | Arid
-PLANET_BARREN                     | Barren
-PLANET_DEAD                       | Dead
-PLANET_DESERT                     | Desert
-PLANET_INFERNO                    | Inferno
-PLANET_JUNGLE                     | Jungle
-PLANET_MINIMAL                    | Minimal
-PLANET_NONE                       | None
-PLANET_OCEAN                      | Ocean
-PLANET_RADIATED                   | Irradiated
-PLANET_STEPPE                     | Steppe
-PLANET_TERRAN                     | Terran
-PLANET_TOXIC                      | Toxic
-PLANET_TUNDRA                     | Tundra
+PLANET_ARID                       | 干旱
+PLANET_BARREN                     | 荒芜
+PLANET_DEAD                       | 死亡
+PLANET_DESERT                     | 荒漠
+PLANET_INFERNO                    | 地狱
+PLANET_JUNGLE                     | 丛林
+PLANET_MINIMAL                    | 袖珍
+PLANET_NONE                       | 无
+PLANET_OCEAN                      | 海洋
+PLANET_RADIATED                   | 辐射
+PLANET_STEPPE                     | 草原
+PLANET_TERRAN                     | 类地行星
+PLANET_TOXIC                      | 有毒
+PLANET_TUNDRA                     | 冻土
 
 // Spy Missions
 SPY_HIDE                          | Hide
@@ -44,36 +44,36 @@ SPY_FRAMED                        | [You were framed.]
 SPY_FORCED_CONFESSION             | [A false confession was forced.]
 SPY_WARNING                       | [You have been warned.]
 
-ARID_DESC_BIOLOGICAL              | Arid Planets are dry, terrestrial worlds with limited vegetation and no more than 40% water surface area.
-BARREN_DESC_BIOLOGICAL            | Barren planets are dry, dusty worlds with thin atmospheres and no surface water.
-DEAD_DESC_BIOLOGICAL              | Dead planets are cold, long-dead terrestrial worlds with thin atmospheres and no surface water. 
-DESERT_DESC_BIOLOGICAL            | Desert Planets are dry, terrestrial worlds with very sparse vegetation and no more than 20% water surface area.
-INFERNO_DESC_BIOLOGICAL           | Inferno planets are extremely hot worlds with thick atmospheres and violent storms.
-JUNGLE_DESC_BIOLOGICAL            | Jungle planets are lush, tropical worlds blanketed with thick forests, jungles and swamps.
-MINIMAL_DESC_BIOLOGICAL           | Minimal planets are parched, desolate terrestrial worlds on the fringe of habitability.
-NONE_DESC_BIOLOGICAL              | With no rocky planets, these asteroid-filled systems defy all theories about planetary formation.
-OCEAN_DESC_BIOLOGICAL             | Ocean planets are almost completely covered by water, making access to resources often difficult.
-RADIATED_DESC_BIOLOGICAL          | Irradiated planets are airless, lifeless worlds showered by radiation from nearby stars.
-STEPPE_DESC_BIOLOGICAL            | Steppe planets are cooler terrestrial worlds dominated by harsh winters and arctic environments.
-TERRAN_DESC_BIOLOGICAL            | Terran planets are terrestrial paradises, with large temperate zones supporting a wide variety of biomes.
-TOXIC_DESC_BIOLOGICAL             | Toxic planets are frozen worlds with frigid, methane-based ecosystems.
-TUNDRA_DESC_BIOLOGICAL            | Tundra planets are dormant terrestrial worlds trapped in an icehouse stage.
+ARID_DESC_BIOLOGICAL              | 干旱行星是有少量植被的世界，水覆盖面积不到40%。
+BARREN_DESC_BIOLOGICAL            | 荒芜行星是干燥的、尘土飞扬的世界，这里大气稀薄，没有地表水。
+DEAD_DESC_BIOLOGICAL              | 死亡行星是寒冷的、不再有生命迹象的世界，这里大气稀薄，没有地表水。
+DESERT_DESC_BIOLOGICAL            | 沙漠行星是干燥的世界，植被非常稀疏，地表水覆盖面积不超过 20%。
+INFERNO_DESC_BIOLOGICAL           | 地狱行星是极其炎热的世界，有着厚厚的大气层和猛烈的风暴。
+JUNGLE_DESC_BIOLOGICAL            | 丛林行星是茂密的热带世界，覆盖着茂密的森林、丛林和沼泽。
+MINIMAL_DESC_BIOLOGICAL           | 袖珍行星干燥、荒凉的世界，几乎就要不可居住了。
+NONE_DESC_BIOLOGICAL              | 由于没有石质行星，这些充满小行星的星系在理论上不可能形成真正的行星。
+OCEAN_DESC_BIOLOGICAL             | 海洋行星几乎完全被水覆盖，因此通常很难获取资源。
+RADIATED_DESC_BIOLOGICAL          | 受辐射的行星是没有空气、没有生命的世界，被附近恒星的辐射所笼罩
+STEPPE_DESC_BIOLOGICAL            | 草原行星是温度较低的世界，以冬天和极地环境为主。
+TERRAN_DESC_BIOLOGICAL            | 类地行星是最适合生存的世界，大片的温带地区支持着各种各样的生物群落。
+TOXIC_DESC_BIOLOGICAL             | 有毒行星是冰冻的世界，有着寒冷的、以甲烷为基础的生态系统。
+TUNDRA_DESC_BIOLOGICAL            | 冻土行星是处于休眠状态的极端寒冷的世界。
 
 // Planet Specials
-PLANET_ARTIFACTS                  | Artifacts
-PLANET_ULTRA_POOR                 | Ultra Poor
-PLANET_POOR                       | Poor
-PLANET_RICH                       | Rich
-PLANET_ULTRA_RICH                 | Ultra Rich
-PLANET_HOSTILE                    | Hostile
-PLANET_FERTILE                    | Fertile
-PLANET_GAIA                       | Gaia
+PLANET_ARTIFACTS                  | 史前遗迹
+PLANET_ULTRA_POOR                 | 资源非常匮乏
+PLANET_POOR                       | 资源匮乏
+PLANET_RICH                       | 资源丰富
+PLANET_ULTRA_RICH                 | 资源非常丰富
+PLANET_HOSTILE                    | 不宜居
+PLANET_FERTILE                    | 宜居
+PLANET_GAIA                       | 天堂
 
 // Planet Descriptors for Race
 PLANET_HOMEWORLD                  | [alien_race] 母星
-PLANET_WORLD                      | [alien_race] World
-PLANET_COLONY                     | [alien_race] Colony
-PLANET_ORION                      | Orion
+PLANET_WORLD                      | [alien_race] 世界
+PLANET_COLONY                     | [alien_race] 殖民地
+PLANET_ORION                      | 猎户座
 PLANET_ORION_GUARDIAN             | Guardian
 
 // Nebula names  ("starName" Nebula)
@@ -459,7 +459,7 @@ MAIN_UNSCOUTED                    | Unscouted
 MAIN_ABANDONED                    | Abandoned
 MAIN_ALIEN_COLONY                 | %1 Colony
 MAIN_UNKNOWN_COLONY               | Alien Colony
-MAIN_NEBULA_DESC                  | Ship travel speed through nebulae is limited to Warp 1
+MAIN_NEBULA_DESC                  | 穿过星云的飞船速度被限制在第1阶曲速
 MAIN_PLANET_SIZE                  | Size %1
 MAIN_PLANET_SIZE+                 | Size %1+
 MAIN_PLANET_POP                   | 人口 %1
@@ -616,40 +616,40 @@ MAIN_COLONY_SHIPYARD_CONSTRUCTION | 舰船生产队列
 MAIN_COLONY_RELOCATE_LABEL        | 设置集合点
 MAIN_COLONY_TRANSPORTS_LABEL      | 派遣殖民者
 MAIN_COLONY_ABANDON_LABEL         | 遗弃
-MAIN_COLONY_SHIP_SCRAPPED         | Scrapped
-MAIN_COLONY_NO_SHIELD             | Nebula
+MAIN_COLONY_SHIP_SCRAPPED         | 被遗弃
+MAIN_COLONY_NO_SHIELD             | 星云
 
 // System Scouted Notification
-MAIN_SCOUT_TITLE                  | Scientists Catalogue A New Star System
-MAIN_SCOUT_SUBTITLE_1             | Our ships have scouted this system
+MAIN_SCOUT_TITLE                  | 科学家归类了一个新的星系
+MAIN_SCOUT_SUBTITLE_1             | 我们的飞船已经完成这个星系的侦察
 MAIN_SCOUT_SUBTITLE_2             | Our astronomers have collected this data
 MAIN_SCOUT_SUBTITLE_3             | Our allies have shared this data
-MAIN_SCOUT_TYPE                   | Classification: %1      Size: %2
-MAIN_SCOUT_NO_PLANET              | No Habitable Planets Found
-MAIN_SCOUT_HOSTILE_DESC           | Environment: Hostile - Population growth is halved.
-MAIN_SCOUT_FERTILE_DESC           | Environment: Fertile - Population growth is +50% normal.
-MAIN_SCOUT_GAIA_DESC              | Environment: Gaia - Population growth is +100% normal.
-MAIN_SCOUT_ARTIFACTS_DESC         | Ancient Ruins: Technology points from research are doubled.
-MAIN_SCOUT_ANCIENTS_DESC          | Ancient Homeworld: Technology points from research are quadrupled.
-MAIN_SCOUT_ULTRA_POOR_DESC        | Resources: Ultra-Poor - Output from industry is cut to one-third.
-MAIN_SCOUT_POOR_DESC              | Resources: Poor - Output from industry is halved.
-MAIN_SCOUT_RICH_DESC              | Resources: Rich - Output from industry is doubled.
-MAIN_SCOUT_ULTRA_RICH_DESC        | Resources: Ultra Rich - Output from industry is tripled.
+MAIN_SCOUT_TYPE                   | 归类: %1      大小: %2
+MAIN_SCOUT_NO_PLANET              | 没有找到可生存星球。
+MAIN_SCOUT_HOSTILE_DESC           | 环境: 不宜居 - 人口增长减半。
+MAIN_SCOUT_FERTILE_DESC           | 环境: 宜居 - 人口增长加快50%。
+MAIN_SCOUT_GAIA_DESC              | 环境: 天堂 - 人口增长翻倍。
+MAIN_SCOUT_ARTIFACTS_DESC         | 上古遗迹: 科技研究效果翻倍。
+MAIN_SCOUT_ANCIENTS_DESC          | 上古家园: 科技研究效果翻三倍。
+MAIN_SCOUT_ULTRA_POOR_DESC        | 资源: 非常匮乏 - 工业产值仅为正常情况的三分之一。
+MAIN_SCOUT_POOR_DESC              | 资源: 匮乏 - 工业产值减半。
+MAIN_SCOUT_RICH_DESC              | 资源: 丰富 - 工业产值翻倍。
+MAIN_SCOUT_ULTRA_RICH_DESC        | 资源: 非常丰富 - 工业产值为正常情况的三倍。
 
 // Colonization prompt
-MAIN_COLONIZE_TITLE               | Our Colonists are orbiting %1, an uncolonized system.
-MAIN_COLONIZE_PROMPT              | Build a new colony?
-MAIN_COLONIZE_YES                 | Yes
-MAIN_COLONIZE_NO                  | No
-MAIN_COLONIZE_ANIMATION_TITLE     | In the year %1, the [player_empire] forms a new colony.
-MAIN_COLONIZE_NAME_PROMPT         | Colony Name
-MAIN_COLONIZE_NAME_OK             | OK
+MAIN_COLONIZE_TITLE               | 我们的殖民者正围绕%1飞行，这是一个未被殖民的星系。
+MAIN_COLONIZE_PROMPT              | 建造一个新的殖民地?
+MAIN_COLONIZE_YES                 | 是
+MAIN_COLONIZE_NO                  | 否
+MAIN_COLONIZE_ANIMATION_TITLE     | %1年, [player_empire]创建了一个新的殖民地。
+MAIN_COLONIZE_NAME_PROMPT         | 殖民地名称
+MAIN_COLONIZE_NAME_OK             | 确定
 
 // Reasons to ask player to reallocate a system (during next turn)
-MAIN_ALLOCATE_TITLE               | Spending Adjustments
+MAIN_ALLOCATE_TITLE               | 支出分配
 MAIN_ALLOCATE_DESIGN_SCRAPPED     | The ship design under construction at %1 has been scrapped.
-MAIN_ALLOCATE_COLONIZED           | • %1 has been colonized.
-MAIN_ALLOCATE_STARGATE_COMPLETE   | • %1 has completed building a Stargate.
+MAIN_ALLOCATE_COLONIZED           | • %1 已经被殖民
+MAIN_ALLOCATE_STARGATE_COMPLETE   | • %1 已经完成 Stargate 的建造
 MAIN_ALLOCATE_SHIPS_COMPLETE      | • %1 has completed building the requested number of %2 ships.
 MAIN_ALLOCATE_SHIELD_COMPLETE     | • %1 has completed building %2.
 MAIN_ALLOCATE_BASES_COMPLETE      | • %1 has completed building %2 missile bases.
@@ -665,12 +665,12 @@ MAIN_ALLOCATE_SABOTAGE_FACTORIES  | • %1 has had %2 factories destroyed by %3 
 MAIN_ALLOCATE_COLONY_CAPTURED     | • %1 was recently captured by %2 troops.
 MAIN_ALLOCATE_ECO_LOCKED_WASTE    | • %1 has ecological spending manually locked at a level insufficient to clean pollution.
 MAIN_ALLOCATE_PROJECT_ENDED       | • %1 is no longer researching a special project: %2
-MAIN_ALLOCATE_CHANGE_SPENDING     | System spending allocations may be adjusted at this time.
+MAIN_ALLOCATE_CHANGE_SPENDING     | 星系的支出可以在这里调整。
 MAIN_ALLOCATE_NOTICE_NUMBER       | Notice %1 of %2
 MAIN_ALLOCATE_BRIEF_NUMBER        | %1 of %2
-MAIN_ALLOCATE_PREV_SYSTEM         | Previous
-MAIN_ALLOCATE_NEXT_SYSTEM         | Next
-MAIN_ALLOCATE_CLOSE               | Close
+MAIN_ALLOCATE_PREV_SYSTEM         | 前一条
+MAIN_ALLOCATE_NEXT_SYSTEM         | 下一条
+MAIN_ALLOCATE_CLOSE               | 关闭
 
 // Fleet Production display (during next turn)
 MAIN_FLEET_PRODUCTION_TITLE       | Fleet Production Summary
