@@ -446,57 +446,57 @@ MAIN_HELP_3J                      | 地图设置：单击可调整 galaxy map �
 
 MAIN_SYSTEM_DETAIL_PFB            | 人口 %1  工业 %2  导弹 %3
 MAIN_SYSTEM_DETAIL_PF             | 人口 %1  工业 %2
-MAIN_SYSTEM_DETAIL_NO_DATA        | No Data
+MAIN_SYSTEM_DETAIL_NO_DATA        | 无数据
 MAIN_UNEXPLORED_SYSTEM            | 未探索
-MAIN_ALLIED_COLONY                | Allied Colony
+MAIN_ALLIED_COLONY                | 盟友殖民地
 MAIN_SYSTEM_RANGE                 | %1 光年
 MAIN_OUT_OF_RANGE_DESC            | 航程外
-MAIN_SCOUT_RANGE_DESC             | 需要 Reserve Fuel Tanks
+MAIN_SCOUT_RANGE_DESC             | 需要备用燃料箱
 MAIN_IN_RANGE_DESC                | 航程内
-MAIN_NO_PLANETS                   | No Colonizable Planets
-MAIN_NO_COLONIES                  | Uncolonized
-MAIN_UNSCOUTED                    | Unscouted
-MAIN_ABANDONED                    | Abandoned
-MAIN_ALIEN_COLONY                 | %1 Colony
-MAIN_UNKNOWN_COLONY               | Alien Colony
+MAIN_NO_PLANETS                   | 无法生存的星球
+MAIN_NO_COLONIES                  | 未殖民
+MAIN_UNSCOUTED                    | 未探索
+MAIN_ABANDONED                    | 已遗弃
+MAIN_ALIEN_COLONY                 | %1 殖民地
+MAIN_UNKNOWN_COLONY               | 异族殖民地
 MAIN_NEBULA_DESC                  | 穿过星云的飞船速度被限制在第1阶曲速
-MAIN_PLANET_SIZE                  | Size %1
-MAIN_PLANET_SIZE+                 | Size %1+
+MAIN_PLANET_SIZE                  | 空间 %1
+MAIN_PLANET_SIZE+                 | 空间 %1+
 MAIN_PLANET_POP                   | 人口 %1
 MAIN_PLANET_POP_SIZE              | 人口 %1/%2
-MAIN_PLANET_REBELLION             | In Rebellion
-MAIN_PLANET_QUARANTINE            | In Quarantine
-MAIN_PLANET_EVENT_COMET           | Comet
-MAIN_PLANET_EVENT_PIRACY          | Piracy
-MAIN_PLANET_EVENT_PLAGUE          | Plague
-MAIN_PLANET_EVENT_SUPERNOVA       | Supernova
-MAIN_PLANET_EVENT_AMOEBA          | Space Amoeba
-MAIN_PLANET_EVENT_CRYSTAL         | Space Crystal
+MAIN_PLANET_REBELLION             | 起义中
+MAIN_PLANET_QUARANTINE            | 被隔离
+MAIN_PLANET_EVENT_COMET           | 彗星
+MAIN_PLANET_EVENT_PIRACY          | 海盗
+MAIN_PLANET_EVENT_PLAGUE          | 瘟疫
+MAIN_PLANET_EVENT_SUPERNOVA       | 超新星
+MAIN_PLANET_EVENT_AMOEBA          | 太空变形虫
+MAIN_PLANET_EVENT_CRYSTAL         | 太空水晶
 MAIN_ADVANCING_YEAR               | 进入%1年...
 MAIN_ADVANCING_TURN               | 进入%1回合...
 TURN_SAVING                       | 保存进度
 TURN_LAUNCHING_FLEETS             | 舰队行动
-TURN_SHIP_COMBAT                  | Ship Combat
-TURN_BOMBARDMENT                  | Planetary Bombardment
-TURN_TRANSPORTS                   | Transports
-TURN_COLONIES                     | Colonization
-TURN_SPIES                        | Spy Activities
-TURN_REBELLION                    | Rebellions 
-TURN_COUNCIL                      | Council Status
-TURN_RESEARCH                     | Research
+TURN_SHIP_COMBAT                  | 舰队战斗
+TURN_BOMBARDMENT                  | 轰炸行星
+TURN_TRANSPORTS                   | 运输
+TURN_COLONIES                     | 殖民中
+TURN_SPIES                        | 间谍活动
+TURN_REBELLION                    | 起义
+TURN_COUNCIL                      | 议会状态
+TURN_RESEARCH                     | 研究
 TURN_ASSESS                       | Completing Internal
-TURN_DIPLOMACY                    | Diplomacy
-TURN_ACQUIRE_TECHS                | Learning Traded Techs
-TURN_MAKE_DECISIONS               | Making Decisions
-TURN_RECALC_DISTANCES             | Recalculating System Distances
-TURN_REFRESHING                   | Refreshing Views
-TURN_SCRAP_SHIPS                  | Scrapping Ships
-TURN_FLEET_PLANS                  | Fleet Plans
-TURN_DEPLOY_FLEETS                | Deploying Ships
-TURN_DEPLOY_FLEET_X               | Deploying Ships (%1/%2 completed)
-TURN_RETREAT_FLEETS               | Retreating Fleets
-TURN_DESIGN_SHIPS                 | Designing Ships
-TURN_COLONY_SPENDING              | Colony Allocations
+TURN_DIPLOMACY                    | 外交
+TURN_ACQUIRE_TECHS                | 学习交换科技
+TURN_MAKE_DECISIONS               | 决策
+TURN_RECALC_DISTANCES             | 重新计算星系距离
+TURN_REFRESHING                   | 刷新视窗
+TURN_SCRAP_SHIPS                  | 拆除舰船
+TURN_FLEET_PLANS                  | 舰队计划
+TURN_DEPLOY_FLEETS                | 部署舰船
+TURN_DEPLOY_FLEET_X               | 部署舰船 (已完成%1/%2)
+TURN_RETREAT_FLEETS               | 舰船撤退
+TURN_DESIGN_SHIPS                 | 设计舰船
+TURN_COLONY_SPENDING              | 殖民地分配
 
 // Fleet labels
 MAIN_FLEET_TITLE                  | [fleet_race]舰队
@@ -545,32 +545,32 @@ MAIN_RALLY_START                  | Start Rally
 MAIN_RALLY_STOP                   | Stop Rally
 
 // Transport labels
-MAIN_TRANSPORTS_EMPIRE            | %1 Transports
-MAIN_TRANSPORTS_COUNT             | %1 Transports
+MAIN_TRANSPORTS_EMPIRE            | %1 运输机
+MAIN_TRANSPORTS_COUNT             | %1 人员
 MAIN_TRANSPORTS_CANCEL            | 取消
-MAIN_TRANSPORTS_SHOW_DEST         | ETA to %1: %2 years
-MAIN_TRANSPORT_TITLE              | Sending Transports
-MAIN_TRANSPORT_ABANDON_TITLE      | Abandoning System
-MAIN_TRANSPORT_PROMPT             | Select a colonized system to send civilian or military transport ships to.
-MAIN_TRANSPORT_ABANDON_PROMPT     | Select a colonized system to evacuate all civilian transport ships to.
-MAIN_TRANSPORT_SELECT_POP         | Select civilian population to send (up to half of %1's population).
-MAIN_TRANSPORT_SELECT_TROOPS      | Select number of military units to send (up to half of %1's population).
-MAIN_TRANSPORT_POP_LABEL          | Population
-MAIN_TRANSPORT_TOTAL_POP_LABEL    | Total Population: %1
-MAIN_TRANSPORT_ETA                | Travel Time to %1: %2 Years
-MAIN_TRANSPORT_ERROR              | You must select a colonized system.
-MAIN_TRANSPORT_ABANDON_ERROR      | You must select a %1 system.
-MAIN_TRANSPORT_OUT_OF_RANGE       | This system is out of range of our military transports.
-MAIN_TRANSPORT_UNSCOUTED          | We cannot send transports to unscouted systems.
-MAIN_TRANSPORT_HOSTILE            | We do not have the technology to land in this environment.
-MAIN_TRANSPORT_NO_ROOM            | Warning - Target planet is at its maximum population!
-MAIN_TRANSPORT_SIZE_WARNING       | Warning - Target planet can only support %1 million!
-MAIN_TRANSPORT_NO_SELECTION       | No Selection
+MAIN_TRANSPORTS_SHOW_DEST         | 到达%1的预计耗时: %2 years
+MAIN_TRANSPORT_TITLE              | 输送人员
+MAIN_TRANSPORT_ABANDON_TITLE      | 遗弃星系
+MAIN_TRANSPORT_PROMPT             | 选择一个己方星系，派遣平民；或选择敌人星系，派遣军队。
+MAIN_TRANSPORT_ABANDON_PROMPT     | 选择一个星系来接收所有的人口
+MAIN_TRANSPORT_SELECT_POP         | 选择要派遣的平民数量 (至多为%1一半的人口)
+MAIN_TRANSPORT_SELECT_TROOPS      | 选择要派遣的军队数量 (至多为%1一半的人口)
+MAIN_TRANSPORT_POP_LABEL          | 人数
+MAIN_TRANSPORT_TOTAL_POP_LABEL    | 总人数: %1
+MAIN_TRANSPORT_ETA                | 到达%1的航行时间: %2年
+MAIN_TRANSPORT_ERROR              | 你必须选择一个已被殖民的星系。
+MAIN_TRANSPORT_ABANDON_ERROR      | 你必须选择一个 %1 星系。
+MAIN_TRANSPORT_OUT_OF_RANGE       | 这个星系在我们的军队输送范围之外。
+MAIN_TRANSPORT_UNSCOUTED          | 我们无法把人员输送到未探索的信息。
+MAIN_TRANSPORT_HOSTILE            | 我们没有登陆这个环境的技术。
+MAIN_TRANSPORT_NO_ROOM            | 警告 - 目标行星已达最大人口。
+MAIN_TRANSPORT_SIZE_WARNING       | 警告 - 目标行星只能再容纳%1百万人。
+MAIN_TRANSPORT_NO_SELECTION       | 未选择
 MAIN_TRANSPORT_CANCEL             | 取消
-MAIN_TRANSPORT_SEND               | Send Transports
-MAIN_TRANSPORT_ABANDON            | Abandon
-MAIN_TRANSPORT_CLEAR              | Clear Transports
-MAIN_TRANSPORT_SURRENDER          | Automatically surrender upon arrival
+MAIN_TRANSPORT_SEND               | 输送人员
+MAIN_TRANSPORT_ABANDON            | 确定遗弃
+MAIN_TRANSPORT_CLEAR              | 取消输送
+MAIN_TRANSPORT_SURRENDER          | 到达后自动投降
 
 // Colony labels
 MAIN_COLONY_HOMEWORLD             | %1 母星
@@ -624,7 +624,7 @@ MAIN_SCOUT_TITLE                  | 科学家归类了一个新的星系
 MAIN_SCOUT_SUBTITLE_1             | 我们的飞船已经完成这个星系的侦察
 MAIN_SCOUT_SUBTITLE_2             | Our astronomers have collected this data
 MAIN_SCOUT_SUBTITLE_3             | Our allies have shared this data
-MAIN_SCOUT_TYPE                   | 归类: %1      大小: %2
+MAIN_SCOUT_TYPE                   | 归类: %1      空间: %2
 MAIN_SCOUT_NO_PLANET              | 没有找到可生存星球。
 MAIN_SCOUT_HOSTILE_DESC           | 环境: 不宜居 - 人口增长减半。
 MAIN_SCOUT_FERTILE_DESC           | 环境: 宜居 - 人口增长加快50%。
