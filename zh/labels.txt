@@ -394,7 +394,7 @@ INTRO_BEGIN                       | 开始
 MAIN_NAVIGATION_GAME              | 游戏
 MAIN_NAVIGATION_DESIGN            | 设计
 MAIN_NAVIGATION_FLEETS            | 舰队
-MAIN_NAVIGATION_SYSTEMS           | Systems
+MAIN_NAVIGATION_SYSTEMS           | 星系
 MAIN_NAVIGATION_RACES             | 种族
 MAIN_NAVIGATION_COLONIES          | 殖民地
 MAIN_NAVIGATION_TECH              | 科技
@@ -430,11 +430,11 @@ MAIN_HELP_2G                      | 派遣殖民者去支援另一个殖民地�
 MAIN_HELP_2H                      | 彻底遗弃一个行星，把所有人口转移到另一个殖民地。
 MAIN_HELP_2I                      | 当前人口/最大人口。 100 represents a full home planet that has not been terraformed.
 MAIN_HELP_2J                      | 当前工厂数量/最大工厂数量。Maximum factories based on population and robotic controls technology.
-MAIN_HELP_2K                      | 给 system 插一面旗，让它在 galaxy map 里更突出
+MAIN_HELP_2K                      | 给星系插一面旗，让它在宇宙地图里更突出
 MAIN_HELP_2L                      | 国库里的存款数量。
 MAIN_HELP_2M                      | 6个研究领域的研究进展。
 MAIN_HELP_3A                      | 游戏：返回游戏菜单。你可以调整设置、保存、载入或开始新游戏。
-MAIN_HELP_3B                      | Systems：按不同主题展示 systems 的现状
+MAIN_HELP_3B                      | 星系：按不同主题展示星系的现状
 MAIN_HELP_3C                      | 舰队：大规模地控制舰队和舰船建造
 MAIN_HELP_3D                      | 设计：设计新的舰船。你可以采用最新的科技，并移除老的设计方案。
 MAIN_HELP_3E                      | 种族：已遭遇种族的信息展示和外交选择。
@@ -1850,7 +1850,7 @@ CREDITS_SOUND                     | Remi Agullo, Sound Designer
 CREDITS_TRANSLATOR                | 
 
 // Systems UI
-SYSTEMS_TITLE                     | Systems
+SYSTEMS_TITLE                     | 星系
 SYSTEMS_TAB_EXPLORE               | 探索
 SYSTEMS_TAB_EXPAND                | 扩张
 SYSTEMS_TAB_EXPLOIT               | 开发
