@@ -66,57 +66,57 @@ COMPUTER_0_ITEM    |
 COMPUTER_0_BRIEF   | 进攻等级0
 COMPUTER_0_DETAIL  |
 
-COMPUTER_1_NAME    | 战斗计算机1
+COMPUTER_1_NAME    | 制导系统1
 COMPUTER_1_ITEM    | 型号1
 COMPUTER_1_BRIEF   | 进攻等级1
 COMPUTER_1_DETAIL  | 将武器精准度提高到等级1.
 
-COMPUTER_2_NAME    | 战斗计算机2
+COMPUTER_2_NAME    | 制导系统2
 COMPUTER_2_ITEM    | 型号2
 COMPUTER_2_BRIEF   | 进攻等级2
 COMPUTER_2_DETAIL  | 将武器精准度提高到等级2.
 
-COMPUTER_3_NAME    | 战斗计算机3
+COMPUTER_3_NAME    | 制导系统3
 COMPUTER_3_ITEM    | 型号3
 COMPUTER_3_BRIEF   | 进攻等级3
 COMPUTER_3_DETAIL  | 将武器精准度提高到等级3.
 
-COMPUTER_4_NAME    | 战斗计算机4
+COMPUTER_4_NAME    | 制导系统4
 COMPUTER_4_ITEM    | 型号4
 COMPUTER_4_BRIEF   | 进攻等级4
 COMPUTER_4_DETAIL  | 将武器精准度提高到等级4.
 
-COMPUTER_5_NAME    | 战斗计算机5
+COMPUTER_5_NAME    | 制导系统5
 COMPUTER_5_ITEM    | 型号5
 COMPUTER_5_BRIEF   | 进攻等级5
 COMPUTER_5_DETAIL  | 将武器精准度提高到等级5.
 
-COMPUTER_6_NAME    | 战斗计算机6
+COMPUTER_6_NAME    | 制导系统6
 COMPUTER_6_ITEM    | 型号6
 COMPUTER_6_BRIEF   | 进攻等级6
 COMPUTER_6_DETAIL  | 将武器精准度提高到等级6.
 
-COMPUTER_7_NAME    | 战斗计算机7
+COMPUTER_7_NAME    | 制导系统7
 COMPUTER_7_ITEM    | 型号7
 COMPUTER_7_BRIEF   | 进攻等级7
 COMPUTER_7_DETAIL  | 将武器精准度提高到等级7.
 
-COMPUTER_8_NAME    | 战斗计算机8
+COMPUTER_8_NAME    | 制导系统8
 COMPUTER_8_ITEM    | 型号8
 COMPUTER_8_BRIEF   | 进攻等级8
 COMPUTER_8_DETAIL  | 将武器精准度提高到等级8.
 
-COMPUTER_9_NAME    | 战斗计算机9
+COMPUTER_9_NAME    | 制导系统9
 COMPUTER_9_ITEM    | 型号9
 COMPUTER_9_BRIEF   | 进攻等级9
 COMPUTER_9_DETAIL  | 将武器精准度提高到等级9.
 
-COMPUTER_10_NAME   | 战斗计算机10
+COMPUTER_10_NAME   | 制导系统10
 COMPUTER_10_ITEM   | 型号10
 COMPUTER_10_BRIEF  | 进攻等级10
 COMPUTER_10_DETAIL | 将武器精准度提高到等级10.
 
-COMPUTER_11_NAME   | 战斗计算机11
+COMPUTER_11_NAME   | 制导系统11
 COMPUTER_11_ITEM   | 型号11
 COMPUTER_11_BRIEF  | 进攻等级11
 COMPUTER_11_DETAIL | 将武器精准度提高到等级11.
@@ -506,236 +506,236 @@ ENGINE_8_BRIEF2  | 战场速度 %1
 //
 // Fuel Range techs
 //
-FUELRANGE_0_NAME   | Fuel Cells
-FUELRANGE_0_DETAIL | Fuel reserves allow ships to move up to %1 light-years away from colony planets.
+FUELRANGE_0_NAME   | 燃料电池
+FUELRANGE_0_DETAIL | 燃料储备能让飞船移动到殖民星球%1光年之外。
 
-FUELRANGE_1_NAME   | Hydrogen Fuel Cells
-FUELRANGE_1_DETAIL | Fuel reserves allow ships to move up to %1 light-years away from colony planets.
+FUELRANGE_1_NAME   | 氢燃料电池
+FUELRANGE_1_DETAIL | 燃料储备能让飞船移动到殖民星球%1光年之外。
 
-FUELRANGE_2_NAME   | Deuterium Fuel Cells
-FUELRANGE_2_DETAIL | Fuel reserves allow ships to move up to %1 light-years away from colony planets.
+FUELRANGE_2_NAME   | 甲醛燃料电池
+FUELRANGE_2_DETAIL | 燃料储备能让飞船移动到殖民星球%1光年之外。
 
-FUELRANGE_3_NAME   | Irridium Fuel Cells
-FUELRANGE_3_DETAIL | Fuel reserves allow ships to move up to %1 light-years away from colony planets.
+FUELRANGE_3_NAME   | 铱燃料电池
+FUELRANGE_3_DETAIL | 燃料储备能让飞船移动到殖民星球%1光年之外。
 
-FUELRANGE_4_NAME   | Dotomite Crystals
-FUELRANGE_4_DETAIL | Fuel reserves allow ships to move up to %1 light-years away from colony planets.
+FUELRANGE_4_NAME   | 云石结晶
+FUELRANGE_4_DETAIL | 燃料储备能让飞船移动到殖民星球%1光年之外。
 
-FUELRANGE_5_NAME   | Uridium Fuel Cells
-FUELRANGE_5_DETAIL | Fuel reserves allow ships to move up to %1 light-years away from colony planets.
+FUELRANGE_5_NAME   | 油铱燃料电池
+FUELRANGE_5_DETAIL | 燃料储备能让飞船移动到殖民星球%1光年之外。
 
-FUELRANGE_6_NAME   | Reajax II Fuel Cells
-FUELRANGE_6_DETAIL | Fuel reserves allow ships to move up to %1 light-years away from colony planets.
+FUELRANGE_6_NAME   | 雷钾燃料电池
+FUELRANGE_6_DETAIL | 燃料储备能让飞船移动到殖民星球%1光年之外。
 
-FUELRANGE_7_NAME   | Trilithium Crystals
-FUELRANGE_7_DETAIL | Fuel reserves allow ships to move up to %1 light-years away from colony planets.
+FUELRANGE_7_NAME   | 三锂结晶
+FUELRANGE_7_DETAIL | 燃料储备能让飞船移动到殖民星球%1光年之外。
 
-FUELRANGE_8_NAME   | Thorium Cells
-FUELRANGE_8_DETAIL | Fuel reserves allow ships to move any distance away from colony planets.
+FUELRANGE_8_NAME   | 钍电池
+FUELRANGE_8_DETAIL | 燃料储备能让飞船移动到任何地方。
 
 
 //
 // Future Computer techs
 //
-FUTURECOMP_0_NAME    | Future Computer I
-FUTURECOMP_0_DETAIL  | General Improvements in Computer Technology.
+FUTURECOMP_0_NAME    | 次世代电脑1代
+FUTURECOMP_0_DETAIL  | 提高计算科学技术。
 
-FUTURECOMP_1_NAME    | Future Computer II
-FUTURECOMP_1_DETAIL  | General Improvements in Computer Technology.
+FUTURECOMP_1_NAME    | 次世代电脑2代
+FUTURECOMP_1_DETAIL  | 提高计算科学技术
 
-FUTURECOMP_2_NAME    | Future Computer III
-FUTURECOMP_2_DETAIL  | General Improvements in Computer Technology.
+FUTURECOMP_2_NAME    | 次世代电脑3代
+FUTURECOMP_2_DETAIL  | 提高计算科学技术
 
-FUTURECOMP_3_NAME    | Future Computer IV
-FUTURECOMP_3_DETAIL  | General Improvements in Computer Technology.
+FUTURECOMP_3_NAME    | 次世代电脑4代
+FUTURECOMP_3_DETAIL  | 提高计算科学技术
 
-FUTURECOMP_4_NAME    | Future Computer V
-FUTURECOMP_4_DETAIL  | General Improvements in Computer Technology.
+FUTURECOMP_4_NAME    | 次世代电脑5代
+FUTURECOMP_4_DETAIL  | 提高计算科学技术
 
-FUTURECOMP_5_NAME    | Future Computer VI
-FUTURECOMP_5_DETAIL  | General Improvements in Computer Technology.
+FUTURECOMP_5_NAME    | 次世代电脑6代
+FUTURECOMP_5_DETAIL  | 提高计算科学技术
 
-FUTURECOMP_6_NAME    | Future Computer VII
-FUTURECOMP_6_DETAIL  | General Improvements in Computer Technology.
+FUTURECOMP_6_NAME    | 次世代电脑7代
+FUTURECOMP_6_DETAIL  | 提高计算科学技术
 
-FUTURECOMP_7_NAME    | Future Computer VIII
-FUTURECOMP_7_DETAIL  | General Improvements in Computer Technology.
+FUTURECOMP_7_NAME    | 次世代电脑8代
+FUTURECOMP_7_DETAIL  | 提高计算科学技术
 
-FUTURECOMP_8_NAME    | Future Computer IX
-FUTURECOMP_8_DETAIL  | General Improvements in Computer Technology.
+FUTURECOMP_8_NAME    | 次世代电脑9代
+FUTURECOMP_8_DETAIL  | 提高计算科学技术
 
-FUTURECOMP_9_NAME    | Future Computer X
-FUTURECOMP_9_DETAIL  | General Improvements in Computer Technology. 
+FUTURECOMP_9_NAME    | 次世代电脑10代
+FUTURECOMP_9_DETAIL  | 提高计算科学技术 
 
 
 //
 // Future Construction techs
 //
-FUTURECONST_0_NAME    | Future Construction I
-FUTURECONST_0_DETAIL  | General Improvements in Construction Technology.
+FUTURECONST_0_NAME    | 高级制造研究1阶
+FUTURECONST_0_DETAIL  | 提高制造研究的水平。
 
-FUTURECONST_1_NAME    | Future Construction II
-FUTURECONST_1_DETAIL  | General Improvements in Construction Technology.
+FUTURECONST_1_NAME    | 高级制造研究2阶
+FUTURECONST_1_DETAIL  | 提高制造研究的水平。
 
-FUTURECONST_2_NAME    | Future Construction III
-FUTURECONST_2_DETAIL  | General Improvements in Construction Technology.
+FUTURECONST_2_NAME    | 高级制造研究3阶
+FUTURECONST_2_DETAIL  | 提高制造研究的水平。
 
-FUTURECONST_3_NAME    | Future Construction IV
-FUTURECONST_3_DETAIL  | General Improvements in Construction Technology.
+FUTURECONST_3_NAME    | 高级制造研究4阶
+FUTURECONST_3_DETAIL  | 提高制造研究的水平。
 
-FUTURECONST_4_NAME    | Future Construction V
-FUTURECONST_4_DETAIL  | General Improvements in Construction Technology.
+FUTURECONST_4_NAME    | 高级制造研究5阶
+FUTURECONST_4_DETAIL  | 提高制造研究的水平。
 
-FUTURECONST_5_NAME    | Future Construction VI
-FUTURECONST_5_DETAIL  | General Improvements in Construction Technology.
+FUTURECONST_5_NAME    | 高级制造研究6阶
+FUTURECONST_5_DETAIL  | 提高制造研究的水平。
 
-FUTURECONST_6_NAME    | Future Construction VII
-FUTURECONST_6_DETAIL  | General Improvements in Construction Technology.
+FUTURECONST_6_NAME    | 高级制造研究7阶
+FUTURECONST_6_DETAIL  | 提高制造研究的水平。
 
-FUTURECONST_7_NAME    | Future Construction VIII
-FUTURECONST_7_DETAIL  | General Improvements in Construction Technology.
+FUTURECONST_7_NAME    | 高级制造研究8阶
+FUTURECONST_7_DETAIL  | 提高制造研究的水平。
 
-FUTURECONST_8_NAME    | Future Construction IX
-FUTURECONST_8_DETAIL  | General Improvements in Construction Technology.
+FUTURECONST_8_NAME    | 高级制造研究9阶
+FUTURECONST_8_DETAIL  | 提高制造研究的水平。
 
-FUTURECONST_9_NAME    | Future Construction X
-FUTURECONST_9_DETAIL  | General Improvements in Construction Technology. 
+FUTURECONST_9_NAME    | 高级制造研究10阶
+FUTURECONST_9_DETAIL  | 提高制造研究的水平。 
 
 
 //
 // Future Force Field techs
 //
-FUTUREFORCE_0_NAME    | Future Force Field I
-FUTUREFORCE_0_DETAIL  | General Improvements in Force Field Technology.
+FUTUREFORCE_0_NAME    | 高级力场研究1阶
+FUTUREFORCE_0_DETAIL  | 提高力场研究的水平。
 
-FUTUREFORCE_1_NAME    | Future Force Field II
-FUTUREFORCE_1_DETAIL  | General Improvements in Force Field Technology.
+FUTUREFORCE_1_NAME    | 高级力场研究2阶
+FUTUREFORCE_1_DETAIL  | 提高力场研究的水平。
 
-FUTUREFORCE_2_NAME    | Future Force Field III
-FUTUREFORCE_2_DETAIL  | General Improvements in Force Field Technology.
+FUTUREFORCE_2_NAME    | 高级力场研究3阶
+FUTUREFORCE_2_DETAIL  | 提高力场研究的水平。
 
-FUTUREFORCE_3_NAME    | Future Force Field IV
-FUTUREFORCE_3_DETAIL  | General Improvements in Force Field Technology.
+FUTUREFORCE_3_NAME    | 高级力场研究4阶
+FUTUREFORCE_3_DETAIL  | 提高力场研究的水平。
 
-FUTUREFORCE_4_NAME    | Future Force Field V
-FUTUREFORCE_4_DETAIL  | General Improvements in Force Field Technology.
+FUTUREFORCE_4_NAME    | 高级力场研究5阶
+FUTUREFORCE_4_DETAIL  | 提高力场研究的水平。
 
-FUTUREFORCE_5_NAME    | Future Force Field VI
-FUTUREFORCE_5_DETAIL  | General Improvements in Force Field Technology.
+FUTUREFORCE_5_NAME    | 高级力场研究6阶
+FUTUREFORCE_5_DETAIL  | 提高力场研究的水平。
 
-FUTUREFORCE_6_NAME    | Future Force Field VII
-FUTUREFORCE_6_DETAIL  | General Improvements in Force Field Technology.
+FUTUREFORCE_6_NAME    | 高级力场研究7阶
+FUTUREFORCE_6_DETAIL  | 提高力场研究的水平。
 
-FUTUREFORCE_7_NAME    | Future Force Field VIII
-FUTUREFORCE_7_DETAIL  | General Improvements in Force Field Technology.
+FUTUREFORCE_7_NAME    | 高级力场研究8阶
+FUTUREFORCE_7_DETAIL  | 提高力场研究的水平。
 
-FUTUREFORCE_8_NAME    | Future Force Field IX
-FUTUREFORCE_8_DETAIL  | General Improvements in Force Field Technology.
+FUTUREFORCE_8_NAME    | 高级力场研究9阶
+FUTUREFORCE_8_DETAIL  | 提高力场研究的水平。
 
-FUTUREFORCE_9_NAME    | Future Force Field X
-FUTUREFORCE_9_DETAIL  | General Improvements in Force Field Technology.
+FUTUREFORCE_9_NAME    | 高级力场研究10阶
+FUTUREFORCE_9_DETAIL  | 提高力场研究的水平。
 
 
 //
 // Future Planetology techs
 //
-FUTUREPLANET_0_NAME    | Future Planetology I
-FUTUREPLANET_0_DETAIL  | General Improvements in Planetology Technology.
+FUTUREPLANET_0_NAME    | 高级行星学1阶
+FUTUREPLANET_0_DETAIL  | 提高行星学研究水平。
 
-FUTUREPLANET_1_NAME    | Future Planetology II
-FUTUREPLANET_1_DETAIL  | General Improvements in Planetology Technology.
+FUTUREPLANET_1_NAME    | 高级行星学2阶
+FUTUREPLANET_1_DETAIL  | 提高行星学研究水平。
 
-FUTUREPLANET_2_NAME    | Future Planetology III
-FUTUREPLANET_2_DETAIL  | General Improvements in Planetology Technology.
+FUTUREPLANET_2_NAME    | 高级行星学3阶
+FUTUREPLANET_2_DETAIL  | 提高行星学研究水平。
 
-FUTUREPLANET_3_NAME    | Future Planetology IV
-FUTUREPLANET_3_DETAIL  | General Improvements in Planetology Technology.
+FUTUREPLANET_3_NAME    | 高级行星学4阶
+FUTUREPLANET_3_DETAIL  | 提高行星学研究水平。
 
-FUTUREPLANET_4_NAME    | Future Planetology V
-FUTUREPLANET_4_DETAIL  | General Improvements in Planetology Technology.
+FUTUREPLANET_4_NAME    | 高级行星学5阶
+FUTUREPLANET_4_DETAIL  | 提高行星学研究水平。
 
-FUTUREPLANET_5_NAME    | Future Planetology VI
-FUTUREPLANET_5_DETAIL  | General Improvements in Planetology Technology.
+FUTUREPLANET_5_NAME    | 高级行星学6阶
+FUTUREPLANET_5_DETAIL  | 提高行星学研究水平。
 
-FUTUREPLANET_6_NAME    | Future Planetology VII
-FUTUREPLANET_6_DETAIL  | General Improvements in Planetology Technology.
+FUTUREPLANET_6_NAME    | 高级行星学7阶
+FUTUREPLANET_6_DETAIL  | 提高行星学研究水平。
 
-FUTUREPLANET_7_NAME    | Future Planetology VIII
-FUTUREPLANET_7_DETAIL  | General Improvements in Planetology Technology.
+FUTUREPLANET_7_NAME    | 高级行星学8阶
+FUTUREPLANET_7_DETAIL  | 提高行星学研究水平。
 
-FUTUREPLANET_8_NAME    | Future Planetology IX
-FUTUREPLANET_8_DETAIL  | General Improvements in Planetology Technology.
+FUTUREPLANET_8_NAME    | 高级行星学9阶
+FUTUREPLANET_8_DETAIL  | 提高行星学研究水平。
 
-FUTUREPLANET_9_NAME    | Future Planetology X
-FUTUREPLANET_9_DETAIL  | General Improvements in Planetology Technology.
+FUTUREPLANET_9_NAME    | 高级行星学10阶
+FUTUREPLANET_9_DETAIL  | 提高行星学研究水平。
 
 
 //
 // Future Propulsion techs
 //
-FUTUREPROP_0_NAME    | Future Propulsion I
-FUTUREPROP_0_DETAIL  | General Improvements in Propulsion Technology.
+FUTUREPROP_0_NAME    | 高级动力学1阶
+FUTUREPROP_0_DETAIL  | 提高动力学水平。
 
-FUTUREPROP_1_NAME    | Future Propulsion II
-FUTUREPROP_1_DETAIL  | General Improvements in Propulsion Technology.
+FUTUREPROP_1_NAME    | 高级动力学2阶
+FUTUREPROP_1_DETAIL  | 提高动力学水平。
 
-FUTUREPROP_2_NAME    | Future Propulsion III
-FUTUREPROP_2_DETAIL  | General Improvements in Propulsion Technology.
+FUTUREPROP_2_NAME    | 高级动力学3阶
+FUTUREPROP_2_DETAIL  | 提高动力学水平。
 
-FUTUREPROP_3_NAME    | Future Propulsion IV
-FUTUREPROP_3_DETAIL  | General Improvements in Propulsion Technology.
+FUTUREPROP_3_NAME    | 高级动力学4阶
+FUTUREPROP_3_DETAIL  | 提高动力学水平。
 
-FUTUREPROP_4_NAME    | Future Propulsion V
-FUTUREPROP_4_DETAIL  | General Improvements in Propulsion Technology.
+FUTUREPROP_4_NAME    | 高级动力学5阶
+FUTUREPROP_4_DETAIL  | 提高动力学水平。
 
-FUTUREPROP_5_NAME    | Future Propulsion VI
-FUTUREPROP_5_DETAIL  | General Improvements in Propulsion Technology.
+FUTUREPROP_5_NAME    | 高级动力学6阶
+FUTUREPROP_5_DETAIL  | 提高动力学水平。
 
-FUTUREPROP_6_NAME    | Future Propulsion VII
-FUTUREPROP_6_DETAIL  | General Improvements in Propulsion Technology.
+FUTUREPROP_6_NAME    | 高级动力学7阶
+FUTUREPROP_6_DETAIL  | 提高动力学水平。
 
-FUTUREPROP_7_NAME    | Future Propulsion VIII
-FUTUREPROP_7_DETAIL  | General Improvements in Propulsion Technology.
+FUTUREPROP_7_NAME    | 高级动力学8阶
+FUTUREPROP_7_DETAIL  | 提高动力学水平。
 
-FUTUREPROP_8_NAME    | Future Propulsion IX
-FUTUREPROP_8_DETAIL  | General Improvements in Propulsion Technology.
+FUTUREPROP_8_NAME    | 高级动力学9阶
+FUTUREPROP_8_DETAIL  | 提高动力学水平。
 
-FUTUREPROP_9_NAME    | Future Propulsion X
-FUTUREPROP_9_DETAIL  | General Improvements in Propulsion Technology.
+FUTUREPROP_9_NAME    | 高级动力学10阶
+FUTUREPROP_9_DETAIL  | 提高动力学水平。
 
 
 //
 // Future Weapon techs
 //
-FUTUREWEAPON_0_NAME    | Future Weapon I
-FUTUREWEAPON_0_DETAIL  | General Improvements in Weapon Technology.
+FUTUREWEAPON_0_NAME    | 高级武器研究1阶
+FUTUREWEAPON_0_DETAIL  | 提高武器技术。
 
-FUTUREWEAPON_1_NAME    | Future Weapon II
-FUTUREWEAPON_1_DETAIL  | General Improvements in Weapon Technology.
+FUTUREWEAPON_1_NAME    | 高级武器研究2阶
+FUTUREWEAPON_1_DETAIL  | 提高武器技术。
 
-FUTUREWEAPON_2_NAME    | Future Weapon III
-FUTUREWEAPON_2_DETAIL  | General Improvements in Weapon Technology.
+FUTUREWEAPON_2_NAME    | 高级武器研究3阶
+FUTUREWEAPON_2_DETAIL  | 提高武器技术。
 
-FUTUREWEAPON_3_NAME    | Future Weapon IV
-FUTUREWEAPON_3_DETAIL  | General Improvements in Weapon Technology.
+FUTUREWEAPON_3_NAME    | 高级武器研究4阶
+FUTUREWEAPON_3_DETAIL  | 提高武器技术。
 
-FUTUREWEAPON_4_NAME    | Future Weapon V
-FUTUREWEAPON_4_DETAIL  | General Improvements in Weapon Technology.
+FUTUREWEAPON_4_NAME    | 高级武器研究5阶
+FUTUREWEAPON_4_DETAIL  | 提高武器技术。
 
-FUTUREWEAPON_5_NAME    | Future Weapon VI
-FUTUREWEAPON_5_DETAIL  | General Improvements in Weapon Technology.
+FUTUREWEAPON_5_NAME    | 高级武器研究6阶
+FUTUREWEAPON_5_DETAIL  | 提高武器技术。
 
-FUTUREWEAPON_6_NAME    | Future Weapon VII
-FUTUREWEAPON_6_DETAIL  | General Improvements in Weapon Technology.
+FUTUREWEAPON_6_NAME    | 高级武器研究7阶
+FUTUREWEAPON_6_DETAIL  | 提高武器技术。
 
-FUTUREWEAPON_7_NAME    | Future Weapon VIII
-FUTUREWEAPON_7_DETAIL  | General Improvements in Weapon Technology.
+FUTUREWEAPON_7_NAME    | 高级武器研究8阶
+FUTUREWEAPON_7_DETAIL  | 提高武器技术。
 
-FUTUREWEAPON_8_NAME    | Future Weapon IX
-FUTUREWEAPON_8_DETAIL  | General Improvements in Weapon Technology.
+FUTUREWEAPON_8_NAME    | 高级武器研究9阶
+FUTUREWEAPON_8_DETAIL  | 提高武器技术。
 
-FUTUREWEAPON_9_NAME    | Future Weapon X
-FUTUREWEAPON_9_DETAIL  | General Improvements in Weapon Technology. 
+FUTUREWEAPON_9_NAME    | 高级武器研究10阶
+FUTUREWEAPON_9_DETAIL  | 提高武器技术。 
 
 
 //
@@ -744,20 +744,20 @@ FUTUREWEAPON_9_DETAIL  | General Improvements in Weapon Technology.
 HANDWEAPON_0_NAME      | 
 HANDWEAPON_0_DETAIL    | 
 
-HANDWEAPON_1_NAME      | Hand Lasers
-HANDWEAPON_1_DETAIL    | Personal lasers that add 5 to your ground combat rolls.
+HANDWEAPON_1_NAME      | 手持镭射枪
+HANDWEAPON_1_DETAIL    | 单体镭射枪，地面部队的战斗点数+5。
 
-HANDWEAPON_2_NAME      | Ion Rifle
-HANDWEAPON_2_DETAIL    | Personal beam weapons that add 10 points to your ground attacks.
+HANDWEAPON_2_NAME      | 离子步枪
+HANDWEAPON_2_DETAIL    | 单体激光武器，地面部队的战斗点数+10。
 
-HANDWEAPON_3_NAME      | Fusion Rifle
-HANDWEAPON_3_DETAIL    | Inaccurate but incredibly powerful beam weapons that add 20 points to your ground combat rolls.
+HANDWEAPON_3_NAME      | 聚变步枪
+HANDWEAPON_3_DETAIL    | 不稳定但强大的激光武器，地面部队的战斗点数+20。
 
-HANDWEAPON_4_NAME      | Hand Phasor
-HANDWEAPON_4_DETAIL    | Potent hand-held energy weapons capable of reducing an opponent to his component atoms. Adds 25 to your ground combat rolls.
+HANDWEAPON_4_NAME      | 向量步枪
+HANDWEAPON_4_DETAIL    | 强大的手持能量武器，遭到攻击的敌人会被原子化。 地面部队的战斗点数+25。
 
-HANDWEAPON_5_NAME      | Plasma Rifle
-HANDWEAPON_5_DETAIL    | The most devastating hand-held weapon available. Adds 30 to your ground attacks.
+HANDWEAPON_5_NAME      | 等离子步枪
+HANDWEAPON_5_DETAIL    | 最有破坏力的手持武器。地面部队的战斗点数+30。
 
 
 //
@@ -770,154 +770,162 @@ HYPERSPACE_0_DETAIL    | Allows you to communicate with ship fleets in hyperspac
 //
 // Improved Industrial techs
 //
-IMPRINDUSTRY_0_NAME     | Improved Industrial Tech 9
-IMPRINDUSTRY_0_DETAIL   | Reduces factory construction costs to 9 BC each.
+IMPRINDUSTRY_0_NAME     | 工业产出优化9
+IMPRINDUSTRY_0_DETAIL   | 将每格工厂的价格降低为9BC。
 
-IMPRINDUSTRY_1_NAME     | Improved Industrial Tech 8
-IMPRINDUSTRY_1_DETAIL   | Reduces factory construction costs to 8 BC each.
 
-IMPRINDUSTRY_2_NAME     | Improved Industrial Tech 7
-IMPRINDUSTRY_2_DETAIL   | Reduces factory construction costs to 7 BC each.
+IMPRINDUSTRY_1_NAME     | 工业产出优化8
+IMPRINDUSTRY_1_DETAIL   | 将每格工厂的价格降低为8BC。
 
-IMPRINDUSTRY_3_NAME     | Improved Industrial Tech 6
-IMPRINDUSTRY_3_DETAIL   | Reduces factory construction costs to 6 BC each.
+IMPRINDUSTRY_2_NAME     | 工业产出优化7
+IMPRINDUSTRY_2_DETAIL   | 将每格工厂的价格降低为7BC。
 
-IMPRINDUSTRY_4_NAME     | Improved Industrial Tech 5
-IMPRINDUSTRY_4_DETAIL   | Reduces factory construction costs to 5 BC each.
+IMPRINDUSTRY_3_NAME     | 工业产出优化6
+IMPRINDUSTRY_3_DETAIL   | 将每格工厂的价格降低为6BC。
 
-IMPRINDUSTRY_5_NAME     | Improved Industrial Tech 4
-IMPRINDUSTRY_5_DETAIL   | Reduces factory construction costs to 4 BC each.
+IMPRINDUSTRY_4_NAME     | 工业产出优化5
+IMPRINDUSTRY_4_DETAIL   | 将每格工厂的价格降低为5BC。
 
-IMPRINDUSTRY_6_NAME     | Improved Industrial Tech 3
-IMPRINDUSTRY_6_DETAIL   | Reduces factory construction costs to 3 BC each.
+IMPRINDUSTRY_5_NAME     | 工业产出优化4
+IMPRINDUSTRY_5_DETAIL   | 将每格工厂的价格降低为4BC。
 
-IMPRINDUSTRY_7_NAME     | Improved Industrial Tech 2
-IMPRINDUSTRY_7_DETAIL   | Reduces factory construction costs to 2 BC each.
+IMPRINDUSTRY_6_NAME     | 工业产出优化3
+IMPRINDUSTRY_6_DETAIL   | 将每格工厂的价格降低为3BC。
+
+IMPRINDUSTRY_7_NAME     | 工业产出优化2
+IMPRINDUSTRY_7_DETAIL   | 将每格工厂的价格降低为2BC。
 
 
 //
 // Improved Terraforming techs
 //
-IMPRTFORM_0_NAME        | Improved Terraforming +10
-IMPRTFORM_0_DETAIL      | Increases the population capacity of planets by 10M for a cost of 5 BC per million.
+IMPRTFORM_0_NAME        | 环境改造+10
+IMPRTFORM_0_DETAIL      | 以每单位人口5BC的成本，把行星人口增加10。
 
-IMPRTFORM_1_NAME        | Improved Terraforming +20
-IMPRTFORM_1_DETAIL      | Increases the population capacity of planets by 20M for a cost of 5 BC per million.
 
-IMPRTFORM_2_NAME        | Improved Terraforming +30
-IMPRTFORM_2_DETAIL      | Increases the population capacity of planets by 30M for a cost of 4 BC per million.
+IMPRTFORM_1_NAME        | 环境改造+20
+IMPRTFORM_1_DETAIL      | 以每单位人口5BC的成本，把行星人口增加20。
 
-IMPRTFORM_3_NAME        | Improved Terraforming +40
-IMPRTFORM_3_DETAIL      | Increases the population capacity of planets by 40M for a cost of 4 BC per million.
+IMPRTFORM_2_NAME        | 环境改造+30
+IMPRTFORM_2_DETAIL      | 以每单位人口4BC的成本，把行星人口增加30。
 
-IMPRTFORM_4_NAME        | Improved Terraforming +50
-IMPRTFORM_4_DETAIL      | Increases the population capacity of planets by 50M for a cost of 3 BC per million.
+IMPRTFORM_3_NAME        | 环境改造+40
+IMPRTFORM_3_DETAIL      | 以每单位人口4BC的成本，把行星人口增加40。
 
-IMPRTFORM_5_NAME        | Improved Terraforming +60
-IMPRTFORM_5_DETAIL      | Increases the population capacity of planets by 60M for a cost of 3 BC per million.
+IMPRTFORM_4_NAME        | 环境改造+50
+IMPRTFORM_4_DETAIL      | 以每单位人口3BC的成本，把行星人口增加50。
 
-IMPRTFORM_6_NAME        | Improved Terraforming +80
-IMPRTFORM_6_DETAIL      | Increases the population capacity of planets by 80M for a cost of 2 BC per million.
+IMPRTFORM_5_NAME        | 环境改造+60
+IMPRTFORM_5_DETAIL      | 以每单位人口3BC的成本，把行星人口增加60。
 
-IMPRTFORM_7_NAME        | Improved Terraforming +100
-IMPRTFORM_7_DETAIL      | Increases the population capacity of planets by 100M for a cost of 2 BC per million.
+IMPRTFORM_6_NAME        | 环境改造+80
+IMPRTFORM_6_DETAIL      | 以每单位人口2BC的成本，把行星人口增加80。
 
-IMPRTFORM_8_NAME        | Complete Terraforming
-IMPRTFORM_8_DETAIL      | Increases the population capacity of planets by 120M for a cost of 2 BC per million.
+IMPRTFORM_7_NAME        | 环境改造+100
+IMPRTFORM_7_DETAIL      | 以每单位人口2BC的成本，把行星人口增加100。
+
+IMPRTFORM_8_NAME        | 彻底环境改造
+IMPRTFORM_8_DETAIL      | 以每单位人口2BC的成本，把行星人口增加120。
 
 
 //
 // Industrial Waste techs
 //
-INDWASTE_0_NAME         | Reduced Industrial Waste 80%
-INDWASTE_0_DETAIL       | Decreases factory pollution levels to 80% of the normal rate.
+INDWASTE_0_NAME         | 工业排污减少80%
+INDWASTE_0_DETAIL       | 工厂造成的污染是正常水平的80%。
 
-INDWASTE_1_NAME         | Reduced Industrial Waste 60%
-INDWASTE_1_DETAIL       | Decreases factory pollution levels to 60% of the normal rate.
+INDWASTE_1_NAME         | 工业排污减少60%
+INDWASTE_1_DETAIL       | 工厂造成的污染是正常水平的60%。
 
-INDWASTE_2_NAME         | Reduced Industrial Waste 40%
-INDWASTE_2_DETAIL       | Decreases factory pollution levels to 40% of the normal rate.
+INDWASTE_2_NAME         | 工业排污减少40%
+INDWASTE_2_DETAIL       | 工厂造成的污染是正常水平的40%。
 
-INDWASTE_3_NAME         | Reduced Industrial Waste 20%
-INDWASTE_3_DETAIL       | Decreases factory pollution levels to 20% of the normal rate.
+INDWASTE_3_NAME         | 工业排污减少20%
+INDWASTE_3_DETAIL       | 工厂造成的污染是正常水平的20%。
 
-INDWASTE_4_NAME         | Industrial Waste Elimination
-INDWASTE_4_DETAIL       | Factories cease to pollute.
+INDWASTE_4_NAME         | 工业0排污
+INDWASTE_4_DETAIL       | 工厂不再制造污染。
 
 
 //
 // Missile Defense techs
 //
-MISSDEF_0_NAME      | Anti-Missile Rockets
-MISSDEF_0_BRIEF     | 40% chance missiles destroyed
-MISSDEF_0_DETAIL    | Trans-light rockets capable of destroying incoming enemy missiles 40% of the time, -1% per technology level of the missile.
+MISSDEF_0_NAME      | 反导弹火箭
+MISSDEF_0_BRIEF     | 40%的概率摧毁导弹
+MISSDEF_0_DETAIL    | 超光速火箭。能够以40%的概率摧毁以自己为目标的导弹。对方导弹等级每提高1级，效果降低1%。
 
-MISSDEF_1_NAME      | Zyro Shield
-MISSDEF_1_BRIEF     | 75% chance missiles destroyed
-MISSDEF_1_DETAIL    | An energy field that destroys incoming enemy missiles and torpedoes 75% of the time, -1% per technology level of the missile.
+MISSDEF_1_NAME      | 零之盾
+MISSDEF_1_BRIEF     | 75%的概率摧毁导弹
+MISSDEF_1_DETAIL    | 初级能量盾。能够以75%的概率摧毁以自己为目标的导弹。对方导弹等级每提高1级，效果降低1%。
 
-MISSDEF_2_NAME      | Lightning Shield
-MISSDEF_2_BRIEF     | 100% chance missiles destroyed
-MISSDEF_2_DETAIL    | An energy field that destroys incoming enemy missiles and torpedoes 100% of the time, -1% per technology level of the missile.
 
+MISSDEF_2_NAME      | 闪电盾
+MISSDEF_2_BRIEF     | 100%的概率摧毁导弹
+MISSDEF_2_DETAIL    | 高级能量盾。能够以100%的概率摧毁以自己为目标的导弹。对方导弹等级每提高1级，效果降低1%。
 
 //
 // Missile Weapon techs
 //
-MISSWPN_0_NAME      | Nuclear Missile
-MISSWPN_0_BRIEF     | 2 shots, +1 speed
-MISSWPN_0_BRIEF2    | 5 shots
-MISSWPN_0_DETAIL    | Missiles tipped with nuclear warheads that explode for 4 points of damage and move at a speed of 2.
+MISSWPN_0_NAME      | 核导弹
+MISSWPN_0_BRIEF     | 2 发, +1 速度
+MISSWPN_0_BRIEF2    | 5 发
+MISSWPN_0_DETAIL    | 搭载核弹头的导弹，爆炸时造成4点伤害，移动速度为2。
 
-MISSWPN_1_NAME      | Hyper-V Rockets
-MISSWPN_1_BRIEF     | 2 shots, +1 speed
-MISSWPN_1_BRIEF2    | 5 shots
-MISSWPN_1_DETAIL    | Swift missiles that explode for 6 points of damage and move at a speed of 2.5.
 
-MISSWPN_2_NAME      | Hyper-X Rockets
-MISSWPN_2_BRIEF     | 2 shots, +1 to hit
-MISSWPN_2_BRIEF2    | 5 shots, +1 to hit
-MISSWPN_2_DETAIL    | Missiles equipped with high energy warheads that explode for 8 points of damage, move at a speed of 2.5, and are controlled by a +1 level targeting computer.
+MISSWPN_1_NAME      | 五号火箭弹
+MISSWPN_1_BRIEF     | 2 发, +1 速度
+MISSWPN_1_BRIEF2    | 5 发
+MISSWPN_1_DETAIL    | 高速导弹，爆炸时造成6点伤害，移动速度为2.5。
 
-MISSWPN_3_NAME      | Scatter Pack V Rockets
-MISSWPN_3_BRIEF     | 2 shots, +1 speed
-MISSWPN_3_BRIEF2    | 5 shots
-MISSWPN_3_DETAIL    | Mirv versions of Hyper-V Rockets, splitting into five separate warheads that each explode for 6 points of damage and move at a speed of 2.5.
 
-MISSWPN_4_NAME      | Merculite Missiles
-MISSWPN_4_BRIEF     | 2 shots, +2 to hit
-MISSWPN_4_BRIEF2    | 5 shots, +2 to hit
-MISSWPN_4_DETAIL    | Hard-hitting, swift missiles that explode for 10 points of damage, move at a speed of 3, and are controlled by a +2 targeting computer.
+MISSWPN_2_NAME      | 十号火箭弹
+MISSWPN_2_BRIEF     | 2 发, +1 制导
+MISSWPN_2_BRIEF2    | 5 发, +1 制导
+MISSWPN_2_DETAIL    | 装载了高能弹头的导弹，爆炸时造成8点伤害，移动速度为2.5，制导系统等级+1。
 
-MISSWPN_5_NAME      | Stinger Missiles
-MISSWPN_5_BRIEF     | 2 shots, +3 to hit
-MISSWPN_5_BRIEF2    | 5 shots, +3 to hit
-MISSWPN_5_DETAIL    | Slow, hyper-accurate missiles to do 15 points of damage, move at a speed of 3.5, and are controlled by a sophisticated +3 targeting computer.
+MISSWPN_3_NAME      | 5弹头分离式火箭弹
+MISSWPN_3_BRIEF     | 2 发, +1 速度
+MISSWPN_3_BRIEF2    | 5 发
+MISSWPN_3_DETAIL    | 多弹头型号的五号火箭弹，能在空中分离出5个弹头，每个造成6点伤害，移动速度为2.5。
 
-MISSWPN_6_NAME      | Scatter Pack VII Missiles
-MISSWPN_6_BRIEF     | 2 shots, MIRVS to 7
-MISSWPN_6_BRIEF2    | 5 shots, MIRVS to 7
-MISSWPN_6_DETAIL    | MIRV versions of Hyper-X Rockets, splitting into 7 separate warheads that each explode for 10 points of damage, move at a speed of 3, and are guided by a +2 targeting computer.
+MISSWPN_4_NAME      | 水星导弹
+MISSWPN_4_BRIEF     | 2 发, +2 制导
+MISSWPN_4_BRIEF2    | 5 发, +2 制导
+MISSWPN_4_DETAIL    | 强力的高速导弹，爆炸时造成10点伤害，移动速度为2，制导系统等级+2。
 
-MISSWPN_7_NAME      | Pulson Missiles
-MISSWPN_7_BRIEF     | 2 shots, +4 to hit
-MISSWPN_7_BRIEF2    | 5 shots, +4 to hit
-MISSWPN_7_DETAIL    | Powerful missiles equipped with anti-matter warheads that explode for 20 points of damage, move at speed 4, and are controlled by a +4 targeting computer.
+MISSWPN_5_NAME      | 毒刺导弹
+MISSWPN_5_BRIEF     | 2 发, +3 制导
+MISSWPN_5_BRIEF2    | 5 发, +3 制导
+MISSWPN_5_DETAIL    | 非常精准的导弹。造成15点伤害，移动速度3.5，制导系统等级+3。
 
-MISSWPN_8_NAME      | Hercular Missiles
-MISSWPN_8_BRIEF     | 2 shots, +5 to hit
-MISSWPN_8_BRIEF2    | 5 shots, +5 to hit
-MISSWPN_8_DETAIL    | Highly advanced missile that explodes for 25 points of damage. The hercular missiles moves at speed 4.5 and is controlled by a +5 targeting computer.
+MISSWPN_6_NAME      | 7弹头分离式火箭弹
+MISSWPN_6_BRIEF     | 2 发, 分离弹头 7
+MISSWPN_6_BRIEF2    | 5 发, 分离弹头 7
+MISSWPN_6_DETAIL    | 多弹头型号的五号火箭弹，能在空中分离出7个弹头，每个造成10点伤害，移动速度为3，制导系统等级+2。
 
-MISSWPN_9_NAME      | Zeon Missiles
-MISSWPN_9_BRIEF     | 2 shots, +6 to hit
-MISSWPN_9_BRIEF2    | 5 shots, +6 to hit
-MISSWPN_9_DETAIL    | Most advanced missile available. Capable of striking enemy ships for 30 points of damage and moving at a speed of 5. The missile is guided by a +6 targeting computer.
 
-MISSWPN_10_NAME      | Scatter Pack X Missiles
-MISSWPN_10_BRIEF     | 2 shots, MIRVS to 10
-MISSWPN_10_BRIEF2    | 5 shots, MIRVS to 10
-MISSWPN_10_DETAIL    | MIRV versions of Stinger Missiles, splitting into 10 separate warheads that each explode for 15 points of damage, move at speed 3.5, and are guided by a +3 targeting computer.
+MISSWPN_7_NAME      | 脉冲导弹
+MISSWPN_7_BRIEF     | 2 发, +4 制导
+MISSWPN_7_BRIEF2    | 5 发, +4 制导
+MISSWPN_7_DETAIL    | 搭载了反物质弹头的导弹，爆炸时造成20点伤害，移动速度为4，制导系统等级+4。
+
+
+MISSWPN_8_NAME      | 赫拉克勒斯导弹
+MISSWPN_8_BRIEF     | 2 发, +5 制导
+MISSWPN_8_BRIEF2    | 5 发, +5 制导
+MISSWPN_8_DETAIL    | 先进的导弹，爆炸时造成25伤害，移动速度为4.5，制导系统等级+5。
+
+
+MISSWPN_9_NAME      | 锡安导弹
+MISSWPN_9_BRIEF     | 2 发, +6 制导
+MISSWPN_9_BRIEF2    | 5 发, +6 制导
+MISSWPN_9_DETAIL    | 导弹技术的精华产物，造成30点伤害，移动速度为5，制导系统等级+6。
+
+
+MISSWPN_10_NAME      | 10弹头分离式导弹
+MISSWPN_10_BRIEF     | 2 发, 分离弹头 10
+MISSWPN_10_BRIEF2    | 5 发, 分离弹头 10
+MISSWPN_10_DETAIL    | 多弹头型号的毒刺导弹，能分离出10个弹头，每个弹头造成15点伤害，速度为3.5，制导系统等级+3。
 
 
 //
@@ -927,97 +935,102 @@ MISSWPN_10_DETAIL    | MIRV versions of Stinger Missiles, splitting into 10 sepa
 PERSSHIELD_0_NAME     | 
 PERSSHIELD_0_DETAIL   | 
 
-PERSSHIELD_1_NAME     | Personal Deflector Shield
-PERSSHIELD_1_DETAIL   | Protects individuals ground troops with a directional force field. Adds +10 to all ground combat battles.
+PERSSHIELD_1_NAME     | 单兵力场盾
+PERSSHIELD_1_DETAIL   | 为地面部队提供单方向的立场盾。地面战斗的点数+10。
 
-PERSSHIELD_2_NAME     | Personal Absorption Shield
-PERSSHIELD_2_DETAIL   | Absorbs damage from all hand weapons. Adds +20 to all ground combat battles.
 
-PERSSHIELD_3_NAME     | Personal Barrier Shield
-PERSSHIELD_3_DETAIL   | Completely encases the soldier in a nearly impenetrable force field. Adds +30 to all ground combat rolls.
+PERSSHIELD_2_NAME     | 单兵吸收盾
+PERSSHIELD_2_DETAIL   | 吸收手持武器的伤害。地面战斗的点数+20。
+
+PERSSHIELD_3_NAME     | 单兵无限盾
+PERSSHIELD_3_DETAIL   | 将士兵包围在一个几乎不可穿透的力场终。地面战斗的点数+30。
 
 
 //
 // Planetary Shield techs 
 //
-PLANETSHIELD_0_NAME    | Class V Planetary Shields
-PLANETSHIELD_0_DETAIL  | Absorbs 5 points of damage from all attacks against planet surfaces, adding to missile base deflector shields.
+PLANETSHIELD_0_NAME    | 5级行星盾
+PLANETSHIELD_0_DETAIL  | 吸收5点对行星地表造成的伤害，增强导弹基地的力场盾等级。
 
-PLANETSHIELD_1_NAME    | Class X Planetary Shields
-PLANETSHIELD_1_DETAIL  | Absorbs 10 points of damage from all attacks against planet surfaces, adding to missile base deflector shields.
+PLANETSHIELD_1_NAME    | 10级行星盾
+PLANETSHIELD_1_DETAIL  | 吸收10点对行星地表造成的伤害，增强导弹基地的力场盾等级。
 
-PLANETSHIELD_2_NAME    | Class XV Planetary Shields
-PLANETSHIELD_2_DETAIL  | Absorbs 15 points of damage from all attacks against planet surfaces, adding to missile base deflector shields.
+PLANETSHIELD_2_NAME    | 15级行星盾
+PLANETSHIELD_2_DETAIL  | 吸收15点对行星地表造成的伤害，增强导弹基地的力场盾等级。
 
-PLANETSHIELD_3_NAME    | Class XX Planetary Shields
-PLANETSHIELD_3_DETAIL  | Absorbs 20 points of damage from all attacks against planet surfaces, adding to missile base deflector shields.
+PLANETSHIELD_3_NAME    | 20级行星盾
+PLANETSHIELD_3_DETAIL  | 吸收20点对行星地表造成的伤害，增强导弹基地的力场盾等级。
 
 
 //
 // Repulsor tech 
 //
-REPULSOR_0_NAME    | Repulsor Beam
-REPULSOR_0_BRIEF   | Moves enemy ships back 1 space
-REPULSOR_0_DETAIL  | Repels enemy ships back one space away from the defending ship. This special weapon has a one-space range.
+REPULSOR_0_NAME    | 弹射激光
+REPULSOR_0_BRIEF   | 将敌方飞船弹开1格
+REPULSOR_0_DETAIL  | 将敌方飞船从防御飞船的身边弹开1格，这个武器对1格内的敌人起作用。
+
+
 
 
 //
 // Reserve Fuel tech 
 //
-RSRVFUEL_0_NAME    | Reserve Fuel Tanks
-RSRVFUEL_0_BRIEF   | Extends Ship Range by %1 light-years
-RSRVFUEL_0_DETAIL  | Reserve Fuel Tanks increase a ship's range.
+RSRVFUEL_0_NAME    | 备用燃料箱
+RSRVFUEL_0_BRIEF   | 将飞船的航行距离提高%1光年
+RSRVFUEL_0_DETAIL  | 备用燃料箱可以提高飞船的航行距离
 
 
 //
 // Robotic Controls techs 
 //
-ROBOTCTRL_0_NAME     | Improved Robotic Controls III
-ROBOTCTRL_0_DETAIL   | Allows 3 factories to be operated per population. The refit cost to upgrade is half the standard cost of each factory.
+ROBOTCTRL_0_NAME     | 自动化控制3阶
+ROBOTCTRL_0_DETAIL   | 允许每单位人口控制2个工厂。升级改装成本等于工厂的制造成本。
 
-ROBOTCTRL_1_NAME     | Improved Robotic Controls IV
-ROBOTCTRL_1_DETAIL   | Allows 4 factories to be operated per population. The refit cost to upgrade is the standard cost of each factory.
+ROBOTCTRL_1_NAME     | 自动化控制4阶
+ROBOTCTRL_1_DETAIL   | 允许每单位人口控制4个工厂。升级改装成本等于工厂的制造成本。
 
-ROBOTCTRL_2_NAME     | Improved Robotic Controls V
-ROBOTCTRL_2_DETAIL   | Allows 5 factories to be operated per population. The refit cost to upgrade is one and a half time the standard cost of each factory.
+ROBOTCTRL_2_NAME     | 自动化控制5阶
+ROBOTCTRL_2_DETAIL   | 允许每单位人口控制2个工厂。升级改装成本等于工厂制造成本的1.5倍。
 
-ROBOTCTRL_3_NAME     | Improved Robotic Controls VI
-ROBOTCTRL_3_DETAIL   | Allows 6 factories to be operated per population. The refit cost to upgrade is twice the standard cost of each factory.
+ROBOTCTRL_3_NAME     | 自动化控制6阶
+ROBOTCTRL_3_DETAIL   | 允许每单位人口控制6个工厂。升级改装成本等于工厂的制造成本的2倍。
 
-ROBOTCTRL_4_NAME     | Improved Robotic Controls VII
-ROBOTCTRL_4_DETAIL   | Allows 7 factories to be operated per population. The refit cost to upgrade is 2.5 times the standard cost of each factory.
+ROBOTCTRL_4_NAME     | 自动化控制7阶
+ROBOTCTRL_4_DETAIL   | 允许每单位人口控制7个工厂。升级改装成本等于工厂的制造成本的2.5倍。
 
 
 //
 // Scanner techs 
 //
-SCANNER_0_NAME       | Battle Scanner
-SCANNER_0_BRIEF      | Scans enemy ships in combat
-SCANNER_0_DETAIL     | Reveals technical specifications of enemy spacecraft in combat.
+SCANNER_0_NAME       | 战场扫描
+SCANNER_0_BRIEF      | 扫描战场上的敌方舰船
+SCANNER_0_DETAIL     | 展示敌方舰船的科技参数。
 
-SCANNER_1_NAME       | Deep Space Scanner
-SCANNER_1_BRIEF      | Detects ships up to 5 light-years away
-SCANNER_1_DETAIL     | Detects enemy ships up to 5 light-years away from your colonies and 1 light-year away from your ships.
+SCANNER_1_NAME       | 太空雷达
+SCANNER_1_BRIEF      | 探测5光年内的敌方舰船
+SCANNER_1_DETAIL     | 能够探测到距离殖民地5光年、或距离己方舰船1光年的敌方舰船。
 
-SCANNER_2_NAME       | Improved Space Scanner
-SCANNER_2_BRIEF      | Detects ships and destinations up to 7 light-years away
-SCANNER_2_DETAIL     | Detects enemy ships up to 7 light-years away from your colonies and 2 light-years away from your ships. Enemy destinations can be determined.
 
-SCANNER_3_NAME       | Advanced Space Scanner
-SCANNER_3_BRIEF      | Allows exploration of planets up to 9 light-years away 
-SCANNER_3_DETAIL     | Allows exploration of planets from colony bases up to 9 light-years away and detects enemy ships up to 3 light-years away from your ships. 
+SCANNER_2_NAME       | 增强太空雷达
+SCANNER_2_BRIEF      | 探测7光年内的敌方舰船
+SCANNER_2_DETAIL     | 能够探测到距离殖民地7光年、或距离己方舰船2光年的敌方舰船。能够了解到对方的目的地。
+
+SCANNER_3_NAME       | 高级太空雷达
+SCANNER_3_BRIEF      | 探测9光年内的敌方舰船
+SCANNER_3_DETAIL     | 能够探测到距离殖民地9光年、或距离己方舰船3光年的敌方舰船。
 
 
 //
 // Ship Inertial techs 
 //
-SHIPINERTIAL_0_NAME     | Inertial Stabilizer
-SHIPINERTIAL_0_BRIEF    | Adds +2 to maneuverability
-SHIPINERTIAL_0_DETAIL   | Reduces the inertia of ships, adding 2 classes of maneuverability in combat (+2 defense and +1 combat speed).
+SHIPINERTIAL_0_NAME     | 惯性稳定器
+SHIPINERTIAL_0_BRIEF    | 可操作性+2
+SHIPINERTIAL_0_DETAIL   | 降低飞船的惯性，战斗中飞船的可操作性+2，且增加2点防御和1点速度。
 
-SHIPINERTIAL_1_NAME     | Inertial Nullifier
-SHIPINERTIAL_1_BRIEF    | Adds +4 to maneuverability
-SHIPINERTIAL_1_DETAIL   | Negates the inertia of ships, adding 4 classes of maneuverability in combat. Also reduces the effect of Black Hole attacks by -30%.
+
+SHIPINERTIAL_1_NAME     | 惯性吸收器
+SHIPINERTIAL_1_BRIEF    | 可操作性+4
+SHIPINERTIAL_1_DETAIL   | 抵消飞船的惯性，战斗中飞船的可操作性+4，同时让黑洞的效果减少30%。
 
 
 //
