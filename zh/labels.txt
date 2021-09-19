@@ -21,10 +21,10 @@ PURPLE_STAR_DESCRIPTION           | 中子星很少见，有最大的可能找�
 
 // Planet Types
 PLANET_ARID                       | 干旱
-PLANET_BARREN                     | 荒芜
-PLANET_DEAD                       | 死亡
+PLANET_BARREN                     | 沙暴
+PLANET_DEAD                       | 死寂
 PLANET_DESERT                     | 荒漠
-PLANET_INFERNO                    | 地狱
+PLANET_INFERNO                    | 熔炉
 PLANET_JUNGLE                     | 丛林
 PLANET_MINIMAL                    | 袖珍
 PLANET_NONE                       | 无
@@ -32,7 +32,7 @@ PLANET_OCEAN                      | 海洋
 PLANET_RADIATED                   | 辐射
 PLANET_STEPPE                     | 草原
 PLANET_TERRAN                     | 类地行星
-PLANET_TOXIC                      | 有毒
+PLANET_TOXIC                      | 剧毒
 PLANET_TUNDRA                     | 冻土
 
 // Spy Missions
@@ -45,10 +45,10 @@ SPY_FORCED_CONFESSION             | [A false confession was forced.]
 SPY_WARNING                       | [You have been warned.]
 
 ARID_DESC_BIOLOGICAL              | 干旱行星是有少量植被的世界，水覆盖面积不到40%。
-BARREN_DESC_BIOLOGICAL            | 荒芜行星是干燥的、尘土飞扬的世界，这里大气稀薄，没有地表水。
-DEAD_DESC_BIOLOGICAL              | 死亡行星是寒冷的、不再有生命迹象的世界，这里大气稀薄，没有地表水。
+BARREN_DESC_BIOLOGICAL            | 沙暴行星是干燥的、尘土飞扬的世界，这里大气稀薄，没有地表水。
+DEAD_DESC_BIOLOGICAL              | 死寂行星是极寒的、没有生命痕迹的世界，这里大气稀薄，没有地表水。
 DESERT_DESC_BIOLOGICAL            | 沙漠行星是干燥的世界，植被非常稀疏，地表水覆盖面积不超过 20%。
-INFERNO_DESC_BIOLOGICAL           | 地狱行星是极其炎热的世界，有着厚厚的大气层和猛烈的风暴。
+INFERNO_DESC_BIOLOGICAL           | 熔炉行星是极其炎热的世界，有着厚厚的大气层和猛烈的风暴。
 JUNGLE_DESC_BIOLOGICAL            | 丛林行星是茂密的热带世界，覆盖着茂密的森林、丛林和沼泽。
 MINIMAL_DESC_BIOLOGICAL           | 袖珍行星干燥、荒凉的世界，几乎就要不可居住了。
 NONE_DESC_BIOLOGICAL              | 由于没有石质行星，这些充满小行星的星系在理论上不可能形成真正的行星。
@@ -56,15 +56,15 @@ OCEAN_DESC_BIOLOGICAL             | 海洋行星几乎完全被水覆盖，因�
 RADIATED_DESC_BIOLOGICAL          | 受辐射的行星是没有空气、没有生命的世界，被附近恒星的辐射所笼罩
 STEPPE_DESC_BIOLOGICAL            | 草原行星是温度较低的世界，以冬天和极地环境为主。
 TERRAN_DESC_BIOLOGICAL            | 类地行星是最适合生存的世界，大片的温带地区支持着各种各样的生物群落。
-TOXIC_DESC_BIOLOGICAL             | 有毒行星是冰冻的世界，有着寒冷的、以甲烷为基础的生态系统。
+TOXIC_DESC_BIOLOGICAL             | 剧毒行星是冰冻的世界，有着寒冷的、以甲烷为基础的生态系统。
 TUNDRA_DESC_BIOLOGICAL            | 冻土行星是处于休眠状态的极端寒冷的世界。
 
 // Planet Specials
 PLANET_ARTIFACTS                  | 史前遗迹
-PLANET_ULTRA_POOR                 | 资源非常匮乏
+PLANET_ULTRA_POOR                 | 非常匮乏
 PLANET_POOR                       | 资源匮乏
 PLANET_RICH                       | 资源丰富
-PLANET_ULTRA_RICH                 | 资源非常丰富
+PLANET_ULTRA_RICH                 | 非常丰富
 PLANET_HOSTILE                    | 不宜居
 PLANET_FERTILE                    | 宜居
 PLANET_GAIA                       | 天堂
@@ -113,12 +113,12 @@ LEADER_TECHNOLOGIST               | Technologist
 LEADER_PERSONALITY_FORMAT         | %1 %2
 
 // Technology names and descriptions 
-TECH_COMPUTERS                    | Computers
-TECH_CONSTRUCTION                 | Construction
-TECH_FORCE_FIELDS                 | Force Fields
-TECH_PLANETOLOGY                  | Planetology
-TECH_PROPULSION                   | Propulsion
-TECH_WEAPONS                      | Weapons
+TECH_COMPUTERS                    | 计算科学
+TECH_CONSTRUCTION                 | 制造研究
+TECH_FORCE_FIELDS                 | 力场研究
+TECH_PLANETOLOGY                  | 行星学
+TECH_PROPULSION                   | 动力学
+TECH_WEAPONS                      | 武器研究
 
 // Random Events
 EVENT_ACCIDENT                    | A major industrial accident pollutes the [target_race] world in the [system] system with industrial waste, damaging its ecology and permanently irradiating the planet.
@@ -509,8 +509,8 @@ MAIN_FLEET_LOCATION               | 位置 %1
 MAIN_FLEET_ORIGIN                 | 起点 %1
 MAIN_FLEET_DESTINATION            | 终点 %1
 MAIN_FLEET_DEST_UNSCOUTED         | 探索未知星球
-MAIN_FLEET_ALLY                   | Ally
-MAIN_FLEET_ENEMY                  | Enemy
+MAIN_FLEET_ALLY                   | 盟友
+MAIN_FLEET_ENEMY                  | 敌人
 MAIN_FLEET_DEPLOYMENT             | 舰队派遣
 MAIN_FLEET_DISPLAY                | 查看舰队
 MAIN_FLEET_CHOOSE_DEST            | Choose destination and number of ships to send.
@@ -915,44 +915,44 @@ FLEETS_HELP_2D                    | Selected for Deployment - a count of ships, 
 FLEETS_HELP_2E                    | Deploy Fleets - deploy the selected fleets to a single target system.
 
 // Select Next Tech to Research UI
-TECH_RESEARCH_COMPUTER            | Select the next computer technology our researchers should focus on.
-TECH_RESEARCH_CONSTRUCTION        | Select the next construction technology our researchers should focus on.
-TECH_RESEARCH_FORCE_FIELD         | Select the next force field technology our researchers should focus on.
-TECH_RESEARCH_PLANETOLOGY         | Select the next planetology technology our researchers should focus on.
-TECH_RESEARCH_PROPULSION          | Select the next propulsion technology our researchers should focus on.
-TECH_RESEARCH_WEAPON              | Select the next weapon technology our researchers should focus on.
-TECH_TOP_TIER_DETAIL              | Completing this research will make more advanced technologies available.
-TECH_OBSOLETE_DETAIL              | This technology is obsolete.
-TECH_CAN_CHANGE                   | This choice can be changed on the Technology screen before advancing to the next turn.
+TECH_RESEARCH_COMPUTER            | 选择科学家研究的下一个计算科学技术。
+TECH_RESEARCH_CONSTRUCTION        | 选择科学家研究的下一个制造技术。
+TECH_RESEARCH_FORCE_FIELD         | 选择科学家研究的下一个力场技术。
+TECH_RESEARCH_PLANETOLOGY         | 选择科学家研究的下一个行星学技术。
+TECH_RESEARCH_PROPULSION          | 选择科学家研究的下一个动力技术。
+TECH_RESEARCH_WEAPON              | 选择科学家研究的下一个武器技术。
+TECH_TOP_TIER_DETAIL              | 掌握这个技术将会解锁更高级的技术。
+TECH_OBSOLETE_DETAIL              | 这个科技已经过时了。
+TECH_CAN_CHANGE                   | 在进入下一回合前，你的决定可以在科技界面修改。
 TECH_CHOOSE_RESEARCH_COST         | %1 RP
-TECH_CHOOSE_RESEARCH_TIER         | Tier %1
+TECH_CHOOSE_RESEARCH_TIER         | %1阶
 TECH_TRADE_TIER_COST_INFO         | (Tier %1 - %2 RP)
-TECH_CONFIRM_CHOICE               | Select
-TECH_DISCOVERY_TITLE              | [player_race] Scientists Achieve a %1 Breakthrough
-TECH_SCOUTED_TITLE                | Scouts Exploring the Ruins of %1 Discover
-TECH_STOLEN_TITLE                 | Our spies have infiltrated the %1 research center at %2.
-TECH_TRADED_TITLE                 | [player_race] Scientists Acquire Technology from [alien_race] Scientists
-TECH_PLUNDERED_TITLE              | Troopers at the Ruins of %1 Plunder
-TECH_DERELICT_TITLE               | [player_race] Explorers Plunder an Ancient Technology
-TECH_GUARDIAN_TITLE               | [player_race] Soldiers Recover an Ancient Weapon
-TECH_ALLOCATE_SHIELD              | Should we increase the defense ratios of all of our colonies to build the new planetary shields?
-TECH_ALLOCATE_MISSILE_BASES       | Should we increase the defense ratios of all of our colonies to upgrade our missile bases?
-TECH_ALLOCATE_FACTORIES           | Should we increase the industry ratios of all of our colonies to upgrade our factory controls?
-TECH_ALLOCATE_CLEAN_WASTE         | Should we reduce the ecology ratios of all of our colonies to the minimum amount necessary to keep them clean?
-TECH_ALLOCATE_ENRICH_SOIL         | Should we increase the ecology ratios of our colonies with standard environments in order to begin terraforming our planets?
-TECH_ALLOCATE_ATMOSPHERE          | Should we increase the ecology ratios of our colonies with hostile environments in order to begin terraforming our planets?
-TECH_ALLOCATE_TERRAFORM           | Should we increase the ecology ratios of all of our colonies in order to begin terraforming our planets?
-TECH_ALLOCATE_NO                  | No
+TECH_CONFIRM_CHOICE               | 选择
+TECH_DISCOVERY_TITLE              | [player_race]科学家实现了一个%1突破
+TECH_SCOUTED_TITLE                | 侦察人员探索了%1发现的遗迹
+TECH_STOLEN_TITLE                 | 间谍渗透了%2的1%研究中心。
+TECH_TRADED_TITLE                 | [player_race]科学家从[alien_race]科学家处获取了技术
+TECH_PLUNDERED_TITLE              | 军队在掠夺%1后的废墟 
+TECH_DERELICT_TITLE               | [player_race]探索者获取到了一个上古技术
+TECH_GUARDIAN_TITLE               | [player_race]士兵发现了一个上古武器
+TECH_ALLOCATE_SHIELD              | 是否提高所有殖民地的防御开支比例，以建造新的护盾?
+TECH_ALLOCATE_MISSILE_BASES       | 是否提高所有殖民地的防御开支比例，以升级导弹基地?
+TECH_ALLOCATE_FACTORIES           | 是否提高所有殖民地的工业开支比例，以提高工厂数量?
+TECH_ALLOCATE_CLEAN_WASTE         | 是否减少所有殖民地的生态开支，仅把星球的生态状况维持在“干净”?
+TECH_ALLOCATE_ENRICH_SOIL         | 是否提高正常环境的殖民地的生态投入，以开始行星的环境改造。
+TECH_ALLOCATE_ATMOSPHERE          | 是否提高恶劣环境的殖民地的生态投入，以开始行星的环境改造。
+TECH_ALLOCATE_TERRAFORM           | 是否提高所有殖民地的生态投入，以开始星星的环境改造。
+TECH_ALLOCATE_NO                  | 不
 TECH_ALLOCATE_PCT                 | +%1%
-TECH_COMPLETED_TITLE              | Research Completed!
-TECH_COMPLETED_COMPUTER           | We have completed all possible research in Computer technology! No further research in this field is possible.
-TECH_COMPLETED_CONSTRUCTION       | We have completed all possible research in Construction technology! No further research in this field is possible.
-TECH_COMPLETED_FORCE_FIELD        | We have completed all possible research in Force Field technology! No further research in this field is possible.
-TECH_COMPLETED_PLANETOLOGY        | We have completed all possible research in Planetology technology! No further research in this field is possible.
-TECH_COMPLETED_PROPULSION         | We have completed all possible research in Propulsion technology! No further research in this field is possible.
-TECH_COMPLETED_WEAPON             | We have completed all possible research in Weapon technology! No further research in this field is possible.
-TECH_COMPLETED_ALL                | We have completed all possible scientific research. The time for study is over. All future funding into research will be transferred into the empire treasury.
-TECH_COMPLETED_VERIFY             | Verify that spending allocations in the remaining research fields are set properly.
+TECH_COMPLETED_TITLE              | 研究完成!
+TECH_COMPLETED_COMPUTER           | 我们完成了计算科学领域的所有研究！该领域已经没有更多的研究了。
+TECH_COMPLETED_CONSTRUCTION       | 我们完成了制造研究领域的所有研究！该领域已经没有更多的研究了。
+TECH_COMPLETED_FORCE_FIELD        | 我们完成了力场研究领域的所有研究！该领域已经没有更多的研究了。
+TECH_COMPLETED_PLANETOLOGY        | 我们完成了行星学领域的所有研究！该领域已经没有更多的研究了。
+TECH_COMPLETED_PROPULSION         | 我们完成了动力学领域的所有研究！该领域已经没有更多的研究了。
+TECH_COMPLETED_WEAPON             | 我们完成了武器研究领域的所有研究！该领域已经没有更多的研究了。
+TECH_COMPLETED_ALL                | 我们已经完成了所有科学研究。研究的时代已经结束了。从今往后所有研究资金都会进入国库。
+TECH_COMPLETED_VERIFY             | 确认未来研究的投入分配方案已经正确设置。
 
 // prompt for espionage
 NOTICE_ESPIONAGE_TITLE            | Our spies have infiltrated a [alien_race] base.
@@ -1220,7 +1220,7 @@ SETTINGS_GALAXY_AGE               | 宇宙年龄: %1
 SETTINGS_WARP_SPEED               | 曲速飞行速度: %1
 SETTINGS_NEBULAE                  | 星云: %1
 SETTINGS_PLANET_QUALITY           | 行星质量: %1
-SETTINGS_TERRAFORMING             | 行星改造效果: %1
+SETTINGS_TERRAFORMING             | 环境改造效果: %1
 SETTINGS_COLONIZING               | 殖民设置: %1
 SETTINGS_FUEL_RANGE               | 燃料效果: %1
 SETTINGS_AI_HOSTILITY             | 敌意: %1
@@ -1232,7 +1232,7 @@ SETTINGS_STAR_DENSITY_DESC        | 把星系密度调高可以让各个文明�
 SETTINGS_RESEARCH_RATE_DESC       | 降低科技的研究速率，延长当前科技的使用寿民。
 SETTINGS_NEBULAE_DESC             | 星云会降低飞船移动速度，且让护盾无效。这个设置可以增加或减少星云的出现频率。
 SETTINGS_PLANET_QUALITY_DESC      | 增加或减少高质量行星的出现频率。
-SETTINGS_TERRAFORMING_DESC        | 减少或移除行星改造技术的效果。
+SETTINGS_TERRAFORMING_DESC        | 减少或移除环境改造技术的效果。
 SETTINGS_COLONIZING_DESC          | 殖民星球技术只能殖民对应类型的星球。
 SETTINGS_COUNCIL_DESC             | 取消议会胜利条件，或者允许敌对帝国反抗议会胜利。
 SETTINGS_RANDOMIZE_AI_DESC        | 随机AI玩家的天性、种族特长。
@@ -1243,60 +1243,60 @@ SETTINGS_AI_HOSTILITY_DESC        | 增加或降低不同种族间的敌对程�
 
 // Tech UI labels
 TECH_RESEARCH                     | 科技研究
-TECH_RESEARCH_POINTS              | Research Points
-TECH_EMPIRE_SPENDING              | Empire Tech Spending
-TECH_EMPIRE_SPENDING_DESC         | Sum of all colonies' tech spending. 
-TECH_EMPIRE_TECH_RESERVE_OPT      | Divert excess colony spending from treasury reserve to research
-TECH_EMPIRE_BALANCED_DESC         | Balanced spending increases overall research points.
-TECH_EMPIRE_DETAIL_1              | %1 BC for 
-TECH_EMPIRE_DETAIL_2              | %2 RP / Year
+TECH_RESEARCH_POINTS              | 研究点数
+TECH_EMPIRE_SPENDING              | 帝国科技投入
+TECH_EMPIRE_SPENDING_DESC         | 所有殖民地的科技投入之和
+TECH_EMPIRE_TECH_RESERVE_OPT      | 把每年的国库储备投入科技
+TECH_EMPIRE_BALANCED_DESC         | 平均分配投入可以增加总的RP。
+TECH_EMPIRE_DETAIL_1              | 投入%1BC获得
+TECH_EMPIRE_DETAIL_2              | %2 RP/年
 TECH_TOTAL_RP                     | %1 RP
 TECH_DISCOVERY_PCT                | %1%
-TECH_CHANGE_RESEARCH              | Click to Research this Technology
-TECH_NEXT_TIER_TITLE              | Not Available Yet.
-TECH_FIRST_TIER_DESC              | Spend research points in this category to unlock.
-TECH_NEXT_TIER_DESC               | Learn a technology in previous tier to unlock.
-TECH_FUTURE_TIER_DESC             | Learn all technologies in previous tiers to unlock.
-TECH_ALLOCATE_POINTS              | Allocate Research Points
-TECH_EQUALIZE                     | Equalize Allocations
-TECH_RESEARCH_COMPLETED           | Research Completed
-TECH_RESEARCHING                  | Researching:
-TECH_NONE_RESEARCHED              | None
-TECH_PLANETARY_SHIELDS            | Planetary Shields
-TECH_PLANETARY_SHIELDS_NONE       | None
-TECH_PLANETARY_SHIELDS_CLASS      | Class %1
-TECH_GROUND_COMBAT                | Ground Combat
-TECH_GROUND_COMBAT_NO_BONUS       | No Bonus
+TECH_CHANGE_RESEARCH              | 单击以研究这个技术
+TECH_NEXT_TIER_TITLE              | 暂不可见。
+TECH_FIRST_TIER_DESC              | 在该领域投入研究点以解锁。
+TECH_NEXT_TIER_DESC               | 掌握前一个阶段的技术以解锁。
+TECH_FUTURE_TIER_DESC             | 掌握前一个阶段的所有技术以解锁。
+TECH_ALLOCATE_POINTS              | 分配研究点
+TECH_EQUALIZE                     | 平均分配
+TECH_RESEARCH_COMPLETED           | 研究完成
+TECH_RESEARCHING                  | 正在研究:
+TECH_NONE_RESEARCHED              | 无
+TECH_PLANETARY_SHIELDS            | 行星护盾
+TECH_PLANETARY_SHIELDS_NONE       | 无
+TECH_PLANETARY_SHIELDS_CLASS      | %1级
+TECH_GROUND_COMBAT                | 地面战斗
+TECH_GROUND_COMBAT_NO_BONUS       | 无增益
 TECH_GROUND_COMBAT_BONUS          | +%1%
-TECH_TERRAFORM                    | Terraform
-TECH_TERRAFORM_NO_BONUS           | No Bonus
-TECH_TERRAFORM_BONUS              | +%1 Max Pop.
-TECH_FACTORY_CONTROLS             | Factory Controls
-TECH_FACTORY_CONTROLS_BONUS       | %1 per colonist
-TECH_PLANET_SCANNER               | Scanner Range
-TECH_PLANET_SCANNER_NONE          | None
-TECH_PLANET_SCANNER_RANGE         | %1 light-years
-TECH_WASTE_REDUCTION              | Waste Reduction
-TECH_WASTE_REDUCTION_NONE         | None
+TECH_TERRAFORM                    | 环境改造
+TECH_TERRAFORM_NO_BONUS           | 无增益
+TECH_TERRAFORM_BONUS              | 最大人口+%1
+TECH_FACTORY_CONTROLS             | 工厂数量
+TECH_FACTORY_CONTROLS_BONUS       | %1/每人
+TECH_PLANET_SCANNER               | 侦察范围
+TECH_PLANET_SCANNER_NONE          | 无
+TECH_PLANET_SCANNER_RANGE         | %1光年
+TECH_WASTE_REDUCTION              | 污染减少
+TECH_WASTE_REDUCTION_NONE         | 无
 TECH_WASTE_REDUCTION_AMT          | -%1%
-TECH_WASTE_CLEANUP                | Waste Cleanup
-TECH_WASTE_CLEANUP_BONUS          | %1 Waste/BC
-TECH_SHIP_RANGE                   | Ship Range
-TECH_SHIP_RANGE_AMT               | %1 light-years
-TECH_SHIP_SPEED                   | Top Speed
-TECH_SHIP_SPEED_AMT               | Warp %1
+TECH_WASTE_CLEANUP                | 污染清理
+TECH_WASTE_CLEANUP_BONUS          | %1污染/BC
+TECH_SHIP_RANGE                   | 飞船航程
+TECH_SHIP_RANGE_AMT               | %1光年
+TECH_SHIP_SPEED                   | 最高速度
+TECH_SHIP_SPEED_AMT               | 曲速%1
 TECH_BUTTON_EXIT                  | EXIT
 
 // Tech UI help
-TECH_HELP_1A                      | OVERVIEW - This screen allows you to adjust spending across the six areas of technology that you can study. You can review technologies already learned (green), current in research (yellow) or available for future research (brown). 
-TECH_HELP_1B                      | Click or scroll with the mousewheel to view the technologies for an area of research. 
-TECH_HELP_1C                      | Fills up when research points (RP) are spent in an area. Once filled, there is an increasing chance each turn to learn the technology.
-TECH_HELP_1D                      | Technology currently being researched. See its description for benefits.
-TECH_HELP_1E                      | General benefits provided by technologies already learned in this area.
-TECH_HELP_1F                      | Total production (BC) applied to research and the total research points (RP) resulting from it.
-TECH_HELP_1G                      | Overflow spending in a colony may be directed to research instead of the empire treasury.
-TECH_HELP_1H                      | Each tech area has a spending bar. Click on the name to lock a bar. Spending for the first 1/6th of the bar gains a 25% research bonus.
-TECH_HELP_1I                      | Equalize the spending allocations for the unlocked bars. 
+TECH_HELP_1A                      | 总揽：这个界面让调整6个科技领域的研究投入。你可以查看已经学会的科技（绿色），正在研究的科技（黄色）或可研究的科技（棕色）。
+TECH_HELP_1B                      | 单击或点击鼠标滑轮查看某个领域的科技情况。
+TECH_HELP_1C                      | 当科技点数（RP）被投入该领域时，圆形会被填充。一旦填满，掌握这门技术的概率每年都会提高。
+TECH_HELP_1D                      | 当前正在研究的科技。可以查看科技描述了解其价值。
+TECH_HELP_1E                      | 当前领域科技提供的通用增益。
+TECH_HELP_1F                      | 科技研究的总经费（BC），以及经费产生的科技点数（RP）。
+TECH_HELP_1G                      | 殖民地的多余经费可以直接转入科技研究，而不是进入国库。
+TECH_HELP_1H                      | 每个领域的滚动条。点击科技名称可以锁定该滚动条。每个滚动条的前1/6部分会获得25%的额外收益。
+TECH_HELP_1I                      | 对未锁定的滚动条，平均分配投入。
 
 // =========================================================================
 //   ALPHA 4
