@@ -1,9 +1,10 @@
 // all possible names
 name: Darlok, Sarlok, Spylok, Shadelok, Nazlok
 
-desc1: Aggressive Diplomats
-desc2: Supreme Spies
-desc3: The [race]s are unnatural and secretive wraiths, originating from another dimension  
+desc1: 好斗的外交家
+desc2: 优秀的间谍
+desc3: [race]是超自然的神秘幽灵，他们来自另一个空间。
+
 
 // possible home system names
 home: Nazin, Mordor, Hades, Abyssal, Hel

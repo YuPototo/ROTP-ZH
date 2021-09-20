@@ -1,9 +1,9 @@
 // all possible names
 name: Mrrshan, Prrshan, Mewshan, Clawshan, Hisshan
 
-desc1: Ruthless Militarists
-desc2: Superior Gunners
-desc3: The [race] hordes seek battle trophies as they spread across the galaxy.
+desc1: 冷酷的军事家
+desc2: 顶级的射手
+desc3: [race]喜欢在扩张的进程里搜集战利品。
 
 // possible home system names
 home: Fierias, Fierina, Miamara, Miriana, Yailaria

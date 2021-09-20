@@ -1,9 +1,9 @@
 // all possible names
 name: Meklar, Mechanar, Cybernar, Digitar, Technar
 
-desc1: Erratic Industrialists
-desc2: Enhanced Factory Controls
-desc3: The citizens of the [race] Dominion seek perfection and immortality through technology.
+desc1: 神经质的工业主义者
+desc2: 强大的工业自动化技术
+desc3: [race]相信通过科学技术可以实现完美和永生。
 
 // possible home system names
 home: Meklon, Collosson, Calculon, Bender, Optimus

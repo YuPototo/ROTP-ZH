@@ -1,9 +1,9 @@
 // all possible names
 name: Sakkra, Reptara, Saura, Raptora, Tyranna
 
-desc1: Aggressive Expansionists
-desc2: Increased Population Growth
-desc3: The zealots of the [race] Conclave strive to perfect the worlds they conquer.
+desc1: 好斗的扩张主义者
+desc2: 较快的人口增速
+desc3: 狂热的[race]想要通过征服让宇宙变得完美。
 
 // possible home system names
 home: Sssla, Sssana, Sssihs, Sssha, Sssss, Hsssa

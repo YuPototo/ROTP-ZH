@@ -1,9 +1,9 @@
 // all possible names
 name: Psilon, Mentalon, Psychon, Cerebron, Neuralon
 
-desc1: Pacifist Technologists
-desc2: Superior Research Techniques
-desc3: The [race] Republic seeks peaceful and enlightened coexistence with other races.
+desc1: 和平的科学家
+desc2: 优秀的研究能力
+desc3: [race]追求与其他种族的和谐共处。
 
 // possible home system names
 home: Mentar, Cogitar, Psilar, Metrica, Neura

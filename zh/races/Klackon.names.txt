@@ -1,9 +1,10 @@
 // all possible names
 name: Klackon, Klackant, Klockan, Arthropon, Coleopteron
 
-desc1: Xenophobic Industrialists
-desc2: Hive Mind and Increased Worker Production
-desc3: A species with a single controlling mind, the industrious [race] is inscrutable to outsiders.
+desc1: 排他的工业主义者
+desc2: 蜂巢思维和高效的工人产能
+desc3: 任劳任怨的[race]是只有一个中枢大脑的种族，外族跟他们难以沟通。
+
 
 // possible home system names
 home: Kholdan, Kholdant, Khaldon, Klokdon, Khakdon

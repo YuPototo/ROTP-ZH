@@ -95,20 +95,20 @@ SPACE_CRYSTAL                     | 太空水晶
 ORION_GUARDIAN                    | 猎户座守卫
 
 // Personality types (adjective)
-LEADER_ERRATIC                    | Erratic
-LEADER_PACIFIST                   | Pacifist
-LEADER_HONORABLE                  | Honorable
-LEADER_RUTHLESS                   | Ruthless
-LEADER_AGGRESSIVE                 | Aggressive
-LEADER_XENOPHOBIC                 | Xenophobic
+LEADER_ERRATIC                    | 神经质的
+LEADER_PACIFIST                   | 和平的
+LEADER_HONORABLE                  | 正直的
+LEADER_RUTHLESS                   | 冷酷的
+LEADER_AGGRESSIVE                 | 好斗的
+LEADER_XENOPHOBIC                 | 排他的
 
 // Leader Objective Types (noun)
-LEADER_DIPLOMAT                   | Diplomat
-LEADER_MILITARIST                 | Militarist
-LEADER_ECOLOGIST                  | Ecologist
-LEADER_INDUSTRIALIST              | Industrialist
-LEADER_EXPANSIONIST               | Expansionist
-LEADER_TECHNOLOGIST               | Technologist
+LEADER_DIPLOMAT                   | 外交家
+LEADER_MILITARIST                 | 军事家
+LEADER_ECOLOGIST                  | 生态主义者
+LEADER_INDUSTRIALIST              | 工业主义者
+LEADER_EXPANSIONIST               | 扩张主义者
+LEADER_TECHNOLOGIST               | 科学家
 // Leader Personality & Objective displayed together
 LEADER_PERSONALITY_FORMAT         | %1 %2
 
@@ -154,25 +154,25 @@ EVENT_SPACE_CRYSTAL_1             | A gigantic crystalline entity called the "Sp
 EVENT_SPACE_CRYSTAL_2             | The Space Crystal has completely destroyed all life on the [victim_race] colony in the [system] system.
 EVENT_SPACE_CRYSTAL_3             | The Space Crystal was destroyed by [victim_race] defenders in the [system] system.
 
-SYSEVENT_HOMEWORLD                | Homeworld for the [alien_race].
-SYSEVENT_SCOUTED                  | First scouted by the [alien_race].
-SYSEVENT_COLONIZED                | Colonized by the [alien_race].
-SYSEVENT_CAPTURED                 | Captured by [alien_race] forces.
-SYSEVENT_ABANDONED                | Abandoned by the [alien_race].
-SYSEVENT_DESTROYED                | Destroyed by orbiting [alien_race] forces.
-SYSEVENT_DESTROYED_MONSTER        | Destroyed by the %1.
-SYSEVENT_DESTROYED_UNKNOWN        | Destroyed.
-SYSEVENT_ATMOSPHERE_TERRAFORMED   | The planet's atmosphere has been terraformed.
-SYSEVENT_SOIL_ENRICHED            | The planet's soil has been enriched, making it fertile.
-SYSEVENT_GAIA_TERRAFORMING        | The planet has been converted to a gaia world.
-SYSEVENT_REBELLION                | Colony went into rebellion.
-SYSEVENT_COMET                    | A comet impacted the planet.
-SYSEVENT_PLAGUE                   | A deadly plague swept across the planet.
-SYSEVENT_PLAGUE_ENDED             | The plague afflicting the planet has ended.
-SYSEVENT_ENRICHED                 | Huge deposits of rich ore were discovered on the planet.
-SYSEVENT_DEPLETED                 | Ore deposits on the planet were depleted.
-SYSEVENT_ACCIDENT                 | A massive industrial accident irradiated the planet.
-SYSEVENT_SUPERNOVA                | The planet was irradiated by a supernova.
+SYSEVENT_HOMEWORLD                | [alien_race]的母星。
+SYSEVENT_SCOUTED                  | [alien_race]首先发现。
+SYSEVENT_COLONIZED                | 被[alien_race]殖民。
+SYSEVENT_CAPTURED                 | 被[alien_race]占领。
+SYSEVENT_ABANDONED                | 被[alien_race]遗弃。
+SYSEVENT_DESTROYED                | 被[alien_race]军舰毁灭。
+SYSEVENT_DESTROYED_MONSTER        | 被%1毁灭。
+SYSEVENT_DESTROYED_UNKNOWN        | 已毁灭。
+SYSEVENT_ATMOSPHERE_TERRAFORMED   | 该星球的大气被改造了。
+SYSEVENT_SOIL_ENRICHED            | 该星球的土壤被改造了，变成了肥沃的星球。
+SYSEVENT_GAIA_TERRAFORMING        | 该星球被改造成了天堂星球。
+SYSEVENT_REBELLION                | 殖民地陷入叛乱。
+SYSEVENT_COMET                    | 彗星撞击了行星。
+SYSEVENT_PLAGUE                   | 致命的瘟疫在行星里爆发。
+SYSEVENT_PLAGUE_ENDED             | 瘟疫结束了。
+SYSEVENT_ENRICHED                 | 行星发现了丰富的矿藏资源。
+SYSEVENT_DEPLETED                 | 行星的矿藏被挖掘殆尽。
+SYSEVENT_ACCIDENT                 | 一个巨大的工业事故让整个行星被辐射。
+SYSEVENT_SUPERNOVA                | 超新星爆炸让行星陷入被辐射状态。
 
 
 // Diplomatic Incident titles & descriptions
@@ -699,24 +699,25 @@ MAIN_AUTOSAVE_FAILED_DESC_3       | 如果你经常看到这个信息，请访�
 MAIN_AUTOSAVE_FAILED_OK           | 好的
 
 // Alerts
-MAIN_ALERT_TITLE                  | 警报 
-MAIN_ALERT_TITLE_COUNT            | 警报： %1/%2
-MAIN_ALERT_SPY_REPORT             | Our intelligence bureau has provided a new report on recent spying activity.
-MAIN_ALERT_TECH_STOLEN            | Internal security has uncovered espionage activities by [alien_race] spies.
-MAIN_ALERT_FACTORIES_DESTROYED    | Agents working for the [alien_empire] have destroyed %1 factories in the %2 system.
-MAIN_ALERT_BASES_DESTROYED        | Agents working for the [alien_empire] have destroyed %1 missile bases defending the %2 system.
-MAIN_ALERT_FACTORIES_DESTROYED2   | Unknown saboteurs have destroyed %1 factories in the %2 system.
-MAIN_ALERT_BASES_DESTROYED2       | Unknown saboteurs have destroyed %1 missile bases defending the %2 system.
-MAIN_ALERT_TRANSPORTS_PERISHED    | The colony in the %1 system has been destroyed. Our transports attempting to land there have perished.
-MAIN_ALERT_TRANSPORTS_CAPTURED    | Our %2 transports arriving in the %1 system have surrendered to [alien_race] forces.
-MAIN_ALERT_TRANSPORTS_KILLED      | Our %2 transports attempting to reach %1 have been destroyed by defending [alien_race] forces.
-MAIN_ALERT_INVADERS_CAPTURED      | %2 [alien_race] transports arriving in the %1 system have surrendered to our defensive forces.
-MAIN_ALERT_INVADERS_KILLED        | %2 [alien_race] transports attempting to invade %1 have been completely destroyed by our defensive forces.
-MAIN_ALERT_TRESPASSING1           | [alien_race] ships have been spotted trespassing near our colony in the %1 system.
-MAIN_ALERT_TRESPASSING2           | The [alien_race] ambassador protests our ships trespassing in the %1 system.
-MAIN_ALERT_TRADE_MATURED          | Our trade treaty with the %1 has reached its maximum value of %2 BC.
-MAIN_ALERT_ALLIANCE_WEAKENING     | Our alliance with the [ally_empire] is weakening.
-MAIN_ALERT_ALLIANCE_BREAKING      | Our alliance with the [ally_empire] is on the verge of collapse!
+MAIN_ALERT_TITLE                  | 情报
+MAIN_ALERT_TITLE_COUNT            | 情报： %1/%2
+MAIN_ALERT_SPY_REPORT             | 我们的情报官员汇报了一个新的间谍活动情报。
+MAIN_ALERT_TECH_STOLEN            | 安全部门发现了来自 [alien_race] 的间谍活动。
+MAIN_ALERT_FACTORIES_DESTROYED    | 为 [alien_empire] 工作的间谍破坏了%2星系的%1个工厂。
+MAIN_ALERT_BASES_DESTROYED        | 为 [alien_empire] 工作的间谍破坏了%2星系的%1个导弹基地。
+MAIN_ALERT_FACTORIES_DESTROYED2   | 未知间谍破坏了%2星系的%1个工厂。
+MAIN_ALERT_BASES_DESTROYED2       | 未知间谍破坏了%2星系的%1个导弹基地。
+MAIN_ALERT_TRANSPORTS_PERISHED    | %1星系的殖民地已经毁灭。我们尝试着陆的殖民者都丧生了。
+MAIN_ALERT_TRANSPORTS_CAPTURED    | 我们登陆%1星系的%2人员已经向 [alien_race] 的军队投降。
+MAIN_ALERT_TRANSPORTS_KILLED      | 我方尝试登陆%1星系的%2人员已经被 [alien_race] 的守军击溃。
+MAIN_ALERT_INVADERS_CAPTURED      | %2 [alien_race] 登陆%1星系的人员已经向我方守军投降。
+MAIN_ALERT_INVADERS_KILLED        | %2 [alien_race] 想要入侵%1的人员已经彻底被我方守军击溃。
+MAIN_ALERT_TRESPASSING1           | [alien_race] 的飞船正在穿过我们在%1星系的殖民地。
+MAIN_ALERT_TRESPASSING2           | [alien_race] 的大使抗议我们的飞船经过了%1星系。
+MAIN_ALERT_TRADE_MATURED          | 我们与%1的贸易协议达到了协定的%2BC。
+MAIN_ALERT_ALLIANCE_WEAKENING     | 我们与 [ally_empire] 的联盟关系变弱了。
+MAIN_ALERT_ALLIANCE_BREAKING      | 我们与 [ally_empire] 的联盟关系在崩溃的边缘！
+
 
 // Colony Listing UI
 PLANETS_TITLE                     | %1 Colonies
