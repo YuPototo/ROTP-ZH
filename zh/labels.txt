@@ -307,7 +307,7 @@ GAME_ENLARGE                      | 放大
 GAME_SETTINGS_TITLE               | 游戏设置
 GAME_SETTINGS_DESCRIPTION         | 单击可修改各个设置
 GAME_SETTINGS_EXIT                | 返回
-GAME_SETTINGS_DEFAULT             | 设为默认
+GAME_SETTINGS_DEFAULT             | 默认设置
 GAME_SETTINGS_DISPLAY_MODE        | 显示模式: %1
 GAME_SETTINGS_WINDOWED            | 窗口
 GAME_SETTINGS_BORDERLESS          | 无边框
@@ -590,7 +590,7 @@ MAIN_COLONY_ALLOCATE_SPENDING     | 分配资源
 MAIN_COLONY_SPENDING_NONE         | 无
 MAIN_COLONY_SPENDING_RESERVE      | 国库
 MAIN_COLONY_SPENDING_TECH         | 科技
-MAIN_COLONY_SPENDING_CONVERT      | Convert
+MAIN_COLONY_SPENDING_CONVERT      | 转化
 MAIN_COLONY_SPENDING_REFIT        | 升级
 MAIN_COLONY_SPENDING_MAX_FACT     | 已达最大
 MAIN_COLONY_SPENDING_WASTE        | 污染
@@ -753,23 +753,23 @@ PLANETS_COLONY_TRANSFER_TITLE     | Transfer Funds
 PLANETS_COLONY_TRANSFER_DETAIL    | Transfer funds from the empire's treasury to increase this colony's production.
 PLANETS_COLONY_TRANSFER_BUTTON    | Transfer Funds From Treasury
 PLANETS_LIST_NUM                  | 
-PLANETS_LIST_NAME                 | Name
-PLANETS_LIST_POPULATION           | Population
-PLANETS_LIST_POP                  | Pop.
-PLANETS_LIST_SIZE                 | Size
-PLANETS_LIST_TYPE                 | Type
-PLANETS_LIST_FACTORIES            | Factories
-PLANETS_LIST_WASTE                | Waste
-PLANETS_LIST_BASES                | Bases
-PLANETS_LIST_SHIELD               | Shield
-PLANETS_LIST_PRODUCTION           | Prod
+PLANETS_LIST_NAME                 | 名称
+PLANETS_LIST_POPULATION           | 人口
+PLANETS_LIST_POP                  | 人口
+PLANETS_LIST_SIZE                 | 大小
+PLANETS_LIST_TYPE                 | 类型
+PLANETS_LIST_FACTORIES            | 工厂
+PLANETS_LIST_WASTE                | 污染
+PLANETS_LIST_BASES                | 导弹
+PLANETS_LIST_SHIELD               | 护盾
+PLANETS_LIST_PRODUCTION           | 产能
 PLANETS_LIST_CAPACITY             | Capacity
 PLANETS_LIST_RESERVE              | Reserve
 PLANETS_LIST_SHIPYARD             | Shipyard
 PLANETS_LIST_NOTES                | Notes
-PLANETS_LIST_TURNS                | Turns
-PLANETS_LIST_YEARS                | Years
-PLANETS_LIST_TRANSPORTS           | Transports
+PLANETS_LIST_TURNS                | 回合
+PLANETS_LIST_YEARS                | 年
+PLANETS_LIST_TRANSPORTS           | 人数
 PLANETS_LIST_RESOURCES            | Resources
 PLANETS_MULTI_SYSTEMS             | %1 Systems
 PLANETS_AGGREGATE_VALUES          | Aggregate Values
@@ -831,89 +831,89 @@ MAIN_BOMBARD_NAME_PROMPT         | Colony Name
 
 // Fleet listing UI
 FLEETS_TITLE                      | 舰队
-FLEETS_SELECT_SYSTEMS             | Select Systems
-FLEETS_SELECT_FLEETS              | Select Fleets
-FLEETS_SELECT_ALL                 | Select All
-FLEETS_DESELECT_ALL               | Deselect All
-FLEETS_FILTER_BY                  | Filter by:
-FLEETS_CONSTRUCTING_DESIGN        | And building:
-FLEETS_INCLUDES_SHIP_TYPE         | Only Deploy Ships of Type:
-FLEETS_SELECTED_SHIPS             | Selected for Deployment
+FLEETS_SELECT_SYSTEMS             | 选择星系
+FLEETS_SELECT_FLEETS              | 选择舰队
+FLEETS_SELECT_ALL                 | 选择全部
+FLEETS_DESELECT_ALL               | 反选全部
+FLEETS_FILTER_BY                  | 筛选：
+FLEETS_CONSTRUCTING_DESIGN        | 建造条件：
+FLEETS_INCLUDES_SHIP_TYPE         | 只部署下列类型的舰艇：
+FLEETS_SELECTED_SHIPS             | 被选中的飞船
 FLEETS_BUILDING_DESIGN            | %1
-FLEETS_HAS_STARGATE               | System has a Stargate
-FLEETS_HAS_NO_STARGATE            | System does not have a Stargate
-FLEETS_HAS_RALLY_POINT            | System has a Rally Point
-FLEETS_HAS_NO_RALLY_POINT         | System does not have a Rally Point
-FLEETS_SENDING_TRANSPORTS         | System is sending transports
-FLEETS_NOT_SENDING_TRANSPORTS     | System is not sending transports
-FLEETS_IS_RICH                    | System is rich or ultra-rich
-FLEETS_IS_ULTRA_RICH              | System is ultra-rich
-FLEETS_IS_POOR                    | System is poor or ultra-poor
-FLEETS_IS_ULTRA_POOR              | System is ultra-poor
-FLEETS_IS_STANDARD                | System has standard resources
-FLEETS_SYSTEMS_SELECTED           | %1  Systems Selected
-FLEETS_FLEETS_SELECTED            | %1  Fleets Selected
-FLEETS_MULTIPLE_DESIGNS           | Multiple
-FLEETS_RELOCATE_LABEL             | Set Rally Points
-FLEETS_TRANSPORTS_LABEL           | Send Transports
-FLEETS_SPENDING_LABEL             | Adjust Ship Spending
-FLEETS_HAS_ORDERS                 | Fleet is in transit
-FLEETS_HAS_NO_ORDERS              | Fleet is in orbit
-FLEETS_IS_RALLYING                | Fleet is rallying
+FLEETS_HAS_STARGATE               | 星系有星门
+FLEETS_HAS_NO_STARGATE            | 星系无星门
+FLEETS_HAS_RALLY_POINT            | 星系有集结点
+FLEETS_HAS_NO_RALLY_POINT         | 星系无集结点
+FLEETS_SENDING_TRANSPORTS         | 星系正在派遣人员
+FLEETS_NOT_SENDING_TRANSPORTS     | 星系没有派遣人员
+FLEETS_IS_RICH                    | 星系资源丰富或非常丰富
+FLEETS_IS_ULTRA_RICH              | 星系资源非常丰富
+FLEETS_IS_POOR                    | 星系资源匮乏或非常匮乏
+FLEETS_IS_ULTRA_POOR              | 星系资源非常匮乏
+FLEETS_IS_STANDARD                | 星系的资源状况正常
+FLEETS_SYSTEMS_SELECTED           | 选中%1个星系
+FLEETS_FLEETS_SELECTED            | 选中%1艘舰船
+FLEETS_MULTIPLE_DESIGNS           | 多种飞船
+FLEETS_RELOCATE_LABEL             | 设置集结点
+FLEETS_TRANSPORTS_LABEL           | 派遣人员
+FLEETS_SPENDING_LABEL             | 调整造船投入
+FLEETS_HAS_ORDERS                 | 飞船正在移动
+FLEETS_HAS_NO_ORDERS              | 飞船正在轨道绕行
+FLEETS_IS_RALLYING                | 飞船正在集结
 FLEETS_DESIGN_COUNT               | %1 %2
-FLEETS_DEPLOY_FLEETS              | Deploy Fleets
-FLEETS_SET_RALLY_POINTS           | Set Rally Points
-FLEETS_STOP_RALLIES_DESC          | %1 selected systems already have assigned rally points
-FLEETS_STOP_RALLIES               | Stop Rallies
-FLEETS_SETTING_RALLY_POINTS       | Starting Rally Points
-FLEETS_START_RALLIES_DESC         | Select a system you control to send newly built ships from all selected systems.
-FLEETS_START_RALLIES              | Start Rallies
-FLEETS_SEND_TRANSPORTS            | Send Transports
-FLEETS_ADJUST_SPENDING_SELECT     | Select systems to set Ship spending 
-FLEETS_ADJUST_SPENDING_DESC       | Select the desired Ship spending levels for the %1 selected systems
-FLEETS_ADJUST_SPENDING_DESC2      | Other spending categories will be automatically adjusted. 
-FLEETS_ADJUST_SPENDING_DESC3      | Ecology will retain minimum spending required to clean pollution.
-FLEETS_ADJUST_SPENDING            | Adjust Ship Spending
-FLEETS_SPENDING_0                 | No Ship Spending
-FLEETS_SPENDING_25                | 25% Ship Spending
-FLEETS_SPENDING_50                | 50% Ship Spending
-FLEETS_SPENDING_75                | 75% Ship Spending
-FLEETS_SPENDING_MAX               | Maximum Ship Spending
+FLEETS_DEPLOY_FLEETS              | 部署舰队
+FLEETS_SET_RALLY_POINTS           | 设置集结点
+FLEETS_STOP_RALLIES_DESC          | %1个被选中的星系已经有被设置好的集结点
+FLEETS_STOP_RALLIES               | 停止集结
+FLEETS_SETTING_RALLY_POINTS       | 开启集结点
+FLEETS_START_RALLIES_DESC         | 选择一个你控制的星系，将所有被选中星系的新造舰船都部署到这个星系。
+FLEETS_START_RALLIES              | 开始集结
+FLEETS_SEND_TRANSPORTS            | 派遣人员
+FLEETS_ADJUST_SPENDING_SELECT     | 选择要调整造船比例的星系
+FLEETS_ADJUST_SPENDING_DESC       | 为选中的%1个星系设置造船投入比例
+FLEETS_ADJUST_SPENDING_DESC2      | 其他投入模块会自动调整。
+FLEETS_ADJUST_SPENDING_DESC3      | 生态投入会调整到足够清理污染的最小值。
+FLEETS_ADJUST_SPENDING            | 调整造船投入
+FLEETS_SPENDING_0                 | 无造船投入
+FLEETS_SPENDING_25                | 投入产出的25%
+FLEETS_SPENDING_50                | 投入产出的50%
+FLEETS_SPENDING_75                | 投入产出的75%
+FLEETS_SPENDING_MAX               | 最大化造船投入
 FLEETS_SPENDING_CANCEL            | 取消
-FLEETS_CANCEL_TRANSPORTS_DESC     | %1 selected systems have already scheduled transports
-FLEETS_CANCEL_TRANSPORTS          | Cancel Transports
-FLEETS_DEPLOYING_TRANSPORTS_DESC  | Select a system within range to send colony transports or military troops to.
-FLEETS_DEPLOY_TRANSPORTS          | Deploy Transports
-FLEETS_FLEET_DEPLOYMENT           | Fleet Deployment
-FLEETS_UNDEPLOYING_FLEETS         | %1 selected fleets already have assigned deployments.
-FLEETS_CANCEL_DEPLOYMENTS         | Cancel Deployments
-FLEETS_DEPLOYING_FLEETS           | Deploying Fleets
-FLEETS_DEPLOYING_FLEETS_DESC      | Select a system in range to deploy all selected fleets.
-FLEETS_DEPLOY_FLEETS              | Deploy Fleets
-FLEETS_TRANSPORTS_TITLE           | Send Transports From:
-FLEETS_TRANSPORTS_SEND            | Send %1 Transports
-FLEETS_TRANSPORTS_SYNCH           | Synch
-FLEETS_TRANSPORTS_UNSYNCH         | Unsynch
-FLEETS_TRANSPORT_NO_ROOM          | Warning - Target planet is at its maximum population!
-FLEETS_TRANSPORT_SIZE_WARNING     | Warning - Target planet can only support %1 million!
-FLEETS_TRANSPORT_TIME             | Scheduled arrival: %1 years
-FLEETS_TRANSPORT_TIME_RANGE       | Scheduled arrival: %1 to %2 years
-FLEETS_CANNOT_SEND_TRANSPORTS     | %1 is unable to send transports
-FLEETS_EXISTING_TRANSPORT         | Sending %1 transports to %2
-FLEETS_EXISTING_STOP              | Stop
+FLEETS_CANCEL_TRANSPORTS_DESC     | %1个被选中的星系已经有计划中的派遣任务
+FLEETS_CANCEL_TRANSPORTS          | 取消派遣
+FLEETS_DEPLOYING_TRANSPORTS_DESC  | 选择一个航程内的行星以派遣平民或军队。
+FLEETS_DEPLOY_TRANSPORTS          | 确定派遣人员
+FLEETS_FLEET_DEPLOYMENT           | 舰队部署
+FLEETS_UNDEPLOYING_FLEETS         | %1个被选中的飞船已经有部署任务。
+FLEETS_CANCEL_DEPLOYMENTS         | 取消部署
+FLEETS_DEPLOYING_FLEETS           | 正在部署
+FLEETS_DEPLOYING_FLEETS_DESC      | 选择一个航程内的星系以部署被选中的飞船。
+FLEETS_DEPLOY_FLEETS              | 部署舰艇
+FLEETS_TRANSPORTS_TITLE           | 从下列行星派遣:
+FLEETS_TRANSPORTS_SEND            | 派遣%1人员
+FLEETS_TRANSPORTS_SYNCH           | 同步
+FLEETS_TRANSPORTS_UNSYNCH         | 不同步
+FLEETS_TRANSPORT_NO_ROOM          | 警告：目标星球已经达到最大人口！
+FLEETS_TRANSPORT_SIZE_WARNING     | 警告：目标星球仅支持%1人口!
+FLEETS_TRANSPORT_TIME             | 抵达时间: %1年后
+FLEETS_TRANSPORT_TIME_RANGE       | 抵达时间: %1到%2年后
+FLEETS_CANNOT_SEND_TRANSPORTS     | %1无法排遣人员
+FLEETS_EXISTING_TRANSPORT         | 派遣%1人员到%2
+FLEETS_EXISTING_STOP              | 放弃
 FLEETS_CANCEL                     | 取消
-FLEETS_HELP_ALL                   | OVERVIEW - This screen allows the management of fleets, transports and shipbuilding on a large scale. In general, you will select a group of fleets or systems to manage, filter them to a smaller set, and then choose the action to perform on them.
-FLEETS_HELP_1A                    | Select Systems - there are three ways to select systems: 1) by clicking systems on the map, 2) by right-click dragging over the map, and 3) by using the "Select All" and "Deselect All" buttons.
-FLEETS_HELP_1B                    | Filter By - select check boxes to narrow down the list of selected systems. Filters can also be clicked to cycle through related options.
-FLEETS_HELP_1C                    | And building - filter systems according to the ship design being constructed. 
-FLEETS_HELP_1D                    | Ship Design - change the ship design to build in the selected systems. A blank image means that the selected systems are currently building different designs. Caution! There is no confirmation prompt for this action.
-FLEETS_HELP_1E                    | Send Transports - send transports from the selected systems to a single target system.
-FLEETS_HELP_1F                    | Set Rally Points - set the rally points for the selected systems to a single target system. 
-FLEETS_HELP_2A                    | Select Fleets - there are three ways to select fleets: 1) by clicking fleets on the map, 2) by right-click dragging over the map, and 3) by using the "Select All" and "Deselect All" buttons.
-FLEETS_HELP_2B                    | Filter By - select check boxes to narrow down the list of selected fleets. Filters can also be clicked to cycle through related options.
-FLEETS_HELP_2C                    | Only Deploy Ships of Type - restrict the types of ships you want to deploy from your fleets.
-FLEETS_HELP_2D                    | Selected for Deployment - a count of ships, by type, that will be deployed.
-FLEETS_HELP_2E                    | Deploy Fleets - deploy the selected fleets to a single target system.
+FLEETS_HELP_ALL                   | 总览：这个界面允许你批量管理舰队、人员派遣和战舰建造。一般来说，你会选择一组飞船或星系，然后筛选出子集，再进一步操作。
+FLEETS_HELP_1A                    | 选择星系：有3种方式。1. 选择地图上的星系；2. 右键在地图上拖拽；3. 使用“选择全部”和“反选全部”。
+FLEETS_HELP_1B                    | 筛选：勾选单选框以缩小被选中的星系，选项也可以被点击以切换内容。
+FLEETS_HELP_1C                    | 建造条件：根据在建飞船在筛选星系。
+FLEETS_HELP_1D                    | 舰艇型号：改变被选中星系的在建型号。空白表示被选中星系在建造不同的飞船。注意：这个操作没有确认键。
+FLEETS_HELP_1E                    | 派遣人员： 从被选中星系派遣人员到某个目标星系。
+FLEETS_HELP_1F                    | 设置集结点：将被选中星系的集结点设置为某个星系。
+FLEETS_HELP_2A                    | 选择舰艇：有3种方法。1. 在地图上点选；2.右键在地图上拖拽；3. 使用“选择全部”和“反选全部”。
+FLEETS_HELP_2B                    | 筛选：勾选单选框以缩小被选中的星系，选项也可以被点击以切换内容。
+FLEETS_HELP_2C                    | 只部署下列类型的舰艇：限制你想要部署的飞船类型。
+FLEETS_HELP_2D                    | 被选中的飞船： 被选中飞船里各种类型的数量。
+FLEETS_HELP_2E                    | 部署舰艇：将被选中的飞船部署到某个目标星系。
 
 // Select Next Tech to Research UI
 TECH_RESEARCH_COMPUTER            | 选择科学家研究的下一个计算科学技术。
@@ -956,13 +956,13 @@ TECH_COMPLETED_ALL                | 我们已经完成了所有科学研究。�
 TECH_COMPLETED_VERIFY             | 确认未来研究的投入分配方案已经正确设置。
 
 // prompt for espionage
-NOTICE_ESPIONAGE_TITLE            | Our spies have infiltrated a [alien_race] base.
-NOTICE_ESPIONAGE_SUBTITLE         | Select a technology type to steal.
-NOTICE_ESPIONAGE_NO_TECH          | No Available Technology
-NOTICE_ESPIONAGE_MANY_TECHS       | %1 Available Technologies
-NOTICE_ESPIONAGE_FOOTER           | If noticed, this may cause a Diplomatic Incident.
-NOTICE_ESPIONAGE_FRAME_TITLE      | Our spies have managed to frame another race for the theft.
-NOTICE_ESPIONAGE_FRAME_SUBTITLE   | Choose the victim race:
+NOTICE_ESPIONAGE_TITLE            | 我们的间谍渗透了一个[alien_race]基地。
+NOTICE_ESPIONAGE_SUBTITLE         | 选择一个想要投偷窃的技术
+NOTICE_ESPIONAGE_NO_TECH          | 无可用技术
+NOTICE_ESPIONAGE_MANY_TECHS       | %1个可用技术
+NOTICE_ESPIONAGE_FOOTER           | 如果被发现，会导致外交争端。
+NOTICE_ESPIONAGE_FRAME_TITLE      | 我们的间谍成功把技术盗窃案栽赃给了另一个种族。
+NOTICE_ESPIONAGE_FRAME_SUBTITLE   | 选择被栽赃种族：
 
 // Spy Capture display (during next turn)
 NOTICE_SPIES_TITLE                | Current Spy Report
@@ -1209,7 +1209,7 @@ SETUP_VOID_4                      | 虚空 4
 SETTINGS_TITLE                    | 高级游戏设置
 SETTINGS_DESCRIPTION              | 单击切换设置
 SETTINGS_EXIT                     | 返回
-SETTINGS_DEFAULT                  | 设为默认
+SETTINGS_DEFAULT                  | 默认设置
 SETTINGS_STAR_DENSITY             | 星系密度: %1
 SETTINGS_RANDOM_EVENTS            | 随机事件: %1
 SETTINGS_RESEARCH_RATE            | 研究速度: %1
@@ -1859,52 +1859,51 @@ SYSTEMS_TAB_EXTERMINATE           | 征服
 SYSTEMS_RANGE                     | %1 光年
 SYSTEMS_ENVIRONMENT_SIZE          | %1 %2
 SYSTEMS_ENVIRONMENT_TYPE          | %1 %2
-SYSTEMS_SHIELD                    | Shield %1
-SYSTEMS_BASES                     | Bases %1
-SYSTEMS_ENTER_NOTES               | Enter system notes here.
-SYSTEMS_ALERT                     | System Alert
-SYSTEMS_NO_ALERTS                 | No alerts at this time.
-SYSTEMS_HISTORY                   | System History
-SYSTEMS_UNSCOUTED                 | System is unscouted but is within reach of our scout ships.
-SYSTEMS_UNSCOUTED_NEED_TECH       | System is unscouted and can be reached after research in "%1" is completed.
-SYSTEMS_UNSCOUTED_COLONIZED       | System is unscouted and controlled by an empire that is not an ally.
-SYSTEMS_UNSCOUTED_ENEMY           | System is unscouted and controlled by an enemy empire.
-SYSTEMS_UNSCOUTED_GUARDED         | Unable to scout while system is guarded.
-SYSTEMS_UNSCOUTED_UNREACHABLE     | System is unscouted and currently unreachable.
-SYSTEMS_CAN_COLONIZE              | System can be reached and colonized with our current technology.
-SYSTEMS_CAN_COLONIZE_EN_ROUTE     | A colony ship is en route to this system. ETA is %1 turns.
-SYSTEMS_CAN_COLONIZE_ENEMY        | System can be reached and colonized but is orbited by a hostile [alien_race] fleet.
-SYSTEMS_UNCOLONIZED_NEED_TECH     | System can be colonized after research in "%1" is completed.
-SYSTEMS_UNCOLONIZED_NEED_TECHS    | System can be colonized after research in "%1" and "%2" is completed.
-SYSTEMS_UNCOLONIZEABLE            | System cannot be colonized.
-SYSTEMS_EXPLOIT_PCT               | Colony at %1% total production capacity.
-SYSTEMS_EXPLOIT_WASTE             | Colony is creating industrial waste.
-SYSTEMS_EXPLOIT_COMPLETE          | Colony is at maximum production capacity.
-SYSTEMS_EXPLOIT_TRANSPORTS        | %1 transports are in transit.
-SYSTEMS_EXT_ENEMY                 | Enemy colony.
-SYSTEMS_EXT_ENEMY_FLEET           | Enemy fleet in orbit.
-SYSTEMS_EXT_ENEMY_FLEET_PLAYER    | Enemy fleet orbiting our colony.
-SYSTEMS_EXT_ENEMY_FLEET_ALLY      | Enemy fleet orbiting an allied colony.
-SYSTEMS_EXT_INC_FLEET_PLAYER      | Enemy fleet in transit to our colony.
-SYSTEMS_EXT_INC_FLEET_ALLY        | Enemy fleet in transit to an allied colony.
-SYSTEMS_EXT_NEED_DEFENSE          | Defenses at this colony are not fully upgraded.
-SYSTEMS_EXT_INC_TRANSPORTS        | %1 [player_race] troops are in transit.
-SYSTEMS_HELP_1A                   | OVERVIEW - The purpose of this screen is to highlight systems in the galaxy that warrant attention by the player. Urgency or danger is denoted by color: flashing red is the highest, and green is the lowest.
-SYSTEMS_HELP_1B                   | Explore - shows unexplored systems within reach of scouts, or potentially with unresearched technologies.
-SYSTEMS_HELP_1C                   | Expand - shows colonizable systems within reach of ships, or potentially with unresearched technologies.
-SYSTEMS_HELP_1D                   | Exploit - shows colonies based lacking economic development. Also shows uncolonized systems with resources.
-SYSTEMS_HELP_1E                   | Exterminate - shows colonies that are under attack or have incoming enemy fleets.
-SYSTEMS_HELP_1F                   | System Alert - describes the system alert, if any, for the selected system
-SYSTEMS_HELP_1G                   | System Notes - text field for player to leave notes.
-SYSTEMS_HELP_1H                   | System History - a chronological list of significant events that have occurred in this system.
-
-SYSTEMS_STATUS_REBELLION          | The colony is in rebellion.
-SYSTEMS_STATUS_COMET              | A comet will strike this planet in %1 years.
-SYSTEMS_STATUS_SUPERNOVA          | The system's star will go supernova in %1 years. Physicists need %2 RP to avert this catastrophe.
-SYSTEMS_STATUS_PLAGUE             | The colony is experiencing a global plague that requires %1 RP to cure.
-SYSTEMS_STATUS_PIRACY             | Pirates are affecting trade routes in this system.
-SYSTEMS_STATUS_SPACE_AMOEBA       | A giant space amoeba is heading towards this system.
-SYSTEMS_STATUS_SPACE_CRYSTAL      | A gigantic space crystal is heading towards this system.
+SYSTEMS_SHIELD                    | 护盾 %1
+SYSTEMS_BASES                     | 导弹 %1
+SYSTEMS_ENTER_NOTES               | 在这里输入星系备注
+SYSTEMS_ALERT                     | 星系警告
+SYSTEMS_NO_ALERTS                 | 当前无警告。
+SYSTEMS_HISTORY                   | 星系历史
+SYSTEMS_UNSCOUTED                 | 未探索该星系，但星系在 scout 的航程范围内。
+SYSTEMS_UNSCOUTED_NEED_TECH       | 星系未被探索，在研究完"%1"后会在航程范围内。
+SYSTEMS_UNSCOUTED_COLONIZED       | 星系未探索，且不被我们的盟友控制。
+SYSTEMS_UNSCOUTED_ENEMY           | 星系未探索，且被敌对帝国控制。
+SYSTEMS_UNSCOUTED_GUARDED         | 星系在被守卫时无法探索。
+SYSTEMS_UNSCOUTED_UNREACHABLE     | 星系未探索，且当下无法抵达。
+SYSTEMS_CAN_COLONIZE              | 当前技术可以探索并殖民该星系。
+SYSTEMS_CAN_COLONIZE_EN_ROUTE     | 一个殖民飞船正驶向该星系。预计%1回合后到达。
+SYSTEMS_CAN_COLONIZE_ENEMY        | 星系可被探索和殖民，但此时正被敌对的[alien_race]军舰绕行。
+SYSTEMS_UNCOLONIZED_NEED_TECH     | 在研究完 "%1" 后该星系可以被殖民。
+SYSTEMS_UNCOLONIZED_NEED_TECHS    | 在研究完 "%1" 和 "%2" 后该星系可以被殖民。
+SYSTEMS_UNCOLONIZEABLE            | 星系无法被殖民。
+SYSTEMS_EXPLOIT_PCT               | 殖民地已实现最大生产力水平的 %1%。
+SYSTEMS_EXPLOIT_WASTE             | 殖民地在制造工业垃圾。
+SYSTEMS_EXPLOIT_COMPLETE          | 殖民地已实现最大生产力水平。
+SYSTEMS_EXPLOIT_TRANSPORTS        | %1 的人口在运输中。
+SYSTEMS_EXT_ENEMY                 | 敌人的殖民地。
+SYSTEMS_EXT_ENEMY_FLEET           | 敌人的飞船在轨道绕行。
+SYSTEMS_EXT_ENEMY_FLEET_PLAYER    | 敌人飞船在我方殖民地绕行。
+SYSTEMS_EXT_ENEMY_FLEET_ALLY      | 敌人飞船在我们盟友的殖民地绕行。
+SYSTEMS_EXT_INC_FLEET_PLAYER      | 敌舰在驶向我方殖民地。
+SYSTEMS_EXT_INC_FLEET_ALLY        | 敌舰在驶向我们盟友的殖民地。
+SYSTEMS_EXT_NEED_DEFENSE          | 该殖民地的防御未升级完毕。
+SYSTEMS_EXT_INC_TRANSPORTS        | %1 [player_race] 的军队在运输中。
+SYSTEMS_HELP_1A                   | 总览：这个界面的目的是给玩家提供宇宙中值得注意的信息。紧急或危险情况会以颜色表示：红色表示最紧急，绿色表示最不重要。
+SYSTEMS_HELP_1B                   | 探索：展示 scout 能够探索的星系，或经过科学研究后可以抵达的星系。
+SYSTEMS_HELP_1C                   | 扩张：展示可抵达范围内未殖民的星系，或经过科学研究后可以殖民的星系。
+SYSTEMS_HELP_1D                   | 开发：展示仍有经济发展空间的殖民地。同时展示有资源的未殖民星系。
+SYSTEMS_HELP_1E                   | 征服：展示当前受到攻击或有敌人舰队开往的星系。
+SYSTEMS_HELP_1F                   | 星系警告： 展示被选中信息的警告情况。
+SYSTEMS_HELP_1G                   | 星系备注：玩家可以在这里对信息做备注。
+SYSTEMS_HELP_1H                   | 星系历史：该星系内发生的重要事件的记录。
+SYSTEMS_STATUS_REBELLION          | 该星系正发生起义。
+SYSTEMS_STATUS_COMET              | 彗星会在%1年后撞击这个星系。
+SYSTEMS_STATUS_SUPERNOVA          | 星系的恒星会在%1年后变成超新星。物理学家需要%2RP才能阻止这个灾难。
+SYSTEMS_STATUS_PLAGUE             | 殖民地正在经历全球范围的瘟疫，需要%1RP才能控制疫情。
+SYSTEMS_STATUS_PIRACY             | 海盗在影响这个星系的商业贸易。
+SYSTEMS_STATUS_SPACE_AMOEBA       | 一个巨大的太空变形虫正要袭击这个星系。
+SYSTEMS_STATUS_SPACE_CRYSTAL      | 一个巨大的太空水晶正准备袭击这个星系。
 
 
 DIPLOMACY_RECEIVING               | Translating Incoming Message...
@@ -1956,22 +1955,22 @@ DIPLOMACY_HIDE_SPIES              | Order all spies in the [alien_empire] to Hid
 DIPLOMACY_RETREAT_SHIPS           | Order all ships orbiting or in transit to [alien_race] systems to Retreat
 
 // types of endings
-GAME_OVER_OVERTHROWN_LOSS         | Overthrown Loss
-GAME_OVER_MILITARY_LOSS           | Military Loss
-GAME_OVER_DIPLOMATIC_LOSS         | Diplomatic Loss
-GAME_OVER_NEW_REPUBLIC_LOSS       | New Republic Loss
-GAME_OVER_REBELLION_LOSS          | Rebellion Loss
-GAME_OVER_DIPLOMATIC_WIN          | Diplomatic Win
-GAME_OVER_MILITARY_WIN            | Military Win
-GAME_OVER_MILITARY_ALLIANCE_WIN   | Military Alliance Win
-GAME_OVER_NEW_REPUBLIC_WIN        | New Republic Win
-GAME_OVER_REBELLION_WIN           | Rebellion Win
-GAME_OVER_REBEL_ALLIANCE_WIN      | Rebel Alliance Win
-GAME_OVER_ALLIANCE_WIN            | Alliance Win
-GAME_OVER_NO_COLONIES_LOSS        | Societal Collapse Loss
+GAME_OVER_OVERTHROWN_LOSS         | 政权倒台失败
+GAME_OVER_MILITARY_LOSS           | 军事失败
+GAME_OVER_DIPLOMATIC_LOSS         | 外交失败
+GAME_OVER_NEW_REPUBLIC_LOSS       | 新共和国失败
+GAME_OVER_REBELLION_LOSS          | 起义失败
+GAME_OVER_DIPLOMATIC_WIN          | 外交胜利
+GAME_OVER_MILITARY_WIN            | 军事胜利
+GAME_OVER_MILITARY_ALLIANCE_WIN   | 联盟军事胜利
+GAME_OVER_NEW_REPUBLIC_WIN        | 新共和国胜利
+GAME_OVER_REBELLION_WIN           | 起义胜利
+GAME_OVER_REBEL_ALLIANCE_WIN      | 联盟反叛胜利
+GAME_OVER_ALLIANCE_WIN            | 盟友胜利
+GAME_OVER_NO_COLONIES_LOSS        | 社会崩溃失败
 
-GAME_OVER_EXIT                    | Exit
-GAME_OVER_REPLAY                  | Replay
+GAME_OVER_EXIT                    | 退出
+GAME_OVER_REPLAY                  | 重新游戏
 
 // text for race-generic endings
 // %1 Game year, %2 player name, %3 player race, %4 player empire, %5 leader name, %6 leader race, %7 leader empire, %8 special text
