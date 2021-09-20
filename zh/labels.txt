@@ -7,16 +7,16 @@
 //    You can only use keys that the game is looking for.
 //
 // Large number formatting
-NUM_FORMAT_THOUSANDS              | %1K
-NUM_FORMAT_MILLIONS               | %1M
-NUM_FORMAT_BILLIONS               | %1B
+NUM_FORMAT_THOUSANDS              | %1千
+NUM_FORMAT_MILLIONS               | %1百万
+NUM_FORMAT_BILLIONS               | %1十亿
 
 // Star descriptions
 RED_STAR_DESCRIPTION              | 红色恒星是暮气沉沉的恒星，它的行星一般资源匮乏。
 YELLOW_STAR_DESCRIPTION           | 黄色恒星有最大的概率找到类地行星和近似类地行星。
 ORANGE_STAR_DESCRIPTION           | 橙色恒星的亮度中等，有大量的行星类型。
 BLUE_STAR_DESCRIPTION             | 蓝色恒星是相对年轻的恒星，有矿产丰富但没有生命的星球。
-WHITE_STAR_DESCRIPTION            | 白色恒星异常炙热，一般有不宜居行星。
+WHITE_STAR_DESCRIPTION            | 白色恒星异常炙热，这里行星一般环境恶劣。
 PURPLE_STAR_DESCRIPTION           | 中子星很少见，有最大的可能找到资源丰富的行星。
 
 // Planet Types
@@ -65,8 +65,8 @@ PLANET_ULTRA_POOR                 | 非常匮乏
 PLANET_POOR                       | 资源匮乏
 PLANET_RICH                       | 资源丰富
 PLANET_ULTRA_RICH                 | 非常丰富
-PLANET_HOSTILE                    | 不宜居
-PLANET_FERTILE                    | 宜居
+PLANET_HOSTILE                    | 恶劣
+PLANET_FERTILE                    | 肥沃
 PLANET_GAIA                       | 天堂
 
 // Planet Descriptors for Race
@@ -626,8 +626,8 @@ MAIN_SCOUT_SUBTITLE_2             | Our astronomers have collected this data
 MAIN_SCOUT_SUBTITLE_3             | Our allies have shared this data
 MAIN_SCOUT_TYPE                   | 归类: %1      空间: %2
 MAIN_SCOUT_NO_PLANET              | 没有找到可生存星球。
-MAIN_SCOUT_HOSTILE_DESC           | 环境: 不宜居 - 人口增长减半。
-MAIN_SCOUT_FERTILE_DESC           | 环境: 宜居 - 人口增长加快50%。
+MAIN_SCOUT_HOSTILE_DESC           | 环境: 恶劣 - 人口增长减半。
+MAIN_SCOUT_FERTILE_DESC           | 环境: 肥沃 - 人口增长加快50%。
 MAIN_SCOUT_GAIA_DESC              | 环境: 天堂 - 人口增长翻倍。
 MAIN_SCOUT_ARTIFACTS_DESC         | 上古遗迹: 科技研究效果翻倍。
 MAIN_SCOUT_ANCIENTS_DESC          | 上古家园: 科技研究效果翻三倍。
