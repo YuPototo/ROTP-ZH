@@ -7,9 +7,9 @@
 //    You can only use keys that the game is looking for.
 //
 // Large number formatting
-NUM_FORMAT_THOUSANDS              | %1千
-NUM_FORMAT_MILLIONS               | %1百万
-NUM_FORMAT_BILLIONS               | %1十亿
+NUM_FORMAT_THOUSANDS              | %1K
+NUM_FORMAT_MILLIONS               | %1M
+NUM_FORMAT_BILLIONS               | %1B
 
 // Star descriptions
 RED_STAR_DESCRIPTION              | 红色恒星是暮气沉沉的恒星，它的行星一般资源匮乏。
@@ -365,27 +365,27 @@ GAME_SETTINGS_SAVEDIR_DESC1       | 存档文件夹默认是游戏所在文件�
 GAME_SETTINGS_SAVEDIR_DESC2       | 当前的存档文件夹是: %1
 
 // Load Game UI
-LOAD_GAME_TITLE                   | Load Game
-LOAD_GAME_AUTOSAVE                | Most Recent Autosave
-LOAD_GAME_BACKUP_DIR              | Backup Directory: %1 files
-LOAD_GAME_SAVE_DIR                | Save Directory: %1 files
-LOAD_GAME_FILENAME                | Sort by Filename
-LOAD_GAME_DATE                    | by Date
-LOAD_GAME_SIZE                    | by Size
-LOAD_GAME_LOADING                 | Loading...
-LOAD_GAME_BAD_VERSION             | Cannot load saved game file: %1. This file may be corrupt or outdated.
+LOAD_GAME_TITLE                   | 载入游戏
+LOAD_GAME_AUTOSAVE                | 自动存档
+LOAD_GAME_BACKUP_DIR              | 备份文件夹: %1 文件
+LOAD_GAME_SAVE_DIR                | 保存到文件夹: %1 文件
+LOAD_GAME_FILENAME                | 按文件名
+LOAD_GAME_DATE                    | 日期
+LOAD_GAME_SIZE                    | 大小
+LOAD_GAME_LOADING                 | 载入中...
+LOAD_GAME_BAD_VERSION             | 无法载入存档: %1. 这个文件可能已被损坏。
 LOAD_GAME_CANCEL                  | 取消
 LOAD_GAME_OK                      | 载入
 LOAD_GAME_TOO_LONG                | ...
 
 // Save Game UI
-SAVE_GAME_TITLE                   | Save Game
-SAVE_GAME_FILENAME                | Sort by Filename
-SAVE_GAME_DATE                    | by Date
-SAVE_GAME_SIZE                    | by Size
-SAVE_GAME_SAVING                  | Saving...
+SAVE_GAME_TITLE                   | 保存游戏
+SAVE_GAME_FILENAME                | 按文件名
+SAVE_GAME_DATE                    | 日期
+SAVE_GAME_SIZE                    | 尺寸
+SAVE_GAME_SAVING                  | 保存中...
 SAVE_GAME_CANCEL                  | 取消
-SAVE_GAME_OK                      | Save
+SAVE_GAME_OK                      | 保存
 
 // Intro UI
 INTRO_BEGIN                       | 开始
@@ -406,21 +406,21 @@ MAIN_SPY_REPORT                   | 谍报
 MAIN_TECH_NONE                    | 没有研究
 MAIN_TECH_COMPLETED               | 研究完成
 MAIN_TECH_RP_REMAINING            | 还差 %1 RP
-MAIN_TECH_RP_DISCOVERY            | Discovery Imminent
+MAIN_TECH_RP_DISCOVERY            | 即将成功
 MAIN_TECH_RESERVE_BC              | %1 BC
 MAIN_TECH_RESERVE_TAX_ALL         | 对所有殖民地征收%1%的税
 MAIN_TECH_RESERVE_TAX             | 对发达殖民地征收%1%的税
 MAIN_TECH_RESERVE_TAX_NONE        | 没有征税
 MAIN_HELP_ALL                     | 帮助：点击按钮，切换帮助信息。按 ESC 键取消。
-MAIN_HELP_1A                      | 每个 star system 的生产分为5个部分。灰色表示该部分的资源分配被锁定，无法再修改。单击切换锁定/非锁定状态。
+MAIN_HELP_1A                      | 每个星系的发展分为5个模块。灰色表示该部分的资源分配被锁定，无法再修改。单击切换锁定/非锁定状态。
 MAIN_HELP_1B                      | 船坞：建造被选中的舰船，大型舰船可能需要若干回合建造。
 MAIN_HELP_1C                      | 防御：建造、升级导弹基地和护盾等级。
-MAIN_HELP_1D                      | 工业：建造工厂，提高殖民地的产出。
-MAIN_HELP_1E                      | 生态 ：清理污染，terraforms 行星，增加人口。
+MAIN_HELP_1D                      | 工厂：建造工厂，提高殖民地的产出。
+MAIN_HELP_1E                      | 生态 ：清理污染，改造行星，增加人口。
 MAIN_HELP_1F                      | 科技：将资源投入帝国的科研计划。
-MAIN_HELP_1G                      | Ratio bars 展示了个该行星的生产状况。每一个 bar 的投入可以用如下方式调整：鼠标滑轮、点击 bar 的内部、bar 两边的按钮。
-MAIN_HELP_1H                      | 预期生产结果展示在 bar 的右边。
-MAIN_HELP_2A                      | 殖民地的护盾等级。 在 nebula 内无法建造护盾。
+MAIN_HELP_1G                      | 滚动条展示个该模块的投入情况。每一个模块的投入可以用如下方式调整：鼠标滑轮、点击滚动条的内部、或滚动条两边的按钮。
+MAIN_HELP_1H                      | 预期生产结果展示在滚动条的右边。
+MAIN_HELP_2A                      | 殖民地的护盾等级。 在星云内无法建造护盾。
 MAIN_HELP_2B                      | 导弹基地数量/预期建造数量。 单击或使用鼠标滑轮修改预期建造数量。
 MAIN_HELP_2C                      | 总产出。受到人口和工厂数量的影响。
 MAIN_HELP_2D                      | 净产出。在总产出的基础上扣除了贸易开支，间谍和安全开支，导弹基地和舰船维护费用。
@@ -428,8 +428,8 @@ MAIN_HELP_2E                      | 改变船坞里的舰船型号。 未完成�
 MAIN_HELP_2F                      | 设置集合点，使新建船只开往另一个殖民星球。
 MAIN_HELP_2G                      | 派遣殖民者去支援另一个殖民地，或派遣军队去入侵敌对星球。 殖民地需要一次性支付交通成本。
 MAIN_HELP_2H                      | 彻底遗弃一个行星，把所有人口转移到另一个殖民地。
-MAIN_HELP_2I                      | 当前人口/最大人口。 100 represents a full home planet that has not been terraformed.
-MAIN_HELP_2J                      | 当前工厂数量/最大工厂数量。Maximum factories based on population and robotic controls technology.
+MAIN_HELP_2I                      | 当前人口/最大人口。未被改造的母星的人口上限是100。
+MAIN_HELP_2J                      | 当前工厂数量/最大工厂数量。最大工厂数量受到人口数量和自动化技术的影响。
 MAIN_HELP_2K                      | 给星系插一面旗，让它在宇宙地图里更突出
 MAIN_HELP_2L                      | 国库里的存款数量。
 MAIN_HELP_2M                      | 6个研究领域的研究进展。
@@ -442,7 +442,7 @@ MAIN_HELP_3F                      | 殖民地：殖民地的详细信息，以�
 MAIN_HELP_3G                      | 科技：展示科研成果。你可以在这里调整6大领域的资源分配。
 MAIN_HELP_3H                      | 下一年：让游戏进入下一年。
 MAIN_HELP_3I                      | 当前回合：展示游戏的当前回合或帝国纪元。单击可切换。
-MAIN_HELP_3J                      | 地图设置：单击可调整 galaxy map 的展示设置。
+MAIN_HELP_3J                      | 地图设置：单击可调整宇宙地图的展示设置。
 
 MAIN_SYSTEM_DETAIL_PFB            | 人口 %1  工业 %2  导弹 %3
 MAIN_SYSTEM_DETAIL_PF             | 人口 %1  工业 %2
@@ -484,7 +484,7 @@ TURN_SPIES                        | 间谍活动
 TURN_REBELLION                    | 起义
 TURN_COUNCIL                      | 议会状态
 TURN_RESEARCH                     | 研究
-TURN_ASSESS                       | Completing Internal
+TURN_ASSESS                       | 完成内务
 TURN_DIPLOMACY                    | 外交
 TURN_ACQUIRE_TECHS                | 学习交换科技
 TURN_MAKE_DECISIONS               | 决策
@@ -502,7 +502,7 @@ TURN_COLONY_SPENDING              | 殖民地分配
 MAIN_FLEET_TITLE                  | [fleet_race]舰队
 MAIN_FLEET_TITLE_UNKNOWN          | 未知舰队
 MAIN_FLEET_IN_ORBIT               | 轨道环绕
-MAIN_FLEET_DEPLOYED               | 派遣中
+MAIN_FLEET_DEPLOYED               | 部署中
 MAIN_FLEET_IN_TRANSIT             | 航行中
 MAIN_FLEET_RETREATING             | 撤退中
 MAIN_FLEET_LOCATION               | 位置 %1
@@ -511,38 +511,38 @@ MAIN_FLEET_DESTINATION            | 终点 %1
 MAIN_FLEET_DEST_UNSCOUTED         | 探索未知星球
 MAIN_FLEET_ALLY                   | 盟友
 MAIN_FLEET_ENEMY                  | 敌人
-MAIN_FLEET_DEPLOYMENT             | 舰队派遣
+MAIN_FLEET_DEPLOYMENT             | 舰队部署
 MAIN_FLEET_DISPLAY                | 查看舰队
-MAIN_FLEET_CHOOSE_DEST            | Choose destination and number of ships to send.
-MAIN_FLEET_OUT_OF_RANGE_DESC      | Destination is out of fleet range, %1 light-years from closest colony.
-MAIN_FLEET_INVALID_RETREAT        | Retreating fleets can only be sent to friendly colonies
+MAIN_FLEET_CHOOSE_DEST            | 选择目的和需要部署的数量
+MAIN_FLEET_OUT_OF_RANGE_DESC      | 目标在舰队航程之外，离最近的殖民地%1光年
+MAIN_FLEET_INVALID_RETREAT        | 只有派往盟军殖民地的飞船可以撤回
 MAIN_FLEET_ETA_UNNAMED            | 预计耗时: %1年 
-MAIN_FLEET_ETA_NAMED              | ETA to %1: %2 Years 
+MAIN_FLEET_ETA_NAMED              | 到达%1耗时: %2年
 MAIN_FLEET_SET_RALLY              | 集结中
 MAIN_FLEET_AUTO_RETREAT           | 到达后直接返回
-MAIN_FLEET_ETA_UNKNOWN            | Scanners cannot determine destination
-MAIN_FLEET_THROUGH_NEBULA         | Maximum speed limited to Warp 1 by nebula
+MAIN_FLEET_ETA_UNKNOWN            | 扫描设备无法确定其目的地
+MAIN_FLEET_THROUGH_NEBULA         | 星云内的飞行速度被限制在曲速1
 
 MAIN_FLEET_CANCEL                 | 取消
 MAIN_FLEET_OUT_OF_RANGE           | 无法到达
-MAIN_FLEET_DEPLOY_FLEET           | 派遣
-MAIN_FLEET_UNDEPLOY_FLEET         | 取消派遣
-MAIN_FLEET_INVALID_RETREAT        | Invalid Retreat
-MAIN_FLEET_INVALID_DESTINATION    | 无法排遣到%1
-MAIN_FLEET_INVALID_DESTINATION2   | 无法排遣到这个 system
+MAIN_FLEET_DEPLOY_FLEET           | 部署
+MAIN_FLEET_UNDEPLOY_FLEET         | 取消部署
+MAIN_FLEET_INVALID_RETREAT        | 无效的撤退
+MAIN_FLEET_INVALID_DESTINATION    | 无法部署到%1
+MAIN_FLEET_INVALID_DESTINATION2   | 无法部署到这个星系
 
 // Rally Point labels
-MAIN_RALLY_TITLE                  | Setting Rally Point
-MAIN_RALLY_PROMPT                 | Select a system under your control to send newly built ships to.
-MAIN_RALLY_FORWARD                | Forward incoming rallies
-MAIN_RALLY_TRAVEL_TIME            | Travel time to %1: %2 Years
-MAIN_RALLY_INSTANT_TIME           | Travel time to %1: Instantaneous
-MAIN_RALLY_WILL_CANCEL            | Selecting this destination will clear any existing rally point.
-MAIN_RALLY_ERROR                  | You must select a system under your control.
-MAIN_RALLY_NO_SELECTION           | No Selection
-MAIN_RALLY_CANCEL                 | 取消
-MAIN_RALLY_START                  | Start Rally
-MAIN_RALLY_STOP                   | Stop Rally
+MAIN_RALLY_TITLE                  | 设置集结点
+MAIN_RALLY_PROMPT                 | 选择一个你的殖民星球以集结新的舰艇
+MAIN_RALLY_FORWARD                | 将友军转移到此处
+MAIN_RALLY_TRAVEL_TIME            | 飞往%1耗时: %2年
+MAIN_RALLY_INSTANT_TIME           | 飞往%1耗时: 立刻
+MAIN_RALLY_WILL_CANCEL            | 选择这个目的地会清除之前的集结点
+MAIN_RALLY_ERROR                  | 你只能选择自己控制下的星球
+MAIN_RALLY_NO_SELECTION           | 尚未选择
+MAIN_RALLY_CANCEL                 | 返回
+MAIN_RALLY_START                  | 开始集结
+MAIN_RALLY_STOP                   | 取消集结
 
 // Transport labels
 MAIN_TRANSPORTS_EMPIRE            | %1 运输机
@@ -592,24 +592,24 @@ MAIN_COLONY_SPENDING_RESERVE      | 国库
 MAIN_COLONY_SPENDING_TECH         | 科技
 MAIN_COLONY_SPENDING_CONVERT      | Convert
 MAIN_COLONY_SPENDING_REFIT        | 升级
-MAIN_COLONY_SPENDING_MAX_FACT     | Max
+MAIN_COLONY_SPENDING_MAX_FACT     | 已达最大
 MAIN_COLONY_SPENDING_WASTE        | 污染
 MAIN_COLONY_SPENDING_ECO_GROWTH   | 增长 %1
-MAIN_COLONY_SPENDING_ATMOSPHERE   | Atmo
-MAIN_COLONY_SPENDING_ENRICH_SOIL  | Soil
-MAIN_COLONY_SPENDING_TERRAFORM    | T-form
+MAIN_COLONY_SPENDING_ATMOSPHERE   | 大气
+MAIN_COLONY_SPENDING_ENRICH_SOIL  | 土壤
+MAIN_COLONY_SPENDING_TERRAFORM    | 改造
 MAIN_COLONY_SPENDING_CLEANUP      | 干净
 MAIN_COLONY_SPENDING_GROWTH       | 增长
-MAIN_COLONY_SPENDING_SHIELD       | Shield
-MAIN_COLONY_SPENDING_UPG_BASES    | Upgrade
-MAIN_COLONY_SPENDING_PLAGUE       | Plague
-MAIN_COLONY_SPENDING_SUPERNOVA    | Supernova
+MAIN_COLONY_SPENDING_SHIELD       | 护盾
+MAIN_COLONY_SPENDING_UPG_BASES    | 升级
+MAIN_COLONY_SPENDING_PLAGUE       | 瘟疫
+MAIN_COLONY_SPENDING_SUPERNOVA    | 超新星
 MAIN_COLONY_SPENDING_RP           | %1 RP
 MAIN_COLONY_COMPLETION_YEAR       | 1年
 MAIN_COLONY_COMPLETION_YEARS      | %1年
 MAIN_COLONY_COMPLETION_CENTURY    | %1年
 MAIN_COLONY_COMPLETION_PER_YEAR   | %1/年
-MAIN_COLONY_SHIPYARD_COMPLETED    | Completed: %1
+MAIN_COLONY_SHIPYARD_COMPLETED    | 已完成: %1
 MAIN_COLONY_SHIPYARD_LIMIT        | 制造上限:
 MAIN_COLONY_SHIPYARD_LIMIT_NONE   | 无
 MAIN_COLONY_SHIPYARD_CONSTRUCTION | 舰船生产队列
@@ -622,8 +622,8 @@ MAIN_COLONY_NO_SHIELD             | 星云
 // System Scouted Notification
 MAIN_SCOUT_TITLE                  | 科学家归类了一个新的星系
 MAIN_SCOUT_SUBTITLE_1             | 我们的飞船已经完成这个星系的侦察
-MAIN_SCOUT_SUBTITLE_2             | Our astronomers have collected this data
-MAIN_SCOUT_SUBTITLE_3             | Our allies have shared this data
+MAIN_SCOUT_SUBTITLE_2             | 宇航员已经搜集了这个星球的数据
+MAIN_SCOUT_SUBTITLE_3             | 盟友跟我们分享这个星球的数据
 MAIN_SCOUT_TYPE                   | 归类: %1      空间: %2
 MAIN_SCOUT_NO_PLANET              | 没有找到可生存星球。
 MAIN_SCOUT_HOSTILE_DESC           | 环境: 恶劣 - 人口增长减半。
@@ -647,60 +647,60 @@ MAIN_COLONIZE_NAME_OK             | 确定
 
 // Reasons to ask player to reallocate a system (during next turn)
 MAIN_ALLOCATE_TITLE               | 支出分配
-MAIN_ALLOCATE_DESIGN_SCRAPPED     | The ship design under construction at %1 has been scrapped.
-MAIN_ALLOCATE_COLONIZED           | • %1 已经被殖民
-MAIN_ALLOCATE_STARGATE_COMPLETE   | • %1 已经完成 Stargate 的建造
-MAIN_ALLOCATE_SHIPS_COMPLETE      | • %1 has completed building the requested number of %2 ships.
-MAIN_ALLOCATE_SHIELD_COMPLETE     | • %1 has completed building %2.
-MAIN_ALLOCATE_BASES_COMPLETE      | • %1 has completed building %2 missile bases.
-MAIN_ALLOCATE_BASES_UPGRADED      | • %1 has completed upgrading its missile bases.
-MAIN_ALLOCATE_MAX_FACTORIES       | • %1 has reached its industry maximum of %2 buildable factories. 
-MAIN_ALLOCATE_MAX_POPULATION      | • %1 has reached its population maximum of %2 colonists.
-MAIN_ALLOCATE_TERRAFORM_COMPLETE  | • %1 has completed environmental terraforming.
-MAIN_ALLOCATE_ATMOSPHERE_COMPLETE | • %1 has been terraformed to a normal environment with the standard growth rate.
-MAIN_ALLOCATE_FERTILE_COMPLETE    | • %1 has been terraformed to a fertile environment with 150% of the standard growth rate.
-MAIN_ALLOCATE_GAIA_COMPLETE       | • %1 has been terraformed to a gaia environment with double the standard growth rate.
-MAIN_ALLOCATE_SABOTAGE_BASES      | • %1 has had %2 missile bases destroyed by %3 saboteurs.
-MAIN_ALLOCATE_SABOTAGE_FACTORIES  | • %1 has had %2 factories destroyed by %3 saboteurs.
-MAIN_ALLOCATE_COLONY_CAPTURED     | • %1 was recently captured by %2 troops.
-MAIN_ALLOCATE_ECO_LOCKED_WASTE    | • %1 has ecological spending manually locked at a level insufficient to clean pollution.
-MAIN_ALLOCATE_PROJECT_ENDED       | • %1 is no longer researching a special project: %2
+MAIN_ALLOCATE_DESIGN_SCRAPPED     | %1 的在建飞船已经被拆除。
+MAIN_ALLOCATE_COLONIZED           | • %1 已经被殖民。
+MAIN_ALLOCATE_STARGATE_COMPLETE   | • %1 已经完成星门的建造。
+MAIN_ALLOCATE_SHIPS_COMPLETE      | • %1 已经完成了要求建造的 %2 飞船。
+MAIN_ALLOCATE_SHIELD_COMPLETE     | • %1 已经完成了 %2 的建造。
+MAIN_ALLOCATE_BASES_COMPLETE      | • %1 已经完成了 %2 个导弹基地的建造。
+MAIN_ALLOCATE_BASES_UPGRADED      | • %1 已经完成导弹基地的升级。
+MAIN_ALLOCATE_MAX_FACTORIES       | • %1 的工厂数量已经达到了的上限 %2。
+MAIN_ALLOCATE_MAX_POPULATION      | • %1 的人口数量已经达到了上限 %2。
+MAIN_ALLOCATE_TERRAFORM_COMPLETE  | • %1 已经完成了行星改造。
+MAIN_ALLOCATE_ATMOSPHERE_COMPLETE | • %1 完成了大气改造，人口增长速度现在是正常水平。
+MAIN_ALLOCATE_FERTILE_COMPLETE    | • %1 已经变成了肥沃的行星，人口增长速度是正常水平的1.5倍。
+MAIN_ALLOCATE_GAIA_COMPLETE       | • %1 已经变成了天堂行星，人口增长速度是正常水平的2倍。
+MAIN_ALLOCATE_SABOTAGE_BASES      | • %1 的 %2 个导弹基地被 %3 个间谍破坏了。
+MAIN_ALLOCATE_SABOTAGE_FACTORIES  | • %1 的 %2 个工厂被 %3 个间谍破坏了。
+MAIN_ALLOCATE_COLONY_CAPTURED     | • %1 被 %2 个军队占领了。
+MAIN_ALLOCATE_ECO_LOCKED_WASTE    | • %1 的生态支出被人为控制在了一个没有办法清理污染的水平。
+MAIN_ALLOCATE_PROJECT_ENDED       | • %1 不再研究这个项目：%2。
 MAIN_ALLOCATE_CHANGE_SPENDING     | 星系的支出可以在这里调整。
-MAIN_ALLOCATE_NOTICE_NUMBER       | Notice %1 of %2
-MAIN_ALLOCATE_BRIEF_NUMBER        | %1 of %2
+MAIN_ALLOCATE_NOTICE_NUMBER       | 报告 %1/%2
+MAIN_ALLOCATE_BRIEF_NUMBER        | %1/%2
 MAIN_ALLOCATE_PREV_SYSTEM         | 前一条
 MAIN_ALLOCATE_NEXT_SYSTEM         | 下一条
 MAIN_ALLOCATE_CLOSE               | 关闭
 
 // Fleet Production display (during next turn)
-MAIN_FLEET_PRODUCTION_TITLE       | Fleet Production Summary
+MAIN_FLEET_PRODUCTION_TITLE       | 舰船建造总结
 MAIN_FLEET_SHIP_COUNT             | %1/%2
 
 // 32-bit Java Warning
-MAIN_JAVA_32BIT_TITLE             | Warning! 32-bit Java in use
-MAIN_JAVA_32BIT_DESC              | You are running this game with a 32-bit version of Java. This can greatly reduce available memory and impact game performance.
-MAIN_JAVA_32BIT_DESC_2            | Although Remnants of the Precursors will function in this mode, upgrading to 64-bit Java will improve the gameplay experience.
-MAIN_JAVA_32BIT_DESC_3            | If you need assistance in upgrading Java, please go online to www.reddit.com/r/rotp and ask for assistance.
-MAIN_JAVA_32BIT_OK                | OK
+MAIN_JAVA_32BIT_TITLE             | 警告! 你使用的是32位 Java
+MAIN_JAVA_32BIT_DESC              | 你正在用32位 Java 运行这个游戏。这会极大影响可用内存和游戏速度。
+MAIN_JAVA_32BIT_DESC_2            | 尽管游戏可以在这个模式下运行，但使用64位 Java 会大大优化你的游戏体验。
+MAIN_JAVA_32BIT_DESC_3            | 如果你想获取升级 Java 的帮助，请访问 www.reddit.com/r/rotp 获取帮助
+MAIN_JAVA_32BIT_OK                | 好的
 
 // Memory Low Warning
-MAIN_MEMORY_LOW_TITLE             | Warning! Game Memory Low
-MAIN_MEMORY_LOW_DESC              | Memory available for this game is running low. This can be caused by extended play or not starting with enough free memory.
-MAIN_MEMORY_LOW_DESC_2            | Press "Restart" to restart this game and resume from this point. Continuing to play without restarting may result in unpredictable behavior including loss of save data.
-MAIN_MEMORY_LOW_DESC_3            | If you see this message repeatedly, try closing other applications on your computer before restarting.
-MAIN_MEMORY_LOW_RESTART           | Restart
-MAIN_MEMORY_LOW_SKIP              | Skip
+MAIN_MEMORY_LOW_TITLE             | 警告! 游戏内存不足
+MAIN_MEMORY_LOW_DESC              | 游戏的可用内存不足。这可能是因为游戏地图太大，或电脑的可用内存不够。
+MAIN_MEMORY_LOW_DESC_2            | 点击“重新启动”，重新启动游戏，并从当前进度继续。如果不重启游戏，可能会导致无法预测的后果，比如游戏存档丢失。
+MAIN_MEMORY_LOW_DESC_3            | 如果你频繁看到这个提示，请尝试在重启前关闭其他应用。
+MAIN_MEMORY_LOW_RESTART           | 重新启动
+MAIN_MEMORY_LOW_SKIP              | 忽略
 
 // Autosave Failed Warning
-MAIN_AUTOSAVE_FAILED_TITLE        | Warning! Autosave Failed
-MAIN_AUTOSAVE_FAILED_DESC         | The automatic Autosave feature that is triggered when pressing "Next Turn" has failed. This could be a momentary glitch in the matrix, but please save this game manually before continuing.
-MAIN_AUTOSAVE_FAILED_DESC_2       | The message provided to the game for this error is: %1
-MAIN_AUTOSAVE_FAILED_DESC_3       | If you see this message frequently, please go online to www.reddit.com/r/rotp and post this screenshot.
-MAIN_AUTOSAVE_FAILED_OK           | OK
+MAIN_AUTOSAVE_FAILED_TITLE        | 警告! 自动存档失败
+MAIN_AUTOSAVE_FAILED_DESC         | 游戏在你点击“下一回合”后自动存档。自动存档失败了。这可能是一个临时的内存错误，但请你在继续游戏前重启一次。
+MAIN_AUTOSAVE_FAILED_DESC_2       | 错误信息: %1
+MAIN_AUTOSAVE_FAILED_DESC_3       | 如果你经常看到这个信息，请访问 www.reddit.com/r/rotp，并提供截图。
+MAIN_AUTOSAVE_FAILED_OK           | 好的
 
 // Alerts
-MAIN_ALERT_TITLE                  | Alert 
-MAIN_ALERT_TITLE_COUNT            | Alert - %1 of %2
+MAIN_ALERT_TITLE                  | 警报 
+MAIN_ALERT_TITLE_COUNT            | 警报： %1/%2
 MAIN_ALERT_SPY_REPORT             | Our intelligence bureau has provided a new report on recent spying activity.
 MAIN_ALERT_TECH_STOLEN            | Internal security has uncovered espionage activities by [alien_race] spies.
 MAIN_ALERT_FACTORIES_DESTROYED    | Agents working for the [alien_empire] have destroyed %1 factories in the %2 system.
@@ -1237,7 +1237,7 @@ SETTINGS_COLONIZING_DESC          | 殖民星球技术只能殖民对应类型�
 SETTINGS_COUNCIL_DESC             | 取消议会胜利条件，或者允许敌对帝国反抗议会胜利。
 SETTINGS_RANDOMIZE_AI_DESC        | 随机AI玩家的天性、种族特长。
 SETTINGS_AUTOPLAY_DESC            | 让AI代表玩家游戏。这能让你看到AI是如何游戏的。
-SETTINGS_AUTOPLAY_WARNING         | Warning! Autoplay is currently enabled which will prevent user gameplay. Use "Advanced Options" to disable.
+SETTINGS_AUTOPLAY_WARNING         | 警告! 你启用了自动游戏，这会让你无法操作。请在高级设置中取消这个设置。
 SETTINGS_FUEL_RANGE_DESC          | 提高燃料科技和备用油箱的航程效果。
 SETTINGS_AI_HOSTILITY_DESC        | 增加或降低不同种族间的敌对程度。
 
@@ -1841,12 +1841,12 @@ COUNCIL_REJECT_RULING             | Reject Ruling
 
 
 // Credit text
-CREDITS_DEVELOPER                 | Ray Fowler, Developer
-CREDITS_ILLUSTRATOR               | Petar Penev, Illustrator
-CREDITS_GRAPHIC_DESIGN            | Kaitlin Lindsay, Graphic Designer
-CREDITS_MUSIC                     | Efe Tozan, Music
-CREDITS_WRITER                    | Jeff Colucci, Writer
-CREDITS_SOUND                     | Remi Agullo, Sound Designer
+CREDITS_DEVELOPER                 | 开发者 Ray Fowler
+CREDITS_ILLUSTRATOR               | 插画师 Petar Penev
+CREDITS_GRAPHIC_DESIGN            | 视觉设计 Kaitlin Lindsay
+CREDITS_MUSIC                     | 音乐 Efe Tozan
+CREDITS_WRITER                    | 剧本 Jeff Colucci
+CREDITS_SOUND                     | 音效 Remi Agullo
 CREDITS_TRANSLATOR                | 
 
 // Systems UI

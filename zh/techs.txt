@@ -1172,8 +1172,8 @@ SOILENRICH_1_DETAIL   | 将普通和肥沃星球改造为天堂星球，让人�
 //
 // Stargate tech
 //
-STARGATE_0_NAME      | 星际之门
-STARGATE_0_DETAIL    | 让你的飞船在建造了星际之门的行星之间穿梭，建造费用为3000BC。
+STARGATE_0_NAME      | 星门
+STARGATE_0_DETAIL    | 让你的飞船在建造了星门的行星之间穿梭，建造费用为3000BC。
 
 
 //
