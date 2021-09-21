@@ -720,38 +720,38 @@ MAIN_ALERT_ALLIANCE_BREAKING      | 我们与 [ally_empire] 的联盟关系在�
 
 
 // Colony Listing UI
-PLANETS_TITLE                     | %1 Colonies
-PLANETS_VIEW_ECOLOGY              | Ecology View
-PLANETS_VIEW_INDUSTRY             | Industry View
-PLANETS_VIEW_MILITARY             | Military View
-PLANETS_SPENDING_COSTS            | Empire Spending
-PLANETS_COSTS_DESC                | Each colony pays a percent of its production to support empire spending.
-PLANETS_COSTS_SHIPS               | Ship Maintenance
-PLANETS_COSTS_BASES               | Missile Bases
-PLANETS_COSTS_STARGATES           | Stargates
-PLANETS_COSTS_SPYING              | Spying
-PLANETS_COSTS_SECURITY            | Security
-PLANETS_TOTAL_INCOME              | Annual Income
-PLANETS_INCOME_TRADE              | Trade Income
-PLANETS_INCOME_PLANETS            | Colony Production
-PLANETS_INCOME_TOTAL              | Total
-PLANETS_TREASURY                  | Empire Treasury
-PLANETS_TREASURY_FUNDS            | Treasury Funds
-PLANETS_TAX_DESC                  | Tax your colonies to add to the empire's treasury.
-PLANETS_RESERVE_TAX               | Reserve Tax
-PLANETS_RESERVE_INCREASE          | +%1 BC/Year
-PLANETS_RESERVE_NO_TAX            | No Taxes
-PLANETS_RESERVE_ONLY_DEVELOPED    | Tax only fully developed colonies
-PLANETS_BUTTON_TRANSFER           | TRANSFER
-PLANETS_BUTTON_EXIT               | EXIT
+PLANETS_TITLE                     | %1 殖民地
+PLANETS_VIEW_ECOLOGY              | 生态
+PLANETS_VIEW_INDUSTRY             | 工业
+PLANETS_VIEW_MILITARY             | 军事
+PLANETS_SPENDING_COSTS            | 帝国开支
+PLANETS_COSTS_DESC                | 每个殖民地都支付一定比例的产出以维持帝国开支。
+PLANETS_COSTS_SHIPS               | 战舰维护
+PLANETS_COSTS_BASES               | 导弹基地
+PLANETS_COSTS_STARGATES           | 星门
+PLANETS_COSTS_SPYING              | 间谍
+PLANETS_COSTS_SECURITY            | 安全
+PLANETS_TOTAL_INCOME              | 年收入
+PLANETS_INCOME_TRADE              | 贸易收入
+PLANETS_INCOME_PLANETS            | 殖民地产出
+PLANETS_INCOME_TOTAL              | 总收入
+PLANETS_TREASURY                  | 帝国国库
+PLANETS_TREASURY_FUNDS            | 国库储备
+PLANETS_TAX_DESC                  | 对殖民地征税以增加国库收入
+PLANETS_RESERVE_TAX               | 税收
+PLANETS_RESERVE_INCREASE          | +%1 BC/年
+PLANETS_RESERVE_NO_TAX            | 无税收
+PLANETS_RESERVE_ONLY_DEVELOPED    | 只对完全发展殖民地征税
+PLANETS_BUTTON_TRANSFER           | 转账
+PLANETS_BUTTON_EXIT               | 返回
 PLANETS_AMT_PCT                   | %1%
 PLANETS_AMT_BC                    | %1 BC
-PLANETS_TRANSFER_DESC             | Transfer Empire Funds to %1
+PLANETS_TRANSFER_DESC             | 从国库转移资金到%1
 PLANETS_TRANSFER_CANCEL           | 取消
-PLANETS_TRANSFER_ACCEPT           | Transfer
-PLANETS_COLONY_TRANSFER_TITLE     | Transfer Funds
-PLANETS_COLONY_TRANSFER_DETAIL    | Transfer funds from the empire's treasury to increase this colony's production.
-PLANETS_COLONY_TRANSFER_BUTTON    | Transfer Funds From Treasury
+PLANETS_TRANSFER_ACCEPT           | 转账
+PLANETS_COLONY_TRANSFER_TITLE     | 转移资金
+PLANETS_COLONY_TRANSFER_DETAIL    | 从国库转移资金到殖民地以临时增加殖民地产出。
+PLANETS_COLONY_TRANSFER_BUTTON    | 从国库转移资金
 PLANETS_LIST_NUM                  | 
 PLANETS_LIST_NAME                 | 名称
 PLANETS_LIST_POPULATION           | 人口
@@ -762,15 +762,15 @@ PLANETS_LIST_FACTORIES            | 工厂
 PLANETS_LIST_WASTE                | 污染
 PLANETS_LIST_BASES                | 导弹
 PLANETS_LIST_SHIELD               | 护盾
-PLANETS_LIST_PRODUCTION           | 产能
-PLANETS_LIST_CAPACITY             | Capacity
-PLANETS_LIST_RESERVE              | Reserve
-PLANETS_LIST_SHIPYARD             | Shipyard
-PLANETS_LIST_NOTES                | Notes
+PLANETS_LIST_PRODUCTION           | 产出
+PLANETS_LIST_CAPACITY             | 产能
+PLANETS_LIST_RESERVE              | 存款
+PLANETS_LIST_SHIPYARD             | 船坞
+PLANETS_LIST_NOTES                | 备注
 PLANETS_LIST_TURNS                | 回合
 PLANETS_LIST_YEARS                | 年
 PLANETS_LIST_TRANSPORTS           | 人数
-PLANETS_LIST_RESOURCES            | Resources
+PLANETS_LIST_RESOURCES            | 资源
 PLANETS_MULTI_SYSTEMS             | %1 Systems
 PLANETS_AGGREGATE_VALUES          | Aggregate Values
 PLANETS_SPENDING_0                | No %1 Spending
@@ -778,39 +778,39 @@ PLANETS_SPENDING_25               | 25% %1 Spending
 PLANETS_SPENDING_50               | 50% %1 Spending
 PLANETS_SPENDING_75               | 75% %1 Spending
 PLANETS_SPENDING_MAX              | Maximum %1 Spending
-PLANETS_HELP_ALL                  | OVERVIEW - This screen shows your empire's economic data along with a listing of your colonies sortable by various data.
-PLANETS_HELP_1A                   | Ecology - Click this tab to show ecological data for colonies.
-PLANETS_HELP_1B                   | Industry - Click this tab to show industrial data for colonies.
-PLANETS_HELP_1C                   | Military - Click this tab to show military data for colonies.
-PLANETS_HELP_1D                   | Colony spending can be adjusted as on main screen.
-PLANETS_HELP_1E                   | Increase colony production by up to 50% by transferring funds from the empire treasury.
-PLANETS_HELP_1F                   | Total Income for your empire.
-PLANETS_HELP_1G                   | Total Spending for your empire expressed as a pct of income.
-PLANETS_HELP_1H                   | Levy a tax on your colonies to add to the empire treasury. Optionally restrict this tax to only colonies that have completed their Ecology, Industry and Defense spending.
-PLANETS_HELP_2A                   | Name - The name for your system. Editable.
-PLANETS_HELP_2B                   | Population - Current population, including change from previous turn.
-PLANETS_HELP_2C                   | Type - Terrain type of planet. Green for Fertile planets.
-PLANETS_HELP_2D                   | Resources - for Rich, Poor and Artifact planets.
-PLANETS_HELP_2E                   | Size - Current size of planet.
-PLANETS_HELP_2F                   | Waste - level of industrial waste on planet.
-PLANETS_HELP_2G                   | Notes - Player system notes. Editable.
-PLANETS_HELP_3A                   | Name - The name for your system. Editable.
-PLANETS_HELP_3B                   | Population - Current population, including change from previous turn.
-PLANETS_HELP_3C                   | Resources - for Rich, Poor and Artifact planets.
-PLANETS_HELP_3D                   | Factories - Number of factories, including change from previous turn.
-PLANETS_HELP_3E                   | Production - total production for colony.
-PLANETS_HELP_3F                   | Reserve - total reserve currently stored on colony.
-PLANETS_HELP_3G                   | Notes - Player system notes. Editable.
-PLANETS_HELP_3H                   | Capacity - pct of maximum possible production.
-PLANETS_HELP_4A                   | Name - The name for your system. Editable.
-PLANETS_HELP_4B                   | Population - Current population, including change from previous turn.
-PLANETS_HELP_4C                   | Resources - for Rich, Poor and Artifact planets.
-PLANETS_HELP_4D                   | Production - total production for colony.
-PLANETS_HELP_4E                   | Shield - planetary shield level.
-PLANETS_HELP_4F                   | Bases - missile bases on planet. Red if outdated technology.
-PLANETS_HELP_4G                   | Shipyard - ship design being constructed.
-PLANETS_HELP_4H                   | Notes - Player system notes. Editable.
-PLANETS_HELP_4I                   | Flag - user-selected system flag.
+PLANETS_HELP_ALL                  | 纵览：这个界面展示了帝国的经济情况，你可以按指标修改各个殖民地的排序。
+PLANETS_HELP_1A                   | 生态：单击以展示殖民地的生态数据。
+PLANETS_HELP_1B                   | 工业：单击以展示殖民地的工业数据。
+PLANETS_HELP_1C                   | 军事：单击以展示殖民地的军事数据。
+PLANETS_HELP_1D                   | 可以在右侧界面修改殖民地的支出分配。
+PLANETS_HELP_1E                   | 从国库转移资金到殖民地，至多增加殖民地50%的产出。
+PLANETS_HELP_1F                   | 你帝国的总产出。
+PLANETS_HELP_1G                   | 你帝国的开支情况，以收入的百分比形式展现。
+PLANETS_HELP_1H                   | 对殖民地征税以增加国库收入。可以只对已经完成生态、工业和防御建设的殖民地征税。
+PLANETS_HELP_2A                   | 名称：殖民地的名称。可以编辑。
+PLANETS_HELP_2B                   | 人口：当前人口，以及相比上一回合的变化数量。
+PLANETS_HELP_2C                   | 地形：星球的地形。绿色表示肥沃星球。
+PLANETS_HELP_2D                   | 资源：星球的资源丰富或匮乏，以及是否有史前遗迹。
+PLANETS_HELP_2E                   | 大小：星球当前的大小。
+PLANETS_HELP_2F                   | 污染：星球当前的污染情况。
+PLANETS_HELP_2G                   | 备注：该星系的备注。可编辑。
+PLANETS_HELP_3A                   | 名称：殖民地的名称。可以编辑。
+PLANETS_HELP_3B                   | 人口：当前人口，以及相比上一回合的变化数量。
+PLANETS_HELP_3C                   | 资源：星球的资源丰富或匮乏，以及是否有史前遗迹。
+PLANETS_HELP_3D                   | 工厂：工厂的数量，包括相比上一回合的变化数量。
+PLANETS_HELP_3E                   | 产出：殖民地的总产出。
+PLANETS_HELP_3F                   | 存款：当前殖民地的存款。
+PLANETS_HELP_3G                   | 备注：该星系的备注。可编辑。
+PLANETS_HELP_3H                   | 产能：当前产出占最大可能产出的百分比。
+PLANETS_HELP_4A                   | 名称：殖民地的名称。可以编辑。
+PLANETS_HELP_4B                   | 人口：当前人口，以及相比上一回合的变化数量。
+PLANETS_HELP_4C                   | 资源：星球的资源丰富或匮乏，以及是否有史前遗迹。
+PLANETS_HELP_4D                   | 产出：殖民地的总产出。
+PLANETS_HELP_4E                   | 护盾：星球护盾等级。
+PLANETS_HELP_4F                   | 导弹：星球的导弹基地数量。如果技术已过时，会被标为红色。
+PLANETS_HELP_4G                   | 船坞：当前正在建造的飞船型号。
+PLANETS_HELP_4H                   | 备注：该星系的备注。可编辑。
+PLANETS_HELP_4I                   | 旗帜：你可以为星系设置一个标记旗帜。
 
 // Bombardment prompt
 MAIN_BOMBARDED_TITLE             | %1 has been bombarded by %2 forces.
@@ -1305,176 +1305,175 @@ TECH_HELP_1I                      | 对未锁定的滚动条，平均分配投�
 
 // Ship Design UI
 SHIP_DESIGN_TITLE                 | 舰船设计
-SHIP_DESIGN_SLOTS                 | Design Slots
-SHIP_DESIGN_AVAILABLE             | Available
-SHIP_DESIGN_AVAILABLE_DESC        | Select this design slot to begin work on a new ship design.
-SHIP_DESIGN_AVAILABLE_DESC2       | Deploy this design to allow construction on colonies.
-SHIP_DESIGN_PROTOTYPE             | Prototype
-SHIP_DESIGN_PROTOTYPE_DESC        | Prototype designs cannot be deployed
-SHIP_DESIGN_SLOT_DESC             | Total in fleet:
-SHIP_DESIGN_SLOT_DESC2            | In Orbit:
-SHIP_DESIGN_SLOT_DESC3            | In Transit:
-SHIP_DESIGN_SLOT_DESC4            | Colonies Building:
-SHIP_DESIGN_NEW                   | New Ship Design
-SHIP_DESIGN_PROTOTYPE_TITLE       | Ship Design Prototype
-SHIP_DESIGN_SIZE_SMALL            | Small
-SHIP_DESIGN_SIZE_MEDIUM           | Medium
-SHIP_DESIGN_SIZE_LARGE            | Large
-SHIP_DESIGN_SIZE_HUGE             | Huge
-SHIP_DESIGN_SIZE_LABEL            | Size
-SHIP_DESIGN_TYPE_LABEL            | Type
-SHIP_DESIGN_COUNT_LABEL           | Count
-SHIP_DESIGN_DAMAGE_LABEL          | Damage
-SHIP_DESIGN_POWER_LABEL           | Power
-SHIP_DESIGN_RANGE_LABEL           | Range
-SHIP_DESIGN_SPEED_LABEL           | Speed
-SHIP_DESIGN_COST_LABEL            | Cost
-SHIP_DESIGN_DESCRIPTION_LABEL     | Description
-SHIP_DESIGN_RANGE_VALUE           | %1 light-years
-SHIP_DESIGN_RANGE_UNLIMITED       | Unlimited
-SHIP_DESIGN_SPEED_VALUE           | Warp %1
-SHIP_DESIGN_COST_VALUE            | %1 BC
-SHIP_DESIGN_TOTAL_SPACE_LABEL     | Total Space
-SHIP_DESIGN_AVAIL_SPACE_LABEL     | Available Space
-SHIP_DESIGN_COLORS                | Tint
-SHIP_DESIGN_COMBAT_STATS_TITLE    | Combat Stats
-SHIP_DESIGN_HIT_POINTS_LABEL      | Hit Points
-SHIP_DESIGN_MISSILE_DEF_LABEL     | Missile Defense
-SHIP_DESIGN_BEAM_DEF_LABEL        | Beam Defense
-SHIP_DESIGN_ATTACK_LEVEL_LABEL    | Attack Level
-SHIP_DESIGN_COMBAT_SPEED_LABEL    | Combat Speed
-SHIP_DESIGN_COMBAT_SPEED_VALUE    | %1 square(s)
-SHIP_DESIGN_ENGINES_TITLE         | Engines
-SHIP_DESIGN_ENGINES_DESC          | Powers your ship and its components.
-SHIP_DESIGN_ENGINE_TYPE           | Type
-SHIP_DESIGN_ENGINE_SPEED          | Speed
-SHIP_DESIGN_ENGINE_COST1          | Cost, per engine
-SHIP_DESIGN_ENGINE_SIZE1          | Size, per engine
-SHIP_DESIGN_ENGINE_POWER1         | Power, per engine
-SHIP_DESIGN_POWER_REQUIREMENTS    | Power Requirements
-SHIP_DESIGN_ENGINES_REQUIRED      | Engines Required
-SHIP_DESIGN_ENGINES_SIZE          | Total Engine Size
-SHIP_DESIGN_ENGINES_COST          | Total Engine Cost
-SHIP_DESIGN_COPY_BUTTON           | Copy
-SHIP_DESIGN_CLEAR_BUTTON          | Clear
-SHIP_DESIGN_RENAME_BUTTON         | Rename
-SHIP_DESIGN_DEPLOY_BUTTON         | Deploy Design
-SHIP_DESIGN_DEPLOY_DESC           | Once deployed, you can construct this ship on your colonies and this design can only be renamed or scrapped.
-SHIP_DESIGN_SCRAP_BUTTON          | Scrap Design
-SHIP_DESIGN_SCRAP_CONFIRM1        | Are you sure you want to scrap the %1 design?
-SHIP_DESIGN_SCRAP_CONFIRM2        | This will destroy %1 ships in your fleet and place %2 BC into the planetary reserve.
-SHIP_DESIGN_SCRAP_CONFIRM3        | You currently have no constructed ships of this design.
+SHIP_DESIGN_SLOTS                 | 设计栏位
+SHIP_DESIGN_AVAILABLE             | 可用
+SHIP_DESIGN_AVAILABLE_DESC        | 选择这个栏位以开启一个新设计。
+SHIP_DESIGN_AVAILABLE_DESC2       | 部署这个设计以让殖民地开始建造。
+SHIP_DESIGN_PROTOTYPE             | 模板飞船
+SHIP_DESIGN_PROTOTYPE_DESC        | 模板设计无法被部署
+SHIP_DESIGN_SLOT_DESC             | 总数量:
+SHIP_DESIGN_SLOT_DESC2            | 轨道绕行:
+SHIP_DESIGN_SLOT_DESC3            | 航行中:
+SHIP_DESIGN_SLOT_DESC4            | 殖民地在建造:
+SHIP_DESIGN_NEW                   | 新的设计
+SHIP_DESIGN_PROTOTYPE_TITLE       | 舰船设计原型
+SHIP_DESIGN_SIZE_SMALL            | 小
+SHIP_DESIGN_SIZE_MEDIUM           | 中
+SHIP_DESIGN_SIZE_LARGE            | 大
+SHIP_DESIGN_SIZE_HUGE             | 巨大
+SHIP_DESIGN_SIZE_LABEL            | 尺寸
+SHIP_DESIGN_TYPE_LABEL            | 类型
+SHIP_DESIGN_COUNT_LABEL           | 数量
+SHIP_DESIGN_DAMAGE_LABEL          | 伤害
+SHIP_DESIGN_POWER_LABEL           | 能耗
+SHIP_DESIGN_RANGE_LABEL           | 航程
+SHIP_DESIGN_SPEED_LABEL           | 速度
+SHIP_DESIGN_COST_LABEL            | 成本
+SHIP_DESIGN_DESCRIPTION_LABEL     | 描述
+SHIP_DESIGN_RANGE_VALUE           | %1光年
+SHIP_DESIGN_RANGE_UNLIMITED       | 无限
+SHIP_DESIGN_SPEED_VALUE           | 曲速%1
+SHIP_DESIGN_COST_VALUE            | %1BC
+SHIP_DESIGN_TOTAL_SPACE_LABEL     | 已用空间
+SHIP_DESIGN_AVAIL_SPACE_LABEL     | 可用空间
+SHIP_DESIGN_COLORS                | 颜色
+SHIP_DESIGN_COMBAT_STATS_TITLE    | 战斗参数
+SHIP_DESIGN_HIT_POINTS_LABEL      | 护甲值
+SHIP_DESIGN_MISSILE_DEF_LABEL     | 导弹防御
+SHIP_DESIGN_BEAM_DEF_LABEL        | 激光防御
+SHIP_DESIGN_ATTACK_LEVEL_LABEL    | 进攻等级
+SHIP_DESIGN_COMBAT_SPEED_LABEL    | 战场速度
+SHIP_DESIGN_COMBAT_SPEED_VALUE    | %1格
+SHIP_DESIGN_ENGINES_TITLE         | 引擎
+SHIP_DESIGN_ENGINES_DESC          | 为你的飞船和组件提供能量
+SHIP_DESIGN_ENGINE_TYPE           | 类型
+SHIP_DESIGN_ENGINE_SPEED          | 速度
+SHIP_DESIGN_ENGINE_COST1          | 成本/个
+SHIP_DESIGN_ENGINE_SIZE1          | 尺寸/个
+SHIP_DESIGN_ENGINE_POWER1         | 能量/个
+SHIP_DESIGN_POWER_REQUIREMENTS    | 总能耗需求
+SHIP_DESIGN_ENGINES_REQUIRED      | 引擎需求量
+SHIP_DESIGN_ENGINES_SIZE          | 引擎总尺寸
+SHIP_DESIGN_ENGINES_COST          | 引擎总成本
+SHIP_DESIGN_COPY_BUTTON           | 复制
+SHIP_DESIGN_CLEAR_BUTTON          | 重制
+SHIP_DESIGN_RENAME_BUTTON         | 重命名
+SHIP_DESIGN_DEPLOY_BUTTON         | 部署设计
+SHIP_DESIGN_DEPLOY_DESC           | 一旦部署，你就能在殖民地建造新的设计，你只能重命名或废除该设计。
+SHIP_DESIGN_SCRAP_BUTTON          | 废除设计
+SHIP_DESIGN_SCRAP_CONFIRM1        | 确定要废除设计 %1 吗？
+SHIP_DESIGN_SCRAP_CONFIRM2        | 我们将拆除 %1 个飞船，并把 %2 BC 存入国库。
+SHIP_DESIGN_SCRAP_CONFIRM3        | 当前没有正在服役的该型号飞船。
 SHIP_DESIGN_SCRAP_CANCEL          | 取消
-SHIP_DESIGN_SCRAP_OK              | Scrap
-SHIP_DESIGN_RENAME_CONFIRM        | Rename your ship design
-SHIP_DESIGN_DEPLOY_CONFIRM        | Name your new ship design
+SHIP_DESIGN_SCRAP_OK              | 废除
+SHIP_DESIGN_RENAME_CONFIRM        | 重命名你的设计
+SHIP_DESIGN_DEPLOY_CONFIRM        | 给新设计命名
 SHIP_DESIGN_DEPLOY_CANCEL         | 取消
-SHIP_DESIGN_DEPLOY_OK             | Deploy
-SHIP_DESIGN_RENAME_OK             | Rename
-SHIP_DESIGN_UNNAMED_DESIGN        | Unnamed
-SHIP_DESIGN_COMPONENT_NONE        | None
+SHIP_DESIGN_DEPLOY_OK             | 部署
+SHIP_DESIGN_RENAME_OK             | 重命名
+SHIP_DESIGN_UNNAMED_DESIGN        | 未命名
+SHIP_DESIGN_COMPONENT_NONE        | 无
 
 
 // ship design selection dialogs
-SHIP_DESIGN_STARGATE_NAME         | Star Gate
-SHIP_DESIGN_1ST_SCOUT_NAME        | Scout
-SHIP_DESIGN_1ST_FIGHTER_NAME      | Fighter
-SHIP_DESIGN_1ST_DESTROYER_NAME    | Destroyer
-SHIP_DESIGN_1ST_BOMBER_NAME       | Bomber
-SHIP_DESIGN_1ST_COLONY_NAME       | Colony Ship
-SHIP_DESIGN_COMPUTER_TITLE        | Computers
-SHIP_DESIGN_COMPUTER_TYPE         | Type
-SHIP_DESIGN_COMPUTER_COST         | Cost
-SHIP_DESIGN_COMPUTER_SIZE         | Size
-SHIP_DESIGN_COMPUTER_POWER        | Power
-SHIP_DESIGN_COMPUTER_SPACE        | Space
-SHIP_DESIGN_SHIELD_TITLE          | Shields
-SHIP_DESIGN_SHIELD_TYPE           | Type
-SHIP_DESIGN_SHIELD_COST           | Cost
-SHIP_DESIGN_SHIELD_SIZE           | Size
-SHIP_DESIGN_SHIELD_POWER          | Power
-SHIP_DESIGN_SHIELD_SPACE          | Space
-SHIP_DESIGN_ECM_TITLE             | ECM Jammer
-SHIP_DESIGN_ECM_TYPE              | Type
-SHIP_DESIGN_ECM_COST              | Cost
-SHIP_DESIGN_ECM_SIZE              | Size
-SHIP_DESIGN_ECM_POWER             | Power
-SHIP_DESIGN_ECM_SPACE             | Space
-SHIP_DESIGN_ARMOR_TITLE           | Armor
-SHIP_DESIGN_ARMOR_TYPE            | Type
-SHIP_DESIGN_ARMOR_COST            | Cost
-SHIP_DESIGN_ARMOR_SIZE            | Size
-SHIP_DESIGN_ENGINE_TITLE          | Engines
-SHIP_DESIGN_ENGINE_TYPE           | Type
-SHIP_DESIGN_ENGINE_NUM            | Num Engines
-SHIP_DESIGN_ENGINE_SPACE          | Space
-SHIP_DESIGN_ENGINE_COST           | Cost
-SHIP_DESIGN_ENGINE_SIZE           | Size
-SHIP_DESIGN_ENGINE_POWER          | Power
-SHIP_DESIGN_MANEUVER_TITLE        | Maneuver
-SHIP_DESIGN_MANEUVER_TYPE         | Type
-SHIP_DESIGN_MANEUVER_SPEED        | Speed
-SHIP_DESIGN_MANEUVER_COST         | Cost
-SHIP_DESIGN_MANEUVER_POWER        | Power
-SHIP_DESIGN_MANEUVER_SPACE        | Space
-SHIP_DESIGN_WEAPON_TITLE          | Weapons
-SHIP_DESIGN_WEAPON_MAX            | Max
-SHIP_DESIGN_WEAPON_TYPE           | Type
-SHIP_DESIGN_WEAPON_DESCRIPTION    | Description
-SHIP_DESIGN_WEAPON_DAMAGE         | Damage
+SHIP_DESIGN_STARGATE_NAME         | 星门
+SHIP_DESIGN_1ST_SCOUT_NAME        | 侦察机
+SHIP_DESIGN_1ST_FIGHTER_NAME      | 战斗机
+SHIP_DESIGN_1ST_DESTROYER_NAME    | 毁灭者
+SHIP_DESIGN_1ST_BOMBER_NAME       | 轰炸机
+SHIP_DESIGN_1ST_COLONY_NAME       | 殖民飞船
+SHIP_DESIGN_COMPUTER_TITLE        | 舰载电脑
+SHIP_DESIGN_COMPUTER_TYPE         | 型号
+SHIP_DESIGN_COMPUTER_COST         | 成本
+SHIP_DESIGN_COMPUTER_SIZE         | 尺寸
+SHIP_DESIGN_COMPUTER_POWER        | 能耗
+SHIP_DESIGN_COMPUTER_SPACE        | 空间
+SHIP_DESIGN_SHIELD_TITLE          | 力场盾
+SHIP_DESIGN_SHIELD_TYPE           | 型号
+SHIP_DESIGN_SHIELD_COST           | 成本
+SHIP_DESIGN_SHIELD_SIZE           | 尺寸
+SHIP_DESIGN_SHIELD_POWER          | 能耗
+SHIP_DESIGN_SHIELD_SPACE          | 空间
+SHIP_DESIGN_ECM_TITLE             | 电子干扰器
+SHIP_DESIGN_ECM_TYPE              | 型号
+SHIP_DESIGN_ECM_COST              | 成本
+SHIP_DESIGN_ECM_SIZE              | 尺寸
+SHIP_DESIGN_ECM_POWER             | 能耗
+SHIP_DESIGN_ECM_SPACE             | 空间
+SHIP_DESIGN_ARMOR_TITLE           | 装甲
+SHIP_DESIGN_ARMOR_TYPE            | 型号
+SHIP_DESIGN_ARMOR_COST            | 成本
+SHIP_DESIGN_ARMOR_SIZE            | 尺寸
+SHIP_DESIGN_ENGINE_TITLE          | 引擎
+SHIP_DESIGN_ENGINE_TYPE           | 类型
+SHIP_DESIGN_ENGINE_NUM            | 引擎数量
+SHIP_DESIGN_ENGINE_SPACE          | 空间
+SHIP_DESIGN_ENGINE_COST           | 成本
+SHIP_DESIGN_ENGINE_SIZE           | 尺寸
+SHIP_DESIGN_ENGINE_POWER          | 能耗
+SHIP_DESIGN_MANEUVER_TITLE        | 机动装置
+SHIP_DESIGN_MANEUVER_TYPE         | 型号
+SHIP_DESIGN_MANEUVER_SPEED        | 速度
+SHIP_DESIGN_MANEUVER_COST         | 成本
+SHIP_DESIGN_MANEUVER_POWER        | 能耗
+SHIP_DESIGN_MANEUVER_SPACE        | 空间
+SHIP_DESIGN_WEAPON_TITLE          | 武器
+SHIP_DESIGN_WEAPON_MAX            | 最大数量
+SHIP_DESIGN_WEAPON_TYPE           | 型号
+SHIP_DESIGN_WEAPON_DESCRIPTION    | 描述
+SHIP_DESIGN_WEAPON_DAMAGE         | 伤害
 SHIP_DESIGN_WEAPON_DMG_RANGE      | %1-%2
-SHIP_DESIGN_WEAPON_COST           | Cost
-SHIP_DESIGN_WEAPON_SIZE           | Size
-SHIP_DESIGN_WEAPON_POWER          | Power
-SHIP_DESIGN_WEAPON_SPACE          | Space
-SHIP_DESIGN_SPECIAL_TITLE         | Special Devices
-SHIP_DESIGN_SPECIAL_TYPE          | Type
-SHIP_DESIGN_SPECIAL_DESCRIPTION   | Description
-SHIP_DESIGN_SPECIAL_COST          | Cost
-SHIP_DESIGN_SPECIAL_SIZE          | Size
-SHIP_DESIGN_SPECIAL_POWER         | Power
-SHIP_DESIGN_SPECIAL_SPACE         | Space
+SHIP_DESIGN_WEAPON_COST           | 成本
+SHIP_DESIGN_WEAPON_SIZE           | 尺寸
+SHIP_DESIGN_WEAPON_POWER          | 能耗
+SHIP_DESIGN_WEAPON_SPACE          | 空间
+SHIP_DESIGN_SPECIAL_TITLE         | 特殊装置
+SHIP_DESIGN_SPECIAL_TYPE          | 类型
+SHIP_DESIGN_SPECIAL_DESCRIPTION   | 描述
+SHIP_DESIGN_SPECIAL_COST          | 成本
+SHIP_DESIGN_SPECIAL_SIZE          | 尺寸
+SHIP_DESIGN_SPECIAL_POWER         | 能耗
+SHIP_DESIGN_SPECIAL_SPACE         | 空间
 
 // Ship Design help
-SHIP_DESIGN_HELP_ALL              | OVERVIEW - an empire can have up to six active ship designs. For each design, choose a hull size then fill it with various components such as armor, shields and weapons. Each component has a size, power and cost. The total space required for a component is its size plus the size of the number of engines needed to power it. Once deployed, a ship design can be constructed in any of your colonies.
-SHIP_DESIGN_HELP_1A               | Size - larger hull sizes add cost but provide more space.
-SHIP_DESIGN_HELP_1B               | Range - how far the ship can travel from your systems.
-SHIP_DESIGN_HELP_1C               | Speed - travel speed in space between stars. 
-SHIP_DESIGN_HELP_1D               | Cost  - total cost to build this ship.
-SHIP_DESIGN_HELP_1E               | Total Space - total space used by the components on this ship design.
-SHIP_DESIGN_HELP_1F               | Available Space - unused space on this ship design.
-SHIP_DESIGN_HELP_1G               | Hit Points - damage required to destroy this ship in combat.
-SHIP_DESIGN_HELP_1H               | Missile Defense - defense level vs. missile weapons in combat.
-SHIP_DESIGN_HELP_1I               | Beam Defense - defense level vs. beam weapons in combat.
-SHIP_DESIGN_HELP_1J               | Attack Level - attack level for weapons in combat. 
-SHIP_DESIGN_HELP_1K               | Combat Speed - distance the ship can travel in combat, per turn.
-SHIP_DESIGN_HELP_1L               | Tint - alters the color of the ship.
-SHIP_DESIGN_HELP_2A               | Engine Type - the type of engine used to power this ship design.
-SHIP_DESIGN_HELP_2B               | Speed - travel speed provided by the engine.
-SHIP_DESIGN_HELP_2C               | Cost - the cost of each engine needed for power.
-SHIP_DESIGN_HELP_2D               | Size - hull space required per engine.
-SHIP_DESIGN_HELP_2E               | Power - the power output per engine.
-SHIP_DESIGN_HELP_2F               | Power Requirement - total power required for all ship components.
-SHIP_DESIGN_HELP_2G               | Engines Required - number of engines needed to meet the power requirement.
-SHIP_DESIGN_HELP_2H               | Total Size - total hull space needed for all engines.
-SHIP_DESIGN_HELP_2I               | Total Cost - total construction cost for all engines.
-SHIP_DESIGN_HELP_2J               | The image assigned to the selected ship design. There are six different images for each of the four hull sizes. When creating a new ship design, click to cycle through options.
-SHIP_DESIGN_HELP_2K               | The name of the ship design.
-SHIP_DESIGN_HELP_3A               | Computers - affect your ship's attack level in combat.
-SHIP_DESIGN_HELP_3B               | Armor - affects your ship's hit points. Heavy armor increases this by 50%.
-SHIP_DESIGN_HELP_3C               | Shields - reduce damage from incoming attacks.
-SHIP_DESIGN_HELP_3D               | ECM Jammer - electronic counter measures improve your missile defense.
-SHIP_DESIGN_HELP_3E               | Maneuver - increases combat speed and the ship's defenses.
-SHIP_DESIGN_HELP_3F               | Weapons - can deal damage to enemy ships and colonies. Up to four different types of weapons can be added to a ship design.
-SHIP_DESIGN_HELP_3G               | Specials - devices that provide unique capabilities to your ship. Up to three special devices can be added to a ship design.
-SHIP_DESIGN_HELP_4A               | Rename - allows you to rename an existing design.
-SHIP_DESIGN_HELP_4B               | Scrap Design - scraps an existing design. Scrapped ships return 25% of their construction value back to the treasury.
-SHIP_DESIGN_HELP_4C               | Deployed ship designs can constructed on any of your colonies.
-SHIP_DESIGN_HELP_4D               | Available ship design slots can be selected in order to create a new design.
-SHIP_DESIGN_HELP_4E               | Copy - copy an existing design to serve as a starting point for a new design.
-SHIP_DESIGN_HELP_4F               | Clear - resets all of the selected components.
-SHIP_DESIGN_HELP_4G               | Deploy Design - when your new design is complete, deploying it allows you to name it and makes it available for construction.
-
+SHIP_DESIGN_HELP_ALL              | 总览：每个帝国可以有6种舰船型号。设计时，需要先选择船架，然后选择其他组件，比如护甲、力场盾和武器。每个组件都有尺寸、成本和能耗。能耗的能量来源是引擎。每个组件的占用空间等于组件本身的尺寸加上提供能量的所需引擎数量。一旦部署，该型号就能够在你的任何一个殖民地建造。
+SHIP_DESIGN_HELP_1A               | 尺寸：更大的船架会增加成本，但能提供更多空间。
+SHIP_DESIGN_HELP_1B               | 航程：飞船能够飞离你的星系多远。
+SHIP_DESIGN_HELP_1C               | 速度：在宇宙中的飞行速度。  
+SHIP_DESIGN_HELP_1D               | 成本：总的建造成本。
+SHIP_DESIGN_HELP_1E               | 已用空间：该飞船各个组件已经占用的空间。
+SHIP_DESIGN_HELP_1F               | 可用空间：该飞船未使用的空间。
+SHIP_DESIGN_HELP_1G               | 护甲值：如果护甲变为0，飞船就会被毁掉。
+SHIP_DESIGN_HELP_1H               | 导弹防御：战斗中对导弹武器的防御能力。
+SHIP_DESIGN_HELP_1I               | 激光防御：战斗中对激光武器的防御能力。
+SHIP_DESIGN_HELP_1J               | 进攻等级：战斗中武器的进攻等级。
+SHIP_DESIGN_HELP_1K               | 战场速度：战斗中每回合的可移动距离。
+SHIP_DESIGN_HELP_1L               | 颜色：改变飞船的颜色。
+SHIP_DESIGN_HELP_2A               | 引擎型号：飞船的引擎型号。
+SHIP_DESIGN_HELP_2B               | 速度：引擎提供的速度。
+SHIP_DESIGN_HELP_2C               | 成本：每个引擎的成本。
+SHIP_DESIGN_HELP_2D               | 尺寸：每个引擎占据的空间。
+SHIP_DESIGN_HELP_2E               | 能量：每个引擎提供的能量。
+SHIP_DESIGN_HELP_2F               | 总能耗需求：所有飞船组件的能耗之和。
+SHIP_DESIGN_HELP_2G               | 引擎需求量：为了满足总能耗需要的引擎数量。
+SHIP_DESIGN_HELP_2H               | 引擎总尺寸：引擎需要的总的船体空间。
+SHIP_DESIGN_HELP_2I               | 引擎总成本：所有引擎需要的总成本。
+SHIP_DESIGN_HELP_2J               | 舰船的外型。每个尺寸的船架都有6种不同的造型。设计舰船时，可以单击以选择不同的选项。
+SHIP_DESIGN_HELP_2K               | 舰船型号的名称
+SHIP_DESIGN_HELP_3A               | 舰载电脑：影响飞船在战场中的攻击力。
+SHIP_DESIGN_HELP_3B               | 装甲：影响舰船可以承受的伤害，重型装甲的可承受伤害会增加50%。
+SHIP_DESIGN_HELP_3C               | 力场盾：可以减少攻击造成的伤害。
+SHIP_DESIGN_HELP_3D               | 电子干扰器：该装置能够干扰敌方导弹的制导，增加你对导弹的防御力。
+SHIP_DESIGN_HELP_3E               | 机动装置：增加战斗中的速度和防御。
+SHIP_DESIGN_HELP_3F               | 武器：可以对敌舰或殖民地造成伤害。每个飞船可以安装至多4种武器。
+SHIP_DESIGN_HELP_3G               | 特殊装置：能够给飞船提供特殊能力。每个飞船可以安装至多3个特殊装置。
+SHIP_DESIGN_HELP_4A               | 改名：让你能够给当前设计改名。
+SHIP_DESIGN_HELP_4B               | 废除设计：废除一种正在服役的型号。被拆除的飞船会把25%的制造成本返还到国库。
+SHIP_DESIGN_HELP_4C               | 已经部署的设计可以在任何一个殖民地建造。
+SHIP_DESIGN_HELP_4D               | 点击可用设计栏位，可以创造一个新的设计。
+SHIP_DESIGN_HELP_4E               | 复制：复制一个当前的设计，将其作为新设计的初始形态。
+SHIP_DESIGN_HELP_4F               | 重置：重置所有被选中的组件。
+SHIP_DESIGN_HELP_4G               | 部署设计：当你完成了设计，就可以部署它，你需要给它一个名字，然后就可以建造了。
 
 // Ship Combat UI
 SHIP_COMBAT_TITLE_SYSTEM          | Ship Combat at %1!
