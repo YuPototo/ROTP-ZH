@@ -36,8 +36,8 @@ PLANET_TOXIC                      | 剧毒
 PLANET_TUNDRA                     | 冻土
 
 // Spy Missions
-SPY_HIDE                          | 隐藏
-SPY_ESPIONAGE                     | 刺探
+SPY_HIDE                          | 潜伏
+SPY_ESPIONAGE                     | 偷窃
 SPY_SABOTAGE                      | 破坏
 SPY_CAUGHT                        | [Your spies were caught.]
 SPY_FRAMED                        | [You were framed.]
@@ -771,13 +771,13 @@ PLANETS_LIST_TURNS                | 回合
 PLANETS_LIST_YEARS                | 年
 PLANETS_LIST_TRANSPORTS           | 人数
 PLANETS_LIST_RESOURCES            | 资源
-PLANETS_MULTI_SYSTEMS             | %1 Systems
-PLANETS_AGGREGATE_VALUES          | Aggregate Values
-PLANETS_SPENDING_0                | No %1 Spending
-PLANETS_SPENDING_25               | 25% %1 Spending
-PLANETS_SPENDING_50               | 50% %1 Spending
-PLANETS_SPENDING_75               | 75% %1 Spending
-PLANETS_SPENDING_MAX              | Maximum %1 Spending
+PLANETS_MULTI_SYSTEMS             | %1个星系
+PLANETS_AGGREGATE_VALUES          | 总数量
+PLANETS_SPENDING_0                | 无投入：%1
+PLANETS_SPENDING_25               | 25% 投入：%1
+PLANETS_SPENDING_50               | 50% 投入：%1
+PLANETS_SPENDING_75               | 75% 投入：%1
+PLANETS_SPENDING_MAX              | 最大投入： %1
 PLANETS_HELP_ALL                  | 纵览：这个界面展示了帝国的经济情况，你可以按指标修改各个殖民地的排序。
 PLANETS_HELP_1A                   | 生态：单击以展示殖民地的生态数据。
 PLANETS_HELP_1B                   | 工业：单击以展示殖民地的工业数据。
@@ -1592,89 +1592,89 @@ RACES_TRADE_NONE                  | No trade treaty
 RACES_DIPLOMAT_RECALLED           | [alien_race] diplomat recalled
 RACES_DIPLOMATS_RECALLED          | Diplomats recalled
 
-RACES_DIPLOMACY_HOMEWORLD         | Homeworld
-RACES_DIPLOMACY_LEADER            | Leader
-RACES_DIPLOMACY_CURRENT_TRADE     | Current Trade Income
-RACES_DIPLOMACY_TOTAL_TRADE       | Total Trade Treaties
+RACES_DIPLOMACY_HOMEWORLD         | 母星
+RACES_DIPLOMACY_LEADER            | 领袖
+RACES_DIPLOMACY_CURRENT_TRADE     | 当前贸易收入
+RACES_DIPLOMACY_TOTAL_TRADE       | 贸易协议总额
 RACES_DIPLOMACY_TRADE_AMT         | %1 BC
-RACES_DIPLOMACY_CHARACTER         | Character
-RACES_DIPLOMACY_STATUS            | Status
-RACES_DIPLOMACY_RELATIONS_METER   | Relations Meter
-RACES_DIPLOMACY_RELATIONS_UNKNOWN | The mood and motives of the [alien_empire] are inscrutable to our diplomats and spies.
-RACES_DIPLOMACY_BUREAU            | Diplomacy Bureau
-RACES_DIPLOMACY_BUREAU_DESC1      | Contact foreign empires or recall your diplomats to prevent empires from contacting you.
-RACES_DIPLOMACY_BUREAU_DESC       | Contact the [alien_race] ambassador for an audience or establish contact if your diplomats have been recalled. 
-RACES_DIPLOMACY_BUREAU_DESC_RANGE | We cannot establish diplomatic relations with empires that are out of our ship range.
-RACES_DIPLOMACY_BUREAU_DESC_FINAL | We are engaged in a final war with the New Republic. Diplomacy is no longer an option. 
-RACES_DIPLOMACY_KNOWN_EMPIRES     | Known Foreign Empires
-RACES_DIPLOMACY_RECALLED_DIPLOMAT | Recalled Diplomats
-RACES_DIPLOMACY_MANAGE_DIPLOMATS  | Manage Diplomats
-RACES_DIPLOMACY_AUDIENCE          | Audience
-RACES_DIPLOMACY_CONTACT           | Establish Contact
-RACES_DIPLOMACY_TRADE_SUMMARY     | Trade Summary
-RACES_DIPLOMACY_TRADE_DESC        | Contact the [alien_race] ambassador to negotiate a trade treaty. Trade networks take time and money to set up, but once mature bring money into your empire's treasury.
-RACES_DIPLOMACY_TRADE_DESC_RANGE  | We cannot establish trade networks with empires that are out of our ship range.
-RACES_DIPLOMACY_TRADE_DESC_FINAL  | We are engaged in a final war with the New Republic. Trade is no longer possible. 
-RACES_DIPLOMACY_TRADE_TREATY      | Trade Treaty
-RACES_DIPLOMACY_FOREIGN_RELATIONS | Foreign Relations
-RACES_DIPLOMACY_FOREIGN_RANGE     | We cannot know the foreign relations of the [alien_empire] until we have established diplomatic contact.
-RACES_DIPLOMACY_FOREIGN_DESC      | The [alien_race_plural] are in contact with the following races:
-RACES_DIPLOMACY_COUNTER_BUREAU    | Counter-Intelligence Bureau
-RACES_DIPLOMACY_COUNTER_DESC      | Security spending increases your spending and chance of discovering foreign spies.
-RACES_DIPLOMACY_COUNTER_DESC2     | Tax your colonies to increase security spending.
-RACES_DIPLOMACY_EVENT_YEAR        | Year
-RACES_DIPLOMACY_EVENT_TURN        | Turn
-RACES_DIPLOMACY_EVENT_RACE        | Race
-RACES_DIPLOMACY_EVENT_TITLE       | Diplomatic Incident
-RACES_DIPLOMACY_EVENT_EFFECT      | Effect
-RACES_MANAGE_DIALOG_OK            | OK
-RACES_MANAGE_REINSTATE_DIPLOMAT   | Reinstate Diplomat
-RACES_MANAGE_RECALL_DIPLOMAT      | Recall Diplomat
-RACES_MANAGE_OUR_RECALLED         | Our diplomat recalled
-RACES_MANAGE_THEIR_RECALLED       | Their diplomat recalled
-RACES_MANAGE_BOTH_RECALLED        | Both diplomats recalled
+RACES_DIPLOMACY_CHARACTER         | 性格
+RACES_DIPLOMACY_STATUS            | 外交现状
+RACES_DIPLOMACY_RELATIONS_METER   | 关系
+RACES_DIPLOMACY_RELATIONS_UNKNOWN | 我们的外交官和情报人员无法理解 [alien_empire] 的想法和动机。
+RACES_DIPLOMACY_BUREAU            | 外交官员
+RACES_DIPLOMACY_BUREAU_DESC1      | 照会其他帝国的外交官，或从其他帝国召回我们的外交官。
+RACES_DIPLOMACY_BUREAU_DESC       | 照会[alien_race]的外交官；如果你的外交官已经被撤回，就建立外交关系。
+RACES_DIPLOMACY_BUREAU_DESC_RANGE | 我们无法跟航程范围之外的帝国建立外交关系。
+RACES_DIPLOMACY_BUREAU_DESC_FINAL | 我们与新成立的共和国处于决战状态，不再有外交可能。
+RACES_DIPLOMACY_KNOWN_EMPIRES     | 已知的外星帝国
+RACES_DIPLOMACY_RECALLED_DIPLOMAT | 召回外交官
+RACES_DIPLOMACY_MANAGE_DIPLOMATS  | 管理外交事务
+RACES_DIPLOMACY_AUDIENCE          | 会面
+RACES_DIPLOMACY_CONTACT           | 建立联系
+RACES_DIPLOMACY_TRADE_SUMMARY     | 贸易情况
+RACES_DIPLOMACY_TRADE_DESC        | 联系[alien_race]外交官以协商贸易协定。贸易网络需要时间和金钱建立，但一旦成功建立，就会给帝国带来收入。
+RACES_DIPLOMACY_TRADE_DESC_RANGE  | 我们无法与航程范围之外的帝国建立贸易协议。
+RACES_DIPLOMACY_TRADE_DESC_FINAL  | 我们与新成立的共和国处于决战状态，不再有贸易可能。
+RACES_DIPLOMACY_TRADE_TREATY      | 贸易协议
+RACES_DIPLOMACY_FOREIGN_RELATIONS | 外交关系
+RACES_DIPLOMACY_FOREIGN_RANGE     | 在与[alien_empire]建立外交关系前，我们无法判断外交关系。
+RACES_DIPLOMACY_FOREIGN_DESC      | [alien_race_plural]与下列帝国的关系：
+RACES_DIPLOMACY_COUNTER_BUREAU    | 反间谍部门
+RACES_DIPLOMACY_COUNTER_DESC      | 提高安全开支可以增加你发现敌人间谍的成功率。
+RACES_DIPLOMACY_COUNTER_DESC2     | 对殖民地征税以提高安全开支。
+RACES_DIPLOMACY_EVENT_YEAR        | 年
+RACES_DIPLOMACY_EVENT_TURN        | 回合
+RACES_DIPLOMACY_EVENT_RACE        | 种族
+RACES_DIPLOMACY_EVENT_TITLE       | 外交事件
+RACES_DIPLOMACY_EVENT_EFFECT      | 影响
+RACES_MANAGE_DIALOG_OK            | 好的
+RACES_MANAGE_REINSTATE_DIPLOMAT   | 重派外交官
+RACES_MANAGE_RECALL_DIPLOMAT      | 召回外交官
+RACES_MANAGE_OUR_RECALLED         | 我方外交官已撤回
+RACES_MANAGE_THEIR_RECALLED       | 对方外交官已撤回
+RACES_MANAGE_BOTH_RECALLED        | 双方外交官已撤回
 
-RACES_INTEL_TITLE                 | [alien_race] Intelligence Report
-RACES_COUNTER_INTEL_TITLE         | Counter-Intelligence Report
-RACES_INTEL_SECURITY_BONUS        | Security Bonus
-RACES_INTEL_TOTAL_SPENDING        | Total Spending
-RACES_INTEL_SECURITY_TAX          | Security Tax
-RACES_INTEL_TAX_DESC              | Tax your colonies to increase your chance of discovering foreign spies.
-RACES_INTEL_TAX_OUT_OF_RANGE      | Spending begins when in range of alien races.
+RACES_INTEL_TITLE                 | [alien_race]情报
+RACES_COUNTER_INTEL_TITLE         | 反间谍工作
+RACES_INTEL_SECURITY_BONUS        | 安全系数
+RACES_INTEL_TOTAL_SPENDING        | 总开支
+RACES_INTEL_SECURITY_TAX          | 安全税
+RACES_INTEL_TAX_DESC              | 对殖民地征收安全税以提高你发现外国间谍的成功率
+RACES_INTEL_TAX_OUT_OF_RANGE      | 与外星文明接触后会开始支出
 RACES_INTEL_SECURITY_BONUS_AMT    | +%1%
-RACES_INTEL_SECURITY_BONUS_NONE   | None
-RACES_INTEL_REPORT_AGE            | Report Age
-RACES_INTEL_SPY_NETWORK           | Spy Networks
-RACES_INTEL_SPENDING              | Spending
-RACES_INTEL_SPENDING_DESC         | Increase spending to add spies to the network over time. 
-RACES_INTEL_SPENDING_DESC_UNITY   | Spy networks are unnecessary as technology is shared freely among members of the New Republic. 
-RACES_INTEL_SPENDING_CAPPED       | Empire spy spending limit reached. Funding for spy networks reduced by %1%.
-RACES_INTEL_SPENDING_RANGE        | Cannot create spy networks for empires out of ship range.
+RACES_INTEL_SECURITY_BONUS_NONE   | 无
+RACES_INTEL_REPORT_AGE            | 报告时间
+RACES_INTEL_SPY_NETWORK           | 间谍网络
+RACES_INTEL_SPENDING              | 支出
+RACES_INTEL_SPENDING_DESC         | 增加开支以培养间谍
+RACES_INTEL_SPENDING_DESC_UNITY   | 在新共和国里技术已经可以自由分享，间谍网络不再有存在必要。
+RACES_INTEL_SPENDING_CAPPED       | 打到情报开支上限。对情报工作的投入会减少 %1%。
+RACES_INTEL_SPENDING_RANGE        | 无法在航程范围外的帝国设置情报网络。
 RACES_INTEL_PERCENT_AMT           | %1%
-RACES_INTEL_YEARS                 | %1 years
-RACES_INTEL_NO_SPIES              | No spies
-RACES_INTEL_1_SPY                 | 1 spy
-RACES_INTEL_N_SPIES               | %1 spies
+RACES_INTEL_YEARS                 | %1年
+RACES_INTEL_NO_SPIES              | 无间谍
+RACES_INTEL_1_SPY                 | 1 间谍
+RACES_INTEL_N_SPIES               | %1 间谍
 RACES_INTEL_SPIES                 | %1 / %2
-RACES_INTEL_SPENDING_ANNUAL       | %1 BC/year
-RACES_INTEL_CURRENT               | Current
-RACES_INTEL_NO_DATA               | No data
-RACES_INTEL_SPENDING_NONE         | None
-RACES_INTEL_COMPLETION_YEARS      | %1 Years
-RACES_INTEL_COMPLETION_PER_YEAR   | %1/Year
-RACES_INTEL_BUREAU_TITLE          | Intelligence Bureau
-RACES_INTEL_BUREAU_DESC           | Assign your spies to steal technology or sabotage foreign races.
-RACES_INTEL_BUREAU_SPIES          | Total Spies
-RACES_INTEL_BUREAU_MANAGE         | Manage Spies
-RACES_INTEL_BUREAU_SPENDING       | Total Spending
-RACES_INTEL_SPY_ORDERS            | Spy Orders
-RACES_INTEL_SPY_ORDERS_DESC       | Assign your spies to hide, steal secrets, or sabotage [alien_race] colonies. The larger your spy network, the greater chance of success each turn as long as none of your spies is captured and confesses.
-RACES_INTEL_SPY_WARNING           | If discovered, this mission will break our treaty with the [alien_race].
-RACES_INTEL_SPY_WARNING_WAR       | If discovered, this mission could trigger a war with the [alien_race].
-RACES_INTEL_KNOWN_TECHNOLOGY      | [alien_race] Known Technology
-RACES_INTEL_KNOWN_TECH_DESC       | Our spies report the [alien_race] have mastered the following technologies. Any technology unknown to us is highlighted.
-RACES_INTEL_UNKNOWN_TECHNOLOGY    | Unknown Technology Report
-RACES_INTEL_UNKNOWN_TECH_DESC     | Our spies report foreign races have mastered the following technologies unknown to us.
+RACES_INTEL_SPENDING_ANNUAL       | %1 BC/年
+RACES_INTEL_CURRENT               | 最新
+RACES_INTEL_NO_DATA               | 无数据
+RACES_INTEL_SPENDING_NONE         | 无
+RACES_INTEL_COMPLETION_YEARS      | %1年
+RACES_INTEL_COMPLETION_PER_YEAR   | %1/年
+RACES_INTEL_BUREAU_TITLE          | 情报部门
+RACES_INTEL_BUREAU_DESC           | 让你的间谍窃取技术，或破坏敌人殖民地。
+RACES_INTEL_BUREAU_SPIES          | 间谍总数
+RACES_INTEL_BUREAU_MANAGE         | 管理间谍
+RACES_INTEL_BUREAU_SPENDING       | 总开支
+RACES_INTEL_SPY_ORDERS            | 间谍目标
+RACES_INTEL_SPY_ORDERS_DESC       | 命令你的间谍潜伏、窃取技术或破坏[alien_race]殖民地。你的间谍数量越多，每回合你的成功率就越高，只要没有间谍被抓住并坦白。
+RACES_INTEL_SPY_WARNING           | 该任务一旦暴露，会破坏我们与[alien_race]的贸易协议。
+RACES_INTEL_SPY_WARNING_WAR       | 该任务一旦暴露，会导致[alien_race]与我们开战。
+RACES_INTEL_KNOWN_TECHNOLOGY      | [alien_race] 已知科技
+RACES_INTEL_KNOWN_TECH_DESC       | 间谍汇报 [alien_race] 掌握了如下技术。我们未掌握的技术已经加亮显示。
+RACES_INTEL_UNKNOWN_TECHNOLOGY    | 未知技术汇报
+RACES_INTEL_UNKNOWN_TECH_DESC     | 间谍汇报外星文明已经掌握了如下技术。我们未掌握的技术已经加亮显示。
 
 RACES_MILITARY_TITLE              | [alien_race]  Starship Fleet
 RACES_MILITARY_SUBTITLE           | Ships by Hull Size
@@ -1733,42 +1733,42 @@ RACES_SET_COLOR_TITLE             | Choose new color for the [alien_empire]
 RACES_SET_COLOR_DESC              | If the selected color and shape are used by another empire, the colors will be switched.
 
 // Races UI help
-RACES_HELP_0A                     | OVERVIEW: This screen provides detailed information about each of the alien races that you have encountered.
-RACES_HELP_0B                     | Diplomacy - Engage in diplomacy with the selected empire. 
-RACES_HELP_0C                     | Intelligence - Display alien technology and manage your spy networks.
-RACES_HELP_0D                     | Military - Display fleet and ship designs.
-RACES_HELP_0E                     | Status - Comparison across several categories.
-RACES_HELP_0F                     | Selecting your empire allows you to manage information for all contacted races on each tab.
-RACES_HELP_0G                     | Selecting an alien empire shows more detailed information for that race on each tab.
-RACES_HELP_1A                     | General information for selected empire.
-RACES_HELP_1B                     | Provides direct access to diplomats for all contacted empires.
-RACES_HELP_1C                     | Increase the security tax to improve your chances of thwarting enemy spies.
-RACES_HELP_1D                     | Provides direct access to manage your spies in all contacted empires.
-RACES_HELP_1E                     | Diplomatic incidents that affect how other empires react to you. The effects will move towards zero over time.
-RACES_HELP_1F                     | Click to change the color for a race displayed on the map
-RACES_HELP_2A                     | General information for selected empire.
-RACES_HELP_2B                     | Grants an audience with a diplomat for the selected empire.
-RACES_HELP_2C                     | Information about trade treaties signed with the selected empire.
-RACES_HELP_2D                     | Other empires that the selected empire has contacted.
-RACES_HELP_2E                     | Diplomatic incidents that affect how the selected empire reacts to you. The effects will move towards zero over time.
-RACES_HELP_2F                     | A measure of the current state of relations with the selected empire. 
-RACES_HELP_3A                     | Increase the security tax to improve your chances of thwarting enemy spies.
-RACES_HELP_3B                     | Provides direct access to manage your spies in all contacted empires.
-RACES_HELP_3C                     | All technologies known by other empires, as gathered by your spies. Technologies that you do not know are shown in yellow.
-RACES_HELP_4A                     | Set the number of spy networks you want to establish in the selected empire, and the amount you wish to spend annually.
-RACES_HELP_4B                     | Set the orders for the spies infiltrating the selected empire. Hide - gather data. Espionage - attempt to steal technology. Sabotage - incite rebellions or destroy factories and missile bases.
-RACES_HELP_4C                     | All technologies known by the selected empire. Technologies that you do not know are shown in yellow.
-RACES_HELP_5A                     | The known number of ships in the fleet of the selected race, by hull size. This information will remain current as long as you have an active spy network in the selected empire.
-RACES_HELP_5B                     | The known capabilities of ship designs. Older designs may be out of service. This information is primarily gathered during ship combat.
-RACES_HELP_5C                     | The known defensive capabilities of the selected empire. 
-RACES_HELP_6A                     | This screen provides a current ranking, in various categories, of our empire compared to other known empires. This data is gathered from our spy networks within those empires.
-RACES_HELP_6A2                    | This screen provides a historical comparison, in various categories, of our empire to a selected empire. This data is gathered from our spy networks within those empires.
-RACES_HELP_6B                     | Fleet Strength - combines number and size of ships.
-RACES_HELP_6C                     | Population - total population of all colonized systems.
-RACES_HELP_6D                     | Technology - average level of technology in all areas of research.
-RACES_HELP_6E                     | Planets - the number of colonized systems.
-RACES_HELP_6F                     | Production - total industrial production for the empire.
-RACES_HELP_6G                     | Total Power - a combination of fleet strength, technology and production levels.
+RACES_HELP_0A                     | 概览：这个界面展示你所遇到的外星文明的信息。
+RACES_HELP_0B                     | 外交：处理与被选中帝国的外交事务。
+RACES_HELP_0C                     | 情报：展示外星文明的技术，并管理你的谍报网络。
+RACES_HELP_0D                     | 军事：展示舰队数量和舰船型号。
+RACES_HELP_0E                     | 现状：各个帝国的实力比较。
+RACES_HELP_0F                     | 选中你的帝国可以让你在一个界面管理各个对手的外交事务。
+RACES_HELP_0G                     | 选中一个对手，可以让你查看这个对手的详细情况。
+RACES_HELP_1A                     | 被选中帝国的基本情况。
+RACES_HELP_1B                     | 在这里批量管理外交事务。
+RACES_HELP_1C                     | 增收安全税，以提高发现敌人间谍的概率。
+RACES_HELP_1D                     | 在这里批量管理情报事务。
+RACES_HELP_1E                     | 影响其他文明对你态度的外交事件。效果会随着时间流逝而逐渐归零。
+RACES_HELP_1F                     | 单击以修改该种族在地图上的展示颜色。
+RACES_HELP_2A                     | 被选中帝国的基本信息。
+RACES_HELP_2B                     | 与该帝国的外交官会面。
+RACES_HELP_2C                     | 与该帝国的贸易协议信息。
+RACES_HELP_2D                     | 该帝国与其他帝国的关系。
+RACES_HELP_2E                     | 影响该帝国对你态度的外交事件。效果会随着时间流逝而逐渐归零。
+RACES_HELP_2F                     | 与被选中帝国的当前关系。
+RACES_HELP_3A                     | 增收安全税，以提高发现敌人间谍的概率。
+RACES_HELP_3B                     | 在这里批量管理情报事务。
+RACES_HELP_3C                     | 所有其他文明的技术，信息来自你的间谍提供。你没有掌握的技术，会被标为黄色。
+RACES_HELP_4A                     | 设置你想在该帝国安排的情报网络数量，以及你每年的资金投入。
+RACES_HELP_4B                     | 设置情报人员在该帝国的工作目标。潜伏：获取信息。偷窃：窃取技术。破坏：诱发起义、破坏工厂和导弹基地。
+RACES_HELP_4C                     | 该帝国的所有技术。你没有掌握的技术会被标记为黄色。
+RACES_HELP_5A                     | 被选中种族的舰艇数量，按照舰船大小统计。只要你在该帝国安排了活跃的情报人员，这个信息就会保持更新。
+RACES_HELP_5B                     | 舰船型号以及参数。老的型号可能已经退役。这里的信息主要在战斗中搜集。
+RACES_HELP_5C                     | 被选中工帝国的防御能力。
+RACES_HELP_6A                     | 这个界面展示了不同维度下的实力排名。信息来自我们安插在各个帝国的情报人员。
+RACES_HELP_6A2                    | 这个界面展示了我方和对方在不同维度下的历史实力对比。信息来自我们安插在该帝国的情报人员。
+RACES_HELP_6B                     | 舰队实力：基于舰船大小和数量计算。
+RACES_HELP_6C                     | 人口：各个殖民星系的总人口。
+RACES_HELP_6D                     | 研究：六大研究领域的平均等级。
+RACES_HELP_6E                     | 行星：殖民地的数量。
+RACES_HELP_6F                     | 经济：各个帝国的总产能。
+RACES_HELP_6G                     | 总实力：结合了军事、科技和经济的总体实力。
 
 // Sabotage UI
 SABOTAGE_TITLE                    | Our spies have infiltrated [alien_race] colonies and are ready to carry out orders.
