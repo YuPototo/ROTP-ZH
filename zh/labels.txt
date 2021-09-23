@@ -188,7 +188,7 @@ INC_KILLED_MONSTER_TITLE          | %1
 INC_KILLED_MONSTER_DESC           | The [your_empire] destroyed the [monster], ending a galactic threat to all empires.
 INC_KILLED_GUARDIAN_TITLE         | Orion Guardian
 INC_KILLED_GUARDIAN_DESC          | The [your_empire] destroyed the Guardian ship of Orion, revealing the secrets of the precursors.
-INC_NO_RELATIONS_TITLE            | No Diplomatic Relations
+INC_NO_RELATIONS_TITLE            | 无外交关系
 INC_NO_RELATIONS_DESC             | There are currently no diplomatic relations between the [your_empire] and [my_empire].
 INC_ALLIED_WITH_ENEMY_TITLE       | Allied with Enemy
 INC_ALLIED_WITH_ENEMY_DESC        | The [my_empire] objects to your alliance with the hated [other_empire].
@@ -1553,23 +1553,23 @@ SHIP_COMBAT_COLONY_BASE_HITS      | Missile Base Hit Points
 SHIP_COMBAT_COLONY_BASE_ATTACK    | Missile Attack Level
 SHIP_COMBAT_ACTION_FMT            | %1 - %2
 
-RELATIONS_FEUD                    | Feud
-RELATIONS_HATE                    | Hate
-RELATIONS_DISCORD                 | Discord
-RELATIONS_TROUBLED                | Troubled
-RELATIONS_TENSE                   | Tense
-RELATIONS_RESTLESS                | Restless
-RELATIONS_WARY                    | Wary
-RELATIONS_UNEASE                  | Unease
-RELATIONS_NEUTRAL                 | Neutral
-RELATIONS_RELAXED                 | Relaxed
-RELATIONS_AMIABLE                 | Amiable
-RELATIONS_CALM                    | Calm
-RELATIONS_AFFABLE                 | Affable
-RELATIONS_PEACEFUL                | Peaceful
-RELATIONS_FRIENDLY                | Friendly
-RELATIONS_UNITY                   | Unity
-RELATIONS_HARMONY                 | Harmony
+RELATIONS_FEUD                    | 死敌
+RELATIONS_HATE                    | 仇恨
+RELATIONS_DISCORD                 | 不和
+RELATIONS_TROUBLED                | 忧虑
+RELATIONS_TENSE                   | 紧张
+RELATIONS_RESTLESS                | 警惕
+RELATIONS_WARY                    | 谨慎
+RELATIONS_UNEASE                  | 不安
+RELATIONS_NEUTRAL                 | 中立
+RELATIONS_RELAXED                 | 放松
+RELATIONS_AMIABLE                 | 温和
+RELATIONS_CALM                    | 平静
+RELATIONS_AFFABLE                 | 善意
+RELATIONS_PEACEFUL                | 和平
+RELATIONS_FRIENDLY                | 友好
+RELATIONS_UNITY                   | 团结
+RELATIONS_HARMONY                 | 和谐
 
 RACES_TITLE                       | 种族报告
 RACES_SELECTOR_TITLE              | 选择帝国
@@ -1577,20 +1577,20 @@ RACES_TAB_DIPLOMACY               | 外交
 RACES_TAB_INTELLIGENCE            | 情报
 RACES_TAB_MILITARY                | 军事
 RACES_TAB_STATUS                  | 现状
-RACES_KNOWN_EMPIRES               | %1 known empires
-RACES_RECALLED_DIPLOMATS          | %1 recalled diplomats
-RACES_NO_TREATY                   | No diplomatic treaty
-RACES_AT_FINAL_WAR                | Final war
-RACES_AT_WAR                      | At war
-RACES_PEACE                       | Peace treaty
-RACES_PACT                        | Non-aggression pact
-RACES_ALLY                        | Alliance
-RACES_UNITY                       | Unity
-RACES_OUT_OF_RANGE                | Out of Ship Range
-RACES_TRADE_LEVEL                 | %1 BC trade treaty
-RACES_TRADE_NONE                  | No trade treaty
-RACES_DIPLOMAT_RECALLED           | [alien_race] diplomat recalled
-RACES_DIPLOMATS_RECALLED          | Diplomats recalled
+RACES_KNOWN_EMPIRES               | 已发现%1个帝国
+RACES_RECALLED_DIPLOMATS          | 已召回%1个外交官
+RACES_NO_TREATY                   | 无外交关系
+RACES_AT_FINAL_WAR                | 决战
+RACES_AT_WAR                      | 战争中
+RACES_PEACE                       | 和平协定
+RACES_PACT                        | 互不侵犯协定
+RACES_ALLY                        | 盟友
+RACES_UNITY                       | 一体化
+RACES_OUT_OF_RANGE                | 航程外
+RACES_TRADE_LEVEL                 | %1BC贸易协议
+RACES_TRADE_NONE                  | 无贸易协议
+RACES_DIPLOMAT_RECALLED           | [alien_race]已撤回外交官
+RACES_DIPLOMATS_RECALLED          | 外交官已撤回
 
 RACES_DIPLOMACY_HOMEWORLD         | 母星
 RACES_DIPLOMACY_LEADER            | 领袖
@@ -1672,65 +1672,65 @@ RACES_INTEL_SPY_ORDERS_DESC       | 命令你的间谍潜伏、窃取技术或�
 RACES_INTEL_SPY_WARNING           | 该任务一旦暴露，会破坏我们与[alien_race]的贸易协议。
 RACES_INTEL_SPY_WARNING_WAR       | 该任务一旦暴露，会导致[alien_race]与我们开战。
 RACES_INTEL_KNOWN_TECHNOLOGY      | [alien_race] 已知科技
-RACES_INTEL_KNOWN_TECH_DESC       | 间谍汇报 [alien_race] 掌握了如下技术。我们未掌握的技术已经加亮显示。
-RACES_INTEL_UNKNOWN_TECHNOLOGY    | 未知技术汇报
-RACES_INTEL_UNKNOWN_TECH_DESC     | 间谍汇报外星文明已经掌握了如下技术。我们未掌握的技术已经加亮显示。
+RACES_INTEL_KNOWN_TECH_DESC       | 间谍汇报 [alien_race] 掌握了如下技术。我们未掌握的技术高亮显示。
+RACES_INTEL_UNKNOWN_TECHNOLOGY    | 未知技术报告
+RACES_INTEL_UNKNOWN_TECH_DESC     | 情报部门报告外星文明已经掌握了如下技术。我们未掌握的技术高亮显示。
 
-RACES_MILITARY_TITLE              | [alien_race]  Starship Fleet
-RACES_MILITARY_SUBTITLE           | Ships by Hull Size
+RACES_MILITARY_TITLE              | [alien_race]  舰队
+RACES_MILITARY_SUBTITLE           | 舰船统计，按尺寸
 RACES_MILITARY_UNSCANNED          | ??
-RACES_MILITARY_UNSCANNED_LONG     | Unscanned
-RACES_MILITARY_SMALL              | Small
-RACES_MILITARY_MEDIUM             | Medium
-RACES_MILITARY_LARGE              | Large
-RACES_MILITARY_HUGE               | Huge
-RACES_MILITARY_REPORT_CURRENT     | Fleet report is current.
-RACES_MILITARY_DEFENSE            | Defenses
-RACES_MILITARY_DEF_PLANET_SHIELD  | Planetary Shields
-RACES_MILITARY_DEF_DEFL_SHIELD    | Deflector Shields
-RACES_MILITARY_DEF_ARMOR          | Armor
-RACES_MILITARY_TROOP_BONUS        | Ground Troop Bonus
-RACES_MILITARY_DEF_MISSILE        | Missile Base
-RACES_MILITARY_DEF_MISSILE_MAX    | Default Maximum Missile Bases for New Colonies
-RACES_MILITARY_NO_SHIELD          | None
-RACES_MILITARY_REPORT_NONE        | No data. Need additional spies to infiltrate.
-RACES_MILITARY_REPORT_OLD         | Fleet report age: %1 years.
-RACES_MILITARY_NO_SHIPS           | No Ships Detected
-RACES_MILITARY_HULL               | Hull
-RACES_MILITARY_ARMOR              | Armor
-RACES_MILITARY_ATTACK_LEVEL       | Attack Level
-RACES_MILITARY_MISSILE_DEFENSE    | Missile Defense
-RACES_MILITARY_BEAM_DEFENSE       | Beam Defense
-RACES_MILITARY_SHIELD             | Shield Class
-RACES_MILITARY_COMBAT_SPEED       | Combat Speed
-RACES_MILITARY_TRAVEL_SPEED       | Travel Speed
+RACES_MILITARY_UNSCANNED_LONG     | 未扫描
+RACES_MILITARY_SMALL              | 小
+RACES_MILITARY_MEDIUM             | 中
+RACES_MILITARY_LARGE              | 大
+RACES_MILITARY_HUGE               | 巨大
+RACES_MILITARY_REPORT_CURRENT     | 飞船报告已更新
+RACES_MILITARY_DEFENSE            | 防御
+RACES_MILITARY_DEF_PLANET_SHIELD  | 行星护盾
+RACES_MILITARY_DEF_DEFL_SHIELD    | 力场盾
+RACES_MILITARY_DEF_ARMOR          | 装甲
+RACES_MILITARY_TROOP_BONUS        | 地面部队加成
+RACES_MILITARY_DEF_MISSILE        | 导弹基地型号
+RACES_MILITARY_DEF_MISSILE_MAX    | 新殖民地的默认导弹基地数量
+RACES_MILITARY_NO_SHIELD          | 无
+RACES_MILITARY_REPORT_NONE        | 无数据，需要更多间谍以获取信息
+RACES_MILITARY_REPORT_OLD         | 舰队报告时间：%1年前。
+RACES_MILITARY_NO_SHIPS           | 没有发现飞船
+RACES_MILITARY_HULL               | 尺寸
+RACES_MILITARY_ARMOR              | 护甲值
+RACES_MILITARY_ATTACK_LEVEL       | 进攻等级
+RACES_MILITARY_MISSILE_DEFENSE    | 导弹防御
+RACES_MILITARY_BEAM_DEFENSE       | 激光防御
+RACES_MILITARY_SHIELD             | 护盾等级
+RACES_MILITARY_COMBAT_SPEED       | 战场速度
+RACES_MILITARY_TRAVEL_SPEED       | 航行速度
 RACES_MILITARY_WEAPON_CNT         | %2 x%1
-RACES_MILITARY_NO_WEAPONS         | No Weapons
-RACES_MILITARY_NO_SPECIALS        | No Specials
-RACES_MILITARY_ACTIVE             | Active
-RACES_MILITARY_INACTIVE           | Inactive
-RACES_MILITARY_LAST_SEEN          | Last Seen
-RACES_MILITARY_SCAN_AGE           | %1 Years
-RACES_MILITARY_TACTICAL           | Tactical Information
-RACES_MILITARY_WEAPONS            | Weapons
-RACES_MILITARY_SPECIALS           | Special Devices
+RACES_MILITARY_NO_WEAPONS         | 无武器
+RACES_MILITARY_NO_SPECIALS        | 无特殊装置
+RACES_MILITARY_ACTIVE             | 服役中
+RACES_MILITARY_INACTIVE           | 已退役
+RACES_MILITARY_LAST_SEEN          | 上次目击时间
+RACES_MILITARY_SCAN_AGE           | %1 年前
+RACES_MILITARY_TACTICAL           | 型号信息
+RACES_MILITARY_WEAPONS            | 武器
+RACES_MILITARY_SPECIALS           | 特殊装置
 
-RACES_STATUS_THE_EMPIRE           | The [alien_empire]
+RACES_STATUS_THE_EMPIRE           | [alien_empire]
 RACES_STATUS_VS                   | vs.
-RACES_STATUS_KNOWN_EMPIRES        | %1 Known Empires
-RACES_STATUS_HISTORY              | Show [alien_race] History
-RACES_STATUS_NO_DATA              | No Data
-RACES_STATUS_OLD_DATA             | Old Data
-RACES_STATUS_FLEET_STRENGTH       | Fleet Strength
-RACES_STATUS_POPULATION           | Population
-RACES_STATUS_TECHNOLOGY           | Technology
-RACES_STATUS_PLANETS              | Planets
-RACES_STATUS_PRODUCTION           | Production
-RACES_STATUS_TOTAL_POWER          | Total Power
+RACES_STATUS_KNOWN_EMPIRES        | %1 已知帝国
+RACES_STATUS_HISTORY              | 展示[alien_race]历史
+RACES_STATUS_NO_DATA              | 无数据
+RACES_STATUS_OLD_DATA             | 老数据
+RACES_STATUS_FLEET_STRENGTH       | 舰队实力
+RACES_STATUS_POPULATION           | 人口
+RACES_STATUS_TECHNOLOGY           | 科技
+RACES_STATUS_PLANETS              | 行星
+RACES_STATUS_PRODUCTION           | 经济
+RACES_STATUS_TOTAL_POWER          | 总体国力
 RACES_UNKNOWN_DATA                | ???
 
-RACES_SET_COLOR_TITLE             | Choose new color for the [alien_empire]
-RACES_SET_COLOR_DESC              | If the selected color and shape are used by another empire, the colors will be switched.
+RACES_SET_COLOR_TITLE             | 为[alien_empire]选择新的地图颜色
+RACES_SET_COLOR_DESC              | 如果被选择的颜色已经被用在其他帝国上，它们的颜色就会互换。
 
 // Races UI help
 RACES_HELP_0A                     | 概览：这个界面展示你所遇到的外星文明的信息。
@@ -1790,18 +1790,18 @@ NOTICE_SPYING_MISSION_ESPIONAGE   | Espionage
 NOTICE_SPYING_MISSION_SABOTAGE    | Sabotage
 
 // History UI
-HISTORY_TITLE                     | Known Galactic History
-HISTORY_TITLE_ALL                 | Full Galactic History
-HISTORY_TURN_DESC                 | Turn %1 of %2
-HISTORY_FORWARD                   | Forward
-HISTORY_BACK                      | Back
-HISTORY_PLAY                      | Play
-HISTORY_PAUSE                     | Pause
-HISTORY_RESET                     | Reset
-HISTORY_EXIT                      | Exit
-HISTORY_EXTINCT                   | Extinct
-HISTORY_SYSTEMS                   | Systems
-HISTORY_EMPIRE                    | Empire
+HISTORY_TITLE                     | 已探索宇宙的历史
+HISTORY_TITLE_ALL                 | 全部宇宙的历史
+HISTORY_TURN_DESC                 | 回合： %1 / %2
+HISTORY_FORWARD                   | 前进
+HISTORY_BACK                      | 后退
+HISTORY_PLAY                      | 播放
+HISTORY_PAUSE                     | 暂停
+HISTORY_RESET                     | 重置
+HISTORY_EXIT                      | 退出
+HISTORY_EXTINCT                   | 灭绝
+HISTORY_SYSTEMS                   | 星系
+HISTORY_EMPIRE                    | 帝国
 
 
 
