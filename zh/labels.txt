@@ -176,57 +176,57 @@ SYSEVENT_SUPERNOVA                | 超新星爆炸让行星陷入被辐射状�
 
 
 // Diplomatic Incident titles & descriptions
-INC_ASSASSINATION_TITLE           | Assassination
-INC_ASSASSINATION_DESC            | A terrorist from the [assassin_empire] assassinated the [victim_race] diplomat.
-INC_ATTACKED_ALLY_TITLE           | Attacked Ally
-INC_ATTACKED_ALLY_DESC            | The [attacker_empire] attacked the [defender_empire], an ally of the [my_empire].
-INC_ATTACKED_ENEMY_TITLE          | Attacked Enemy
-INC_ATTACKED_ENEMY_DESC           | The [attacker_empire] attacked the [defender_empire], an enemy of the [my_empire].
-INC_USED_BIOWEAPONS_TITLE         | Used Biological Weapons
-INC_USED_BIOWEAPONS_DESC          | The [attacker_empire] used biological weapons against the [victim_empire] at [system].
+INC_ASSASSINATION_TITLE           | 暗杀
+INC_ASSASSINATION_DESC            | 来自[assassin_empire]的恐怖分子刺杀了[victim_race]的外交官。
+INC_ATTACKED_ALLY_TITLE           | 盟友遭袭
+INC_ATTACKED_ALLY_DESC            | [attacker_empire]进攻了 [my_empire] 的盟友 [defender_empire]。
+INC_ATTACKED_ENEMY_TITLE          | 敌人遭袭
+INC_ATTACKED_ENEMY_DESC           | [attacker_empire] 进攻了 [my_empire] 的敌人 [defender_empire]。
+INC_USED_BIOWEAPONS_TITLE         | 生化武器
+INC_USED_BIOWEAPONS_DESC          | [attacker_empire] 在 [system] 星系使用生化武器攻击了 [victim_empire]。
 INC_KILLED_MONSTER_TITLE          | %1
-INC_KILLED_MONSTER_DESC           | The [your_empire] destroyed the [monster], ending a galactic threat to all empires.
-INC_KILLED_GUARDIAN_TITLE         | Orion Guardian
-INC_KILLED_GUARDIAN_DESC          | The [your_empire] destroyed the Guardian ship of Orion, revealing the secrets of the precursors.
+INC_KILLED_MONSTER_DESC           | [your_empire] 击败了 [monster]，解决了所有帝国的共同威胁。
+INC_KILLED_GUARDIAN_TITLE         | 猎户守卫
+INC_KILLED_GUARDIAN_DESC          | [your_empire] 击败了猎户座的守卫飞船，揭露了上古文明的秘密。
 INC_NO_RELATIONS_TITLE            | 无外交关系
-INC_NO_RELATIONS_DESC             | There are currently no diplomatic relations between the [your_empire] and [my_empire].
-INC_ALLIED_WITH_ENEMY_TITLE       | Allied with Enemy
-INC_ALLIED_WITH_ENEMY_DESC        | The [my_empire] objects to your alliance with the hated [other_empire].
-INC_AT_WAR_WITH_ALLY_TITLE        | At War with Ally
-INC_AT_WAR_WITH_ALLY_DESC         | You are at war with the [other_empire], an ally of the [my_empire].
-INC_CLOSED_EMBASSY_TITLE          | Recalled Ambassador
-INC_CLOSED_EMBASSY_DESC           | The [your_empire] ceased diplomatic relations with the [my_empire].
-INC_EVICTED_SPIES_TITLE           | Evicted Diplomats
-INC_EVICTED_SPIES_DESC            | The [your_empire] evicted all non-essential diplomats from the [my_empire].
-INC_BROKE_ALLIANCE_TITLE          | Broke Alliance
-INC_BROKE_ALLIANCE_DESC           | The [your_empire] broke their Alliance with the [my_empire]. [spiesCaught]
-INC_BROKE_PACT_TITLE              | Broke Non-Aggression Pact
-INC_BROKE_PACT_DESC               | The [your_empire] broke their Non-Aggression Pact with the [my_empire]. [spiesCaught]
-INC_BROKE_TRADE_TITLE             | Broke Trade Treaty
-INC_BROKE_TRADE_DESC              | The [your_empire] broke their Trade Treaty with the [my_empire].
-INC_ATTACKED_COLONY_TITLE         | Attacked Colony
-INC_ATTACKED_COLONY_DESC          | A fleet for the [attacker_empire] attacked the [defender_race] world in [system]. [amt] million citizens were lost.
-INC_CAPTURED_COLONY_TITLE         | Captured Colony
-INC_CAPTURED_COLONY_DESC          | Troops for the [attacker_empire] invaded and captured the [defender_race] world in [system]. [amt] million citizens were lost.
-INC_DESTROYED_COLONY_TITLE        | Destroyed Colony
-INC_DESTROYED_COLONY_DESC         | A fleet for the [attacker_empire] completely destroyed the [defender_race] world in [system]. [amt] million citizens were lost.
-INC_FIRST_CONTACT_TITLE           | First Contact
-INC_FIRST_CONTACT_DESC            | First contact has been established with the [your_empire]. Be wary.
-INC_INVADED_COLONY_TITLE          | Invaded Colony
-INC_INVADED_COLONY_DESC           | Troops for the [attacker_race] invaded but failed to capture the [defender_race] world in [system]. [amt] million citizens were lost.
-INC_COUNCIL_VOTE_TITLE            | Council Vote
-INC_COUNCIL_VOTE_FOR_DESC         | The [voter_race] voted for [candidate_name], leader of the [candidate_race].
-INC_COUNCIL_VOTE_AGAINST_DESC     | The [voter_race] voted against [candidate_name], leader of the [candidate_race].
-INC_COUNCIL_ABSTAIN_DESC          | The [voter_race] abstained from the Galactic Council election, refusing to vote for [candidate_name], leader of the [candidate_race].
-INC_DECLARED_WAR_TITLE            | Declared War
-INC_DECLARED_WAR_DESC             | The [aggressor_empire] declared war against the [victim_empire].
-INC_ERRATIC_WAR_TITLE             | Erratic Behavior
-INC_ERRATIC_WAR_DESC              | The [aggressor_race] became agitated and declared war against the [victim_empire], and no one is really sure why.
-INC_DEMANDED_TRIBUTE_TITLE        | Demanded Tribute
-INC_ENCROACHING_TITLE             | Encroachment
-INC_ENCROACHING_DESC              | The [your_empire] colonized the system [system], encroaching upon the borders of the [my_empire].
-INC_TECH_STOLEN_TITLE             | Technology Stolen
-INC_TECH_STOLEN_DESC              | [spy_race] spies stole the secrets of [tech] from the [victim_race].
+INC_NO_RELATIONS_DESC             | [your_empire] 和 [my_empire] 当前并无外交关系。
+INC_ALLIED_WITH_ENEMY_TITLE       | 与虎谋皮
+INC_ALLIED_WITH_ENEMY_DESC        | [my_empire] 的民众反对你与令人厌恶的 [other_empire] 结盟。
+INC_AT_WAR_WITH_ALLY_TITLE        | 盟友之争
+INC_AT_WAR_WITH_ALLY_DESC         | 你正在跟 [my_empire] 的盟友 [other_empire] 开战。
+INC_CLOSED_EMBASSY_TITLE          | 召回外相
+INC_CLOSED_EMBASSY_DESC           | [your_empire] 停止了与 [my_empire] 的外交关系。
+INC_EVICTED_SPIES_TITLE           | 驱逐外相
+INC_EVICTED_SPIES_DESC            | [your_empire] 驱逐了 [my_empire] 的所有不重要的外交官。
+INC_BROKE_ALLIANCE_TITLE          | 联盟破裂
+INC_BROKE_ALLIANCE_DESC           | [your_empire] 解除了与 [my_empire] 的联盟关系。 [spiesCaught]
+INC_BROKE_PACT_TITLE              | 解除互不侵犯条约
+INC_BROKE_PACT_DESC               | [your_empire] 解除了与 [my_empire] 的互不侵犯条约。 [spiesCaught]
+INC_BROKE_TRADE_TITLE             | 解除贸易协议
+INC_BROKE_TRADE_DESC              | [your_empire] 解除了与 [my_empire] 的贸易协议。
+INC_ATTACKED_COLONY_TITLE         | 进攻殖民地
+INC_ATTACKED_COLONY_DESC          | [attacker_empire] 的舰队进攻了 [defender_race] 的 [system] 星系。 [amt]百万居民丧生。
+INC_CAPTURED_COLONY_TITLE         | 占领殖民地
+INC_CAPTURED_COLONY_DESC          | [attacker_empire] 的军队入侵并占领了 [defender_race] 的 [system] 星系。[amt]百万居民丧生。
+INC_DESTROYED_COLONY_TITLE        | 摧毁殖民地
+INC_DESTROYED_COLONY_DESC         | [attacker_empire] 的舰队彻底摧毁了 [defender_race] 的 [system] 星系。[amt]百万居民丧生。
+INC_FIRST_CONTACT_TITLE           | 首次接触
+INC_FIRST_CONTACT_DESC            | 第一次与 [your_empire] 产生了接触。请小心。
+INC_INVADED_COLONY_TITLE          | 入侵殖民地
+INC_INVADED_COLONY_DESC           | [attacker_empire] 的军队入侵了 [defender_race] 的 [system] 星系，但没能成功占领。[amt]百万居民丧生。
+INC_COUNCIL_VOTE_TITLE            | 委员会投票
+INC_COUNCIL_VOTE_FOR_DESC         | [voter_race] 投票支持 [candidate_race] 的领导人 [candidate_name]。
+INC_COUNCIL_VOTE_AGAINST_DESC     | [voter_race] 投票反对 [candidate_race] 的领导人 [candidate_name]。
+INC_COUNCIL_ABSTAIN_DESC          | [voter_race] 在星际议会选举中弃权里 ，拒绝给 [candidate_race] 的领导人 [candidate_name] 投票。
+INC_DECLARED_WAR_TITLE            | 宣战
+INC_DECLARED_WAR_DESC             | [aggressor_empire] 宣布像 [victim_empire] 开战。
+INC_ERRATIC_WAR_TITLE             | 奇怪的行动
+INC_ERRATIC_WAR_DESC              | [aggressor_race] 宣布像 [victim_empire] 开战，没有人知道原因是什么。
+INC_DEMANDED_TRIBUTE_TITLE        | 要求上贡
+INC_ENCROACHING_TITLE             | 侵入边界
+INC_ENCROACHING_DESC              | [your_empire] 殖民了 [system] 星系，侵入了 [my_empire] 的边界。
+INC_TECH_STOLEN_TITLE             | 技术偷窃
+INC_TECH_STOLEN_DESC              | [spy_race] 偷窃了 [victim_race] 的机密技术 [tech]。
 INC_TECH_FRAMED_DESC              | Unknown spies stole technological secrets from the [victim_race]. (you were framed)
 INC_TECH_EXCHANGE_TITLE           | Technology Exchanged
 INC_TECH_EXCHANGE_DESC            | The [my_empire] taught the secrets of [techGiven] to the [your_empire] in exchange for the secrets of [techReceived].
