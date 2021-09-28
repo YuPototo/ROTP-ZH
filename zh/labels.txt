@@ -37,7 +37,7 @@ PLANET_TUNDRA                     | 冻土
 
 // Spy Missions
 SPY_HIDE                          | 潜伏
-SPY_ESPIONAGE                     | 偷窃
+SPY_ESPIONAGE                     | 窃密
 SPY_SABOTAGE                      | 破坏
 SPY_CAUGHT                        | [Your spies were caught.]
 SPY_FRAMED                        | [You were framed.]
@@ -121,38 +121,38 @@ TECH_PROPULSION                   | 动力学
 TECH_WEAPONS                      | 武器研究
 
 // Random Events
-EVENT_ACCIDENT                    | A major industrial accident pollutes the [target_race] world in the [system] system with industrial waste, damaging its ecology and permanently irradiating the planet.
-EVENT_ASSASSINATION               | A terrorist from the [assassin_empire] has assassinated the [victim_race] diplomat, placing the two empires on the brink of war.
-EVENT_COMET                       | A huge comet has been detected in the [system] system and will collide with the [target_race] world in [years] years unless a large ship fleet is deployed to destroy it.
-EVENT_COMET_2                     | A huge comet is expected to obliterate all life on the [target_race] world in the [system] system in just [years] years. More armed ships are needed to avert this catastrophe.
-EVENT_COMET_3                     | The comet in the [system] system has been destroyed, thanks to the efforts of the [target_race] fleet.
-EVENT_COMET_4                     | The deadly comet has destroyed the [target_race] world in the [system] system.
-EVENT_DONATION                    | A wealthy merchant willing to support the cause makes a substantial donation of [amt] BC to the [target_race] Planetary Reserve.
-EVENT_DEPLETED                    | The [target_race] world at [system] has exhausted its heavy metal deposits, making the planet Mineral Poor.
-EVENT_DERELICT                    | The fleet of the [target_empire] has discovered an ancient derelict ship. [target_race] scientists have since harvested multiple force field and weapons technologies from the ship.
-EVENT_EARTHQUAKE                  | A devastating earthquake strikes the [target_race] world in the [system] system, killing [amt] million colonists while damaging large areas of industrial activity.
-EVENT_ENRICHED                    | Deep mining exploration at the [target_race] world in the [system] system reveals a huge, previously undetected deposit of heavy metals, making the planet Mineral Rich.
-EVENT_FERTILE                     | A sudden shift in the planetary axis of the [target_race] world at [system] has changed its environment to be more fertile. Population growth increases by 50%.
-EVENT_PIRACY                      | Pirates have begun disrupting overall trade among [target_race] systems, reducing trade revenues by [amt]%. Armed ships are needed in the [system] system to disrupt their base of operations.
-EVENT_PIRACY_2                    | The pirates based in the [system] system continue to disrupt [target_race] trade activity, reducing overall trade levels by an estimated [amt]%.
-EVENT_PIRACY_3                    | The [target_race] fleet has destroyed a major piracy operation based in the [system] system. Overall trade levels have returned to normal.
-EVENT_PLAGUE                      | A deadly plague strikes the [target_race] world in the [system] system. A quarantine has been placed on the system and millions are expected to die each year until scientists can find a cure.
-EVENT_PLAGUE_2                    | The deadly plague in the [system] system persists. Scientists estimate that another [amt] RP are required to find a cure.
-EVENT_PLAGUE_3                    | [target_race] scientists have found a cure for the deadly plague afflicting the [system] system. The system quarantine has been lifted.
-EVENT_REBELLION                   | The [target_race] world in the [system] system has gone into revolt, ceasing all planetary production. The revolt will continue until the rebellion is defeated militarily.
-EVENT_SUPERNOVA                   | [target_race] scientists predict that the star in the [system] system will go supernova within [years] years. They recommend diverting all research in the system towards finding a solution.
-EVENT_SUPERNOVA_2                 | The threat of supernova in the [system] system within [years] years remains. Scientists estimate that another [amt] RP may be enough to forestall this catastrophe.
-EVENT_SUPERNOVA_3                 | Working feverishly, [target_race] physicists in the [system] system have found a way to delay to supernova of their nearby star for the foreseeable future.
-EVENT_SUPERNOVA_4                 | The star in the [system] system has gone supernova, irradiating the [target_race] world, devastating its environment and killing millions.
-EVENT_VIRUS                       | A highly destructive computer virus strikes [target_race] research centers, destroying years of research in [technology].
-EVENT_SPACE_AMOEBA                | A monstrous biological form dubbed the "Space Amoeba" has been spotted approaching the [system] system. Defending [victim_race] colonists and fleets are preparing for the worst.
-EVENT_SPACE_AMOEBA_1              | A monstrous biological form dubbed the "Space Amoeba" has been spotted approaching the uncolonized [system] system.
-EVENT_SPACE_AMOEBA_2              | The Space Amoeba has completely consumed the [victim_race] colony in the [system] system.
-EVENT_SPACE_AMOEBA_3              | The Space Amoeba was destroyed by [victim_race] defenders in the [system] system.
-EVENT_SPACE_CRYSTAL               | A gigantic crystalline entity called the "Space Crystal" has been spotted approaching the [system] system. Defending [victim_race] colonists and fleets are preparing for the worst.
-EVENT_SPACE_CRYSTAL_1             | A gigantic crystalline entity called the "Space Crystal" has been spotted approaching the uncolonized [system] system.
-EVENT_SPACE_CRYSTAL_2             | The Space Crystal has completely destroyed all life on the [victim_race] colony in the [system] system.
-EVENT_SPACE_CRYSTAL_3             | The Space Crystal was destroyed by [victim_race] defenders in the [system] system.
+EVENT_ACCIDENT                    | [target_race] 世界的 [system] 星系出现了一个巨大的工业事故，工业废料彻底破坏了星球生态并造成了永久的辐射。
+EVENT_ASSASSINATION               | 来自 [assassin_empire] 的恐怖分子刺杀了 [victim_race] 的外交官，两个帝国来到了战争边缘。
+EVENT_COMET                       | [system] 星系探测到一个巨大的彗星，它即将在 [years] 年后与 [target_race] 相撞，除非一个强大的舰队被部署在该星系并摧毁彗星。
+EVENT_COMET_2                     | 一个巨大的彗星会在 [years] 年后毁灭 [target_race] 世界在 [system] 星系的所有生命。需要更多武装飞船才能逆转这个灾难。
+EVENT_COMET_3                     | 因为 [target_race] 舰队的努力，[system] 的彗星已经被毁灭了
+EVENT_COMET_4                     | 致命的彗星摧毁了 [target_race] 世界的 [system] 星系。
+EVENT_DONATION                    | 一个富商大贾为了支持 [target_race] 的事业，向其国库捐助了可观的 [amt] BC。
+EVENT_DEPLETED                    | [target_race] 世界的 [system] 已经耗尽了自己的重金属储藏，变成了资源匮乏的星球。
+EVENT_DERELICT                    | [target_empire] 的舰队发现了一艘上古废弃飞船。[target_race] 科学家掌握了多个该飞船的力场技术和武器技术。
+EVENT_EARTHQUAKE                  | 一场破坏力强大的地震发生在 [target_race] 的 [system] 星系，破坏了大量工厂的同时也造成了 [amt] 百万的人员伤亡。
+EVENT_ENRICHED                    | [target_race] [system] 星系的采矿活动发现了一个巨大的、从未被探索过的重金属矿藏，该行星成为资源丰富的行星。
+EVENT_FERTILE                     | [target_race] [system] 星系内行星轴发生了偏移，这改变了星球的环境，使其变为肥沃星球，人口增长率增加50%。
+EVENT_PIRACY                      | 太空海盗破坏了 [target_race] 各个星系的贸易活动，导致贸易收入降低 [amt]%。武装舰船需要驶入 [system] 星系才能破坏太空海盗的总部。
+EVENT_PIRACY_2                    | [system] 的太空海盗持续地破坏着 [target_ract] 的贸易活动，导致贸易收入u减少了 [amt]%。
+EVENT_PIRACY_3                    | [target_race] 消灭了总部位于 [system] 星系的间谍活动。贸易水平已经恢复正常。
+EVENT_PLAGUE                      | 致命的传染病在 [target_race] 世界的 [system] 的星系爆发。隔离区已经创建。每年都会有几百万人死亡，除非科学家找到传染病的治疗方法。
+EVENT_PLAGUE_2                    | [system] 星系的致命传染病仍然在肆虐。科学家估计还需要 [amt] RP 的投入才能研究出治疗方法。
+EVENT_PLAGUE_3                    | [target_race] 科学家发现了肆虐 [system] 星系的传染病的治疗方法。该星系的隔离已经结束。
+EVENT_REBELLION                   | [target_race] 世界的 [system] 星系发动了起义，所有工业生产都停止了。起义会持续进行下去，除非军队被登陆星球进行武力镇压。
+EVENT_SUPERNOVA                   | [target_race] 的科学家预测 [system] 星系的恒星会在 [years] 年后变成超新星。科学家们建议将该星系的所有资源都投入研究，以探索一个解决方案。
+EVENT_SUPERNOVA_2                 | [system] 星系内恒星在 [years] 年内变成超新星威胁仍然存在。科学家预计还需要 [amt] RP 才能避免这个灾难的发生。
+EVENT_SUPERNOVA_3                 | 经过努力的工作，[target_race] 世界 [system] 星系的物理学家找到了一个延迟附近恒星变成超新星的方案。
+EVENT_SUPERNOVA_4                 | [system] 星系的恒星变成了超新星，辐射了 [target_rate] 世界，毁灭了环境，造成了数百万人死亡。
+EVENT_VIRUS                       | 一个巨大破坏力的计算机病毒袭击了 [target_race] 的研究中心，导致 [technology] 的研究进展归零。
+EVENT_SPACE_AMOEBA                | 一个被命名为“太空变形虫”的巨大外星生物被发现正在接近 [system] 星系。[victim_race] 的居民和舰队正在做最坏的打算。
+EVENT_SPACE_AMOEBA_1              | 一个被命名为“太空变形虫”的巨大外星生物被发现正在接近 [system] 星系。
+EVENT_SPACE_AMOEBA_2              | 太空变形虫彻底吞噬了 [system] 星系的 [victim_race] 殖民地。
+EVENT_SPACE_AMOEBA_3              | 太空变形虫被 [system] 星系的 [victim_race] 力量给消灭了。
+EVENT_SPACE_CRYSTAL               | 一个被命名为“太空水晶”的巨大物体在 [system] 星系的附近被发现。[victim_race] 的居民和舰队在做最坏的打算。
+EVENT_SPACE_CRYSTAL_1             | 一个被命名为“太空水晶”的巨大物体在 [system] 星系的附近被发现。
+EVENT_SPACE_CRYSTAL_2             | 太空睡觉彻底消灭了 [system] 星系的 [victim_race] 的生命。
+EVENT_SPACE_CRYSTAL_3             | 太空水晶被 [system] 星系的 [victim_race] 力量给消灭了。
 
 SYSEVENT_HOMEWORLD                | [alien_race]的母星。
 SYSEVENT_SCOUTED                  | [alien_race]首先发现。
@@ -227,59 +227,59 @@ INC_ENCROACHING_TITLE             | 侵入边界
 INC_ENCROACHING_DESC              | [your_empire] 殖民了 [system] 星系，侵入了 [my_empire] 的边界。
 INC_TECH_STOLEN_TITLE             | 技术偷窃
 INC_TECH_STOLEN_DESC              | [spy_race] 偷窃了 [victim_race] 的机密技术 [tech]。
-INC_TECH_FRAMED_DESC              | Unknown spies stole technological secrets from the [victim_race]. (you were framed)
-INC_TECH_EXCHANGE_TITLE           | Technology Exchanged
-INC_TECH_EXCHANGE_DESC            | The [my_empire] taught the secrets of [techGiven] to the [your_empire] in exchange for the secrets of [techReceived].
-INC_FINANCIAL_AID_TITLE           | Financial Aid
-INC_FINANCIAL_AID_DESC            | The [your_empire] has freely given [amt] BC to the [my_empire].
-INC_TECHNOLOGY_AID_TITLE          | Technological Aid
-INC_TECHNOLOGY_AID_DESC           | The [your_empire] has freely shared the secrets of [tech] with the [my_empire].
-INC_TECHNOLOGY_AID_DESC_MULT      | The [your_empire] has freely shared with the [my_empire] the secrets of the following technologies: [techs]
+INC_TECH_FRAMED_DESC              | 未知间谍偷走了 [victim_race] 的机密技术（你被栽赃了）。
+INC_TECH_EXCHANGE_TITLE           | 技术交易
+INC_TECH_EXCHANGE_DESC            | [my_empire] 与 [your_empire] 发生了技术交易，[my_empire] 学会了 [techReceived]，[your_empire] 学会了 [techGiven]。
+INC_FINANCIAL_AID_TITLE           | 经济资助
+INC_FINANCIAL_AID_DESC            | [your_empire] 无条件资助了 [my_empire] [amt] BC。
+INC_TECHNOLOGY_AID_TITLE          | 技术援助
+INC_TECHNOLOGY_AID_DESC           | [your_empire] 免费把机密技术 [tech] 分享给了 [my_empire]。
+INC_TECHNOLOGY_AID_DESC_MULT      | [your_empire] 免费把下列机密技术分享给了 [my_empire]：[techs]。
 INC_TECHNOLOGY_TECH_LIST_COMMA    | , 
-INC_ENEMY_AID_TITLE               | Aid to Enemy 
-INC_ENEMY_AID_MONEY_DESC          | The [your_empire] has given [amt] BC in aid to the [enemy_empire], an enemy of the [my_empire].
-INC_ENEMY_AID_TECH_DESC           | The [your_empire] has given the secrets of [tech] to the [enemy_empire], an enemy of the [my_empire].
-INC_PARANOIA_TITLE                | Paranoia
-INC_PARANOIA_DESC1                | A radical fringe of conspiracy theorists in the [my_empire] ludicrously believe that the [your_race] represent an existential threat to their species. The [your_empire] now occupies [num]  systems originally founded by the [my_empire].
-INC_PARANOIA_DESC2                | A marginal faction within the [my_empire] believes that the [your_race] represent an existential threat to their species. The [your_empire] now occupies [num] systems originally founded by the [my_empire].
-INC_PARANOIA_DESC3                | A vocal minority within the [my_empire] are expressing concerns that the [your_race] represent an existential threat to their species. The [your_empire] now occupies [num] systems originally founded by the [my_empire].
-INC_PARANOIA_DESC4                | A huge swathe among the [my_empire] is calling for action over the growing fears that the [your_race] may indeed be an existential threat to their species. The [your_empire] now occupies [num] systems originally founded by the [my_empire].
-INC_PARANOIA_DESC5                | Mass panics have gripped the [my_empire] over the realization that the [your_race] have clearly become an existential threat to their species. The [your_empire] now occupies [num] systems originally founded by the [my_empire].
-INC_EXPANSION_TITLE               | Expansion
-INC_EXPANSION_DESC                | With control of [num] systems, the [your_empire] has grown too large.
-INC_GENOCIDE_TITLE                | Genocide
-INC_GENOCIDE_DESC                 | The [attacker_empire] has completely destroyed the [victim_race] race.
-INC_FINAL_WAR_TITLE               | Final War!
-INC_FINAL_WAR_DESC                | The [rebel_empire] has rebelled against the ruling of the Galactic Council, resulting in a call for its complete eradication by the remaining allied forces of the galaxy.
-INC_MILITARY_BUILDUP_TITLE        | Military Buildup
-INC_MILITARY_BUILDUP_DESC         | The [your_empire] is assembling an armed fleet at [system].
-INC_OATHBREAKER_TITLE             | Broke Oath
-INC_DESTROYED_BASES_TITLE         | Destroyed Missile Bases
-INC_DESTROYED_BASES_DESC          | Saboteurs working for the [spy_empire] destroyed [amt] defensive missile bases in the [system] system.
-INC_DESTROYED_FACTORIES_TITLE     | Destroyed Factories
-INC_DESTROYED_FACTORIES_DESC      | Saboteurs working for the [spy_empire] destroyed [amt] factories in the [system] system.
-INC_INCITED_REBELLION_TITLE       | Incited Rebellion
-INC_INCITED_REBELLION_DESC        | Seditionists working for the [spy_empire] incited [amt] million rebels in the [system] system.
-INC_SIGNED_ALLIANCE_TITLE         | Alliance
-INC_SIGNED_ALLIANCE_DESC          | The [my_empire] and the [your_empire] joined together in an Alliance, promising to defend one another from external threats. 
-INC_JOINT_WAR_TITLE               | Declared War
-INC_LEFT_ALLIANCE_TITLE           | Broke Alliance
-INC_SIGNED_PACT_TITLE             | Non-Aggression Pact
-INC_SIGNED_PACT_DESC              | The [my_empire] and the [your_empire] signed a Non-Aggression Pact, avoiding ship conflict in neutral systems.
-INC_SIGNED_PEACE_TITLE            | Peace Treaty
-INC_SIGNED_PEACE_DESC             | The [my_empire] and the [your_empire] signed a Peace Treaty, ending all hostilities until [endYear].
-INC_SIGNED_TRADE_TITLE            | Trade Treaty
-INC_SIGNED_TRADE_DESC             | The [my_empire] and the [your_empire] agreed to a Trade Treaty up to a maximum annual amount of [amt] BC.
-INC_SKIRMISH_TITLE                | Skirmish
-INC_SKIRMISH_DESC                 | [my_race] and [your_race] fleets engaged in combat in the [system] system.
-INC_SPY_CONFESSION_TITLE          | Spy Confession
-INC_SPY_CONFESS_ESPIONAGE_DESC    | A spy for the [spy_empire] was captured and confessed to ongoing espionage activities planned against the [victim_empire].
-INC_SPY_CONFESS_SABOTAGE_DESC     | A spy for the [spy_empire] was captured and confessed to ongoing sabotage activities planned against the [victim_empire].
-INC_SPY_CAPTURED_DESC             | A spy for the [spy_empire] was captured and forced to confess to ongoing sabotage activities planned against the [victim_empire].
-INC_TRADE_INCOME_TITLE            | Trade Profit
-INC_TRADE_INCOME_DESC             | Trade between the [your_empire] and [my_empire] has resulted in a profit of [amt] BC.
-INC_TRESPASSING_TITLE             | Trespass
-INC_TRESPASSING_DESC              | [your_race] fleets are trespassing in the [system] system, part of the [my_empire].
+INC_ENEMY_AID_TITLE               | 敌人获得援助 
+INC_ENEMY_AID_MONEY_DESC          | [your_empire] 资助了 [my_empire] 的敌人 [enemy_empire] [amt] BC。
+INC_ENEMY_AID_TECH_DESC           | [your_empire] 向 [my_empire] 的敌人 [enemy_empire] 赠送了机密技术 [tech]。
+INC_PARANOIA_TITLE                | 偏执狂
+INC_PARANOIA_DESC1                | [my_empire] 一群激进的阴谋论者可笑地认为 [your_race] 是对他们种族的威胁。[your_empire] 目前占据了[num]个最开始由 [my_empire] 发现的星系。
+INC_PARANOIA_DESC2                | [my_empire] 的边缘群体认为 [your_race] 是对他们种族的威胁。[your_empire] 目前占据了[num]个最开始由 [my_empire] 发现的星系。
+INC_PARANOIA_DESC3                | [my_empire] 的一个敢于发声的少数派别表达了一种担忧：[your_race] 是对他们种族的威胁。[your_empire] 目前占据了[num]个最开始由 [my_empire] 发现的星系。
+INC_PARANOIA_DESC4                | [my_empire] 的许多人担心 [your_race] 确实是对他们种族的威胁，他们要求对 [your_race] 采取行动。[your_empire] 目前占据了[num]个最开始由 [my_empire] 发现的星系。
+INC_PARANOIA_DESC5                | [my_empire] 出现了大规模的恐慌，人们意识到 [your_race] 已经变成了对他们种族清晰的威胁。[your_empire] 目前占据了[num]个最开始由 [my_empire] 发现的星系。
+INC_EXPANSION_TITLE               | 扩张
+INC_EXPANSION_DESC                | 控制了[num]个星系后，[your_empire] 已经变得太大了。
+INC_GENOCIDE_TITLE                | 种族灭绝
+INC_GENOCIDE_DESC                 | [attacker_empire] 已经彻底消灭了 [victim_race] 种族。
+INC_FINAL_WAR_TITLE               | 大决战！
+INC_FINAL_WAR_DESC                | [rebel_empire] 已经武力反抗星际议会，宇宙中的其他帝国决定联手彻底毁灭 [rebel_empire]。
+INC_MILITARY_BUILDUP_TITLE        | 军事行动
+INC_MILITARY_BUILDUP_DESC         | [your_empire] 正在 [system] 集结舰队。
+INC_OATHBREAKER_TITLE             | 破坏誓言
+INC_DESTROYED_BASES_TITLE         | 破坏导弹基地
+INC_DESTROYED_BASES_DESC          | 在 [spy_empire] 搞破坏的间谍捣毁了 [system] 星系的 [amt] 个导弹基地。
+INC_DESTROYED_FACTORIES_TITLE     | 破坏工厂
+INC_DESTROYED_FACTORIES_DESC      | 在 [spy_empire] 搞破坏的间谍捣毁了 [system] 星系的 [amt] 个工厂。
+INC_INCITED_REBELLION_TITLE       | 煽动奇艺
+INC_INCITED_REBELLION_DESC        | 在 [spy_empire] 教唆起义的间谍在 [system] 星系煽动了 [amt] 百万人的起义。
+INC_SIGNED_ALLIANCE_TITLE         | 结盟
+INC_SIGNED_ALLIANCE_DESC          | [my_empire] 和 [your_empire] 结成了联盟，许诺共同对抗外敌。
+INC_JOINT_WAR_TITLE               | 宣战
+INC_LEFT_ALLIANCE_TITLE           | 破坏联盟
+INC_SIGNED_PACT_TITLE             | 互不侵犯条约
+INC_SIGNED_PACT_DESC              | [my_empire] 和 [your_empire] 签订了一个互不侵犯条约，避免军舰在中立星球开战。
+INC_SIGNED_PEACE_TITLE            | 停战协议
+INC_SIGNED_PEACE_DESC             | [my_empire] 和 [your_empire] 签订了停战协定，许诺在 [endYear] 之前中止敌对行动。
+INC_SIGNED_TRADE_TITLE            | 贸易协议
+INC_SIGNED_TRADE_DESC             | [my_empire] 和 [your_empire] 协商确定了一个年数额最高达到 [amt] BC的贸易协议。
+INC_SKIRMISH_TITLE                | 冲突
+INC_SKIRMISH_DESC                 | [my_race] 和 [your_race] 的舰队在 [system] 星系发生了一次武装冲突。
+INC_SPY_CONFESSION_TITLE          | 间谍招认
+INC_SPY_CONFESS_ESPIONAGE_DESC    | [spy_empire] 的间谍被抓住并坦白了当前正在进行的针对 [victim_empire] 的窃密行动。
+INC_SPY_CONFESS_SABOTAGE_DESC     | [spy_empire] 的间谍被抓住并坦白了当前正在进行的针对 [victim_empire] 的破坏行动。
+INC_SPY_CAPTURED_DESC             | [spy_empire] 的间谍被抓住并被迫承认了当前正在进行的针对 [victim_empire] 的破坏行动。
+INC_TRADE_INCOME_TITLE            | 贸易利润
+INC_TRADE_INCOME_DESC             | [your_empire] 和 [my_empire] 的贸易协议已经产生了 [amt] BC的利润。
+INC_TRESPASSING_TITLE             | 非法侵入
+INC_TRESPASSING_DESC              | [your_race] 正在非法穿过属于 [my_empire] 的 [system] 星系。
 
 // generic click to skip or continue messages
 CLICK_SKIP                        | 单击或点击ESC跳过动画
