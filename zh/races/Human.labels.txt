@@ -1,7 +1,7 @@
 // race-specific variables (must start with _)
-_empire                           | Human Triumvirate, Terran Triumvirate, Tellan Triumvirate, Priman Triumvirate, Midgardian Triumvirate
-_race                             | Human, Terran, Tellan, Priman, Midgardian
-_race_plural                      | Humans, Terrans, Tellans, Primans, Midgardians
+_empire                           | 人类同盟, 地球人同盟, 泰拉同盟, 原人同盟, 智人同盟
+_race                             | 人类, 地球人, 泰拉人, 原人, 智人
+_race_plural                      | 人类, 地球人, 泰拉人, 原人, 智人
 _title                            | 执政官
 _nameTitle                        | 执政官
 
