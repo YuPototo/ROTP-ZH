@@ -2,8 +2,8 @@
 _empire                           | Human Triumvirate, Terran Triumvirate, Tellan Triumvirate, Priman Triumvirate, Midgardian Triumvirate
 _race                             | Human, Terran, Tellan, Priman, Midgardian
 _race_plural                      | Humans, Terrans, Tellans, Primans, Midgardians
-_title                            | Triumvir
-_nameTitle                        | Triumvir
+_title                            | 执政官
+_nameTitle                        | 执政官
 
 //
 // All text below this point is copyright 2018-2020 Jeff Colucci
@@ -22,17 +22,17 @@ _nameTitle                        | Triumvir
 // Advisor text
 MAIN_ADVISOR_TITLE                | 人类顾问
 MAIN_ADVISOR_BUTTON_OK            | 好的
-MAIN_ADVISOR_SCOUT                | 后勤部门汇报说两个 scout 和一个 colony ship 已经可以服役。我建议我们尽快找到并殖民一个附近的行星。
-MAIN_ADVISOR_TRANSPORT            | %1的殖民地创建已经完成。越多殖民者被派遣过去， %1就会越快成为我们星际帝国的基石。
-MAIN_ADVISOR_DIPLOMACY            | Triumvir, I am thrilled to confirm our first contact with an alien civilization! Please, review our intelligence so that we can begin manipulating these aliens to better serve our ends.
-MAIN_ADVISOR_SHIP_ENGINE          | Our propulsion research has yielded a more advanced ship design. Please integrate this breakthrough into all future ships. That's all for now.
-MAIN_ADVISOR_RALLY_POINTS         | Our military forces are gearing up for war, but we'll need to mobilize our forces quickly. I recommend using rally points to fold our newly created ships into the fleet as soon as possible.
-MAIN_ADVISOR_MISSILE_BASES        | Our strategists worry about the defensive capabilities of worlds at the edge of our territory. They recommend creating missile bases to fortify planetary defenses, and I agree with their assessment.
-MAIN_ADVISOR_SHIP_WEAPON          | Our newest research has led to an advancement in weapons technology. You can modify new ship designs to include these weapons at any time from now on.
-MAIN_ADVISOR_COUNCIL              | Triumvir! A meeting of all interstellar empires will occur in only 5 short years. Direct our diplomats to improve how we are viewed, and we'll utilize our advantages to steer this Galactic Council to our ends.
-MAIN_ADVISOR_REBELLION            | I've heard reports that there is a rebellion underway on %1. A rebellion! Of all things! Let's get some boots on the ground and get that colony under control.
-MAIN_ADVISOR_RESIST_COUNCIL       | Seems that this'll be our final war one way or the other. I just hope all our past has taught us will be enough to prepare for what lies ahead...
-MAIN_ADVISOR_COUNCIL_RESISTED     | Look at those foolish rebels! We've democratically been elected to lead this galaxy forward and all they can think of is war?! Then let's give 'em what they're asking for! 
+MAIN_ADVISOR_SCOUT                | 后勤部门汇报说两个侦察机和一个殖民飞船已经可以服役。我建议我们尽快找到并殖民一个附近的行星。
+MAIN_ADVISOR_TRANSPORT            | %1的殖民地创建已经完成。越多殖民者被派遣过去，%1就会越快成为我们星际帝国的基石。
+MAIN_ADVISOR_DIPLOMACY            | 执政官, 我很激动地确认我们与外星文明发生了第一次接触！请务必查看我们的情报页面，我们可以影响这些外星生命，让他们为我们的目标服务。
+MAIN_ADVISOR_SHIP_ENGINE          | 我们的动力科学研究有了新成果，我们已经可以设计更先进的飞船。请将这个技术使用在我们未来的飞船里。
+MAIN_ADVISOR_RALLY_POINTS         | 我们的军事力量已经为了战争而动员起来，但我们需要更快地集合自己的军队。我建议使用集结点，让未来的新舰船都自动开往集结点集合。
+MAIN_ADVISOR_MISSILE_BASES        | 我们的战略专家担心领地边缘星球的防御能力。他们建议建造导弹基地来加强防御。我同意他们的观点。
+MAIN_ADVISOR_SHIP_WEAPON          | 我们的最新研究已经实现武器技术的突破。你现在可以修改舰船设计，在未来的舰艇中使用新的武器。
+MAIN_ADVISOR_COUNCIL              | 执政官！一个囊括所有星际帝国的会议将在5年后举行。让我们的外交官提高我们的形象吧，这会帮助我们在星际委员会中实现自己的目的。
+MAIN_ADVISOR_REBELLION            | 我收到报告说 %1 正在发生叛乱。那么多事情里，竟然发生了个叛乱！我们应该派遣地面部队到这个殖民地，把局势控制住。
+MAIN_ADVISOR_RESIST_COUNCIL       | 看来这会是我们的决战了，要么输，要么赢。我希望过去的经历能够教会我们如何面对未来的一切...
+MAIN_ADVISOR_COUNCIL_RESISTED     | 看看这些愚蠢的叛军！我们被民主地选举为这个宇宙的领导者，而他们却希望发动一场战争？那就让他们求仁得仁吧。
 
 // text for endings... '#' represents a paragraph break
 // variables: %1 Game year, %2 player name, %3 player race, %4 player empire, %5 leader name, %6 leader race, %7 leader empire, %8 is special race-specific text described below
