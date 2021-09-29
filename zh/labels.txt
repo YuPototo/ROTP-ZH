@@ -217,7 +217,7 @@ INC_INVADED_COLONY_DESC           | [attacker_empire] 的军队入侵了 [defend
 INC_COUNCIL_VOTE_TITLE            | 委员会投票
 INC_COUNCIL_VOTE_FOR_DESC         | [voter_race] 投票支持 [candidate_race] 的领导人 [candidate_name]。
 INC_COUNCIL_VOTE_AGAINST_DESC     | [voter_race] 投票反对 [candidate_race] 的领导人 [candidate_name]。
-INC_COUNCIL_ABSTAIN_DESC          | [voter_race] 在星际议会选举中弃权里 ，拒绝给 [candidate_race] 的领导人 [candidate_name] 投票。
+INC_COUNCIL_ABSTAIN_DESC          | [voter_race] 在星际委员会选举中弃权 ，拒绝给 [candidate_race] 的领导人 [candidate_name] 投票。
 INC_DECLARED_WAR_TITLE            | 宣战
 INC_DECLARED_WAR_DESC             | [aggressor_empire] 宣布像 [victim_empire] 开战。
 INC_ERRATIC_WAR_TITLE             | 奇怪的行动
@@ -250,7 +250,7 @@ INC_EXPANSION_DESC                | 控制了[num]个星系后，[your_empire] �
 INC_GENOCIDE_TITLE                | 种族灭绝
 INC_GENOCIDE_DESC                 | [attacker_empire] 已经彻底消灭了 [victim_race] 种族。
 INC_FINAL_WAR_TITLE               | 大决战！
-INC_FINAL_WAR_DESC                | [rebel_empire] 已经武力反抗星际议会，宇宙中的其他帝国决定联手彻底毁灭 [rebel_empire]。
+INC_FINAL_WAR_DESC                | [rebel_empire] 已经武力反抗星级委员会，宇宙中的其他帝国决定联手彻底毁灭 [rebel_empire]。
 INC_MILITARY_BUILDUP_TITLE        | 军事行动
 INC_MILITARY_BUILDUP_DESC         | [your_empire] 正在 [system] 集结舰队。
 INC_OATHBREAKER_TITLE             | 破坏誓言
@@ -258,7 +258,7 @@ INC_DESTROYED_BASES_TITLE         | 破坏导弹基地
 INC_DESTROYED_BASES_DESC          | 在 [spy_empire] 搞破坏的间谍捣毁了 [system] 星系的 [amt] 个导弹基地。
 INC_DESTROYED_FACTORIES_TITLE     | 破坏工厂
 INC_DESTROYED_FACTORIES_DESC      | 在 [spy_empire] 搞破坏的间谍捣毁了 [system] 星系的 [amt] 个工厂。
-INC_INCITED_REBELLION_TITLE       | 煽动奇艺
+INC_INCITED_REBELLION_TITLE       | 煽动起义
 INC_INCITED_REBELLION_DESC        | 在 [spy_empire] 教唆起义的间谍在 [system] 星系煽动了 [amt] 百万人的起义。
 INC_SIGNED_ALLIANCE_TITLE         | 结盟
 INC_SIGNED_ALLIANCE_DESC          | [my_empire] 和 [your_empire] 结成了联盟，许诺共同对抗外敌。
@@ -813,21 +813,20 @@ PLANETS_HELP_4H                   | 备注：该星系的备注。可编辑。
 PLANETS_HELP_4I                   | 旗帜：你可以为星系设置一个标记旗帜。
 
 // Bombardment prompt
-MAIN_BOMBARDED_TITLE             | %1 has been bombarded by %2 forces.
-MAIN_BOMBARD_TITLE               | Our forces are orbiting an enemy [alien_race] colony.
-MAIN_BOMBARD_TROOPS              | %1 [alien_race] troops are orbiting or in transit to this colony.
-MAIN_BOMBARD_PROMPT              | Bombard the planet?
-MAIN_BOMBARD_YES                 | Yes
-MAIN_BOMBARD_NO                  | No
-MAIN_BOMBARD_POPULATION          | Population: %1
-MAIN_BOMBARD_FACTORIES           | Factories: %1
-MAIN_BOMBARD_BASES               | Bases: %1
-MAIN_BOMBARD_SHIELD              | Shield: %1
-MAIN_BOMBARD_COMPLETE            | Bombardment Completed.
-MAIN_BOMBARD_DESTROYED           | Colony Destroyed
+MAIN_BOMBARDED_TITLE             | %1 被 %2 的舰队轰炸了。
+MAIN_BOMBARD_TITLE               | 我们的舰队正在围绕 [alien_race] 殖民地飞行。
+MAIN_BOMBARD_TROOPS              | %1 [alien_race] 舰队正在围绕该殖民地或驶向该殖民地。
+MAIN_BOMBARD_PROMPT              | 是否轰炸该殖民地?
+MAIN_BOMBARD_YES                 | 是
+MAIN_BOMBARD_NO                  | 否
+MAIN_BOMBARD_POPULATION          | 人口: %1
+MAIN_BOMBARD_FACTORIES           | 工厂: %1
+MAIN_BOMBARD_BASES               | 导弹基地: %1
+MAIN_BOMBARD_SHIELD              | 护盾: %1
+MAIN_BOMBARD_COMPLETE            | 完成轰炸。
+MAIN_BOMBARD_DESTROYED           | 摧毁殖民地
 MAIN_BOMBARD_DMG                 | (%1)
-MAIN_BOMBARD_NAME_PROMPT         | Colony Name
-
+MAIN_BOMBARD_NAME_PROMPT         | 殖民地名称
 
 // Fleet listing UI
 FLEETS_TITLE                      | 舰队
@@ -965,72 +964,73 @@ NOTICE_ESPIONAGE_FRAME_TITLE      | 我们的间谍成功把技术盗窃案栽�
 NOTICE_ESPIONAGE_FRAME_SUBTITLE   | 选择被栽赃种族：
 
 // Spy Capture display (during next turn)
-NOTICE_SPIES_TITLE                | Current Spy Report
-NOTICE_SPIES_NO_ACTIVITY          | No meaningful spy activity has been observed.
-NOTICE_SPIES_ACTIVITY             | Current Activity:
-NOTICE_SPIES_LOST_DESC            | • The [alien_empire] shut down %1 of our spy networks.
-NOTICE_SPIES_LOST_CONFESSED       | Our spies confessed to ongoing sabotage activities.
-NOTICE_SPIES_LOST_CONFESSED2      | Our spies confessed to ongoing espionage activities.
-NOTICE_SPIES_LOST_CONFESSED3      | Our spies were forced to confess to ongoing sabotage activities.
-NOTICE_SPIES_CAUGHT_DESC          | • Our internal security forces shut down %1 spy networks of the [alien_empire].
-NOTICE_SPIES_CAUGHT_CONFESSED     | Their spies confessed to ongoing sabotage activities.
-NOTICE_SPIES_CAUGHT_CONFESSED2    | Their spies confessed to ongoing espionage activities.
-NOTICE_SPIES_FRAMED               | • We were framed for espionage activities within the [alien_empire].
-NOTICE_SPIES_ESPIONAGE            | • Our spies have stolen the secrets of %1 from the [alien_empire].
-NOTICE_SPIES_ESPIONAGE_FRAME      | We successfully framed the [framed_empire] for this theft.
-NOTICE_SPIES_SABOTAGE_FACTORIES   | • Our spies successfully destroyed %1 factories in the %2 system.
-NOTICE_SPIES_SABOTAGE_BASES       | • Our spies successfully destroyed %1 missile bases protecting the %2 system.
-NOTICE_SPIES_SABOTAGE_REBELS      | • Our spies successfully incited rebels in the %2 system.
-NOTICE_SPIES_SABOTAGE_REBELLION   | • Our spies successfully triggered rebellion in the %2 system.
-NOTICE_SPIES_LEARNED_TECH         | • Our spies report that the [alien_empire] has recently learned the following technologies unknown to us: %1
+NOTICE_SPIES_TITLE                | 当前情报
+NOTICE_SPIES_NO_ACTIVITY          | 当前没有重要的情报活动。
+NOTICE_SPIES_ACTIVITY             | 当前活动:
+NOTICE_SPIES_LOST_DESC            | • [alien_empire] 捣毁了我方的%1个间谍网络。
+NOTICE_SPIES_LOST_CONFESSED       | 我方间谍坦白了正在进行的破坏活动。
+NOTICE_SPIES_LOST_CONFESSED2      | 我方间谍坦白了正在进行的窃密活动。
+NOTICE_SPIES_LOST_CONFESSED3      | 我方间谍被迫承认了正在进行的破坏活动。
+NOTICE_SPIES_CAUGHT_DESC          | • 我方安全部门捣毁了%1个 [alien_empire] 的间谍网络。
+NOTICE_SPIES_CAUGHT_CONFESSED     | 对方间谍承认在进行破坏活动。
+NOTICE_SPIES_CAUGHT_CONFESSED2    | 对方间谍承认在进行窃密活动。
+NOTICE_SPIES_FRAMED               | • 我方被栽赃为 [alien_empire] 窃密事件的幕后黑手。
+NOTICE_SPIES_ESPIONAGE            | • 我方间谍偷窃了 [alien_empire] 的机密技术 %1。
+NOTICE_SPIES_ESPIONAGE_FRAME      | 我们成功把本次窃密行动栽赃给了 [framed_empire]。
+NOTICE_SPIES_SABOTAGE_FACTORIES   | • 我方间谍成功破坏了 %2 星系的 %1 个工厂。
+NOTICE_SPIES_SABOTAGE_BASES       | • 我方间谍成功破坏了 %2 星系的 %1 个导弹基地。
+NOTICE_SPIES_SABOTAGE_REBELS      | • 我方间谍成功在 %2 星系培养了反叛力量。
+NOTICE_SPIES_SABOTAGE_REBELLION   | • 我方间谍成功在 %2 星系煽动了起义。
+NOTICE_SPIES_LEARNED_TECH         | • 我方间谍汇报：[alien_empire] 近期发现了一个我方尚未掌握的新技术：%1。
+
 // this just details how to concatenate a list of multiple technology (English uses ,)
 NOTICE_SPIES_MULTIPLE_TECHS       | %1, %2
-NOTICE_SPIES_THREATEN             | Threaten
-NOTICE_SPIES_MANAGE               | Manage Spies
-NOTICE_SPIES_CLOSE                | Close
+NOTICE_SPIES_THREATEN             | 威胁
+NOTICE_SPIES_MANAGE               | 管理间谍
+NOTICE_SPIES_CLOSE                | 关闭
 
 // Ground Combat UI
-INVASION_BATTLE                   | In the Year %1, the [attacker_race] and [defender_race] battle for %2.
-INVASION_BATTLE_REBELS            | In the Year %1, the [attacker_race] and rebels battle for %2.
-INVASION_TROOPS_LANDED            | %1 [attacker_race] troops landed. 
-INVASION_SOME_TROOPS_LANDED       | %1 of %2 [attacker_race] troops landed.
-INVASION_WIN                      | [attacker_race] transports capture %2.
-INVASION_LOSS                     | [defender_race] troops successfully defend %2.
-INVASION_ATTACKERS_TITLE          | %1 [attacker_race] Troops
-INVASION_DEFENDERS_TITLE          | %1 [defender_race] Troops
-INVASION_REBELS_TITLE             | %1 [defender_race] Rebels
+INVASION_BATTLE                   | %1年，[attacker_race] 和 [defender_race] 为争夺 %2 发生战斗。
+INVASION_BATTLE_REBELS            | %1年，[attacker_race] 与反叛军为争夺 %2 发生战斗。
+INVASION_TROOPS_LANDED            | %1 [attacker_race] 的部队登陆了。
+INVASION_SOME_TROOPS_LANDED       | %2 个 [attacker_race] 部队中有 %1 个登陆了。
+INVASION_WIN                      | [attacker_race] 的部队占领了 %2。
+INVASION_LOSS                     | [defender_race] 的部队成功守护了 %2。
+INVASION_ATTACKERS_TITLE          | %1 [attacker_race] 部队
+INVASION_DEFENDERS_TITLE          | %1 [defender_race] 部队
+INVASION_REBELS_TITLE             | %1 [defender_race] 起义军
 INVASION_TROOP_ARMOR_DESC         | %1 %2
 
 // GNN Text
-GNN_TITLE                         | The [player_race] Galactic News Network reports:
+GNN_TITLE                         | [player_race] 星际新闻网络报告：
 GNN_EMPIRE_RANKING                | %1. [empire_race]
-GNN_EXTINCTION_KNOWN_VICTIM       | The [victim_race]
-GNN_EXTINCTION_KNOWN_KILLER       | the [killer_race]
-GNN_EXTINCTION_UNKNOWN_VICTIM     | An unknown civilization 
-GNN_EXTINCTION_UNKNOWN_KILLER     | an unknown empire
-GNN_EXTINCTION                    | %1 has been completely destroyed by %2.
-GNN_EXTINCTION_NO_KILLER          | %1 has been completely destroyed.
-GNN_EXPANSION_1                   | The [expanding_empire] now spans %1 star systems, outstripping all the other races.
-GNN_EXPANSION_2                   | The [expanding_empire] now numbers %1 star systems. If their expansion is not contained they will soon control the galaxy.
-GNN_EXPANSION_3                   | The [expanding_empire] nearly controls a majority of the galaxy. Leaders are already preparing to merge with the mighty empire.
-GNN_ALLIANCE_FORMED               | The [first_empire] has formed an Alliance with the [second_empire].
-GNN_ALLIANCE_BROKEN               | The Alliance between the [first_empire] and the [second_empire] has been broken.
-GNN_FLEETS_RANKING                | Current ranking of space fleet strengths:
-GNN_CENSUS_RANKING                | The census ranking of empire populations:
-GNN_PRODUCTION_RANKING            | Current rankings of empire production:
-GNN_TECHNOLOGY_RANKING            | Current leaders of advanced technology:
-GNN_PLAYER_REBELLION              | %1 has rebelled and refuses to contribute to the [rebelling_empire]. At least %2 million rebels control the colony. Troops must be sent to quell the uprising. 
-GNN_ALIEN_REBELLION               | %1 has rebelled and refused to contribute to the [rebelling_empire]. At least %2 million rebels control the colony.
-GNN_PLAYER_REBELLION_SPREAD       | Rebellion continues to spread throughout the [rebelling_empire]. At least %2 million rebels now control the colony at %1. 
-GNN_OVERTHROW                     | A new leader emerged from within the [alien_empire]. Rumors indicate the new emperor is a %1. Relations have become neutral and trade has been disrupted.
-GNN_END_COUNCIL                   | With only two Empires remaining, attempts to unify the galaxy with a Galactic Council have ended. Many leaders now debate what sort of final solution can bring lasting peace.
-GNN_FORM_COUNCIL                  | In the pursuit of peace, representatives for each race will soon convene to elect a Galactic Emperor to be chosen from the leaders of the two most populous empires.
-GNN_ALLY_AT_WAR                   | Our ally, the [ally_empire], has entered into war against the [other_empire].
+GNN_EXTINCTION_KNOWN_VICTIM       | [victim_race]
+GNN_EXTINCTION_KNOWN_KILLER       | [killer_race]
+GNN_EXTINCTION_UNKNOWN_VICTIM     | 一个未知文明
+GNN_EXTINCTION_UNKNOWN_KILLER     | 一个未知帝国
+GNN_EXTINCTION                    | %1 已经彻底被 %2 消灭。
+GNN_EXTINCTION_NO_KILLER          | %1 已经彻底被消灭。
+GNN_EXPANSION_1                   | [expanding_empire] 已经占据 %1 个星系，超过了所有其他种族。
+GNN_EXPANSION_2                   | [expanding_empire] 已经占有 %1 个星系。如果他们的扩张不被阻止，他们很快就会占领整个银河系。
+GNN_EXPANSION_3                   | [expanding_empire] 几乎控制了大部分星系。领导者已经准备好加入这个强大的帝国。
+GNN_ALLIANCE_FORMED               | [first_empire] 已经与 [second_empire] 结成同盟。
+GNN_ALLIANCE_BROKEN               | [first_empire] 和 [second_empire] 之间的同盟已经被毁掉。
+GNN_FLEETS_RANKING                | 当前舰队实力排名：
+GNN_CENSUS_RANKING                | 当前人口数量排名：
+GNN_PRODUCTION_RANKING            | 当前经济实力排名：
+GNN_TECHNOLOGY_RANKING            | 当前技术实力排名：
+GNN_PLAYER_REBELLION              | %1 已经叛变并拒绝再为 [rebelling_empire] 进行生产。至少 %2 百万叛军控制了殖民地。地面部队必须登陆该星球平定判断。 
+GNN_ALIEN_REBELLION               | %1 已经叛变并拒绝再为 [rebelling_empire] 进行生产。至少 %2 百万叛军控制了殖民地。
+GNN_PLAYER_REBELLION_SPREAD       | 叛乱继续在 [rebelling_empire] 传播，至少 %2 叛乱分子控制了 %1 的殖民地。
+GNN_OVERTHROW                     | [alien_empire] 出现了一个新的领导者。传闻他是一个 %1。我们的关系变成了中立，且所有贸易都中断了。
+GNN_END_COUNCIL                   | 宇宙中仅剩下两个帝国，通过星际委员会实现统一已经不再可行。领导者们开始辩论什么样的最终解决方案才能给宇宙带来和平。
+GNN_FORM_COUNCIL                  | 为了追求和平，各个种族的代表即将举行会议，将从两个人口最多的帝国中投票选出领导全宇宙的皇帝。
+GNN_ALLY_AT_WAR                   | 我方的盟友 [ally_empire] 与 [other_empire] 爆发战争。
 
 // Error UI text
-ERROR_TITLE                       | An Error has occurred  :(
-ERROR_MESSAGE                     | If you would like to help fix this problem, please send a screen shot of this UI plus the 'recent.rotp' save game file to Ray Fowler, or bring it to his attention on the ROTP subreddit.
-ERROR_EMAIL                       | Email: rayfowler@fastmail.com
+ERROR_TITLE                       | 出现了一个错误  :(
+ERROR_MESSAGE                     | 如果你想要帮助修复这个问题，请将截图和最近的存档文件 'recent.ropt' 通过邮件发给 Ray Fowler，或者在 ROTP 的 Reddit 论坛上发一个帖子。
+ERROR_EMAIL                       | 邮件： rayfowler@fastmail.com
 ERROR_REDDIT                      | Reddit: www.Reddit.com/r/rotp
 
 // Setup UI
@@ -1476,81 +1476,81 @@ SHIP_DESIGN_HELP_4F               | 重置：重置所有被选中的组件。
 SHIP_DESIGN_HELP_4G               | 部署设计：当你完成了设计，就可以部署它，你需要给它一个名字，然后就可以建造了。
 
 // Ship Combat UI
-SHIP_COMBAT_TITLE_SYSTEM          | Ship Combat at %1!
-SHIP_COMBAT_TITLE_UNSCOUTED       | Ship Combat in unexplored system!
-SHIP_COMBAT_TITLE_DESC            | Our forces meet a hostile [alien_race] fleet.
-SHIP_COMBAT_TITLE_MONSTER_DESC    | Our forces encounter a hostile %1.
-SHIP_COMBAT_BASES                 | %1 Missile Bases
-SHIP_COMBAT_SHIELD                | Level %1 Planetary Shield
-SHIP_COMBAT_POPULATION            | %1 Population
-SHIP_COMBAT_FACTORIES             | %1 Factories
-SHIP_COMBAT_ENTER_BATTLE          | Enter battle
-SHIP_COMBAT_MISS                  | Miss
-SHIP_COMBAT_DEFLECTED             | Deflected
-SHIP_COMBAT_DESTROYED             | Destroyed!
-SHIP_COMBAT_STASIS                | Stasis
-SHIP_COMBAT_TITLE                 | Battle at %1
-SHIP_COMBAT_TITLE_UNNAMED         | Battle in unexplored system
-SHIP_COMBAT_SYSTEM_POP            | Population
-SHIP_COMBAT_SYSTEM_FACT           | Factories
-SHIP_COMBAT_SYSTEM_BASE           | Bases
-SHIP_COMBAT_TITLE_VICTORIOUS      | VICTORIOUS
+SHIP_COMBAT_TITLE_SYSTEM          | %1 发生了空战!
+SHIP_COMBAT_TITLE_UNSCOUTED       | 未探索星系发生了空战!
+SHIP_COMBAT_TITLE_DESC            | 我方舰队遭遇了敌对的 [alien_race] 舰队。
+SHIP_COMBAT_TITLE_MONSTER_DESC    | 我方舰队遭遇了敌对的 %1。
+SHIP_COMBAT_BASES                 | %1 导弹基地
+SHIP_COMBAT_SHIELD                | %1 级护盾
+SHIP_COMBAT_POPULATION            | %1 人口
+SHIP_COMBAT_FACTORIES             | %1 工厂
+SHIP_COMBAT_ENTER_BATTLE          | 进入战斗
+SHIP_COMBAT_MISS                  | 丢失
+SHIP_COMBAT_DEFLECTED             | 偏转
+SHIP_COMBAT_DESTROYED             | 摧毁!
+SHIP_COMBAT_STASIS                | 静止
+SHIP_COMBAT_TITLE                 | %1 战斗
+SHIP_COMBAT_TITLE_UNNAMED         | 未知星系战斗
+SHIP_COMBAT_SYSTEM_POP            | 人口
+SHIP_COMBAT_SYSTEM_FACT           | 工厂
+SHIP_COMBAT_SYSTEM_BASE           | 导弹
+SHIP_COMBAT_TITLE_VICTORIOUS      | 胜利
 SHIP_COMBAT_SHIP_TOTALS           | %1 🡒 %2
-SHIP_COMBAT_RESULTS_RETREATED     | RETREATED
-SHIP_COMBAT_RESULTS_DESTROYED     | DESTROYED
-SHIP_COMBAT_RETREAT_ALL           | Retreat All
-SHIP_COMBAT_NEXT                  | Next Ship
-SHIP_COMBAT_AUTO_RESOLVE          | Auto-Resolve Battle
-SHIP_COMBAT_AUTO_RESOLVING        | Resolving Combat...
-SHIP_COMBAT_PLAY_BATTLE           | Auto-Play Battle
-SHIP_COMBAT_PAUSE_BATTLE          | Pause Battle
-SHIP_COMBAT_EXIT                  | Exit
+SHIP_COMBAT_RESULTS_RETREATED     | 撤退
+SHIP_COMBAT_RESULTS_DESTROYED     | 被摧毁
+SHIP_COMBAT_RETREAT_ALL           | 全体撤退
+SHIP_COMBAT_NEXT                  | 下一组舰船
+SHIP_COMBAT_AUTO_RESOLVE          | 自动快速战斗
+SHIP_COMBAT_AUTO_RESOLVING        | 快速战斗中...
+SHIP_COMBAT_PLAY_BATTLE           | 自动战斗
+SHIP_COMBAT_PAUSE_BATTLE          | 暂停战斗
+SHIP_COMBAT_EXIT                  | 退出
 SHIP_COMBAT_COUNT_NAME            | %1  %2
-SHIP_COMBAT_MONSTER_TARGET        | Space monster targeted.
-SHIP_COMBAT_ENEMY_TARGET          | Enemy fleet targeted.
-SHIP_COMBAT_ALLY_TARGET           | Friendly fleet targeted.
-SHIP_COMBAT_ENEMY_COLONY          | Enemy planet targeted.
-SHIP_COMBAT_ALLY_COLONY           | Friendly planet targeted.
-SHIP_COMBAT_CURRENT_TARGET        | Current fleet targeted.
-SHIP_COMBAT_SELECT_ACTION         | Select an action.
-SHIP_COMBAT_SELECT_WEAPON         | Select a weapon or device.
-SHIP_COMBAT_FIRE_WEAPON           | Fire weapon.
-SHIP_COMBAT_ACTION_NEXT_SHIP      | Next ship
-SHIP_COMBAT_ACTION_TURN_DONE      | Turn done
-SHIP_COMBAT_ACTION_RETREAT        | Retreat
-SHIP_COMBAT_ACTION_FIRE_ALL       | Fire All Weapons
-SHIP_COMBAT_ACTION_CLOAK          | Cloak
-SHIP_COMBAT_ACTION_MOVE           | Move here
-SHIP_COMBAT_ACTION_TELEPORT       | Teleport here
-SHIP_COMBAT_ACTION_RANGE          | Out of Range
-SHIP_COMBAT_ACTION_NO_MISSILES    | No missiles remaining
-SHIP_COMBAT_ACTION_NO_BOMBS       | No bombs remaining
-SHIP_COMBAT_ACTION_FIRED          | Already fired
-SHIP_COMBAT_ACTION_USED           | Already used
-SHIP_COMBAT_ACTION_BAD_TARGET     | Invalid target
+SHIP_COMBAT_MONSTER_TARGET        | 瞄准太空怪物
+SHIP_COMBAT_ENEMY_TARGET          | 瞄准敌军舰船
+SHIP_COMBAT_ALLY_TARGET           | 瞄准友军舰船
+SHIP_COMBAT_ENEMY_COLONY          | 瞄准敌人行星
+SHIP_COMBAT_ALLY_COLONY           | 瞄准友军行星
+SHIP_COMBAT_CURRENT_TARGET        | 瞄准当前舰船
+SHIP_COMBAT_SELECT_ACTION         | 选择一个行动
+SHIP_COMBAT_SELECT_WEAPON         | 选择武器或装置
+SHIP_COMBAT_FIRE_WEAPON           | 开火
+SHIP_COMBAT_ACTION_NEXT_SHIP      | 下一组舰船
+SHIP_COMBAT_ACTION_TURN_DONE      | 回合结束
+SHIP_COMBAT_ACTION_RETREAT        | 撤退
+SHIP_COMBAT_ACTION_FIRE_ALL       | 所有武器开火
+SHIP_COMBAT_ACTION_CLOAK          | 隐身
+SHIP_COMBAT_ACTION_MOVE           | 飞行到此处
+SHIP_COMBAT_ACTION_TELEPORT       | 传送到此处
+SHIP_COMBAT_ACTION_RANGE          | 射程外
+SHIP_COMBAT_ACTION_NO_MISSILES    | 没有导弹了
+SHIP_COMBAT_ACTION_NO_BOMBS       | 没有炸弹了
+SHIP_COMBAT_ACTION_FIRED          | 已开火
+SHIP_COMBAT_ACTION_USED           | 已使用
+SHIP_COMBAT_ACTION_BAD_TARGET     | 无效目标
 SHIP_COMBAT_ACTION_WPN_COUNT      | %1 x%2
 SHIP_COMBAT_ACTION_WPN_COUNT_SHOTS| %1 x%2 x%3
-SHIP_COMBAT_INFO_LABEL            | Ship Information
-SHIP_COMBAT_SCAN_LABEL            | Ship Scan Information
-SHIP_COMBAT_SCAN_HIT_POINTS       | Hit Points
-SHIP_COMBAT_SCAN_MISSILE_DEF      | Missile Defense
-SHIP_COMBAT_SCAN_BEAM_DEF         | Beam Defense
-SHIP_COMBAT_SCAN_SHIELD_CLASS     | Shield Class
-SHIP_COMBAT_SCAN_ATTACK_LEVEL     | Attack Level
-SHIP_COMBAT_SCAN_SPEED            | Speed
-SHIP_COMBAT_SCAN_WEAPONS          | Weapons
-SHIP_COMBAT_SCAN_DEVICES          | Devices
+SHIP_COMBAT_INFO_LABEL            | 舰船信息
+SHIP_COMBAT_SCAN_LABEL            | 扫描检查信息
+SHIP_COMBAT_SCAN_HIT_POINTS       | 护甲值
+SHIP_COMBAT_SCAN_MISSILE_DEF      | 导弹防御
+SHIP_COMBAT_SCAN_BEAM_DEF         | 激光防御
+SHIP_COMBAT_SCAN_SHIELD_CLASS     | 护盾等级
+SHIP_COMBAT_SCAN_ATTACK_LEVEL     | 进攻等级
+SHIP_COMBAT_SCAN_SPEED            | 速度
+SHIP_COMBAT_SCAN_WEAPONS          | 武器
+SHIP_COMBAT_SCAN_DEVICES          | 装置
 SHIP_COMBAT_SCAN_HITS_VALUE       | %1/%2
 SHIP_COMBAT_SCAN_WEAPON_CNT       | %1 x %2
 SHIP_COMBAT_SCAN_UNSCANNED_VALUE  | ???
-SHIP_COMBAT_COLONY_LABEL          | Colony Information
-SHIP_COMBAT_COLONY_SCAN_LABEL     | Colony Scan Information
-SHIP_COMBAT_COLONY_POPULATION     | Population
-SHIP_COMBAT_COLONY_SHIELD         | Shield
-SHIP_COMBAT_COLONY_FACTORIES      | Factories
-SHIP_COMBAT_COLONY_BASES          | Missile Bases
-SHIP_COMBAT_COLONY_BASE_HITS      | Missile Base Hit Points
-SHIP_COMBAT_COLONY_BASE_ATTACK    | Missile Attack Level
+SHIP_COMBAT_COLONY_LABEL          | 殖民地信息
+SHIP_COMBAT_COLONY_SCAN_LABEL     | 扫描殖民地信息
+SHIP_COMBAT_COLONY_POPULATION     | 人口
+SHIP_COMBAT_COLONY_SHIELD         | 护盾
+SHIP_COMBAT_COLONY_FACTORIES      | 工厂
+SHIP_COMBAT_COLONY_BASES          | 导弹基地
+SHIP_COMBAT_COLONY_BASE_HITS      | 导弹基地护甲值
+SHIP_COMBAT_COLONY_BASE_ATTACK    | 导弹进攻等级
 SHIP_COMBAT_ACTION_FMT            | %1 - %2
 
 RELATIONS_FEUD                    | 死敌
@@ -1771,23 +1771,23 @@ RACES_HELP_6F                     | 经济：各个帝国的总产能。
 RACES_HELP_6G                     | 总实力：结合了军事、科技和经济的总体实力。
 
 // Sabotage UI
-SABOTAGE_TITLE                    | Our spies have infiltrated [alien_race] colonies and are ready to carry out orders.
-SABOTAGE_PROMPT                   | Select the form of sabotage to commit against the [alien_empire] in the %1 system.
-SABOTAGE_WARNING                  | Warning! Any act of sabotage will break our treaty with the [alien_empire].
-SABOTAGE_SELECT_TARGET            | Select a target
-SABOTAGE_BUTTON_FACTORIES         | Destroy Factories
-SABOTAGE_BUTTON_BASES             | Destroy Missile Bases
-SABOTAGE_BUTTON_REBELLION         | Incite Rebellion
-SABOTAGE_BUTTON_NO_ACTION         | Take No Action
-SABOTAGE_FACTORIES_RESULT         | Your spies destroyed %1 factories.
-SABOTAGE_BASES_RESULT             | Your spies destroyed %1 missile bases.
-SABOTAGE_REBELS_TOTAL             | Your spies incited %1 rebels. Unrest now at %2%.
-SABOTAGE_REBELS_REVOLT            | Your spies have triggered a revolt!
-SABOTAGE_BASES                    | missile bases
-SABOTAGE_FACTORIES                | factories
-NOTICE_SPYING_MISSION_HIDE        | Infiltration
-NOTICE_SPYING_MISSION_ESPIONAGE   | Espionage
-NOTICE_SPYING_MISSION_SABOTAGE    | Sabotage
+SABOTAGE_TITLE                    | 我方间谍已渗透 [alien_race] 殖民地，并准备好了执行命令。
+SABOTAGE_PROMPT                   | 选择想要对 [alien_empire] 的 %1 星系展开的破坏活动。
+SABOTAGE_WARNING                  | 警告！任何破坏活动都会破坏我方与 [alien_empire] 的协议。
+SABOTAGE_SELECT_TARGET            | 选择一个目标
+SABOTAGE_BUTTON_FACTORIES         | 破坏工厂
+SABOTAGE_BUTTON_BASES             | 破坏导弹基地
+SABOTAGE_BUTTON_REBELLION         | 煽动叛乱
+SABOTAGE_BUTTON_NO_ACTION         | 不采取行动
+SABOTAGE_FACTORIES_RESULT         | 你的间谍破坏了 %1 个工厂。
+SABOTAGE_BASES_RESULT             | 你的间谍破坏了 %1 个导弹基地。
+SABOTAGE_REBELS_TOTAL             | 你的间谍培养了 %1 个反叛力量，反叛分子占星系人口的 %2%。
+SABOTAGE_REBELS_REVOLT            | 你的间谍煽动了叛乱！
+SABOTAGE_BASES                    | 导弹基地
+SABOTAGE_FACTORIES                | 工厂
+NOTICE_SPYING_MISSION_HIDE        | 渗透
+NOTICE_SPYING_MISSION_ESPIONAGE   | 窃密
+NOTICE_SPYING_MISSION_SABOTAGE    | 破坏
 
 // History UI
 HISTORY_TITLE                     | 已探索宇宙的历史
@@ -1806,38 +1806,38 @@ HISTORY_EMPIRE                    | 帝国
 
 
 // Council UIs
-COUNCIL_CONVENE_TITLE             | The High Council Convenes
-COUNCIL_CONVENE                   | The High Council has convened to elect one leader to be Ruler of the Galaxy.
-COUNCIL_CONVENE2                  | Each empire casts a share of votes proportional to its population. A candidate must collect at least two thirds of all votes to be elected. The candidates are the leaders of the two most populous empires: [first_name] of the [first_empire] and [second_name] of the [second_empire].
-COUNCIL_ADJOURN_TITLE             | The High Council Adjourns
-COUNCIL_ADJOURN                   | Voting has concluded and neither candidate has collected two-thirds of votes. No ruler has been named. The High Council will reconvene for another vote in 25 years.
-COUNCIL_SUMMARY_TITLE             | Voter Summary
-COUNCIL_SUMMARY                   | Votes are cast in order of population. %1 votes are required to win election.
-COUNCIL_BEGIN_VOTING              | Begin Voting
-COUNCIL_SHOW_VOTING               | Continue Voting
-COUNCIL_SKIP_TO_PLAYER            | Skip to [player_race] Vote
-COUNCIL_COMPLETE_VOTING           | Complete All Voting
-COUNCIL_SHOW_RESULTS              | Show Results
-COUNCIL_VIEW_SUMMARY              | View Voter Summary
-COUNCIL_VOTES_REQUIRED            | %1 votes required to win election.
-COUNCIL_CAST_PROMPT               | We must cast our %1 votes.
-COUNCIL_CAST_PROMPT_TITLE         | Select a candidate.
-COUNCIL_CHOICE_ABSTAIN            | Abstain
-COUNCIL_CAST_VOTE                 | The [voter_empire] cast %1 votes for [candidate_name]!
-COUNCIL_CAST_ABSTAIN              | The [voter_empire] abstains (%1 votes)
-COUNCIL_CHOICE_ABSTAIN            | Abstain
-COUNCIL_VOTE_COUNT                | %1 votes
-COUNCIL_VOTE_CAST                 | %1 votes - for [alien_race]
-COUNCIL_VOTE_ABSTAINED            | %1 votes - Abstained
-COUNCIL_TREATY_CANDIDATE          | [alien_race]: Candidate
-COUNCIL_TREATY_ALLIANCE           | [alien_race]: Alliance
-COUNCIL_TREATY_PACT               | [alien_race]: Non-aggression Pact
-COUNCIL_TREATY_NONE               | [alien_race]: No Treaty
-COUNCIL_TREATY_WAR                | [alien_race]: At War
-COUNCIL_CONTINUE                  | Continue
-COUNCIL_ELECTED_TITLE             | Ruler of the Galaxy Elected!
-COUNCIL_ACCEPT_RULING             | Accept Ruling
-COUNCIL_REJECT_RULING             | Reject Ruling
+COUNCIL_CONVENE_TITLE             | 星际委员会
+COUNCIL_CONVENE                   | 星际委员会召开了集会，目的是选举一个星际领袖。
+COUNCIL_CONVENE2                  | 每个帝国拥有等比例于其人口的票数。候选人需要获取到总票数的2/3才能当选。候选人是两个人口最多的帝国的领导者：[first_empire] 的 [first_name] 和 [second_empire] 的 [second_name]。
+COUNCIL_ADJOURN_TITLE             | 星际委员会休会
+COUNCIL_ADJOURN                   | 投票已经完成，没有候选人活到2/3的票数。没有选举出最终领导人。星际委员会将在25年后重新召开会议。
+COUNCIL_SUMMARY_TITLE             | 投票情况汇总
+COUNCIL_SUMMARY                   | 星际委员会按照人口数量确定了投票顺序。需要获得%1张选票才能赢得选举。
+COUNCIL_BEGIN_VOTING              | 开始投票
+COUNCIL_SHOW_VOTING               | 继续投票
+COUNCIL_SKIP_TO_PLAYER            | 快进到 [player_race] 投票
+COUNCIL_COMPLETE_VOTING           | 完成所有投票
+COUNCIL_SHOW_RESULTS              | 展示结果
+COUNCIL_VIEW_SUMMARY              | 展示投票情况汇总
+COUNCIL_VOTES_REQUIRED            | 需要%1张选票引得选举。
+COUNCIL_CAST_PROMPT               | 我们必须投出自己的%1票。
+COUNCIL_CAST_PROMPT_TITLE         | 选择一个候选人。
+COUNCIL_CHOICE_ABSTAIN            | 弃权
+COUNCIL_CAST_VOTE                 | [voter_empire] 为 [candidate_name] 投出 %1 票。 
+COUNCIL_CAST_ABSTAIN              | [voter_empire] 弃权了 (%1 票)。
+COUNCIL_CHOICE_ABSTAIN            | 弃权
+COUNCIL_VOTE_COUNT                | %1 票
+COUNCIL_VOTE_CAST                 | %1 票 - 支持 [alien_race]
+COUNCIL_VOTE_ABSTAINED            | %1 票 - 弃权
+COUNCIL_TREATY_CANDIDATE          | [alien_race]: 候选人
+COUNCIL_TREATY_ALLIANCE           | [alien_race]: 盟友
+COUNCIL_TREATY_PACT               | [alien_race]: 互不侵犯
+COUNCIL_TREATY_NONE               | [alien_race]: 无协议
+COUNCIL_TREATY_WAR                | [alien_race]: 战争中
+COUNCIL_CONTINUE                  | 继续
+COUNCIL_ELECTED_TITLE             | 选出了宇宙的领导者！
+COUNCIL_ACCEPT_RULING             | 接受统治
+COUNCIL_REJECT_RULING             | 拒绝统治
 
 
 // Credit text
@@ -1905,53 +1905,53 @@ SYSTEMS_STATUS_SPACE_AMOEBA       | 一个巨大的太空变形虫正要袭击�
 SYSTEMS_STATUS_SPACE_CRYSTAL      | 一个巨大的太空水晶正准备袭击这个星系。
 
 
-DIPLOMACY_RECEIVING               | Translating Incoming Message...
-DIPLOMACY_MENU_CONTINUE           | Continue
-DIPLOMACY_MENU_ACKNOWLEDGE        | Acknowledge
-DIPLOMACY_MENU_ACCEPT             | Accept
-DIPLOMACY_MENU_ACCEPT_NEED_BC     | Accept (not enough funds)
-DIPLOMACY_MENU_FORGET_IT          | Forget It
-DIPLOMACY_TRADE_LEVEL             | %1 BC / Year
-DIPLOMACY_MENU_TREATIES           | Propose Treaty
-DIPLOMACY_MENU_TRADE              | Trade Agreement
-DIPLOMACY_MENU_TECHNOLOGY         | Exchange Technology
-DIPLOMACY_MENU_OFFER_AID          | Offer Aid
+DIPLOMACY_RECEIVING               | 正在翻译消息...
+DIPLOMACY_MENU_CONTINUE           | 继续
+DIPLOMACY_MENU_ACKNOWLEDGE        | 承认
+DIPLOMACY_MENU_ACCEPT             | 接受
+DIPLOMACY_MENU_ACCEPT_NEED_BC     | 接受 (金钱不足)
+DIPLOMACY_MENU_FORGET_IT          | 算了吧
+DIPLOMACY_TRADE_LEVEL             | %1 BC / 年
+DIPLOMACY_MENU_TREATIES           | 提出协议
+DIPLOMACY_MENU_TRADE              | 贸易
+DIPLOMACY_MENU_TECHNOLOGY         | 交换科技
+DIPLOMACY_MENU_OFFER_AID          | 提供援助
 DIPLOMACY_MENU_AMT                | %1 BC
-DIPLOMACY_MENU_OFFER_TECHS        | Offer Technology
-DIPLOMACY_MENU_THREATEN           | Threaten
-DIPLOMACY_MENU_DECLARE_WAR        | Declare War
-DIPLOMACY_MENU_EVICT_SPIES        | Remove All Spies (lowers relations)
-DIPLOMACY_MENU_STOP_SPYING        | Stop Spying Activities
-DIPLOMACY_MENU_STOP_ATTACKING     | Stop Attacking
-DIPLOMACY_MENU_GOODBYE            | Good Bye
-DIPLOMACY_MENU_PACT               | Propose Non-Aggression Pact
-DIPLOMACY_MENU_ALLIANCE           | Propose Alliance
-DIPLOMACY_MENU_PEACE              | Propose Peace Treaty
-DIPLOMACY_MENU_TRADE              | Propose Trade Treaty
-DIPLOMACY_MENU_JOINT_WAR          | Joint Declaration of War on Another Race
-DIPLOMACY_MENU_PROPOSE_BREAK_ALLY | Break Alliance With Another Race
-DIPLOMACY_MENU_BREAK_TRADE        | Break Trade Treaty
-DIPLOMACY_MENU_BREAK_PACT         | Break Non-Aggression Pact
-DIPLOMACY_MENU_BREAK_ALLIANCE     | Break Alliance
-DIPLOMACY_TRADE_MENU_BREAK        | Break Trade Treaty
-DIPLOMACY_THREATEN_MENU_0         | Recall Ambassador
-DIPLOMACY_THREATEN_MENU_1         | Demand Tribute 
-DIPLOMACY_THREATEN_MENU_2         | Break Non-Aggression Pact
-DIPLOMACY_THREATEN_MENU_3         | Break Alliance
-DIPLOMACY_THREATEN_MENU_BR        | Break Trade Treaty
-DIPLOMACY_THREATEN_MENU_5         | Declare War
-DIPLOMACY_ACCEPT_OFFER            | Accept
-DIPLOMACY_ACCEPT_JOIN_WAR         | Accept (Joins War)
-DIPLOMACY_ACCEPT_END_WAR          | Accept (Ends War, Recalls Forces)
-DIPLOMACY_ACCEPT_FORM_PACT        | Accept (Forms Pact)
-DIPLOMACY_ACCEPT_FORM_ALLIANCE    | Accept (Forms Alliance)
-DIPLOMACY_ACCEPT_ESTABLISH_TRADE  | Accept (Establishes Trade)
-DIPLOMACY_DECLINE_OFFER           | Decline
-DIPLOMACY_DECLINE_BREAK_ALLIANCE  | Decline (Breaks Alliance)
-DIPLOMACY_IGNORE_THREAT           | Ignore Threat
-DIPLOMACY_SHUTDOWN_SPIES          | Shutdown all spy networks in the [alien_empire] 
-DIPLOMACY_HIDE_SPIES              | Order all spies in the [alien_empire] to Hide
-DIPLOMACY_RETREAT_SHIPS           | Order all ships orbiting or in transit to [alien_race] systems to Retreat
+DIPLOMACY_MENU_OFFER_TECHS        | 提供科技
+DIPLOMACY_MENU_THREATEN           | 威胁
+DIPLOMACY_MENU_DECLARE_WAR        | 宣战
+DIPLOMACY_MENU_EVICT_SPIES        | 撤回间谍 (会降低关系)
+DIPLOMACY_MENU_STOP_SPYING        | 停止间谍行动
+DIPLOMACY_MENU_STOP_ATTACKING     | 停止攻击
+DIPLOMACY_MENU_GOODBYE            | 再见
+DIPLOMACY_MENU_PACT               | 提议互不侵犯条约
+DIPLOMACY_MENU_ALLIANCE           | 提议结盟
+DIPLOMACY_MENU_PEACE              | 提议停战
+DIPLOMACY_MENU_TRADE              | 提议贸易
+DIPLOMACY_MENU_JOINT_WAR          | 加入对另一个种族的宣战
+DIPLOMACY_MENU_PROPOSE_BREAK_ALLY | 与另一个种族断绝联盟关系
+DIPLOMACY_MENU_BREAK_TRADE        | 破坏贸易协议
+DIPLOMACY_MENU_BREAK_PACT         | 破坏互不侵犯条约
+DIPLOMACY_MENU_BREAK_ALLIANCE     | 破坏结盟关系
+DIPLOMACY_TRADE_MENU_BREAK        | 破坏贸易协议
+DIPLOMACY_THREATEN_MENU_0         | 召回大使
+DIPLOMACY_THREATEN_MENU_1         | 要求上贡
+DIPLOMACY_THREATEN_MENU_2         | 破坏互不侵犯条约
+DIPLOMACY_THREATEN_MENU_3         | 破坏结盟关系
+DIPLOMACY_THREATEN_MENU_BR        | 破坏贸易协议
+DIPLOMACY_THREATEN_MENU_5         | 宣战
+DIPLOMACY_ACCEPT_OFFER            | 接受
+DIPLOMACY_ACCEPT_JOIN_WAR         | 接受 (加入战争)
+DIPLOMACY_ACCEPT_END_WAR          | 接受 (停止战争，召回军队)
+DIPLOMACY_ACCEPT_FORM_PACT        | 接受 (订立条约)
+DIPLOMACY_ACCEPT_FORM_ALLIANCE    | 接受 (结成联盟)
+DIPLOMACY_ACCEPT_ESTABLISH_TRADE  | 接受 (确定贸易)
+DIPLOMACY_DECLINE_OFFER           | 拒绝
+DIPLOMACY_DECLINE_BREAK_ALLIANCE  | 拒绝 (破坏联盟)
+DIPLOMACY_IGNORE_THREAT           | 无视威胁
+DIPLOMACY_SHUTDOWN_SPIES          | 关闭所有位于 [alien_empire] 的情报网络
+DIPLOMACY_HIDE_SPIES              | 命令所有 [alien_empire] 的间谍进入潜伏状态
+DIPLOMACY_RETREAT_SHIPS           | 命令所有环绕或驶向 [ailen_race] 星系的舰船撤回
 
 // types of endings
 GAME_OVER_OVERTHROWN_LOSS         | 政权倒台失败
@@ -1973,4 +1973,4 @@ GAME_OVER_REPLAY                  | 重新游戏
 
 // text for race-generic endings
 // %1 Game year, %2 player name, %3 player race, %4 player empire, %5 leader name, %6 leader race, %7 leader empire, %8 special text
-GAME_OVER_NO_COLONIES_LOSS2       | The rule of %2 has ended, undone by imperial incompetence.#With no civilized worlds on which to land safely, any surviving %3 transports are unable to sustain the technological progress made by your society.#Barbarism is the natural state of society. Civilization is unnatural. It is a whim of circumstance. And barbarism must ultimately triumph.
+GAME_OVER_NO_COLONIES_LOSS2       | %2 的统治结束了。#With no civilized worlds on which to land safely, any surviving %3 transports are unable to sustain the technological progress made by your society.#Barbarism is the natural state of society. Civilization is unnatural. It is a whim of circumstance. And barbarism must ultimately triumph.
