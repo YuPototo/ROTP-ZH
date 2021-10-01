@@ -102,15 +102,14 @@ BREAK_TRADE_01             | [my_race] 公民不再需要 [your_empire] 的商�
 
 ANNOUNCE_TRADE_01          | 从[year]开始，[my_empire] 和 [your_empire] 同意每年交易 [amt] BC的商品。
 
-ANNOUNCE_PEACE_01          | In the year [year] the [my_race] and [your_race] empires agree to terminate all hostilities.
-ANNOUNCE_PEACE_01          | [my_nameTitle] [my_name] hereby orders all hostilities to end between our empires.
-ACCEPT_PEACE_01            | We agree that the time has come to end our petty bickering.
-ACCEPT_PEACE_01            | We accept your offer of peace. Cease fire on [my_race] forces, and we will stop attacking yours.
-ACCEPT_PEACE_01            | We grow weary of this senseless destruction. The [my_empire] accepts your offer of peace.
-
-BREAK_PACT_01              | A warning to the [your_empire] from the [my_race]: our Non-Aggression Pact is broken!
-ANNOUNCE_PACT_01           | In the year [year] the [my_empire] pledges to adhere to a Non-Aggression Pact and not to attack [your_race] fleets unless they are orbiting one of our colonies.
-ACCEPT_PACT_01             | The [my_empire] agrees to a Non-Aggression Pact. Neither side will attack the other's fleets, unless they enter the orbit of an opposing colony.
+ANNOUNCE_PEACE_01          | [year]年，[my_race] 和 [your_race] 同意终止所有的敌对活动。
+ANNOUNCE_PEACE_01          | [my_name] [my_nameTitle] 在此宣布双方暂定敌对关系。
+ACCEPT_PEACE_01            | 我同意是时候终止我们之间的小矛盾了。
+ACCEPT_PEACE_01            | 我们同意你的停战协议。如果你停止向 [my_race] 的军队进攻，我们也会停止进攻你的军队。
+ACCEPT_PEACE_01            | 我们对无谓的破坏感到厌倦了。[my_empire] 接受你的和平提议。
+BREAK_PACT_01              | [my_race] 向 [your_empire] 发出警告：我们的互不侵犯协议不再有效！
+ANNOUNCE_PACT_01           | [year] 年，[my_empire] 许诺遵守互不侵犯协议，不会攻击 [your_race] 的舰队，除非它们出现在我方殖民地的轨道上。
+ACCEPT_PACT_01             | [my_empire] 接受互不侵犯。双方都不会攻击彼此的舰队，除非它们驶入对方殖民地的轨道。
 ACCEPT_PACT_01             | If you agree not to send ships to any of our colonies, the [my_race] people vow to not attack any of your ships.
 ACCEPT_PACT_01             | [my_nameTitle] [my_name] agrees to your proposed Non-Aggression Pact. So it is written, so shall it be done!
 ACCEPT_PACT_01             | Agreed, then. As long as you do not attack our colonies, the [my_empire] will abide by the Non-Aggression Pact.
