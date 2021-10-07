@@ -110,31 +110,33 @@ ACCEPT_PEACE_01            | 我们对无谓的破坏感到厌倦了。[my_empir
 BREAK_PACT_01              | [my_race] 向 [your_empire] 发出警告：我们的互不侵犯协议不再有效！
 ANNOUNCE_PACT_01           | [year] 年，[my_empire] 许诺遵守互不侵犯协议，不会攻击 [your_race] 的舰队，除非它们出现在我方殖民地的轨道上。
 ACCEPT_PACT_01             | [my_empire] 接受互不侵犯。双方都不会攻击彼此的舰队，除非它们驶入对方殖民地的轨道。
-ACCEPT_PACT_01             | If you agree not to send ships to any of our colonies, the [my_race] people vow to not attack any of your ships.
-ACCEPT_PACT_01             | [my_nameTitle] [my_name] agrees to your proposed Non-Aggression Pact. So it is written, so shall it be done!
-ACCEPT_PACT_01             | Agreed, then. As long as you do not attack our colonies, the [my_empire] will abide by the Non-Aggression Pact.
+ACCEPT_PACT_01             | 如果你同意不再把舰队派往我方殖民地，[my_race] 人民就同意不再攻击你的飞船。
+ACCEPT_PACT_01             | [my_name] [my_nameTitle] 同意了你提出的互不侵犯条约。既已协约，便当旅行。
+ACCEPT_PACT_01             | 同意了。只要你不攻击我方殖民地，[my_empire] 就会遵守互不侵犯条约。
 
-BREAK_ALLIANCE_01          | The [my_empire] can no longer maintain an Alliance with the [your_empire].
-ANNOUNCE_ALLIANCE_01       | In the year [year] the [my_empire] and [your_empire] agree to form an alliance in which neither will attack the other's fleets or colonies.
-ANNOUNCE_ALLIANCE_01       | So our Alliance is forged. Your ships may visit our colonies as you wish, and get fuel from our bases.
-ACCEPT_ALLIANCE_01         | [my_nameTitle] [my_name] welcomes an Alliance with our good friend, [your_nameTitle] [your_name].
-ACCEPT_ALLIANCE_01         | The [my_empire] and [your_empire] today forge an Alliance between our peoples. Death to our enemies!
-ACCEPT_ALLIANCE_01         | [my_nameTitle] [my_name] sees the wisdom in an Alliance with the [your_empire]. So be it!
+BREAK_ALLIANCE_01          | [my_empire] 不能再与 [your_empire] 维持盟友关系。
+ANNOUNCE_ALLIANCE_01       | [year] 年，[my_empire] 与 [your_empire] 同意结成联盟，不会攻击彼此的舰队和殖民地。
 
-OFFER_JOINT_WAR_01         | The time has come for the [your_empire] and [my_empire] to join together in war against the [other_race].
-ACCEPT_JOINT_WAR_01        | The [other_empire] must fall before the combined might of the [my_empire] and [your_empire].
-ACCEPT_JOINT_WAR_01        | With [my_race] and [your_race] allied, the [other_race] will not last long.
-ACCEPT_JOINT_WAR_01        | In the year [year], the [my_empire] and [your_empire] join forces to rid the galaxy of the [other_race] menace.
-COUNTER_JOINT_WAR_01       | We will join you in your war against the [other_empire] in exchange for the following compensation:
-RESPOND_CLOSE_EMBASSY_01   | So be it. There will be no further discussions between our empires.
+ANNOUNCE_ALLIANCE_01       | 我们的联盟已经建立。你的舰队可以随时造访我们的殖民地，从我们的基地补充燃料。
 
-RESPOND_BREAK_TRADE_01     | We will remember this.
-RESPOND_BREAK_TRADE_01     | So, [your_nameTitle] [your_name], you cannot keep your word. We will not forget this.
+ACCEPT_ALLIANCE_01         | [my_name] [my_nameTitle] 欢迎我们的好盟友，[your_name] [your_nameTitle]。
+ACCEPT_ALLIANCE_01         | [my_empire] 和 [your_empire] 于今日结成同盟。让我们的敌人颤抖吧！
+ACCEPT_ALLIANCE_01         | [my_name] [my_nameTitle] 认为与 [your_empire] 的结盟是明智的。就按您说的做的。
 
-RESPOND_BREAK_PACT_01      | We will inscribe the words of your broken treaties upon your tombstone, [your_nameTitle] [your_name].
-RESPOND_BREAK_PACT_01      | The [your_empire] will crumble under the weight of its own broken promises.
+OFFER_JOINT_WAR_01         | 是时候让 [your_empire] 和 [my_empire] 携手向 [other_race] 开战了。
+ACCEPT_JOINT_WAR_01        | [other_empire] 必须臣服于 [my_empire] 和 [your_empire] 的力量！
+ACCEPT_JOINT_WAR_01        | 在 [my_race] 和 [your_race] 的联手下，[other_race] 将迅速溃败。
+ACCEPT_JOINT_WAR_01        | [year] 年，[my_empire] 和 [your_empire] 将携手消灭宇宙的祸害 [other_race]。
+COUNTER_JOINT_WAR_01       | 我们将会加入你对抗 [other_empire] 的战争，只要你提供如下报酬：
+RESPOND_CLOSE_EMBASSY_01   | 到此为止。我们之间将不会有更多的交流了。
 
-RESPOND_BREAK_ALLIANCE_01  | You have dishonored the agreement. The alliance is broken.
-RESPOND_BREAK_ALLIANCE_01  | Very well. Your untrustworthy intentions have shown. The alliance is broken.
-RESPOND_BREAK_ALLIANCE_01  | We have little need of treaties that are not honored. The alliance is broken.
-RESPOND_BREAK_ALLIANCE_01  | So be it. The alliance is broken.
+RESPOND_BREAK_TRADE_01     | 我们会记住这一切的。
+RESPOND_BREAK_TRADE_01     | 所以，[your_name] [your_nameTitle]，你说到却做不到。我们会记住这一切的。
+
+RESPOND_BREAK_PACT_01      | 我们会把你所背弃的协议刻在你的墓碑上，[your_name] [your_nameTitle]。
+RESPOND_BREAK_PACT_01      | [your_empire] 会因自己背弃了承诺而毁灭。
+
+RESPOND_BREAK_ALLIANCE_01  | 你违背了协议。联盟破裂了。
+RESPOND_BREAK_ALLIANCE_01  | 非常好，你令人怀疑的意图已经暴露了。联盟破裂了。
+RESPOND_BREAK_ALLIANCE_01  | 我们不需要一个不被遵守的协议。联盟就此解散。
+RESPOND_BREAK_ALLIANCE_01  | 就这样吧，联盟就此解散。
