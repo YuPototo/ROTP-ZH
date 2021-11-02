@@ -1,9 +1,9 @@
 // race-specific variables (must start with _)
-_empire                           | Alkari Sovereignty, Aviari Sovereignty, Cluckari Sovereignty, Feathari Sovereignty, Fowlari Sovereignty
-_race                             | Alkari, Aviari, Cluckari, Feathari, Fowlari
-_race_plural                      | Alkaris, Aviaris, Cluckaris, Featharis, Fowlaris
-_title                            | Spire King
-_nameTitle                        | Spire King
+_empire                           | 翼族王国, 翼人王国, 鸟族王国, 羽族王国, 羽人王国
+_race                             | 翼族, 翼人, 鸟族, 羽族, 羽人
+_race_plural                      | 翼族, 翼人, 鸟族, 羽族, 羽人
+_title                            | 尖塔王
+_nameTitle                        | 尖塔王
 
 
 //
@@ -21,19 +21,19 @@ _nameTitle                        | Spire King
 //
 
 // Advisor text
-MAIN_ADVISOR_TITLE                | Alkari 顾问
+MAIN_ADVISOR_TITLE                | 翼族顾问
 MAIN_ADVISOR_BUTTON_OK            | 好的
-MAIN_ADVISOR_SCOUT                | My lord, our scouts stand at the ready to discover a new world for our colony ship to bring into the fold so that we may add the territory to our illustrious sovereignty. 
-MAIN_ADVISOR_TRANSPORT            | A new world bears our banner, but it grows at an inhibited rate. Sending a transport to the colony will enable it to grow much faster.
-MAIN_ADVISOR_DIPLOMACY            | Another space-faring civilization has revealed itself! Our diplomats will observe all appropriate decorum in your name, and take careful note on if they respond in kind.
-MAIN_ADVISOR_SHIP_ENGINE          | Our greatest minds have crafted a new, more efficient engine design. They wish for you to review existing ship schematics and decide how best to apply the new engines to our fleets.
-MAIN_ADVISOR_RALLY_POINTS         | Our era of peace cannot continue while an undignified race wages war on our glorious empire. The 32 Houses stand united under you, and will assemble their fleets to wherever you will direct them.
-MAIN_ADVISOR_MISSILE_BASES        | With the sovereign fleets engaged in battle, our outer worlds lie vulnerable to enemy aggression. We can begin our construction of defensive missile bases on any world you desire.
-MAIN_ADVISOR_SHIP_WEAPON          | Our researchers have had a breakthrough in regards to ship weaponry. The fleets can be outfitted with these devastating pieces of technology at any time.
-MAIN_ADVISOR_COUNCIL              | The Galactic Council will soon convene, and our presence will no doubt be highly desired. Our diplomats will take this chance to ensure all that all they decide upon will further the good of the sovereignty. 
-MAIN_ADVISOR_REBELLION            | Ah, a rebellion on %1. How quaint. I suppose it was bound to happen at some point, my lord, but we should still bring it to heel before discontent spreads to our other colonies.
-MAIN_ADVISOR_RESIST_COUNCIL       | My lord! We stand with you! There shall be no peace in this galaxy until you take your rightful place upon its highest throne! 
-MAIN_ADVISOR_COUNCIL_RESISTED     | Pathetic. See how the fools struggle against the inevitable? Give us the order to crush these rebels, and we shall see it done! 
+MAIN_ADVISOR_SCOUT                | 大人，我们的侦察机已经准备好了，请探索一个新的世界，然后用我们的殖民飞船将它纳入王国的光辉版图吧。
+MAIN_ADVISOR_TRANSPORT            | 我们已经占领了一个新的世界，但它的发展速度太慢了。派遣殖民者到那里去吧，这会让它更快发展。
+MAIN_ADVISOR_DIPLOMACY            | 另一个文明出现了！外交官会以您的名义行使外交礼仪，如果对方给出良好的回应，外交官会记录在案。
+MAIN_ADVISOR_SHIP_ENGINE          | 科学家发明了一个新的更高效的引擎。他们希望你查看当前的飞船型号，并决定如何在我们的飞船里使用新引擎。
+MAIN_ADVISOR_RALLY_POINTS         | 一个丑陋的种族向我们伟大的帝国发动了战争，和平年代受到了威胁。32个家族都站在您背后，只要您下命令，他们的舰队随时待命。
+MAIN_ADVISOR_MISSILE_BASES        | 帝国舰队在外战斗，我们的殖民地可能会受到敌人进攻。我们可以在您指定的殖民地建造防御导弹基地了。
+MAIN_ADVISOR_SHIP_WEAPON          | 研究者在舰载武器上有了新的突破。舰队可以随时装备这些致命的武器。
+MAIN_ADVISOR_COUNCIL              | 星际委员会即将召开，众人期待我们的出席。我们的外交官会尽力保证委员会的决定符合我们王国的利益。
+MAIN_ADVISOR_REBELLION            | 啊，%1星系发生了叛乱。真老套。我想这样的事情总会发生的。但大人，我们仍然得把叛乱扑灭，在叛乱席卷到其他殖民地前。
+MAIN_ADVISOR_RESIST_COUNCIL       | 大人！我们与您同在！您理所应当占有最高的王座！在那之前，宇宙不会享有和平！
+MAIN_ADVISOR_COUNCIL_RESISTED     | 可悲极了。看看这些傻子，他们想要拒绝不可抗拒的命运？请下命令吧，命令我们摧毁这些反贼，我们一定会做到！
 
 // text for endings... '#' represents a paragraph break
 // variables: %1 Game year, %2 player name, %3 player race, %4 player empire, %5 leader name, %6 leader race, %7 leader empire, %8 is special race-specific text described below
