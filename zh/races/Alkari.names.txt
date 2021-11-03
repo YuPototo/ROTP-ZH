@@ -1,5 +1,5 @@
 // all possible names
-name: Alkari, Aviari, Cluckari, Feathari, Fowlari
+name: 翼族, Aviari, Cluckari, Feathari, Fowlari
 
 desc1: 正直的军事家
 desc2: 顶级的飞行员
