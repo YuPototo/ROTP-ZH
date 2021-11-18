@@ -8,8 +8,8 @@ desc3: [race]是超自然的神秘幽灵，他们来自另一个空间。
 
 // possible home system names
 home: Nazin, Mordor, Hades, Abyssal, Hel
-title:     Emperor
-fulltitle: Emperor
+title:     皇帝
+fulltitle: 皇帝
 
 // possible leader names
 leader: Darquan, Morfane, Narzina, Nazgur, Shador, Ssithra
