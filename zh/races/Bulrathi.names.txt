@@ -9,8 +9,8 @@ desc3: 忠诚的[race]高度重视他们哲人王的力量和智慧。
 // possible home system names
 home: Ursa, Canis, Grizzla, Pandara, Bruin
 
-title:     Grand Hierarch
-fulltitle: Grand Hierarch
+title:     大主教
+fulltitle: 大主教
 
 // possible leader names
 leader: Bullux, Durpp, Grunk, Krungo, Monch, Smurch
