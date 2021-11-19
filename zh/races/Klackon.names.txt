@@ -9,8 +9,8 @@ desc3: 任劳任怨的[race]是只有一个中枢大脑的种族，外族跟他�
 // possible home system names
 home: Kholdan, Kholdant, Khaldon, Klokdon, Khakdon
 
-title:     The
-fulltitle: The
+title:     大
+fulltitle: 大
 
 // possible leader names
 leader: Ixitixl, Kaxal, Kikitik, Klaquan, K'kalak, Xantak
