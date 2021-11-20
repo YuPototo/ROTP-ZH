@@ -155,77 +155,78 @@ DECLINE_BIOWEAPONS_01      | 你使用的武器给我带来无尽的恐惧。我
 DECLINE_BIOWEAPONS_01      | 众神憎恶那些用生化武器摧毁行星的人，我也不能允许。
 DECLINE_BIOWEAPONS_01      | 你的生化武器带来的惨叫声仍然充斥着我的耳朵。我听不到你的提议。
 
-DECLINE_TECH_TRADE_01      | You have no technology which interests me.
-DECLINE_TECH_TRADE_01      | I have no need of your toys.
-DECLINE_TECH_TRADE_01      | Your primitive inventions do not interest me.
-DECLINE_TECH_TRADE_01      | I am far beyond your technology.
-DECLINE_TECH_TRADE_01      | [your_name], I have little need for what you offer me.
-DECLINE_TECH_TRADE_01      | I see little of interest in your technology.
+DECLINE_TECH_TRADE_01      | 你没有我感兴趣的技术。
+DECLINE_TECH_TRADE_01      | 我不需要你的玩具。
+DECLINE_TECH_TRADE_01      | 我对你的原始发明不感兴趣。
+DECLINE_TECH_TRADE_01      | 我的技术远远超过你。
+DECLINE_TECH_TRADE_01      | [your_name]，我不需要你提供的东西。
+DECLINE_TECH_TRADE_01      | 我看不出对你技术的价值。
 
-DECLINE_NO_WAR_ON_ALLY_01  | I will not declare war on an ally.
-DECLINE_PEACE_TREATY_01    | I will not break my peace treaty with [other_name].
+DECLINE_NO_WAR_ON_ALLY_01  | 我不会向盟友宣战。
+DECLINE_PEACE_TREATY_01    | 我不会破坏与[other_name]的和平条约。
 
-OFFER_TECH_EXCHANGE_01     | I am in great need of your [tech] technology. Perhaps you are willing to exchange it for some of my technology.
-OFFER_TECH_EXCHANGE_01     | I know you have learned the secrets of [tech]. Can I offer you some of my technology in exchange?
-OFFER_TECH_EXCHANGE_01     | I wish for the secret of the [tech] technology. Will you exchange it for one of my advances?
-OFFER_TECH_EXCHANGE_01     | I am awed by the scientific wonders of [tech]. What can I offer you for its secret?
+OFFER_TECH_EXCHANGE_01     | 我非常需要你的[tech]。 也许你愿意用它来换取我的一些技术。
+OFFER_TECH_EXCHANGE_01     | 我知道你已经了解了[tech]的秘密。我可以给你一些我的技术作为交换吗？
+OFFER_TECH_EXCHANGE_01     | 我想要学习[tech]的秘密。你会用它来换取我的一些先进科技吗？
+OFFER_TECH_EXCHANGE_01     | 我对[tech]的科学奇迹感到敬畏。我能为你提供什么，才能学习到它呢？
 
-ACCEPT_TECH_EXCHANGE_01    | Very well. I agree to exchange my wondrous secrets of [techGiven] for the technology [techReceived].
-ACCEPT_FINANCIAL_AID_01    | I accept your gift of [amt] BC.
-ACCEPT_TECHNOLOGY_AID_01   | I accept your gift of [tech].
+ACCEPT_TECH_EXCHANGE_01    | 很好。我同意用我的[techGiven]的奇妙秘密交换技术[techReceived]。
+ACCEPT_FINANCIAL_AID_01    | 我接受你[amt]BC的馈赠。
+ACCEPT_TECHNOLOGY_AID_01   | 我接受你赠与的[tech]。
 
-BREAK_TRADE_01             | I have no further desire for the trade goods from [your_name].
-ANNOUNCE_TRADE_01          | Effective [year], I and [your_name] agree to trade [amt] BC per year.
-ACCEPT_TRADE_01            | A trade pact of [amt] BC is acceptable.
-ACCEPT_TRADE_01            | I eagerly await the fine goods that [your_name] offers. I accept an agreement for [amt] BC per year.
-ACCEPT_TRADE_01            | I agree to trade [amt] BC per year.
-ACCEPT_TRADE_01            | Well, [your_name], I find your offer of [amt] BC per year to be fair and equitable.
+BREAK_TRADE_01             | 我对与[your_name]的贸易没有进一步的兴趣。
+ANNOUNCE_TRADE_01          | 从[year]年开始，我和[your_name]同意每年交易[amt]BC。
+ACCEPT_TRADE_01            | [amt]BC的贸易协定，我可以接受。
+ACCEPT_TRADE_01            | 我热切地等待[your_name]提供的精美商品。我接受每年[amt] BC的贸易协议。
+ACCEPT_TRADE_01            | 我同意每年交易[amt]BC。
+ACCEPT_TRADE_01            | 好吧，[your_name]，我觉得你提出的每年[amt]BC的贸易协议是公平公正的。
 
-ANNOUNCE_PEACE_01          | In the year [year], I and [your_name] agree to terminate all hostilities.
-ANNOUNCE_PEACE_01          | I hereby order all hostilities to end between your and I.
-ACCEPT_PEACE_01            | I agree that the time has come to end our petty bickering.
-ACCEPT_PEACE_01            | I accept your offer of peace. Cease fire on me, and I will stop attacking your forces.
-ACCEPT_PEACE_01            | I grow weary of this senseless destruction. I accept your offer of peace.
+ANNOUNCE_PEACE_01          | 在[year]年，我和[your_name]同意终止所有敌对行动。
+ANNOUNCE_PEACE_01          | 我在此下令结束你我之间的所有敌对行动。
+ACCEPT_PEACE_01            | 我同意是时候结束我们的小争吵了。
+ACCEPT_PEACE_01            | 我接受你的和平提议。停止向我开火，我将停止攻击你的部队。
+ACCEPT_PEACE_01            | 我厌倦了这种毫无意义的破坏。我接受你的和平提议。
 
-BREAK_PACT_01              | A warning to the [your_name] from me: our Non-Aggression Pact is broken!
-ANNOUNCE_PACT_01           | In the year [year], I pledge to adhere to a Non-Aggression Pact and not to attack your fleets unless they are orbiting one of my colonies.
-ACCEPT_PACT_01             | I agree to a Non-Aggression Pact. Neither will attack the other's fleets, unless the orbit of an opposing colony is entered.
-ACCEPT_PACT_01             | If you agree not to send ships to any of my colonies, I vow to not attack any of your ships.
-ACCEPT_PACT_01             | I agree to your proposed Non-Aggression Pact. So it is written, so shall it be done!
-ACCEPT_PACT_01             | Agreed, then. As long as you do not attack my colonies, I will abide by the Non-Aggression Pact.
+BREAK_PACT_01              | 我向[your_name]发出警告：我们的互不侵犯条约已被破坏！
+ANNOUNCE_PACT_01           | 从[year]年开始，我保证遵守互不侵犯条约并且不会攻击你们的舰队，除非它们入侵我的殖民地。
+ACCEPT_PACT_01             | 我同意签署互不侵犯条约。除非进入对方殖民地的轨道，否则双方都不会攻击对方的舰队。
+ACCEPT_PACT_01             | 如果你同意不向我的任何殖民地派遣舰队，我发誓不攻击你的任何飞船。
+ACCEPT_PACT_01             | 我同意你提议的互不侵犯条约！
+ACCEPT_PACT_01             | 同意！只要你们不攻击我的殖民地，我就会遵守互不侵犯条约。
 
-BREAK_ALLIANCE_01          | I can no longer maintain an Alliance with [your_name].
-ANNOUNCE_ALLIANCE_01       | In the year [year] I and [your_name] agree to form an alliance in which neither will attack the other's fleets or colonies.
-ANNOUNCE_ALLIANCE_01       | So our Alliance is forged. Your ships may visit my colonies as you wish, and get fuel from my bases.
-ACCEPT_ALLIANCE_01         | I welcome an Alliance with my good friend, [your_name].
-ACCEPT_ALLIANCE_01         | I and [your_name] today forge an Alliance. Death to our enemies!
-ACCEPT_ALLIANCE_01         | I see the wisdom in an Alliance with [your_name]. So be it!
+BREAK_ALLIANCE_01          | 我无法再与[your_name]维持联盟。
+ANNOUNCE_ALLIANCE_01       | [year]年，我和[your_name]同意结成联盟，双方都不会攻击对方的舰队或殖民地。
+ANNOUNCE_ALLIANCE_01       | 那么我们的联盟成立了。你的飞船可以随意访问我的殖民地，并从我的基地获取燃料。
 
-ACCEPT_BREAK_ALLIANCE_01   | I agree, [other_name] is no longer trustworthy and I have broken my alliance with them.
-ACCEPT_BREAK_ALLIANCE_01   | Though it pains me to turn our backs on [other_name], I have done so.
-ACCEPT_BREAK_ALLIANCE_01   | [other_name] is no longer my ally
-ACCEPT_BREAK_ALLIANCE_01   | The Alliance of I and [other_name] now lies in shreds under our feet.
-ACCEPT_BREAK_ALLIANCE_01   | As you wish, I no longer shall call [other_name] my ally.
+ACCEPT_ALLIANCE_01         | 我很高兴与我的好朋友[your_name]建立联盟。
+ACCEPT_ALLIANCE_01         | 今天我和[your_name]结成了联盟。我们的敌人受死吧！
+ACCEPT_ALLIANCE_01         | 与[your_name]结盟是一个智慧的选择。就这样做吧！
 
-ACCEPT_JOINT_WAR_01        | [other_name] must fall before the combined might of [your_name] and I.
-ACCEPT_JOINT_WAR_01        | With [your_name] and I allied, [other_name] will not last long.
-ACCEPT_JOINT_WAR_01        | In the year [year], I and [your_name] join forces to rid the galaxy of the [other_name] menace.
+ACCEPT_BREAK_ALLIANCE_01   | 我同意，[other_name]不再值得信赖，我已经打破了与他们的联盟。
+ACCEPT_BREAK_ALLIANCE_01   | 虽然背弃 [other_name] 让我很痛苦，但我已经这样做了。
+ACCEPT_BREAK_ALLIANCE_01   | [other_name]不再是我的盟友了。
+ACCEPT_BREAK_ALLIANCE_01   | 我和[other_name]的联盟现在在我们脚下化为灰烬。
+ACCEPT_BREAK_ALLIANCE_01   | 如你所愿，我不再称[other_name]为我的盟友。
 
-RESPOND_CLOSE_EMBASSY_01   | So be it. There will be no further discussions between myself and [your_name].
+ACCEPT_JOINT_WAR_01        | [other_name]必将倒在[your_name]和我的联合力量下。
+ACCEPT_JOINT_WAR_01        | 有[your_name]和我结盟，[other_name]不会坚持太久的。
+ACCEPT_JOINT_WAR_01        | 在[year]年，我和[your_name]将联手消除[other_name]的威胁。
 
-RESPOND_BREAK_TRADE_01     | I will remember this.
-RESPOND_BREAK_TRADE_01     | So, [your_name], you cannot keep your word. I will not forget this.
+RESPOND_CLOSE_EMBASSY_01   | 就这样吧。我和[your_name]之间不会有进一步的讨论了。
 
-RESPOND_BREAK_PACT_01      | I will inscribe the words of your broken treaties upon your tombstone, [your_name].
-RESPOND_BREAK_PACT_01      | [your_name] will crumble under the weight of its own broken promises.
+RESPOND_BREAK_TRADE_01     | 我会记住这件事的。
+RESPOND_BREAK_TRADE_01     | 所以，[your_name]，你不能信守诺言。我不会忘记这件事的。
 
-RESPOND_BREAK_ALLIANCE_01  | You have dishonored the agreement. The alliance is broken.
-RESPOND_BREAK_ALLIANCE_01  | Very well. Your untrustworthy intentions have shown. The alliance is broken.
-RESPOND_BREAK_ALLIANCE_01  | I have little need of treaties that are not honored. The alliance is broken.
-RESPOND_BREAK_ALLIANCE_01  | So be it. The alliance is broken.
+RESPOND_BREAK_PACT_01      | 我会在你的墓碑上刻上你所违背的契约，[your_name]。
+RESPOND_BREAK_PACT_01      | [your_name]将在自己言而无信而走向灭亡。
 
-ACCEPT_TRADE_01            | You want to trade with me? How much was it? [amt] BC every year? Yes... yes I think I can accept such an arrangement from [your_name].
-RESPOND_IGNORE_THREAT_01   | Don't threaten me, stupid [your_name]. There are so many of me you could never hope to win if we were to wage war. Go away!
-RESPOND_STOP_SPYING_01     | I was just trying to see how [your_name] was when you are alone among yourself. I will not do this again. Please return my spy to me now?
-RESPOND_STOP_ATTACKING_01  | Haha! See how strong I am! [your_name] cannot compare to me! Don't forget that after I return my fleets home!
+RESPOND_BREAK_ALLIANCE_01  | 你违背了协议。联盟破裂了。
+RESPOND_BREAK_ALLIANCE_01  | 很好。你的意图已经表现出来了，你不值得信任。联盟破裂了。
+RESPOND_BREAK_ALLIANCE_01  | 我不需要不受尊重的条约。联盟破裂了。
+RESPOND_BREAK_ALLIANCE_01  | 就这样吧。联盟破裂了。
+
+ACCEPT_TRADE_01            | 你想和我交易吗？多少钱？每年[amt]BC？好的……好的，我想我可以接受[your_name]的这种安排。
+RESPOND_IGNORE_THREAT_01   | 不要威胁我，愚蠢的[your_name]。如果我们爆发战争，你永远都无法获胜我。滚吧！
+RESPOND_STOP_SPYING_01     | 我只是想看看[your_name]家里长啥样。我不会再这样做了。现在请把我的间谍还给我，可以吗？
+RESPOND_STOP_ATTACKING_01  | 哈哈！看看我有多强大！[your_name] 无法与我相比！等我回家后，你别忘了这点。
 
