@@ -545,8 +545,8 @@ MAIN_RALLY_START                  | 开始集结
 MAIN_RALLY_STOP                   | 取消集结
 
 // Transport labels
-MAIN_TRANSPORTS_EMPIRE            | %1 运输机
-MAIN_TRANSPORTS_COUNT             | %1 人员
+MAIN_TRANSPORTS_EMPIRE            | [empire_race]运输机
+MAIN_TRANSPORTS_COUNT             | %1人员
 MAIN_TRANSPORTS_CANCEL            | 取消
 MAIN_TRANSPORTS_SHOW_DEST         | 到达%1的预计耗时: %2 years
 MAIN_TRANSPORT_TITLE              | 输送人员
@@ -660,8 +660,8 @@ MAIN_ALLOCATE_TERRAFORM_COMPLETE  | • %1 已经完成了行星改造。
 MAIN_ALLOCATE_ATMOSPHERE_COMPLETE | • %1 完成了大气改造，人口增长速度现在是正常水平。
 MAIN_ALLOCATE_FERTILE_COMPLETE    | • %1 已经变成了肥沃的行星，人口增长速度是正常水平的1.5倍。
 MAIN_ALLOCATE_GAIA_COMPLETE       | • %1 已经变成了天堂行星，人口增长速度是正常水平的2倍。
-MAIN_ALLOCATE_SABOTAGE_BASES      | • %1 的 %2 个导弹基地被 %3 个间谍破坏了。
-MAIN_ALLOCATE_SABOTAGE_FACTORIES  | • %1 的 %2 个工厂被 %3 个间谍破坏了。
+MAIN_ALLOCATE_SABOTAGE_BASES      | • %1 的 %2 个导弹基地被[spy_race]的间谍破坏了。
+MAIN_ALLOCATE_SABOTAGE_FACTORIES  | • %1 的 %2 个工厂被[spy_race]的间谍破坏了。
 MAIN_ALLOCATE_COLONY_CAPTURED     | • %1 被 %2 个军队占领了。
 MAIN_ALLOCATE_ECO_LOCKED_WASTE    | • %1 的生态支出被人为控制在了一个没有办法清理污染的水平。
 MAIN_ALLOCATE_PROJECT_ENDED       | • %1 不再研究这个项目：%2。
@@ -714,7 +714,7 @@ MAIN_ALERT_INVADERS_CAPTURED      | %2 [alien_race] 登陆%1星系的人员已�
 MAIN_ALERT_INVADERS_KILLED        | %2 [alien_race] 想要入侵%1的人员已经彻底被我方守军击溃。
 MAIN_ALERT_TRESPASSING1           | [alien_race] 的飞船正在穿过我们在%1星系的殖民地。
 MAIN_ALERT_TRESPASSING2           | [alien_race] 的大使抗议我们的飞船经过了%1星系。
-MAIN_ALERT_TRADE_MATURED          | 我们与%1的贸易协议达到了协定的%2BC。
+MAIN_ALERT_TRADE_MATURED          | 我们与[alien_empire]的贸易协议达到了协定的%2BC。
 MAIN_ALERT_ALLIANCE_WEAKENING     | 我们与 [ally_empire] 的联盟关系变弱了。
 MAIN_ALERT_ALLIANCE_BREAKING      | 我们与 [ally_empire] 的联盟关系在崩溃的边缘！
 
@@ -813,7 +813,7 @@ PLANETS_HELP_4H                   | 备注：该星系的备注。可编辑。
 PLANETS_HELP_4I                   | 旗帜：你可以为星系设置一个标记旗帜。
 
 // Bombardment prompt
-MAIN_BOMBARDED_TITLE             | %1 被 %2 的舰队轰炸了。
+MAIN_BOMBARDED_TITLE             | %1 被[alien_race]的舰队轰炸了。
 MAIN_BOMBARD_TITLE               | 我们的舰队正在围绕 [alien_race] 殖民地飞行。
 MAIN_BOMBARD_TROOPS              | %1 [alien_race] 舰队正在围绕该殖民地或驶向该殖民地。
 MAIN_BOMBARD_PROMPT              | 是否轰炸该殖民地?
@@ -930,7 +930,7 @@ TECH_TRADE_TIER_COST_INFO         | (Tier %1 - %2 RP)
 TECH_CONFIRM_CHOICE               | 选择
 TECH_DISCOVERY_TITLE              | [player_race]科学家实现了一个%1突破
 TECH_SCOUTED_TITLE                | 侦察人员探索了%1发现的遗迹
-TECH_STOLEN_TITLE                 | 间谍渗透了%2的1%研究中心。
+TECH_STOLEN_TITLE                 | 间谍渗透了%2的[alien_race]研究中心。
 TECH_TRADED_TITLE                 | [player_race]科学家从[alien_race]科学家处获取了技术
 TECH_PLUNDERED_TITLE              | 军队在掠夺%1后的废墟 
 TECH_DERELICT_TITLE               | [player_race]探索者获取到了一个上古技术
