@@ -3,7 +3,7 @@ from rich.console import Console
 
 
 new_trans_dir = "zh"
-target_dir = "/Users/qinyu/Desktop/rotp/lang"
+target_dir = "/Users/qinyu/Documents/rotp/rotp_095/lang"
 old_trans_dir = target_dir + "/" + "zh"
 
 # delete lang/zh

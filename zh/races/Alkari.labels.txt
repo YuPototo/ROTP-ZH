@@ -1,7 +1,7 @@
 // race-specific variables (must start with _)
-_empire                           | 翼族王国, 翼人王国, 鸟族王国, 羽族王国, 羽人王国
-_race                             | 翼族, 翼人, 鸟族, 羽族, 羽人
-_race_plural                      | 翼族, 翼人, 鸟族, 羽族, 羽人
+_empire                           | 翼族王国, 翼人王国, 鸟族王国, 羽族王国, 禽族王国
+_race                             | 翼族, 翼人, 鸟族, 羽族, 禽族
+_race_plural                      | 翼族, 翼人, 鸟族, 羽族, 禽族
 _title                            | 尖塔王
 _nameTitle                        | 尖塔王
 

@@ -1,9 +1,9 @@
 // race-specific variables (must start with _)
-_empire                           | Meklar Dominion, Mechanar Dominion, Cybernar Dominion, Digitar Dominion, Technar Dominion
-_race                             | Meklar, Mechanar, Cybernar, Digitar, Technar
-_race_plural                      | Meklars, Mechanars, Cybernars, Digitars, Technars
-_title                            | Supreme Arbiter
-_nameTitle                        | Supreme Arbiter 
+_empire                           | 梅科拉自治领, 梅卡娜自治领, 赛博自治领, 数码自治领, 科技自治领
+_race                             | 梅科拉人, 梅卡娜人, 赛博人, 数码人, 科技人
+_race_plural                      | 梅科拉人, 梅卡娜人, 赛博人, 数码人, 科技人
+_title                            | 最高仲裁者
+_nameTitle                        | 最高仲裁者
 
 //
 // All text below this point is copyright 2018-2020 Jeff Colucci
@@ -20,19 +20,19 @@ _nameTitle                        | Supreme Arbiter
 //
 
 // Advisor text
-MAIN_ADVISOR_TITLE                | Meklar 顾问
+MAIN_ADVISOR_TITLE                | 梅科拉顾问
 MAIN_ADVISOR_BUTTON_OK            | 好的
-MAIN_ADVISOR_SCOUT                | Fleet prepared for exploration and colonization. Awaiting directive to commence operations. 
-MAIN_ADVISOR_TRANSPORT            | First colony founded on nearby world. Designated "%1." Able to accommodate %2 additional population. Can transport population from %3 to supplement population. 
-MAIN_ADVISOR_DIPLOMACY            | New species detected. Designated "[alien_race]." Awaiting further instruction from Mainframe. 
-MAIN_ADVISOR_SHIP_ENGINE          | Research into improved means of propulsion complete. Confer with engineers on how best to implement new design. 
-MAIN_ADVISOR_RALLY_POINTS         | Species "[alien_race]" has acted to impede discovery of immortality protocol. Create rally point to centralize fleet and strike against them. 
-MAIN_ADVISOR_MISSILE_BASES        | Request from military division: construct defensive missile bases on surface of outer worlds. Will enable defense of worlds from external aggression.
-MAIN_ADVISOR_SHIP_WEAPON          | Research into high-powered weaponry complete. Confer with engineers on how best to implement new design. 
-MAIN_ADVISOR_COUNCIL              | Notification for convergence of interstellar empires. Designated "Galactic Council." Will send delegation to ensure will of Mainframe made clear. 
-MAIN_ADVISOR_REBELLION            | Warning. Rogue program infecting colony on %1. Must commence eradicating affected Meklar to ensure Dominion solidarity. 
-MAIN_ADVISOR_RESIST_COUNCIL       | New leader of Galactic Council noted as threat to Dominion objectives. Mobilize all forces to eliminate leader and allies
-MAIN_ADVISOR_COUNCIL_RESISTED     | Rebellion by enemy species ill-chosen. Dominion now rules known galaxy. Send all fleets to silence dissenters. 
+MAIN_ADVISOR_SCOUT                | 舰队准备进行探索和殖民。等待指示中。
+MAIN_ADVISOR_TRANSPORT            | 已立第1个殖民地。命名为"%1"，可再容纳%1人口，可从%3派遣殖民者。
+MAIN_ADVISOR_DIPLOMACY            | 发现新物种。命名为“[alien_race]”。等待来自主机的进一步指示。
+MAIN_ADVISOR_SHIP_ENGINE          | 对高级推进装置的研发已完成。请与工程师协商如何最好地部署新设计。
+MAIN_ADVISOR_RALLY_POINTS         | 物种“[alien_race]”已开始阻止我们的永生探索。请创建集结点以集中舰队，并对其进行打击。
+MAIN_ADVISOR_MISSILE_BASES        | 来自军事部门的要求：在行星地表造防御性导弹基地，使其免受外部侵略。
+MAIN_ADVISOR_SHIP_WEAPON          | 对高功率武器的研究已经完成。请与工程师协商如何部署新设计。
+MAIN_ADVISOR_COUNCIL              | 星际帝国即将举行会议，会议名为“星际委员会”。代表会出席，确保主机的意志得以贯彻。
+MAIN_ADVISOR_REBELLION            | 警告。恶意程序感染了%1。必须铲除其影响，以确保自治领的团结。
+MAIN_ADVISOR_RESIST_COUNCIL       | 星际委员会的新领导人是对自治领目标的威胁。需动员一切力量消灭该领导人及其盟友。
+MAIN_ADVISOR_COUNCIL_RESISTED     | 敌对物种发动叛乱。自治领已经统治已知星系。派遣所有舰队，让反对者噤声。
 
 // text for endings... '#' represents a paragraph break
 // variables: %1 Game year, %2 player name, %3 player race, %4 player empire, %5 leader name, %6 leader race, %7 leader empire, %8 is special race-specific text described below

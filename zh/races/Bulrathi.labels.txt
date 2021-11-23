@@ -1,7 +1,7 @@
 // race-specific variables (must start with _)
-_empire                           | Bulrathi Empire, Bearathi Empire, Ursinathi Empire, Pawrathi Empire, Grizzlathi Empire
-_race                             | Bulrathi, Bearathi, Ursinathi, Pawrathi, Grizzlathi
-_race_plural                      | Bulrathis, Bearathis, Ursinathis, Pawrathis, Grizzlathis
+_empire                           | 熊族帝国, 熊拉提帝国, 大熊帝国, 熊爪帝国, 灰熊帝国
+_race                             | 熊族, 熊拉提族, 大熊族, 熊爪族, 灰熊族
+_race_plural                      | 熊族, 熊拉提族, 大熊族, 熊爪族, 灰熊族
 _title                            | 大祭司
 _nameTitle                        | 大祭司
 

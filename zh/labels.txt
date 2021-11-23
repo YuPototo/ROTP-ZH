@@ -941,7 +941,7 @@ TECH_ALLOCATE_FACTORIES           | 是否提高所有殖民地的工业开支�
 TECH_ALLOCATE_CLEAN_WASTE         | 是否减少所有殖民地的生态开支，仅把星球的生态状况维持在“干净”?
 TECH_ALLOCATE_ENRICH_SOIL         | 是否提高正常环境的殖民地的生态投入，以开始行星的环境改造。
 TECH_ALLOCATE_ATMOSPHERE          | 是否提高恶劣环境的殖民地的生态投入，以开始行星的环境改造。
-TECH_ALLOCATE_TERRAFORM           | 是否提高所有殖民地的生态投入，以开始星星的环境改造。
+TECH_ALLOCATE_TERRAFORM           | 是否提高所有殖民地的生态投入，以开始行星的环境改造。
 TECH_ALLOCATE_NO                  | 不
 TECH_ALLOCATE_PCT                 | +%1%
 TECH_COMPLETED_TITLE              | 研究完成!
@@ -1927,7 +1927,7 @@ DIPLOMACY_MENU_GOODBYE            | 再见
 DIPLOMACY_MENU_PACT               | 提议互不侵犯条约
 DIPLOMACY_MENU_ALLIANCE           | 提议结盟
 DIPLOMACY_MENU_PEACE              | 提议停战
-DIPLOMACY_MENU_TRADE              | 提议贸易
+DIPLOMACY_MENU_TRADE              | 开展贸易
 DIPLOMACY_MENU_JOINT_WAR          | 加入对另一个种族的宣战
 DIPLOMACY_MENU_PROPOSE_BREAK_ALLY | 与另一个种族断绝联盟关系
 DIPLOMACY_MENU_BREAK_TRADE        | 破坏贸易协议

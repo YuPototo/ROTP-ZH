@@ -1,8 +1,8 @@
 // race-specific variables (must start with _)
-_empire                           | Klackon Hive, Klackant Hive, Klockan Hive, Arthropon Hive, Coleopteron Hive
-_race                             | Klackon, Klackant, Klockan, Arthropon, Coleopteron
-_race_plural                      | Klackons, Klackants, Klockans, Arthropons, Coleopterons
-_title                            | ruler
+_empire                           | 蚁族巢穴, 克拉肯巢穴, 克洛克巢穴, 节肢族巢穴, 鞘翅族巢穴
+_race                             | 蚁族, 克拉肯族, 克洛克族, 节肢族, 鞘翅族
+_race_plural                      | 蚁族, 克拉肯族, 克洛克族, 节肢族, 鞘翅族
+_title                            | 统治者
 _nameTitle                        |
 
 //

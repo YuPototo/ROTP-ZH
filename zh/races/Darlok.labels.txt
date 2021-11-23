@@ -1,8 +1,8 @@
 // race-specific variables (must start with _)
-_empire                           | Darloks, Sarloks, Spyloks, Shadeloks, Nazloks
-_race                             | Darlok, Sarlok, Spylok, Shadelok, Nazlok
-_race_plural                      | Darloks, Sarloks, Spyloks, Shadeloks, Nazloks
-_title                            | ruler
+_empire                           | 幽灵国, 萨洛克斯, 斯派洛克, 沙德洛克斯, 纳兹洛克
+_race                             | 幽灵族, 萨洛克斯族, 斯派洛克族, 沙德洛克斯族, 纳兹洛克族
+_race_plural                      | 幽灵族, 萨洛克斯族, 斯派洛克族, 沙德洛克斯族, 纳兹洛克族
+_title                            | 统治者
 _nameTitle                        | 
 
 
