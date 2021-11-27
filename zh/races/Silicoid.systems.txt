@@ -1,8 +1,8 @@
 // Silicoid stars based on mineral names (minus -ite)
 // see: http://www.crystalage.com/online_store/stone_type/
+// 矿产名字
 
-
-Aegir
+霓石
 Agate
 Agrell
 Ajoite

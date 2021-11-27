@@ -1,5 +1,7 @@
 // Darlok stars based on LOTR place names - 136 chosen
 // see: http://www.glossary.bobmoco.me.uk/lgeog.htm
+// 指环王里的名字
+
 
 Adorn
 Aglarond

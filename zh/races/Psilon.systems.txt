@@ -1,6 +1,7 @@
 // Psion stars based on famous scientist names
 // see: http://www.adherents.com/people/100_scientists.html
 // excluded are names that were too long
+// 科学家的名字
 
 Newton
 Einstein

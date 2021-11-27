@@ -128,7 +128,7 @@ BREAK_PACT_01              | 终止互不侵犯协议。
 ANNOUNCE_PACT_01           | 接受。
 ACCEPT_PACT_01             | 接受。
 
-BREAK_ALLIANCE_01          | 联盟种子。
+BREAK_ALLIANCE_01          | 联盟。
 ANNOUNCE_ALLIANCE_01       | 接受。
 ACCEPT_ALLIANCE_01         | 接受。
 ACCEPT_JOINT_WAR_01        | 接受。

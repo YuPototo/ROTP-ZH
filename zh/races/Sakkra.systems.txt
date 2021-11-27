@@ -1,6 +1,7 @@
 // Sakkra stars from dragon name generator
 // see: http://fantasynamegenerators.com/dragon_names.php
 // excluded names that require lips: b,f,m,p,v,w,y because birds
+// 龙名字生成器。。。。
 
 Apophis
 Askook

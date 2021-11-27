@@ -1,5 +1,7 @@
 // Humans stars based on Star Trek star names - 136 chosen
 // see: https://en.wikipedia.org/wiki/List_of_Star_Trek_planets_%28A%E2%80%93B%29
+// Star Trek 的星球名字
+
 
 Acamar
 Achrady

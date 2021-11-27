@@ -1,6 +1,7 @@
 // Klackon stars based on Mayan place names - 190+ chosen
 // basically Mexican place names with at least one hard consonant (ch,c,x,k,q)
 // see: https://en.wikipedia.org/wiki/List_of_Maya_sites
+// 玛雅遗址的名字
 
 Acanceh
 Acanmul
