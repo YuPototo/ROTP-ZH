@@ -39,10 +39,10 @@ PLANET_TUNDRA                     | 冻土
 SPY_HIDE                          | 潜伏
 SPY_ESPIONAGE                     | 窃密
 SPY_SABOTAGE                      | 破坏
-SPY_CAUGHT                        | [Your spies were caught.]
-SPY_FRAMED                        | [You were framed.]
-SPY_FORCED_CONFESSION             | [A false confession was forced.]
-SPY_WARNING                       | [You have been warned.]
+SPY_CAUGHT                        | [你的间谍被抓住了]
+SPY_FRAMED                        | [你被栽赃了]
+SPY_FORCED_CONFESSION             | [你被错误地指认了]
+SPY_WARNING                       | [你已经被警告]
 
 ARID_DESC_BIOLOGICAL              | 干旱行星是有少量植被的世界，水覆盖面积不到40%。
 BARREN_DESC_BIOLOGICAL            | 沙暴行星是干燥的、尘土飞扬的世界，这里大气稀薄，没有地表水。
@@ -144,14 +144,14 @@ EVENT_SUPERNOVA                   | [target_race] 的科学家预测 [system] �
 EVENT_SUPERNOVA_2                 | [system] 星系内恒星在 [years] 年内变成超新星威胁仍然存在。科学家预计还需要 [amt] RP 才能避免这个灾难的发生。
 EVENT_SUPERNOVA_3                 | 经过努力的工作，[target_race] 世界 [system] 星系的物理学家找到了一个延迟附近恒星变成超新星的方案。
 EVENT_SUPERNOVA_4                 | [system] 星系的恒星变成了超新星，辐射了 [target_rate] 世界，毁灭了环境，造成了数百万人死亡。
-EVENT_VIRUS                       | 一个巨大破坏力的计算机病毒袭击了 [target_race] 的研究中心，导致 [technology] 的研究进展归零。
-EVENT_SPACE_AMOEBA                | 一个被命名为“太空变形虫”的巨大外星生物被发现正在接近 [system] 星系。[victim_race] 的居民和舰队正在做最坏的打算。
+EVENT_VIRUS                       | 一个破坏力巨大的计算机病毒袭击了[target_race]的研究中心，导致“[technology]”的研究进展归零。
+EVENT_SPACE_AMOEBA                | 一个被命名为“太空变形虫”的巨大外星生物被发现正在接近 [system] 星系。[victim_race] 的居民和舰队正在做最坏的打算。
 EVENT_SPACE_AMOEBA_1              | 一个被命名为“太空变形虫”的巨大外星生物被发现正在接近 [system] 星系。
 EVENT_SPACE_AMOEBA_2              | 太空变形虫彻底吞噬了 [system] 星系的 [victim_race] 殖民地。
 EVENT_SPACE_AMOEBA_3              | 太空变形虫被 [system] 星系的 [victim_race] 力量给消灭了。
 EVENT_SPACE_CRYSTAL               | 一个被命名为“太空水晶”的巨大物体在 [system] 星系的附近被发现。[victim_race] 的居民和舰队在做最坏的打算。
 EVENT_SPACE_CRYSTAL_1             | 一个被命名为“太空水晶”的巨大物体在 [system] 星系的附近被发现。
-EVENT_SPACE_CRYSTAL_2             | 太空睡觉彻底消灭了 [system] 星系的 [victim_race] 的生命。
+EVENT_SPACE_CRYSTAL_2             | 太空水晶彻底消灭了 [system] 星系的 [victim_race] 的生命。
 EVENT_SPACE_CRYSTAL_3             | 太空水晶被 [system] 星系的 [victim_race] 力量给消灭了。
 
 SYSEVENT_HOMEWORLD                | [alien_race]的母星。

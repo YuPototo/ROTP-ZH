@@ -10,7 +10,7 @@ DIPLO_THREATEN_MENU_01       | 你想威胁什么？
 DIPLO_DECLARE_WAR_MENU_01    | 你确定要开战吗？
 DIPLO_JOINT_WAR_MENU_01      | 我们开战的原因是什么？
 DIPLO_BREAK_ALLIANCE_MENU_01 | 我们想破坏与谁的联盟？
-DIPLO_OFFER_AID_MENU_01      | 你想要资助多少钱？
+DIPLO_OFFER_AID_MENU_01      | 你想要资助什么？
 DIPLO_OFFER_TECH_MENU_01     | 你想要提供什么技术？
 
 DECLINE_OFFER_01           | [my_nameTitle] [my_name] 拒绝了。

@@ -44,35 +44,32 @@ DECLAREWAR_OPPORTUNITY_01  | [my_title]相信[your_race]物种最终会损害终
 DECLAREWAR_ASSASSIN_01     | [your_race]物种销毁了自治领大使。[your_race]需要被暴力报复。
 
 OFFER_PEACE_01             | [my_title]形成了新的判断。自治领不愿再承受战争的代价。自治领希望立即促成和平。
-OFFER_TRADE_01             | [your_race] species possesses significant resources. Dominion also possesses items of value. Dominion proposes trade agreement at [amt] BC per year.  
+OFFER_TRADE_01             | [your_race]物种拥有大量资源。自治领也拥有有价值的商品。自治领提议进行每年[amt]BC的贸易。
+OFFER_PACT_01              | 自治领不想要没有意义的冲突。与[your_race]种族建立互不侵犯条约，是实现自治领目标的谨慎手段。
+OFFER_ALLIANCE_01          | [my_title]重视与[your_race]物种的外交。自治领提议正式结盟以确保[your_race]物种和[my_race]的生存。希望贵方立刻回复。
+WARN_TRESPASSING_01        | 在[system]系统中检测到[your_race]物种。自治领声称拥有该区域。你应立即撤出！
+WARN_EXPANSION_01          | [your_race]物种的快速扩张被视为是对自治领目标的威胁。如果继续扩张，自治领将不得不采取军事回应。
+WARN_BUILDUP_01            | 自治领监视网络将[your_race]舰队识别为对安全的潜在威胁。 需要加强对[your_race]物种的监视，以确保自治领的利益不会受到损害。
+WARN_SKIRMISH_01           | [system]检测到自治领和[your_race]舰队之间的冲突。自治领建议勿要多次再犯：如果警告无人理会，自治领准备做出必要回应。
+WARN_ATTACKED_01           | [attacker_race]在[system]注意到入侵行动。[defender_title]向大使传达信息：继续威胁自治领的安全将导致 [attacker_race]物种的灭绝。
+WARN_INVADED_01            | 自治领提醒[attacker_race]物种，[attacker_race]并不占优[defender_race]的空间。立即移除舰队，否则就是毁灭。
+WARN_ESPIONAGE_01          | 自治领发现[spy_race]的间谍活动。 自治领安全协议高于[spy_race]间谍技能。再次试探自治领，可能会被证明是致命的。 [framed]
+WARN_SABOTAGE_01           | 自治领意识到[spy_race]物种参与了最近的破坏活动。试图制造混乱的行为太卑鄙，不值得回应。 但进一步的破坏企图，将招致迅速报复。[forced]
+WARN_BIOWEAPON_01          | 自治领观察到生物武器的使用。这是有效的武器。[attacker_race]的物种威胁评估提高3级。
+WARN_GENOCIDE_01           | 已记录[attacker_race]物种对[victim_race]物种的种族灭绝。自治领不关心可能的原因。[attacker_race]物种的威胁评估提高了5级。
+WARN_FINAL_WAR_01          | 所有已知的物种已达成协议确保银河系的持久和平。[rebel_race]物种是唯一的异议者。自治领将将采取适当的行动。
+WARN_COUNCIL_VOTE_01       | 自治领意识到议会中[voter_race]的行动。该结果被估为不利于[candidate_race]的目标。自治领的外交行动也会相应调整。
+WARN_OATHBREAKER_01        | [my_title]做出判断：[your_race]物种不再被认为值得信赖。所有未来的计划都会参考[your_race]物种违反协议的事实进行修订。 [spiesCaught]
+WARN_ATTACKED_ALLY_01      | 已记录[your_race]物种和[defender_race]物种之间的冲突。[defender_race]种族已知为自治领盟友。停止战斗，否则为后果做好准备。
+WARN_REBELLING_AGAINST_01  | [your_race]种族已经成为自治领实现目标的障碍。星际委员会的决定不可接受。等待最高仲裁者的回应。
 
+PRAISE_COUNCIL_VOTE_01     | [voter_race]物种大使为推进[candidate_race]的目标提供帮助。自治领承认与[voter_race]物种保持持续关系有好处。自治领会报答恩惠。
+PRAISE_COUNCIL_VOTE_02     | 自治领注意到你在委员会中的支持票。自治领将相应地调整对[voter_race]物种的看法。
+PRAISE_COUNCIL_VOTE_03     | 自治领承认[voter_race]物种进行阴谋诡计的可能性。继续在委员会中帮助自治领可能会缓解这一担忧。
 
-OFFER_PACT_01              | Dominion aspires for outcome beyond senseless conflict. Non-aggression pact with [your_race] species deemed most prudent means of obtaining stated result. 
-OFFER_ALLIANCE_01          | [my_title] values diplomacy with [your_race] species. Dominion proposes formal alliance to ensure survival of both [your_race] species and [my_race]. Immediate response requested.  
+PRAISE_ATTACKED_ENEMY_01   | 攻击自治领的敌人证明了对[my_race]目标的支持。自治领将尽力把[attacker_race]物种的伤亡降到最低。
+PRAISE_ATTACKED_ENEMY_02   | 自治领欢迎对[defender_race]物种的进攻。这场战争可能是[my_race]和[attacker_race]物种之间的新开端。
 
-WARN_TRESPASSING_01        | [your_race] species detected in [system] system. Area previously claimed by Dominion. Vacate immediately. 
-WARN_EXPANSION_01          | Rapid expansion of [your_race] species deemed threat to Dominion objectives. Continuation of territorial growth will force military action as response. 
-WARN_BUILDUP_01            | Dominion surveillance network identifies [your_race] fleets as potential threat to security. Increasing watch on [your_race] species to ensure Dominion interests are not compromised.
-WARN_SKIRMISH_01           | Conflict between Dominion and [your_race] fleets detected at [system]. Dominion advises against repeat offenses: Dominion prepared to respond appropriately if warning unheeded. 
-WARN_ATTACKED_01           | [attacker_race] aggression noted at [system]. [defender_title] gives message to ambassador: continuing to threaten Dominion security will result in extinction of [attacker_race] species. 
-WARN_INVADED_01            | Reminder from Dominion that [attacker_race] species has no claim on [defender_race] space. Remove fleets immediately or face total annihilation.
-WARN_ESPIONAGE_01          | [spy_race] espionage activity recorded in Dominion territory. Dominion security protocols greater than [spy_race] skill at espionage. Testing Dominion again may prove fatal. [framed]
-WARN_SABOTAGE_01           | Dominion aware of [spy_race] species involvement in recent sabotage. Attempt at chaos too menial to warrant response. Further attempts at sabotage will ensure swift retribution [forced]
-WARN_BIOWEAPON_01          | Dominion observes use of crude bioweapon. Effective armament. [attacker_race] species threat assessment increased by 3 levels. 
-WARN_GENOCIDE_01           | Genocide of [victim_race] species by [attacker_race] species recorded. Dominion unconcerned with possible cause or alternatives. [attacker_race] species threat assessment increased by 5 levels.  
-WARN_FINAL_WAR_01          | All known species create agreement to ensure lasting peace in galaxy. [rebel_race] species sole dissenter. Dominion will take appropriate action.
-WARN_COUNCIL_VOTE_01       | Dominion aware of [voter_race] actions in council. Meaning irrelevant. Result assessed as detrimental to [candidate_race] goals. Diplomatic standing adjusted accordingly.  
-WARN_OATHBREAKER_01        | [my_title] passes judgment: [your_race] species no longer deemed trustworthy. All future dealings subject to revision based on [your_race] species breaking binding agreement. [spiesCaught]
-WARN_ATTACKED_ALLY_01      | Conflict recorded between [your_race] species and [defender_race] species. [defender_race] species known ally of Dominion. Cease fighting or prepare for consequences. 
-WARN_REBELLING_AGAINST_01  | [your_race] species now obstacle of Dominion objectives. Galactic Council ruling unacceptable. Awaiting response from Supreme Arbiter. 
-
-
-PRAISE_COUNCIL_VOTE_01     | Ambassador of [voter_race] species continues to provide aid in advancing [candidate_race] objectives. Dominion recognizes benefit of continued relationship with [voter_race] species. Dominion will repay favor as needed. 
-PRAISE_COUNCIL_VOTE_02     | Dominion notes your positive vote in council. Dominion will adjust view on [voter_race] species accordingly.
-PRAISE_COUNCIL_VOTE_03     | Dominion acknowledges likelihood of subterfuge by [voter_race] species. Continuing to aid Dominion in council may assuage concerns. 
-
-PRAISE_ATTACKED_ENEMY_01   | To attack enemies of Dominion proves commitment to [my_race] objectives. Dominion committed to keeping casualties of [attacker_race] species to absolute minimum. 
-PRAISE_ATTACKED_ENEMY_02   | Dominion welcomes assistance against [defender_race] species. This war may prove new beginning between [my_race] and [attacker_race] species. 
 PRAISE_ATTACKED_ENEMY_03   | Attacking [defender_race] species does not excuse past crimes against Dominion. Dominion will reassess [attacker_race] species threat level dependent upon its action in this war. 
 
 PRAISE_TRADE_01            | Dominion and [your_race] species continue to gain much from continuous trade. Dominion wishes trade to remain as long as arrangement continues beneficial status.
