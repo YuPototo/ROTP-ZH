@@ -69,74 +69,72 @@ PRAISE_COUNCIL_VOTE_03     | 自治领承认[voter_race]物种进行阴谋诡计
 
 PRAISE_ATTACKED_ENEMY_01   | 攻击自治领的敌人证明了对[my_race]目标的支持。自治领将尽力把[attacker_race]物种的伤亡降到最低。
 PRAISE_ATTACKED_ENEMY_02   | 自治领欢迎对[defender_race]物种的进攻。这场战争可能是[my_race]和[attacker_race]物种之间的新开端。
+PRAISE_ATTACKED_ENEMY_03   | 攻击[defender_race]物种并不能抵消[attacker_race]物种过去对自治领犯下的罪行。自治领将根据[attacker_race]在这场战争中的行动重新评估该物种威胁等级。
+PRAISE_TRADE_01            | 自治领和[your_race]物种从持续的贸易中获益。只要价值存在，自治领就希望贸易继续存在。
+PRAISE_TRADE_02            | 自治领对与[your_race]物种的贸易协议表示满意。需要确保协议维持，以便两个种族都能从中获利。
+PRAISE_REBELLING_WITH_01     | 自治领同意星际委员会的统治者不可信任。自治领注意到了[your_race]物种的反抗。自治领将帮助[your_race]物种进行反抗。
+ACCEPT_TRADE_01            | 收到[your_race]物种的贸易请求。提议金额为[amt]BC。自治领同意。
+RESPOND_IGNORE_THREAT_01   | 来自[your_race]物种的威胁令人费解。 [your_race]文明远不如自治领舰队。自治领决定无视。
+RESPOND_STOP_SPYING_01     | 自治领间谍在试图深入了解[your_race]生命形式时被抓获。自治领表示道歉。请尽早遣返抓获的[my_race]。
 
-PRAISE_ATTACKED_ENEMY_03   | Attacking [defender_race] species does not excuse past crimes against Dominion. Dominion will reassess [attacker_race] species threat level dependent upon its action in this war. 
+RESPOND_STOP_ATTACKING_01  | 自治领成功地向[your_race]文明展示了军事能力。舰队将返回到指定的坐标。
 
-PRAISE_TRADE_01            | Dominion and [your_race] species continue to gain much from continuous trade. Dominion wishes trade to remain as long as arrangement continues beneficial status.
-PRAISE_TRADE_02            | Dominion expresses satisfaction at trade agreement with [your_race] species. Ensure agreement endures so that both races profit from each other. 
-PRAISE_REBELLING_WITH_01     | Dominion agrees Galactic Council ruler untrustworthy. [your_race] species objection noted. Dominion will aid [your_race] species in rebellion. 
- 
-ACCEPT_TRADE_01            | [your_race] species trade request received. [amt] BC proposed amount. Dominion agrees.
-RESPOND_IGNORE_THREAT_01   | Threat from [your_race] species puzzling. [your_race] civilization substantially inferior to Dominion fleets. Ignoring.
-RESPOND_STOP_SPYING_01     | Dominion spy captured while attempting to gain insight into [your_race] lifeforms. Dominion professes apology. Return captured [my_race] at earliest opportunity
-RESPOND_STOP_ATTACKING_01  | Dominion successful in display of military capability to [your_race] civilization. Returning fleets to designated holding coordinates.
+DIPLO_TECH_REQUEST_MENU_01   | 请指定科技。
+DIPLO_TECH_COUNTER_MENU_01   | 请说明你的回报。
+DIPLO_TRADE_MENU_01          | 请说明数量。
+DIPLO_TREATY_MENU_01         | 请说明协议内容。
+DIPLO_DECLARE_WAR_MENU_01    | 请确定。
+DIPLO_SUGGEST_WAR_MENU_01    | 请说明目标。
+DIPLO_BREAK_ALLIANCE_MENU_01 | 请说明对象。
+DIPLO_THREATEN_MENU_01       | 请说明。
+DIPLO_OFFER_AID_MENU_01      | 请说明。
+DIPLO_OFFER_TECH_MENU_01     | 请告知科技内容。
 
-DIPLO_TECH_REQUEST_MENU_01   | Specify technology.
-DIPLO_TECH_COUNTER_MENU_01   | Specify compensation.
-DIPLO_TRADE_MENU_01          | Specify magnitude.
-DIPLO_TREATY_MENU_01         | Specify treaty.
-DIPLO_DECLARE_WAR_MENU_01    | Confirm before proceeding.
-DIPLO_SUGGEST_WAR_MENU_01    | Specify target.
-DIPLO_BREAK_ALLIANCE_MENU_01 | Specify ally.
-DIPLO_THREATEN_MENU_01       | Specify.
-DIPLO_OFFER_AID_MENU_01      | Specify.
-DIPLO_OFFER_TECH_MENU_01     | Specify technology.
+DECLINE_OFFER_01           | 拒绝。
+DECLINE_OFFER_02           | 拒绝。
+DECLINE_OFFER_03           | 拒绝。
+DECLINE_OFFER_04           | 拒绝。
+DECLINE_OFFER_05           | 拒绝。
+DECLINE_OFFER_06           | 拒绝。
+DECLINE_OFFER_07           | 拒绝。
+DECLINE_OFFER_08           | 拒绝。
+DECLINE_OFFER_09           | 拒绝。
+DECLINE_ENEMY_ALLY_01      | 拒绝。
+DECLINE_NO_WAR_ON_ALLY_01  | 拒绝。
+DECLINE_PEACE_TREATY_01    | 拒绝。
+DECLINE_ANNOYED_01         | 拒绝。
+DECLINE_ANNOYED_02         | 拒绝。
+DECLINE_ANNOYED_03         | 拒绝。
+DECLINE_OATHBREAKER_01     | 拒绝。
+DECLINE_ESPIONAGE_01       | 拒绝。
+DECLINE_SABOTAGE_01        | 拒绝。
+DECLINE_BUILDUP_01         | 拒绝。
+DECLINE_ENCROACH_01        | 拒绝。
+DECLINE_SKIRMISH_01        | 拒绝。
+DECLINE_ATTACK_01          | 拒绝。
+DECLINE_INVASION_01        | 拒绝。
+DECLINE_BIOWEAPONS_01      | 拒绝。
+DECLINE_TECH_TRADE_01      | 拒绝。
+OFFER_TECH_EXCHANGE_01     | 自治领需要[tech]。请说明你需要的回报。
+ACCEPT_TECH_EXCHANGE_01    | 接受。
+ACCEPT_FINANCIAL_AID_01    | 接受。
+ACCEPT_TECHNOLOGY_AID_01   | 
 
-DECLINE_OFFER_01           | Request denied.
-DECLINE_OFFER_02           | Request denied.
-DECLINE_OFFER_03           | Request denied.
-DECLINE_OFFER_04           | Request denied.
-DECLINE_OFFER_05           | Request denied.
-DECLINE_OFFER_06           | Request denied.
-DECLINE_OFFER_07           | Request denied.
-DECLINE_OFFER_08           | Request denied.
-DECLINE_OFFER_09           | Request denied.
-DECLINE_ENEMY_ALLY_01      | Request denied.
-DECLINE_NO_WAR_ON_ALLY_01  | Request denied.
-DECLINE_PEACE_TREATY_01    | Request denied.
-DECLINE_ANNOYED_01         | Request denied.
-DECLINE_ANNOYED_02         | Request denied.
-DECLINE_ANNOYED_03         | Request denied.
-DECLINE_OATHBREAKER_01     | Request denied.
-DECLINE_ESPIONAGE_01       | Request denied.
-DECLINE_SABOTAGE_01        | Request denied.
-DECLINE_BUILDUP_01         | Request denied.
-DECLINE_ENCROACH_01        | Request denied.
-DECLINE_SKIRMISH_01        | Request denied.
-DECLINE_ATTACK_01          | Request denied.
-DECLINE_INVASION_01        | Request denied.
-DECLINE_BIOWEAPONS_01      | Request denied.
-DECLINE_TECH_TRADE_01      | Request denied.
-OFFER_TECH_EXCHANGE_01     | Dominion requires [tech] technology. Specify compensation.
-ACCEPT_TECH_EXCHANGE_01    | Acceptance recorded.
-ACCEPT_FINANCIAL_AID_01    | Acceptance recorded.
-ACCEPT_TECHNOLOGY_AID_01   | Acceptance recorded.
+BREAK_TRADE_01             | 贸易协议终止。
+ANNOUNCE_PEACE_01          | 接受。
+ACCEPT_PEACE_01            | 接受。
 
-BREAK_TRADE_01             | Trade agreement terminated.
-ANNOUNCE_PEACE_01          | Acceptance recorded.
-ACCEPT_PEACE_01            | Request granted.
+BREAK_PACT_01              | 终止互不侵犯协议。
+ANNOUNCE_PACT_01           | 接受。
+ACCEPT_PACT_01             | 接受。
 
-BREAK_PACT_01              | Non-aggression pact terminated.
-ANNOUNCE_PACT_01           | Acceptance recorded.
-ACCEPT_PACT_01             | Request granted.
+BREAK_ALLIANCE_01          | 联盟种子。
+ANNOUNCE_ALLIANCE_01       | 接受。
+ACCEPT_ALLIANCE_01         | 接受。
+ACCEPT_JOINT_WAR_01        | 接受。
 
-BREAK_ALLIANCE_01          | Alliance terminated.
-ANNOUNCE_ALLIANCE_01       | Acceptance recorded.
-ACCEPT_ALLIANCE_01         | Request granted.
-ACCEPT_JOINT_WAR_01        | Request granted.
-
-RESPOND_CLOSE_EMBASSY_01   | Actions recorded.
-RESPOND_BREAK_TRADE_01     | Actions recorded.
-RESPOND_BREAK_PACT_01      | Actions recorded.
-RESPOND_BREAK_ALLIANCE_01  | Actions recorded.
-RESPOND_DECLARE_WAR_01     | Actions recorded.
+RESPOND_CLOSE_EMBASSY_01   | 已收到。
+RESPOND_BREAK_TRADE_01     | 已收到。
+RESPOND_BREAK_PACT_01      | 已收到。
+RESPOND_BREAK_ALLIANCE_01  | 已收到。
+RESPOND_DECLARE_WAR_01     | 已收到。
