@@ -765,8 +765,8 @@ HANDWEAPON_5_DETAIL    | 最有破坏力的手持武器。地面部队的战斗�
 //
 // Hyperspace Communication tech
 //
-HYPERSPACE_0_NAME      | Hyperspace Communications
-HYPERSPACE_0_DETAIL    | Allows you to communicate with ship fleets in hyperspace, and change their destinations while en route.
+HYPERSPACE_0_NAME      | 超时空通讯
+HYPERSPACE_0_DETAIL    | 允许你与舰队进行超时空通讯，让舰队在航行过程中改变目的地。
 
 
 //

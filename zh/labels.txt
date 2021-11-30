@@ -1810,7 +1810,7 @@ COUNCIL_CONVENE_TITLE             | 星际委员会
 COUNCIL_CONVENE                   | 星际委员会召开了集会，目的是选举一个星际领袖。
 COUNCIL_CONVENE2                  | 每个帝国拥有等比例于其人口的票数。候选人需要获取到总票数的2/3才能当选。候选人是两个人口最多的帝国的领导者：[first_empire] 的 [first_name] 和 [second_empire] 的 [second_name]。
 COUNCIL_ADJOURN_TITLE             | 星际委员会休会
-COUNCIL_ADJOURN                   | 投票已经完成，没有候选人活到2/3的票数。没有选举出最终领导人。星际委员会将在25年后重新召开会议。
+COUNCIL_ADJOURN                   | 投票已经完成，没有候选人获得2/3的票数。没有选举出最终领导人。星际委员会将在25年后重新召开会议。
 COUNCIL_SUMMARY_TITLE             | 投票情况汇总
 COUNCIL_SUMMARY                   | 星际委员会按照人口数量确定了投票顺序。需要获得%1张选票才能赢得选举。
 COUNCIL_BEGIN_VOTING              | 开始投票

@@ -14,15 +14,17 @@
 
 // Mrrshan specific dialogue
 
-CONTACT_AGGRESSIVE         | I greet you, strange thing. I am of the [my_race], and a servant of the Golden Khan. I hope that you are strong, [your_race], not just for your peoples' sake, but also for the sake of the treasures you hold most dear. 
-CONTACT_RUTHLESS           | We are the [my_race], [your_race], and we adhere to one belief alone: the strong shall take and the weak shall give. If you do not already understand the wisdom of such a philosophy, we'll be sure to teach it to you very soon.
-CONTACT_XENOPHOBIC         | Pray the Golden Khan regards you as worthy, [your_race]. Arouse his ire and he'll have no qualm about having fleets of [my_race] descend upon you.
+CONTACT_AGGRESSIVE         | 向你问好，奇怪的生物。我是[my_race]的一员，黄金可汗的仆人。希望你足够强大，[your_race]，不只是为了保护你的同类，也是为了保护你珍视的财宝。
+CONTACT_RUTHLESS           | [your_race]，我们是[my_race]。我们只相信一个准则：弱肉强食。如果你不理解这句话的意思，我们很快就会让你知道。
+CONTACT_XENOPHOBIC         | 祈祷黄金可汗会喜欢你们吧，[your_race]。如果引发了他的愤怒，他会立刻命令[my_race]的舰队把你碾压。
+
 //
-GREETING_01                | You've proven yourself to us time and time again. We're honored to do what we can to prove ourselves to you in kind.
-GREETING_04                | I'll hear your words ambassador, but I'm not bound to give you whatever it is you're seeking.
-GREETING_07                | You've some daring in you to approach a servant of the Khan. Say what you have to say, and be prepared to flee if you're merely wasting my time.
+GREETING_01                | 你们一次次地证明了自己。我们也会很荣幸地证明自己。
+GREETING_04                | 我会倾听你的诉求，但我不一定能给你你想要的东西。
+GREETING_07                | 敢于接近可汗的仆人，证明你是有些胆子的。说出你想干嘛吧，如果我觉得你在浪费我时间，那你得正准备好逃跑了。
+
 //
-DECLAREWAR_HATE_01         | Your relics are wasted on you! We'll adorn our halls on Fierias with your bones and your treasure, and they'll be all that remains of your people when we are through!
+DECLAREWAR_HATE_01         | 你的宝物被你糟蹋了！我们会用你的骨头和你的财宝来装饰菲利亚斯的大厅。当战争结束时，这些东西将成为你们种族的唯一遗物！
 DECLAREWAR_HATE_02         | Enough of this! Mere raids will not satisfy our enmity towards your kind: you [your_race_plural] deserve a far more large-scale approach!
 DECLAREWAR_HATE_03         | Even knowing that a race as weak as yours has influence in this universe is enough to make us sick. No matter the odds, I promise you we'll do everything we can to teach you your place.
 //
