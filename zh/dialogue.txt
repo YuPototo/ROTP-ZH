@@ -13,11 +13,11 @@ DIPLO_BREAK_ALLIANCE_MENU_01 | 我们想破坏与谁的联盟？
 DIPLO_OFFER_AID_MENU_01      | 你想要资助什么？
 DIPLO_OFFER_TECH_MENU_01     | 你想要提供什么技术？
 
-DECLINE_OFFER_01           | [my_nameTitle] [my_name] 拒绝了。
-DECLINE_OFFER_02           | [my_race] 考虑了你的提议，并拒绝了。
+DECLINE_OFFER_01           | [my_nameTitle][my_name]拒绝了。
+DECLINE_OFFER_02           | [my_race]考虑了你的提议，并拒绝了。
 DECLINE_OFFER_03           | 我们恭敬地拒绝您的提议。
 DECLINE_OFFER_04           | 我们目前不感兴趣。
-DECLINE_OFFER_05           | [my_race] 认为您的提议不公平。
+DECLINE_OFFER_05           | [my_race]认为您的提议不公平。
 DECLINE_OFFER_06           | 此时接受你方的提议不符合我们的最佳利益。
 DECLINE_OFFER_07           | 也许你把我们误认为是容易上当的傻瓜了，我们拒绝你的提议。
 DECLINE_OFFER_08           | 你的提议看起来并不公平。
