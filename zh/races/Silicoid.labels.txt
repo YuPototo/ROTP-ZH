@@ -1,9 +1,9 @@
 // race-specific variables (must start with _)
-_empire                    | Silicoid Imperium, Igneoid Imperium, Sedimoid Imperium, Granitoid Imperium, Magmoid Imperium
-_race                      | Silicoid, Igneoid, Sedimoid, Granitoid, Magmoid
-_race_plural               | Silicoids, Igneoids, Sedimoids, Granitoids, Magmoids
-_title                     | Crystal Emperor
-_nameTitle                 | Crystal Emperor 
+_empire                    | 硅帝国, 火岩帝国, 赛德米德帝国, 花岗岩帝国, 岩浆帝国
+_race                      | 硅人, 火岩人, 赛德米德人, 花岗岩人, 岩浆人
+_race_plural               | 硅人, 火岩人, 赛德米德人, 花岗岩人, 岩浆人
+_title                     | 水晶皇帝
+_nameTitle                 | 水晶皇帝
 
 //
 // All text below this point is copyright 2018-2020 Jeff Colucci
@@ -20,7 +20,7 @@ _nameTitle                 | Crystal Emperor
 //
 
 // Advisor text
-MAIN_ADVISOR_TITLE         | Silicoid 顾问
+MAIN_ADVISOR_TITLE         | 硅人顾问
 MAIN_ADVISOR_BUTTON_OK     | 好的
 MAIN_ADVISOR_SCOUT         | God-Emperor, your scouts stand prepared to escort the first colony ship to any world you desire! Give the order and see your will be done!
 MAIN_ADVISOR_TRANSPORT     | The colony on %1 has been founded in your name, mighty Emperor! If you desire us to send more transports to support your new dominion, say the word and we shall comply!
