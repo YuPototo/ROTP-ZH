@@ -2,6 +2,7 @@
 // see: http://www.sengokudaimyo.com/miscellany/names.html
 // excluded names that require lips: b,f,m,p,v,w,y because birds
 // 都是日文名字
+// 第1次校对：2021.12.14
 
 
 安达
