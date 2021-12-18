@@ -10,12 +10,13 @@
 //  
 // This license is legally binding. Please review this license before altering 
 // or distributing any material covered under this license.
-//
+// 第1次校对：2021.12.18
+
 
 // Klackon specific dialogue
 
-CONTACT_AGGRESSIVE         | 我是 [my_name]，而你是……[your_name]？如果你是像我一样的生命，那你的名字很奇怪。但你说你一点也不想我？这真是一个……令人恼火的遭遇。
-CONTACT_RUTHLESS           | 我被称为[my_name]。你是[your_name]？什么是 [your_name]？我不想认识那种说话那么饶舌的人！
+CONTACT_AGGRESSIVE         | 我是[my_name]，而你是……[your_name]？如果你是像我一样的生命，那你的名字很奇怪。但你说你一点也不像我？这真是一个……令人恼火的遭遇。
+CONTACT_RUTHLESS           | 我被称为[my_name]。你是[your_name]？什么是 [your_name]？我不想认识说话那么饶舌的人！
 CONTACT_XENOPHOBIC         | 当我开始我的旅程时，我知道肯定有另一个像我一样的人，但你根本不像我……你是不同的……外星人……而且很危险。
 //
 GREETING_01                | 我的朋友！我很高兴你来了！我希望我能提供你想要的任何东西。
@@ -30,10 +31,10 @@ DECLAREWAR_ERRATIC_02      | 你的行为很奇怪，且不可预测。你让我
 DECLAREWAR_ERRATIC_03      | 你为什么要做你在做的事？什么在驱使你？它会促使你有一天向我宣战吗？我迫不及待地想看看你接下来会做什么了。为了我的未来，我必须立即向你开战！
 DECLAREWAR_MILITARY_01     | 我还没有找到和我一样的生命。但我知道它一定存在。一旦我从你手中夺走你的星球，我将一个个探索，直到找到它！
 DECLAREWAR_MILITARY_02     | 你对我隐瞒了什么，[your_name]？我不能确定，直到我探索你的每一个星球。我现在将从你那里夺走它们，这样我就可以随意探索这些星球了！
-DECLAREWAR_MILITARY_03     | 我不会让你隐藏我想要找到的东西了！我知道我所寻找的那个生命在你们的某个星球上。 在你把这些星球交给我之前，我不会罢休！
+DECLAREWAR_MILITARY_03     | 我不会让你隐藏我想要找到的东西了！我知道我所寻找的那个生命在你们的某个星球上。在你把这些星球交给我之前，我不会罢休！
 DECLAREWAR_ALLIANCE_01     | 我的朋友[other_name]对我的帮助超出了你的想象。我很高兴能通过打败你来回报他们！
 DECLAREWAR_ALLIANCE_02     | 那些在我的探索过程中帮助过我的人会得到我永远的感激，我会很高兴地尽我所能来感谢我的朋友[other_name]。准备死吧，[your_name]！
-DECLAREWAR_ALLIANCE_03     | 你欺负银河系中的每一个人，因为你认为没有人敢反对你的意志。如果 [other_name]会与你战斗，那么我也会！
+DECLAREWAR_ALLIANCE_03     | 你欺负银河系中的每一个人，因为你认为没有人敢反对你的意志。如果[other_name]会与你战斗，那么我也会！
 DECLAREWAR_SPYING_01       | 在我的一个世界中，没有一件事情能逃脱我的视线。既然你执意要做出如此卑劣的行径，我就只能毁了你。
 DECLAREWAR_SPYING_02       | 傻[your_name]，你的游戏我玩够了！如果你要抵挡我的军队，你可没时间做这些诡计多端的事情！备战吧！
 DECLAREWAR_SPYING_03       | 你这样对待我，是希望得到什么呢？现在我只能和你战斗，不管我们的军队多么不一样！
@@ -44,12 +45,12 @@ DECLAREWAR_OPPORTUNITY_01  | 当某事被证明是障碍时，摆脱它的最佳
 DECLAREWAR_ASSASSIN_01     | 攻击我的一个身体就是攻击我的所有身体。既然你选择杀了一个我的身体，那我就杀了你们所有人！
 
 OFFER_PEACE_01             | 我不喜欢你称之为战争的这个东西。它是无情和残酷的，我们都有比继续这种无休止的杀戮更重要的事情要做。让我们平静地结束这一切吧，[your_name]。
-OFFER_TRADE_01             | 我们都带着自己的目标进入了银河系，[your_name]。为什么不互相帮助以实现我们的抱负呢？每年[amt]BC的贸易协定就可以做到这一点，你说呢？
+OFFER_TRADE_01             | 我们都带着自己的目标进入了银河系，[your_name]。为什么不互相帮助以实现我们的抱负呢？每年[amt] BC 的贸易协定就可以做到这一点，你说呢？
 OFFER_PACT_01              | 我在太空旅行中遇到了许多奇怪的生物，其中许多生性好斗和暴力。你似乎跟他们不一样。为了避免未来的误会，让我们签订互不侵犯协议吧。
-OFFER_ALLIANCE_01          | 我们的关系对我们双方都非常有利，[your_name]。 我们结成忠实的同盟吧，让银河系中的所有人都知道我们是站在一起的！
+OFFER_ALLIANCE_01          | 我们的关系对我们双方都非常有利，[your_name]。让我们结成忠实的同盟吧，让银河系中的所有人都知道我们是站在一起的！
  
 WARN_TRESPASSING_01        | 你在[system]的存在让我很不安。将[your_name]舰队移出该地区，否则我可能被迫进行反击。
-WARN_EXPANSION_01          | 你占领了每一个你目之所及的世界，者会阻止我的探索。立即停止你的扩张，否则为战争做好准备吧！
+WARN_EXPANSION_01          | 你占领了每一个你目之所及的世界，这会阻止我的探索。立即停止你的扩张，否则为战争做好准备吧！
 WARN_BUILDUP_01            | [your_name]，你的舰队已经扩张到令人印象深刻的规模，你需要注意一下了。
 
 WARN_SKIRMISH_01           | [system]发生的事件让我感到不安。这仅仅是一场误会吗？确保它不再发生。如果没有必要，我不想与[your_name]战斗。
@@ -63,11 +64,11 @@ WARN_GENOCIDE_01           | 多么无情！万万没想到，你竟然会彻底
 WARN_FINAL_WAR_01          | 我现在意识到了，如果想要实现我的梦想，银河系必须和平。但如果你退出了新共和国，就不会有和平。答案很清楚：[rebel_name]必须被消灭！
 WARN_COUNCIL_VOTE_01       | 我承认我不熟悉所谓的“政治权术”。 但我知道，通过投票给[other_name]，你是在反对我，我不会忘记那些阻碍我的人。
 WARN_OATHBREAKER_01        | 这是你的行动方式吗，[your_name]？达成协议只是为了在你认为合适的时候打破它？我就知道你和我不一样，你的行动证明了这一点！[spiesCaught]
-WARN_ATTACKED_ALLY_01      | 你为什么要攻击我的朋友[defender_name]，[your name]？ 请寻找另一种解决你们分歧的方法，我不想被迫干预这些事情！
+WARN_ATTACKED_ALLY_01      | 你为什么要攻击我的朋友[defender_name]，[your name]？请寻找另一种解决你们分歧的方法，我不想被迫干预这些事情！
 WARN_REBELLING_AGAINST_01  | 我不喜欢[your_name]，更不喜欢你被选为委员会的领袖！我必须思考今天发生的事情，你们也应该思考我即将做出的回应了！
 PRAISE_COUNCIL_VOTE_01     | [voter_name]！你在委员会上的投票说明了很多！虽然你我很不一样，但我真的很高兴能在旅途中遇到像你这样的好朋友。
 PRAISE_COUNCIL_VOTE_02     | 在我的漫长生命中，我从未需要考虑“政治”，但你所做的事情对我来说是有益的，是吗？让我们尽快再谈，以便我们更好地学习如何互惠互利。
-PRAISE_COUNCIL_VOTE_03     | 你在议会中投票给我只是试图让我重新思考我对你的看法。但是，如果您你行为继续使我受益，我会考虑对你刮目相看的。
+PRAISE_COUNCIL_VOTE_03     | 你在议会中投票给我只是试图让我重新思考我对你的看法。但是，如果你的行为继续使我受益，我会考虑对你刮目相看的。
 PRAISE_ATTACKED_ENEMY_01   | 是的！我被攻击了，我的朋友来帮助了我！让我们一起战胜的卑鄙[defender_name]吧！
 
 PRAISE_ATTACKED_ENEMY_02   | 谢谢你，[attacker_name]！很高兴看到另一个人认识到“[defender_name]”构成的威胁。 来！我们会一起消灭它吧！
@@ -77,7 +78,7 @@ PRAISE_TRADE_02            | 我很高兴我们的贸易协定对我们双方都
 PRAISE_REBELLING_WITH_01   | [your_name]召唤帮助！我会和你一起拿起武器反对这个荒谬的委员会！你是我的朋友，这意味着你永远不会孤军奋战！
 
 
-DIPLO_TECH_REQUEST_MENU_01   | 您对什么类型的技术感兴趣呢？
+DIPLO_TECH_REQUEST_MENU_01   | 你对什么类型的技术感兴趣呢？
 DIPLO_TECH_COUNTER_MENU_01   | 你会用它来交易什么？
 DIPLO_TRADE_MENU_01          | 你提议的贸易协定是：
 DIPLO_TREATY_MENU_01         | 你提议缔结条约。
@@ -138,14 +139,14 @@ DECLINE_ENCROACH_01        | 你的舰队入侵了我的领空。把他们移开
 DECLINE_SKIRMISH_01        | 你毫无征兆地攻击我的舰船，然后你还希望我接受你的提议？我拒绝。
 
 DECLINE_SKIRMISH_01        | 我不能接受攻击我舰队的人的提议。
-DECLINE_SKIRMISH_01        | 等你的舰队停止攻击我的舰队，我们再交谈了。
+DECLINE_SKIRMISH_01        | 等你的舰队停止攻击我的舰队，我们再交谈。
 DECLINE_SKIRMISH_01        | 如果你想跟我打交道，那就别碰我的舰队。
 DECLINE_SKIRMISH_01        | 我不欣赏你摧毁我舰队的行为。我不接受你的提议。
 
 DECLINE_ATTACK_01          | 你对[system]的无理攻击让我们没有讨价还价的余地。
 DECLINE_ATTACK_01          | 我没有忘记你对[system]殖民地的攻击。我没有办法接受你的提议。
 
-DECLINE_INVASION_01        | 我不想和屠杀了[system]的屠夫打交道。先弥补一下你的过错吧。
+DECLINE_INVASION_01        | 我不想和屠杀了[system]的屠夫打交道。先弥补你的过错吧。
 DECLINE_INVASION_01        | 我在[system]流的血让我听不清你说的话。我不能接受你的提议。
 DECLINE_INVASION_01        | 我在[system]流了血，想要复仇。我感受到的痛苦比你的建议更强烈。
 
@@ -171,15 +172,15 @@ OFFER_TECH_EXCHANGE_01     | 我想要学习[tech]的秘密。你会用它来换
 OFFER_TECH_EXCHANGE_01     | 我对[tech]的科学奇迹感到敬畏。我能为你提供什么，才能学习到它呢？
 
 ACCEPT_TECH_EXCHANGE_01    | 很好。我同意用我的[techGiven]的奇妙秘密交换技术[techReceived]。
-ACCEPT_FINANCIAL_AID_01    | 我接受你[amt]BC的馈赠。
+ACCEPT_FINANCIAL_AID_01    | 我接受你[amt] BC 的馈赠。
 ACCEPT_TECHNOLOGY_AID_01   | 我接受你赠与的[tech]。
 
 BREAK_TRADE_01             | 我对与[your_name]的贸易没有进一步的兴趣。
-ANNOUNCE_TRADE_01          | 从[year]年开始，我和[your_name]同意每年交易[amt]BC。
-ACCEPT_TRADE_01            | [amt]BC的贸易协定，我可以接受。
-ACCEPT_TRADE_01            | 我热切地等待[your_name]提供的精美商品。我接受每年[amt] BC的贸易协议。
-ACCEPT_TRADE_01            | 我同意每年交易[amt]BC。
-ACCEPT_TRADE_01            | 好吧，[your_name]，我觉得你提出的每年[amt]BC的贸易协议是公平公正的。
+ANNOUNCE_TRADE_01          | 从[year]年开始，我和[your_name]同意每年交易[amt] BC。
+ACCEPT_TRADE_01            | [amt] BC 的贸易协定，我可以接受。
+ACCEPT_TRADE_01            | 我热切地等待[your_name]提供的精美商品。我接受每年[amt] BC 的贸易协议。
+ACCEPT_TRADE_01            | 我同意每年交易[amt] BC。
+ACCEPT_TRADE_01            | 好吧，[your_name]，我觉得你提出的每年[amt] BC 的贸易协议是公平公正的。
 
 ANNOUNCE_PEACE_01          | 在[year]年，我和[your_name]同意终止所有敌对行动。
 ANNOUNCE_PEACE_01          | 我在此下令结束你我之间的所有敌对行动。
@@ -203,7 +204,7 @@ ACCEPT_ALLIANCE_01         | 今天我和[your_name]结成了联盟。我们的�
 ACCEPT_ALLIANCE_01         | 与[your_name]结盟是一个智慧的选择。就这样做吧！
 
 ACCEPT_BREAK_ALLIANCE_01   | 我同意，[other_name]不再值得信赖，我已经打破了与他们的联盟。
-ACCEPT_BREAK_ALLIANCE_01   | 虽然背弃 [other_name] 让我很痛苦，但我已经这样做了。
+ACCEPT_BREAK_ALLIANCE_01   | 虽然背弃[other_name]让我很痛苦，但我已经这样做了。
 ACCEPT_BREAK_ALLIANCE_01   | [other_name]不再是我的盟友了。
 ACCEPT_BREAK_ALLIANCE_01   | 我和[other_name]的联盟现在在我们脚下化为灰烬。
 ACCEPT_BREAK_ALLIANCE_01   | 如你所愿，我不再称[other_name]为我的盟友。
@@ -225,8 +226,8 @@ RESPOND_BREAK_ALLIANCE_01  | 很好。你的意图已经表现出来了，你不
 RESPOND_BREAK_ALLIANCE_01  | 我不需要不受尊重的条约。联盟破裂了。
 RESPOND_BREAK_ALLIANCE_01  | 就这样吧。联盟破裂了。
 
-ACCEPT_TRADE_01            | 你想和我交易吗？多少钱？每年[amt]BC？好的……好的，我想我可以接受[your_name]的这种安排。
-RESPOND_IGNORE_THREAT_01   | 不要威胁我，愚蠢的[your_name]。如果我们爆发战争，你永远都无法获胜我。滚吧！
+ACCEPT_TRADE_01            | 你想和我交易吗？多少钱？每年[amt] BC ？好的……好的，我想我可以接受[your_name]的这种安排。
+RESPOND_IGNORE_THREAT_01   | 不要威胁我，愚蠢的[your_name]。如果我们爆发战争，你永远都无法战胜我。滚吧！
 RESPOND_STOP_SPYING_01     | 我只是想看看[your_name]家里长啥样。我不会再这样做了。现在请把我的间谍还给我，可以吗？
 RESPOND_STOP_ATTACKING_01  | 哈哈！看看我有多强大！[your_name] 无法与我相比！等我回家后，你别忘了这点。
 
