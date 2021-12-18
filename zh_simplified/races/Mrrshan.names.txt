@@ -1,6 +1,6 @@
 // 第1次校对：2021.12.18
 // all possible names
-name: Mrrshan, Prrshan, Mewshan, Clawshan, Hisshan
+name: 猫族, 猫科族, 喵族, 爪族, 猫爪族
 
 desc1: 冷酷的军事家
 desc2: 顶级的射手

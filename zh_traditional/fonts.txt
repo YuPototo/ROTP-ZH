@@ -1,6 +1,6 @@
 // These are the fonts used for the 5 font types within the game.
 
-name,       中文（繁体）
+name,       中文（繁體）
 
 logo,       NotoSansSC-Thin.otf, 100
 dialogue,   NotoSansSC-Thin.otf, 100

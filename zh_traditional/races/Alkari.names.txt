@@ -10,7 +10,7 @@ desc3: [race]是一个高度动员的战斗民族，他们看重战场上的荣�
 // possible home system names
 home: 牵牛星, 埃吉尔星, 群鸟星, 沃拉里星, 鹰巢星
 
-title:     国王
+title:     國王
 fulltitle: 尖塔王
 
 // possible leader names
